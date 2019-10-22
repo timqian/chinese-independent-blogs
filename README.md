@@ -1,2 +1,4 @@
-# indie-chinese-blogs
-独立中文博客列表
+# 独立中文博客列表
+
+- blog.t9t.io 透明创业实验
+- 
