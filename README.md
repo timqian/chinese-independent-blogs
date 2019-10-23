@@ -1,22 +1,29 @@
 # 中文独立博客列表
 
+[![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
+
 ## 目录
 
-- [什么是独立博客(提交要求)](#什么是独立博客)
 - [独立博客列表](#博客列表)
-- [为什么有这张表]()
+- [什么是独立博客(提交要求)](#什么是独立博客)
+- [为什么要收集这张列表](#为什么要收集这张列表)
+
+## 博客列表
+
+> (暂时按照 feedly 上的订阅数据排名)
+
+- https://blog.t9t.io 透明创业实验 [RSS](https://blog.t9t.io/atom.xml)
 
 ## 什么是独立博客
 
 - 拥有自己的域名
 - 作者本人原创内容
 
+### 如何提交
 
-## 博客列表
-> (暂时按照 feedly 上的订阅数据排名)
-
-- https://blog.t9t.io 透明创业实验 (t9t - transparent)
-- 
+1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客以及 RSS 链接
+2. 提交 PR
+3. PR 被 merge 之后本表自动更新
 
 
 ## 为什么要收集这张列表
@@ -30,6 +37,3 @@
 是否可以做一个工具, 可以连接这些独立博主, 既保持了独立博客的自由, 又有一个不小的读者群, 让独立博客也们也有一个稳定的被发现的渠道. 这个工具可能是一个类似之前多说的评论系统, 可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, 推特但是主要内容是独立博客的新东西...
 
 这个列表是想要做的这个工具的一个开端, 先把独立博客们收集起来, 一起思考和讨论构建一个什么样的工具. 
-
-
-
