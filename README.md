@@ -1,6 +1,6 @@
 # 中文独立博客列表
 
-[![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/blog/2018-10-23/green)]() [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
+[![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
 
 ## 目录
 
@@ -13,7 +13,10 @@
 
 > 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论
 
-- https://blog.t9t.io 透明创业实验 [RSS](https://blog.t9t.io/atom.xml)
+| Introduction | URL                             | RSS feed                                      | Subscribers on feedly |
+| ------------ | ------------------------------- | --------------------------------------------- | --------------------- |
+| 阮一峰的网络日志     | http://www.ruanyifeng.com/blog/ | [RSS](http://feeds.feedburner.com/ruanyifeng) | 33295                 |
+| 透明创业实验       | https://blog.t9t.io             | [RSS](https://blog.t9t.io/atom.xml)           | 69                    |
 
 ## 什么是独立博客
 
@@ -22,9 +25,9 @@
 
 ### 如何提交
 
-1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客, RSS, 以及简介
+1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客 URL, RSS 及简介
 2. 提交 PR
-3. PR 被 merge 之后本表自动更新
+3. PR 被 merge 之后本表通过 GitHub action 自动更新
 
 ## 为什么要收集这张列表
 
@@ -37,3 +40,4 @@
 是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客得读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个类似之前多说的评论系统, 可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西...
 
 这个列表是一个开始, 先把独立博客们收集起来, 欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具.
+  
