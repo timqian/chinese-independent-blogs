@@ -13,80 +13,79 @@
 
 > 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论
 
-| Introduction             | Subscribers | URL                                                                                     |
-| ------------------------ | ----------- | --------------------------------------------------------------------------------------- |
-| 阮一峰的网络日志                 | *****       | www.ruanyifeng.com/blog [RSS](http://feeds.feedburner.com/ruanyifeng)                   |
-| 酷 壳 – CoolShell          | *****       | coolshell.cn [RSS](http://coolshell.cn/feed)                                            |
-| 编程随想的博客                  | *****       | program-think.blogspot.com [RSS](http://feeds2.feedburner.com/programthink)             |
-| 云风的 BLOG                 | *****       | blog.codingnow.com [RSS](http://blog.codingnow.com/atom.xml)                            |
-| 人人都是产品经理——iamsujie       | ****        | iamsujie.com [RSS](http://iamsujie.com/feed/)                                           |
-| MacTalk-池建强的随想录          | ****        | macshuo.com [RSS](http://macshuo.com/?feed=rss2)                                        |
-| 张鑫旭-鑫空间-鑫生活              | ****        | www.zhangxinxu.com [RSS](http://www.zhangxinxu.com/wordpress/?feed=rss2)                |
-| Mr. PM 下午先生              | ****        | mrpm.cc [RSS](http://feeds.feedburner.com/pmmustknow)                                   |
-| 搞笑談軟工                    | ****        | teddy-chen-tw.blogspot.com [RSS](http://teddy-chen-tw.blogspot.com/feeds/posts/default) |
-| 程序师                      | ****        | www.techug.com [RSS](http://www.techug.com/feed)                                        |
-| 罗磊的独立博客                  | ****        | luolei.org [RSS](http://luolei.org/feed/)                                               |
-| Cat in Chinese           | ***         | chinese.catchen.me [RSS](http://chinese.catchen.me/feeds/posts/default)                 |
-| idea's blog              | ***         | www.ideawu.net/blog [RSS](http://www.ideawu.net/blog/feed)                              |
-| F.B                      | ***         | www.fanbing.net [RSS](http://www.fanbing.net/feed)                                      |
-| 林小沐                      | ***         | immmmm.com [RSS](http://feed.immmmm.com/)                                               |
-| 轉個彎日誌                    | ***         | blog.turn.tw [RSS](http://blog.turn.tw/?feed=rss2)                                      |
-| DIYGod - 写代码是热爱，写到世界充满爱! | ***         | diygod.me [RSS](https://diygod.me/atom.xml)                                             |
-| Skywind Inside           | ***         | www.skywind.me/blog [RSS](http://www.skywind.me/blog/feed)                              |
-| 花钱的年华                    | ***         | calvin1978.blogcn.com [RSS](http://calvin1978.blogcn.com/feed)                          |
-| 余果的博客                    | ***         | yuguo.us [RSS](http://feeds.feedburner.com/yuguo)                                       |
-| 陈沙克日志                    | ***         | www.chenshake.com [RSS](http://www.chenshake.com/feed/)                                 |
-| 水星投资理财                   | ***         | mercurychong.blogspot.com [RSS](http://mercurychong.blogspot.com/feeds/posts/default)   |
-| 小胡子哥的个人网站                | ***         | www.barretlee.com [RSS](http://www.barretlee.com/rss2.xml)                              |
-| 云原生🤘                    | ***         | jimmysong.io [RSS](https://jimmysong.io/index.xml)                                      |
-| 全栈应用开发：精益实践              | ***         | www.phodal.com [RSS](https://www.phodal.com/blog/feeds/rss/)                            |
-| Jason                    | ***         | atjason.com [RSS](https://atjason.com/atom.xml)                                         |
-| 透明思考                     | ***         | gigix.thoughtworkers.org [RSS](http://gigix.thoughtworkers.org/atom.xml)                |
-| 某岛                       | ***         | www.shuizilong.com/house [RSS](http://www.shuizilong.com/house/feed/)                   |
-| 王子亭的博客                   | **          | jysperm.me [RSS](https://jysperm.me/atom.xml)                                           |
-| Randy's Blog             | **          | lutaonan.com [RSS](https://lutaonan.com/rss.xml)                                        |
-| the5fire的技术博客            | **          | www.the5fire.com [RSS](http://www.the5fire.com/rss)                                     |
-| 透明创业实验                   | **          | blog.t9t.io [RSS](https://blog.t9t.io/atom.xml)                                         |
-| 依云's Blog                | **          | blog.lilydjwg.me [RSS](https://blog.lilydjwg.me/posts.rss)                              |
-| 代码家                      | **          | daimajia.com [RSS](https://daimajia.com/feed)                                           |
-| iTimothy                 | **          | xiaozhou.net [RSS](https://xiaozhou.net/atom.xml)                                       |
-| HelloDog                 | **          | wsgzao.github.io [RSS](https://wsgzao.github.io/atom.xml)                               |
-| 王登科-DK博客                 | **          | greatdk.com [RSS](https://greatdk.com/feed)                                             |
-| 开源实验室                    | **          | kymjs.com [RSS](https://www.kymjs.com/feed.xml)                                         |
-| 追梦人物的博客                  | **          | www.zmrenwu.com [RSS](https://www.zmrenwu.com/all/rss/)                                 |
-| xiaix's Blog             | **          | xiaix.me [RSS](http://xiaix.me/rss/)                                                    |
-| 技术小黑屋                    | **          | droidyue.com [RSS](https://droidyue.com/atom.xml)                                       |
-| O3noBLOG                 | **          | blog.othree.net [RSS](https://feeds.feedburner.com/othree)                              |
-| O3noBLOG                 | **          | blog.othree.net [RSS](https://feeds.feedburner.com/othree)                              |
-| chai2010 的博客             | **          | chai2010.cn [RSS](https://chai2010.cn/index.xml)                                        |
-| 思圆笔记                     | **          | hintsnet.com/pimgeek/feed [RSS](https://hintsnet.com/pimgeek/feed/)                     |
-| GeekPlux                 | **          | geekplux.com [RSS](https://geekplux.com/atom.xml)                                       |
-| 魔王不造反                    | *           | blog.biezhi.me [RSS](https://blog.biezhi.me/feed.xml)                                   |
-| forecho 的独立博客            | *           | blog.forecho.com [RSS](https://blog.forecho.com/atom.xml)                               |
-| 余海峯 David 物理喵 phycat     | *           | hfdavidyu.com [RSS](https://hfdavidyu.com/feed/)                                        |
-| 小明明S À DOMICILE          | *           | www.dongwm.com [RSS](https://www.dongwm.com/atom.xml)                                   |
-| 冰山一角                     | *           | cnberg.div.io [RSS](http://cnberg.div.io/feed/)                                         |
-| Hawstein's Blog          | *           | hawstein.com [RSS](http://hawstein.com/feed.xml)                                        |
-| 笨方法学写作                   | *           | www.cnfeat.com [RSS](https://www.cnfeat.com/feed.xml)                                   |
-| INTJer                   | *           | arminli.com [RSS](https://arminli.com/feed/)                                            |
-| 晚晴幽草轩                    | *           | www.jeffjade.com [RSS](https://www.jeffjade.com/atom.xml)                               |
-| The Will Will Web        | *           | blog.miniasp.com [RSS](https://feeds.feedburner.com/TheWillWillWeb)                     |
-| isaced                   | *           | www.isaced.com [RSS](http://www.isaced.com/index.xml)                                   |
-| Jack Liu博客               | *           | www.jack-liu.com [RSS](https://www.jack-liu.com/rss.php)                                |
-| 后端技术杂谈                   | *           | www.rowkey.me [RSS](https://www.rowkey.me/atom.xml)                                     |
-| zhonger 前端开发者，喜爱运维管理     | *           | lisz.io [RSS](https://lisz.io/feed.xml)                                                 |
-| 但行好事，莫问前程                | *           | windard.com [RSS](https://windard.com/feed.xml)                                         |
-| Python 工匠                | *           | www.zlovezl.cn [RSS](https://www.zlovezl.cn/feeds/latest/)                              |
-| diss带码                   | *           | dumplingbao.github.io [RSS](https://dumplingbao.github.io/atom.xml)                     |
-| 老周快救我                    | *           | zxx.im [RSS](https://zxx.im/feed)                                                       |
-| Vivaxy's blog            | *           | vivaxyblog.github.io [RSS](https://vivaxyblog.github.io/atom.xml)                       |
-| Origin's blog            | *           | blog.singee.me [RSS](https://blog.singee.me/atom.xml)                                   |
-| 前端工程师 Toweave            | *           | toweave.github.io [RSS](https://toweave.github.io/rss.xml)                              |
-| ShrekShao                | *           | shrekshao.github.io [RSS](http://shrekshao.github.io/feed.xml)                          |
-| David前端技术分享              | *           | www.daweilv.com [RSS](https://www.daweilv.com/atom.xml)                                 |
-| MouT.me                  | *           | mout.me [RSS](https://ghost.mout.me/rss/)                                               |
-| vzard's blog             | *           | vzardlloo.github.io [RSS](https://vzardlloo.github.io/atom.xml)                         |
-| 解道jdon.com               | *           | www.jdon.com [RSS](https://www.jdon.com/jivejdon/rss)                                   |
+| Introduction             | Subscribers | URL                                                                                                                                              | Tags                           |
+| ------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
+| 阮一峰的网络日志                 | *****       | http://www.ruanyifeng.com/blog [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feeds.feedburner.com/ruanyifeng)                   | startup; programming; frontend |
+| 酷 壳 – CoolShell          | *****       | https://coolshell.cn [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://coolshell.cn/feed)                                           | startup; programming;          |
+| 编程随想的博客                  | *****       | https://program-think.blogspot.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feeds2.feedburner.com/programthink)            | startup; programming;          |
+| 云风的 BLOG                 | *****       | https://blog.codingnow.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://blog.codingnow.com/atom.xml)                           | startup; programming;          |
+| 人人都是产品经理——iamsujie       | ****        | http://iamsujie.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://iamsujie.com/feed/)                                           | startup; programming;          |
+| MacTalk-池建强的随想录          | ****        | http://macshuo.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://macshuo.com/?feed=rss2)                                        | startup; programming;          |
+| 张鑫旭-鑫空间-鑫生活              | ****        | http://www.zhangxinxu.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.zhangxinxu.com/wordpress/?feed=rss2)                | startup; programming;          |
+| Mr. PM 下午先生              | ****        | http://mrpm.cc [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feeds.feedburner.com/pmmustknow)                                   | startup; programming;          |
+| 搞笑談軟工                    | ****        | http://teddy-chen-tw.blogspot.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://teddy-chen-tw.blogspot.com/feeds/posts/default) | startup; programming;          |
+| 程序师                      | ****        | https://www.techug.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.techug.com/feed)                                       | startup; programming;          |
+| 罗磊的独立博客                  | ****        | https://luolei.org [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://luolei.org/feed/)                                              | startup; programming;          |
+| Cat in Chinese           | ***         | https://chinese.catchen.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://chinese.catchen.me/feeds/posts/default)                | startup; programming;          |
+| idea's blog              | ***         | http://www.ideawu.net/blog [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.ideawu.net/blog/feed)                              | startup; programming;          |
+| F.B                      | ***         | http://www.fanbing.net [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.fanbing.net/feed)                                      | startup; programming;          |
+| 林小沐                      | ***         | https://immmmm.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feed.immmmm.com/)                                              | startup; programming;          |
+| 轉個彎日誌                    | ***         | http://blog.turn.tw [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://blog.turn.tw/?feed=rss2)                                      | startup; programming;          |
+| DIYGod - 写代码是热爱，写到世界充满爱! | ***         | https://diygod.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://diygod.me/atom.xml)                                            | startup; programming;          |
+| Skywind Inside           | ***         | http://www.skywind.me/blog [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.skywind.me/blog/feed)                              | startup; programming;          |
+| 花钱的年华                    | ***         | http://calvin1978.blogcn.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://calvin1978.blogcn.com/feed)                          | startup; programming;          |
+| 余果的博客                    | ***         | https://yuguo.us [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feeds.feedburner.com/yuguo)                                      | startup; programming;          |
+| 陈沙克日志                    | ***         | http://www.chenshake.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.chenshake.com/feed/)                                 | startup; programming;          |
+| 水星投资理财                   | ***         | http://mercurychong.blogspot.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://mercurychong.blogspot.com/feeds/posts/default)   | startup; programming;          |
+| 小胡子哥的个人网站                | ***         | https://www.barretlee.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.barretlee.com/rss2.xml)                             | startup; programming;          |
+| 云原生🤘                    | ***         | https://jimmysong.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://jimmysong.io/index.xml)                                     | startup; programming;          |
+| 全栈应用开发：精益实践              | ***         | https://www.phodal.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.phodal.com/blog/feeds/rss/)                           | startup; programming;          |
+| Jason                    | ***         | https://atjason.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://atjason.com/atom.xml)                                        | startup; programming;          |
+| 透明思考                     | ***         | http://gigix.thoughtworkers.org [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://gigix.thoughtworkers.org/atom.xml)                | startup; programming;          |
+| 某岛                       | ***         | http://www.shuizilong.com/house [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.shuizilong.com/house/feed/)                   | startup; programming;          |
+| 王子亭的博客                   | **          | https://jysperm.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://jysperm.me/atom.xml)                                          | startup; programming;          |
+| Randy's Blog             | **          | https://lutaonan.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://lutaonan.com/rss.xml)                                       | startup; programming;          |
+| the5fire的技术博客            | **          | https://www.the5fire.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.the5fire.com/rss)                                    | startup; programming;          |
+| 透明创业实验                   | **          | https://blog.t9t.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://blog.t9t.io/atom.xml)                                        | startup; programming;          |
+| 依云's Blog                | **          | https://blog.lilydjwg.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://blog.lilydjwg.me/posts.rss)                             | startup; programming;          |
+| 代码家                      | **          | https://daimajia.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://daimajia.com/feed)                                          | startup; programming;          |
+| iTimothy                 | **          | https://xiaozhou.net [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://xiaozhou.net/atom.xml)                                      | startup; programming;          |
+| HelloDog                 | **          | https://wsgzao.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://wsgzao.github.io/atom.xml)                              | startup; programming;          |
+| 王登科-DK博客                 | **          | https://greatdk.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://greatdk.com/feed)                                            | startup; programming;          |
+| 开源实验室                    | **          | https://kymjs.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.kymjs.com/feed.xml)                                        | startup; programming;          |
+| 追梦人物的博客                  | **          | https://www.zmrenwu.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.zmrenwu.com/all/rss/)                                | startup; programming;          |
+| xiaix's Blog             | **          | https://xiaix.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://xiaix.me/rss/)                                                   | startup; programming;          |
+| 技术小黑屋                    | **          | https://droidyue.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://droidyue.com/atom.xml)                                      | startup; programming;          |
+| O3noBLOG                 | **          | https://blog.othree.net [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://feeds.feedburner.com/othree)                             | startup; programming;          |
+| chai2010 的博客             | **          | https://chai2010.cn [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://chai2010.cn/index.xml)                                       | startup; programming;          |
+| 思圆笔记                     | **          | https://hintsnet.com/pimgeek/feed [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://hintsnet.com/pimgeek/feed/)                    | startup; programming;          |
+| GeekPlux                 | **          | https://geekplux.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://geekplux.com/atom.xml)                                      | startup; programming;          |
+| 魔王不造反                    | *           | https://blog.biezhi.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://blog.biezhi.me/feed.xml)                                  | startup; programming;          |
+| forecho 的独立博客            | *           | https://blog.forecho.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://blog.forecho.com/atom.xml)                              | startup; programming;          |
+| 余海峯 David 物理喵 phycat     | *           | https://hfdavidyu.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://hfdavidyu.com/feed/)                                       | startup; programming;          |
+| 小明明S À DOMICILE          | *           | https://www.dongwm.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.dongwm.com/atom.xml)                                  | startup; programming;          |
+| 冰山一角                     | *           | http://cnberg.div.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://cnberg.div.io/feed/)                                         | startup; programming;          |
+| Hawstein's Blog          | *           | http://hawstein.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://hawstein.com/feed.xml)                                        | startup; programming;          |
+| 笨方法学写作                   | *           | https://www.cnfeat.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.cnfeat.com/feed.xml)                                  | startup; programming;          |
+| INTJer                   | *           | https://arminli.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://arminli.com/feed/)                                           | startup; programming;          |
+| 晚晴幽草轩                    | *           | https://www.jeffjade.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.jeffjade.com/atom.xml)                              | startup; programming;          |
+| The Will Will Web        | *           | https://blog.miniasp.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://feeds.feedburner.com/TheWillWillWeb)                    | startup; programming;          |
+| isaced                   | *           | http://www.isaced.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://www.isaced.com/index.xml)                                   | startup; programming;          |
+| Jack Liu博客               | *           | https://www.jack-liu.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.jack-liu.com/rss.php)                               | startup; programming;          |
+| 但行好事，莫问前程                | *           | https://windard.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://windard.com/feed.xml)                                        | startup; programming;          |
+| Python 工匠                | *           | https://www.zlovezl.cn [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                             | startup; programming;          |
+| zhonger 前端开发者，喜爱运维管理     | *           | https://lisz.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://lisz.io/feed.xml)                                                | startup; programming;          |
+| 后端技术杂谈                   | *           | https://www.rowkey.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.rowkey.me/atom.xml)                                    | startup; programming;          |
+| vzard's blog             | *           | https://vzardlloo.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                        | startup; programming;          |
+| diss带码                   | *           | https://dumplingbao.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://dumplingbao.github.io/atom.xml)                    | startup; programming;          |
+| Vivaxy's blog            | *           | https://vivaxyblog.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://vivaxyblog.github.io/atom.xml)                      | startup; programming;          |
+| Origin's blog            | *           | https://blog.singee.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://blog.singee.me/atom.xml)                                  | startup; programming;          |
+| 老周快救我                    | *           | https://zxx.im [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://zxx.im/feed)                                                      | startup; programming;          |
+| ShrekShao                | *           | http://shrekshao.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://shrekshao.github.io/feed.xml)                          | startup; programming;          |
+| 前端工程师 Toweave            | *           | https://toweave.github.io [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://toweave.github.io/rss.xml)                             | startup; programming;          |
+| David前端技术分享              | *           | https://www.daweilv.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.daweilv.com/atom.xml)                                | startup; programming;          |
+| MouT.me                  | *           | https://mout.me [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://ghost.mout.me/rss/)                                              | startup; programming;          |
+| 解道jdon.com               | *           | https://www.jdon.com [![](https://badgen.net/badge/icon/rss?icon=rss&label)](https://www.jdon.com/jivejdon/rss)                                  | startup; programming;          |
 
 ## 什么是独立博客
 
