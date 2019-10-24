@@ -13,7 +13,7 @@
 
 > 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论
 
-| RSS订阅数                                                                                                            | 简介                       | 链接                                 | 标签            |
+|  Subscribers                                                                                                           | 简介                       | 链接                                 | 标签            |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------ | ---------------------------------- | ------------- |
 | [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://feeds.feedburner.com/ruanyifeng)*****               | 阮一峰的网络日志                 | http://www.ruanyifeng.com/blog     | 创业; 程序设计; 前端; |
 | [![](https://badgen.net/badge/icon/rss?icon=rss&label)](http://coolshell.cn/feed)*****                             | 酷 壳 – CoolShell          | https://coolshell.cn               | 程序设计;         |
