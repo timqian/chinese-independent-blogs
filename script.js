@@ -1,6 +1,8 @@
 const fs = require('fs');
 const axios = require('axios');
 const markdownTable = require('markdown-table');
+const puppeteer = require('puppeteer');
+
 
 const { parse } = require('svg-parser');
 
@@ -28,23 +30,27 @@ async function getResultAndUpdateREADME() {
     if (row[4]) {
       try {
         const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
-        console.log('feedlyAPI', feedlyAPI)
-        const shieldAPI = `https://img.shields.io/badge/dynamic/json?label=count&query=%24.subscribers&url=${encodeURIComponent(feedlyAPI)}`;
-        console.log('shieldAPI', shieldAPI);
-        const res = await axios.get(shieldAPI);
-        const doc = parse(res.data);
 
-        if (doc) {
-          const subscribersCount = doc.children[0].children[3].children[3].children[0].value;
-          row[5] = Number(subscribersCount);
-        } else {
-          row[5] = 0;
-        }
+        // cloudquery: github.com/t9tio/cloudquery
+        const cloudqueryAPI = `http://localhost:3000/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+        const res = await axios.get(cloudqueryAPI);
+        const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers;
+        row[5] = subscribers;
+        await new Promise(res => setTimeout(res, 1000))
+        // const doc = parse(res.data);
+        // res.data.
 
-        console.log(row[5])
+        // if (doc) {
+        //   const subscribersCount = doc.children[0].children[3].children[3].children[0].value;
+        //   row[5] = Number(subscribersCount);
+        // } else {
+        //   row[5] = 0;
+        // }
       } catch (error) {
-        console.log(error)
+        console.log(error);
+        row[5] = 0;
       }
+      console.log(row[5])
     }
   }
 
@@ -68,7 +74,7 @@ async function getResultAndUpdateREADME() {
 
 
   // update README
-  const tableContentInMD = markdownTable([['订阅数', '简介', '链接', '标签'], ...newTable]);
+  const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `# 中文独立博客列表
 
