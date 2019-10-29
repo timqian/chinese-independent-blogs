@@ -35,7 +35,7 @@ async function getResultAndUpdateREADME() {
           // cloudquery: github.com/t9tio/cloudquery
           const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
           const res = await axios.get(cloudqueryAPI);
-          const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers;
+          const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers ? JSON.parse(res.data.contents[0].innerText).subscribers : 0;
           fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
           
           row[5] = subscribers;
