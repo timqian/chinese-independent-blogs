@@ -65,7 +65,7 @@ async function getResultAndUpdateREADME() {
 
   const readmeContent = `# 中文独立博客列表
 
-[![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
+  [![](https://badgen.net/badge/icon/website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
 
 ## 目录
 
@@ -76,7 +76,7 @@ async function getResultAndUpdateREADME() {
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论
+> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论或者通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
 
 ${tableContentInMD}
 
