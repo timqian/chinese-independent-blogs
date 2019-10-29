@@ -31,21 +31,22 @@ async function getResultAndUpdateREADME() {
       try {
         const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
 
-        // cloudquery: github.com/t9tio/cloudquery
-        const cloudqueryAPI = `http://localhost:3000/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
-        const res = await axios.get(cloudqueryAPI);
-        const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers;
-        row[5] = subscribers;
-        await new Promise(res => setTimeout(res, 1000))
-        // const doc = parse(res.data);
-        // res.data.
+        try {
+          const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
+          const subscribers = JSON.parse(jsonStr).subscribers;
+          row[5] = subscribers;
+        } catch (e) {
+          // cloudquery: github.com/t9tio/cloudquery
+          const cloudqueryAPI = `http://localhost:3000/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+          const res = await axios.get(cloudqueryAPI);
+          const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers;
+          fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
+          
+          row[5] = subscribers;
+          await new Promise(res => setTimeout(res, 1000));
+        }
 
-        // if (doc) {
-        //   const subscribersCount = doc.children[0].children[3].children[3].children[0].value;
-        //   row[5] = Number(subscribersCount);
-        // } else {
-        //   row[5] = 0;
-        // }
+
       } catch (error) {
         console.log(error);
         row[5] = 0;
@@ -57,20 +58,10 @@ async function getResultAndUpdateREADME() {
   table.sort((a, b) => b[5] - a[5]);
 
   const newTable = table.map(row => {
-    return [`[![](https://badgen.net/badge/icon/rss?icon=rss&label)](${row[2]})` + (row[5] + '').replace(/\d/g, '*'), row[0], `${row[1]}`, row[3]]
+    const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
+    return [`[![](https://badgen.net/badge/icon/rss?icon=rss&label)](${row[2]})` + subscribeCount, row[0], `${row[1]}`, row[3]]
   })
   console.log(newTable)
-
-  // let resCsv = 'Introduction, Subscribers, URL\n';
-
-  // newTable.forEach(row => {
-  //   const rowStr = row.join(', ')
-  //   resCsv = resCsv + rowStr + '\n';
-  // })
-
-  // console.log(resCsv);
-
-  // fs.writeFileSync('./blogs-result.csv', resCsv, 'utf8');
 
 
   // update README
@@ -112,9 +103,17 @@ ${tableContentInMD}
 
 不得不说, 独立博客在获取新读者方面确实存在问题. 即使你内容再好, 总是需要自己发到各个论坛才能让没有订阅你博客的读者看到你的内容.
 
-是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客得读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个类似之前多说的评论系统, 可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 让我们可以知道我们 follow 的博主 follow 了谁...
+是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客的创作和读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 让我们可以知道我们 follow 的博主 follow 了谁...
 
 这个列表是一个开始, 先把独立博客们收集起来, 欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具.
+
+## Thanks
+
+- https://feedly.com
+- t9t.io community: https://wewe.t9t.io/chat/t9t.io%20community%202 https://wewe.t9t.io/chat/t9t.io%20community
+- https://github.com/DIYgod/RSSHub
+- https://ohmyrss.com/
+- https://github.com/tangqiaoboy/iOSBlogCN
   `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
