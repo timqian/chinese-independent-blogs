@@ -11,7 +11,7 @@
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论或者通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
+> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论或者通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
 
 | RSS 订阅数                                                                                                         | 简介                       | 链接                                 | 标签           |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------ | ---------------------------------- | ------------ |
@@ -32,6 +32,7 @@
 | [![](https://badgen.net/badge/icon/2141?icon=rss&label)](http://www.fengtang.com/blog/?feed=rss2)               | 冯唐博客                     | http://www.fengtang.com/blog/      | 文学;          |
 | [![](https://badgen.net/badge/icon/2081?icon=rss&label)](http://teddy-chen-tw.blogspot.com/feeds/posts/default) | 搞笑談軟工                    | http://teddy-chen-tw.blogspot.com  | 编程;          |
 | [![](https://badgen.net/badge/icon/2005?icon=rss&label)](http://blog.sunnyxx.com/atom.xml)                      | sunnyxx的技术博客             | http://blog.sunnyxx.com/           | 编程; iOS;     |
+| [![](https://badgen.net/badge/icon/1749?icon=rss&label)](http://feeds.feedburner.com/initiative)                | Est's Blog               | https://blog.est.im/               | 编程; 创业; 哲学;  |
 | [![](https://badgen.net/badge/icon/1488?icon=rss&label)](http://www.52nlp.cn/feed)                              | 我爱自然语言处理                 | http://www.52nlp.cn/               | 编程; 机器学习;    |
 | [![](https://badgen.net/badge/icon/1320?icon=rss&label)](http://www.techug.com/feed)                            | 程序师                      | https://www.techug.com             | 编程;          |
 | [![](https://badgen.net/badge/icon/1049?icon=rss&label)](http://luolei.org/feed/)                               | 罗磊的独立博客                  | https://luolei.org                 | 编程; 旅行;      |
@@ -76,8 +77,8 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhowkev.in/rss/)                                 | Kevin Blog               | https://zhowkev.in/                | 编程; 创业;      |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://greatdk.com/feed)                                | 王登科-DK博客                 | https://greatdk.com                | 编程; 创业;      |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.kymjs.com/feed.xml)                          | 开源实验室                    | https://kymjs.com                  | 编程;          |
-| [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://xiaix.me/rss/)                                    | xiaix's Blog             | https://xiaix.me                   | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.zmrenwu.com/all/rss/)                        | 追梦人物的博客                  | https://www.zmrenwu.com            | 编程;          |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://xiaix.me/rss/)                                    | xiaix's Blog             | https://xiaix.me                   | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://droidyue.com/atom.xml)                           | 技术小黑屋                    | https://droidyue.com               | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://feeds.feedburner.com/othree)                     | O3noBLOG                 | https://blog.othree.net            | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://xiangwangfeng.com/atom.xml)                      | 阿毛的蛋疼地                   | https://xiangwangfeng.com/         | 编程; 开源;      |
@@ -85,9 +86,9 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://hintsnet.com/pimgeek/feed/)                      | 思圆笔记                     | https://hintsnet.com/pimgeek/feed  | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://geekplux.com/atom.xml)                           | GeekPlux                 | https://geekplux.com               | 编程;          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://egoist.moe/atom.xml)                             | EGOIST 庶民样本              | https://egoist.moe/                | 编程; 前端; 开源;  |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hufangyun.com/atom.xml)                           | 小猿大圣                     | https://hufangyun.com/             | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.biezhi.me/feed.xml)                          | 魔王不造反                    | https://blog.biezhi.me             | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.forecho.com/atom.xml)                        | forecho 的独立博客            | https://blog.forecho.com           | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.biezhi.me/feed.xml)                          | 魔王不造反                    | https://blog.biezhi.me             | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hufangyun.com/atom.xml)                           | 小猿大圣                     | https://hufangyun.com/             | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hfdavidyu.com/feed/)                              | 余海峯 David 物理喵 phycat     | https://hfdavidyu.com              | 物理;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jiongks.name/atom.xml)                            | 囧克斯 勾三股四                 | https://jiongks.name               | 编程; 开源; 前端;  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dongwm.com/atom.xml)                          | 小明明S À DOMICILE          | https://www.dongwm.com             | 编程;          |
@@ -108,17 +109,17 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                           | 后端技术杂谈                   | https://www.rowkey.me              | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lisz.io/feed.xml)                                 | zhonger 前端开发者，喜爱运维管理     | https://lisz.io                    | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                     | Python 工匠                | https://www.zlovezl.cn             | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://toweave.github.io/rss.xml)                        | 前端工程师 Toweave            | https://toweave.github.io          | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin's blog            | https://blog.singee.me             | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jdon.com/jivejdon/rss)                        | 解道jdon.com               | https://www.jdon.com               | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.daweilv.com/atom.xml)                         | David前端技术分享              | https://www.daweilv.com            | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.60sky.com/index.php/feed/)                     | 小撸                       | http://www.60sky.com/              | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vivaxyblog.github.io/atom.xml)                    | Vivaxy's blog            | https://vivaxyblog.github.io       | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.daweilv.com/atom.xml)                         | David前端技术分享              | https://www.daweilv.com            | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zxx.im/feed)                                      | 老周快救我                    | https://zxx.im                     | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog             | https://vzardlloo.github.io        | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zxx.im/feed)                                      | 老周快救我                    | https://zxx.im                     | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ghost.mout.me/rss/)                               | MouT.me                  | https://mout.me                    | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://dumplingbao.github.io/atom.xml)                   | diss带码                   | https://dumplingbao.github.io      | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jdon.com/jivejdon/rss)                        | 解道jdon.com               | https://www.jdon.com               | 编程;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                | http://shrekshao.github.io         | 编程;          |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin's blog            | https://blog.singee.me             | 编程;          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://toweave.github.io/rss.xml)                        | 前端工程师 Toweave            | https://toweave.github.io          | 编程;          |
 
 ## 什么是独立博客
 
