@@ -55,7 +55,7 @@ async function getResultAndUpdateREADME() {
 
   const newTable = table.map(row => {
     const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
-    return [`[![](https://badgen.net/badge/icon/rss?icon=${subscribeCount}&label)](${row[2]})`, row[0], `${row[1]}`, row[3]]
+    return [`[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`, row[0], `${row[1]}`, row[3]]
   })
   console.log(newTable)
 
