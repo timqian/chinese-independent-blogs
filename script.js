@@ -33,7 +33,7 @@ async function getResultAndUpdateREADME() {
           row[5] = subscribers;
         } catch (e) {
           // cloudquery: github.com/t9tio/cloudquery
-          const cloudqueryAPI = `http://localhost:3000/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+          const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
           const res = await axios.get(cloudqueryAPI);
           const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers;
           fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
@@ -89,7 +89,7 @@ ${tableContentInMD}
 
 1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客 URL, RSS 及简介
 2. 提交 PR
-3. PR 被 merge 之后本表通过 GitHub action 自动更新
+3. PR 被 merge 之后 README 通过 [./script.js](./script.js) 生成
 
 ## 为什么要收集这张列表
 
@@ -99,7 +99,7 @@ ${tableContentInMD}
 
 不得不说, 独立博客在获取新读者方面确实存在问题. 即使你内容再好, 总是需要自己发到各个论坛才能让没有订阅你博客的读者看到你的内容.
 
-是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客的创作和读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 让我们可以知道我们 follow 的博主 follow 了谁...
+是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客的创作和读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 读者可以点赞, 评论. 可以知道我们 follow 的博主 follow 了谁...
 
 这个列表是一个开始, 先把独立博客们收集起来, 欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具.
 
