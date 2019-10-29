@@ -120,6 +120,7 @@
 | [![](https://badgen.net/badge/icon/rss?icon=*&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                | http://shrekshao.github.io         | 编程;          |
 | [![](https://badgen.net/badge/icon/rss?icon=*&label)](https://blog.singee.me/atom.xml)                          | Origin's blog            | https://blog.singee.me             | 编程;          |
 
+
 ## 什么是独立博客
 
 - 拥有自己的域名
