@@ -110,6 +110,7 @@ ${tableContentInMD}
 - https://github.com/DIYgod/RSSHub
 - https://ohmyrss.com/
 - https://github.com/tangqiaoboy/iOSBlogCN
+- https://www.zhihu.com/question/19928148
   `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
