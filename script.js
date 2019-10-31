@@ -55,7 +55,7 @@ async function getResultAndUpdateREADME() {
 
   const newTable = table.map(row => {
     const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
-    return [`[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`, row[0], `${row[1]}`, row[3]]
+    return [`[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`, row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
   })
   console.log(newTable)
 
@@ -65,7 +65,7 @@ async function getResultAndUpdateREADME() {
 
   const readmeContent = `# 中文独立博客列表
 
-  [![](https://badgen.net/badge/icon/website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
+  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
 
 ## 目录
 
