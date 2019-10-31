@@ -1,6 +1,6 @@
 # 中文独立博客列表
 
-  [![](https://badgen.net/badge/icon/website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian)
+  [![](https://badgen.net/badge/icon/website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/My%20Blog?icon=chrome&label)](https://blog.t9t.io/)
 
 ## 目录
 
