@@ -19,8 +19,8 @@ jobs:
         node script.js
     - name: Commit files
       run: |
-        git config --local user.email "action@t9t.io"
-        git config --local user.name "action"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add .
         git commit -m "update readme from action" -a
     - name: Push changes
