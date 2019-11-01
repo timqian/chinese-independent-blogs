@@ -17,37 +17,35 @@ const table = rows
     return row;
   })
 
-console.log(table)
-
 async function getResultAndUpdateREADME() {
 
   // add count to row
   for (const row of table) {
     if (row[4]) {
+      const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
+
+      // see if it is an old blog
       try {
-        const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
-
-        try {
-          const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
-          const subscribers = JSON.parse(jsonStr).subscribers;
+        const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
+        const subscribers = JSON.parse(jsonStr).subscribers;
+        if (subscribers !== undefined) {
           row[5] = subscribers;
-        } catch (e) {
-          // cloudquery: github.com/t9tio/cloudquery
-          const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
-          const res = await axios.get(cloudqueryAPI);
-          const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers ? JSON.parse(res.data.contents[0].innerText).subscribers : 0;
-          fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
-          
-          row[5] = subscribers;
-          await new Promise(res => setTimeout(res, 1000));
+        } else {
+          row[5] = -1;
         }
-
-
-      } catch (error) {
-        console.log(error);
-        row[5] = 0;
+      
+      // new blog
+      } catch (e) {
+        // cloudquery: github.com/t9tio/cloudquery
+        const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+        const res = await axios.get(cloudqueryAPI);
+        const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers ? JSON.parse(res.data.contents[0].innerText).subscribers : -1;
+        fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
+        
+        row[5] = subscribers;
+        await new Promise(res => setTimeout(res, 1000));
       }
-      console.log(row[5])
+      console.log(row[1], row[5])
     }
   }
 
@@ -55,10 +53,8 @@ async function getResultAndUpdateREADME() {
 
   const newTable = table.map(row => {
     const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
-    return [`[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`, row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
-  })
-  console.log(newTable)
-
+    return [row[5] >= 0 ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})` : '', row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
+  });
 
   // update README
   const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
