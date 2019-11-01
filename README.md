@@ -108,6 +108,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhang.ge/feed)                                    | 张戈博客                      | https://zhang.ge                  | 编程; 运维;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://cnberg.div.io/feed/)                               | 冰山一角                      | http://cnberg.div.io/             | 编程; 旅行; 摄影;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://tingtalk.me/atom.xml)                             | 庭说                        | https://tingtalk.me/              | 科技互联网; 数字生活; 外贸; 设计; 排版; 随笔; |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.joouis.com/atom.xml)                         | 江边的旱鸭子                    | https://blog.joouis.com           | 编程; 前端; 旅行; 阅读; 招聘;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://arminli.com/feed/)                                | INTJer                    | https://arminli.com               | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.cnfeat.com/feed.xml)                          | 笨方法学写作                    | https://www.cnfeat.com            | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://hawstein.com/feed.xml)                             | Hawstein's Blog           | http://hawstein.com               | 编程;                          |
@@ -124,6 +125,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://youngxhui.top/index.xml)                          | ISLAND                    | https://youngxhui.top             | 编程; 生活; 随笔;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.heysh.xyz/feed.xml)                          | 贺叶霜的树                     | https://blog.heysh.xyz/           | 开源; 生活;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lailin.xyz/atom.xml)                              | Mohuishou's Blog          | https://lailin.xyz                | 编程; Go;                      |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.devashen.com/atom.xml)                         | 追风之影                      | http://www.devashen.com           | 编程; iOS; 随笔;                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                     | Python 工匠                 | https://www.zlovezl.cn            | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                             | 但行好事，莫问前程                 | https://windard.com               | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                           | 后端技术杂谈                    | https://www.rowkey.me             | 编程;                          |
@@ -140,6 +142,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://kuricat.com/rss)                                  | Kuricat's Blog            | https://kuricat.com               | 编程; 思考; 云原生;                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://h-cheung.gitlab.io/index.xml)                     | 碎裂之梦                      | https://h-cheung.gitlab.io        | 算法; Linux; 随笔;               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.102no.com/feed)                                | 把酒诗代码                     | http://102no.com                  | 编程; 随笔;                      |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://zwkang.com/feed)                                   | ZWkang的技术博客               | http://zwkang.com                 | 编程; 前端; 生活;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                          |
@@ -169,9 +172,10 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zkqiang.cn/atom.xml)                              | 张凯强的博客                    | https://zkqiang.cn                | Python; 爬虫; Java; 后端;        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.xulihang.me/feed/)                           | xulihang's blog           | https://blog.xulihang.me          | 编程; 翻译; 随笔;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hiwannz.com/feed)                                 | 见字如面                      | https://hiwannz.com               | 产品; 思考; 生活;                  |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://desvl.xyz/index.xml)                              | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
+|                                                                                                                 | HansChen 的博客              | http://blog.hanschen.site         | 编程; Android;                 |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
-|                                                                                                                 | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
 
 ## 什么是独立博客
 
