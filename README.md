@@ -146,6 +146,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://h-cheung.gitlab.io/index.xml)                     | 碎裂之梦                      | https://h-cheung.gitlab.io        | 算法; Linux; 随笔;               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.102no.com/feed)                                | 把酒诗代码                     | http://102no.com                  | 编程; 随笔;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://zwkang.com/feed)                                   | ZWkang的技术博客               | http://zwkang.com                 | 编程; 前端; 生活;                  |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.josherich.me/feed.xml)                        | Josherich的博客              | https://www.josherich.me/         | 编程; 随笔;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                          |
