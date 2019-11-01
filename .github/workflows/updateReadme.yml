@@ -21,6 +21,7 @@ jobs:
       run: |
         git config --local user.email "timqian@t9t.io"
         git config --local user.name "action"
+        git add .
         git commit -m "update readme from action" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
