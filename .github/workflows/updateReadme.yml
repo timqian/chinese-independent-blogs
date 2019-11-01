@@ -1,4 +1,4 @@
-name: CI
+name: update readme
 
 on: [push]
 
@@ -14,7 +14,9 @@ jobs:
       with:
         node-version: 12.x
     - name: update readme
-      run: node script.js
+      run: |
+        npm install
+        node script.js
     - name: Commit files
       run: |
         git config --local user.email "timqian@t9t.io"
