@@ -174,6 +174,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hiwannz.com/feed)                                 | 见字如面                      | https://hiwannz.com               | 产品; 思考; 生活;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blog.hanschen.site/atom.xml)                       | HansChen 的博客              | http://blog.hanschen.site         | 编程; Android;                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://desvl.xyz/index.xml)                              | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
+|                                                                                                                 | NotJustCode               | https://article.mebtte.com        | 编程; 前端; 后端;                  |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
 
