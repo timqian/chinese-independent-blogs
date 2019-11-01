@@ -17,37 +17,35 @@ const table = rows
     return row;
   })
 
-console.log(table)
-
 async function getResultAndUpdateREADME() {
 
   // add count to row
   for (const row of table) {
     if (row[4]) {
+      const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
+
+      // see if it is an old blog
       try {
-        const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
-
-        try {
-          const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
-          const subscribers = JSON.parse(jsonStr).subscribers;
+        const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
+        const subscribers = JSON.parse(jsonStr).subscribers;
+        if (subscribers !== undefined) {
           row[5] = subscribers;
-        } catch (e) {
-          // cloudquery: github.com/t9tio/cloudquery
-          const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
-          const res = await axios.get(cloudqueryAPI);
-          const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers ? JSON.parse(res.data.contents[0].innerText).subscribers : 0;
-          fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
-          
-          row[5] = subscribers;
-          await new Promise(res => setTimeout(res, 1000));
+        } else {
+          row[5] = -1;
         }
-
-
-      } catch (error) {
-        console.log(error);
-        row[5] = 0;
+      
+      // new blog
+      } catch (e) {
+        // cloudquery: github.com/t9tio/cloudquery
+        const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+        const res = await axios.get(cloudqueryAPI);
+        const subscribers = JSON.parse(res.data.contents[0].innerText).subscribers ? JSON.parse(res.data.contents[0].innerText).subscribers : -1;
+        fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
+        
+        row[5] = subscribers;
+        await new Promise(res => setTimeout(res, 1000));
       }
-      console.log(row[5])
+      console.log(row[1], row[5])
     }
   }
 
@@ -55,10 +53,8 @@ async function getResultAndUpdateREADME() {
 
   const newTable = table.map(row => {
     const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
-    return [`[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`, row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
-  })
-  console.log(newTable)
-
+    return [row[5] >= 0 ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})` : '', row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
+  });
 
   // update README
   const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
@@ -76,7 +72,7 @@ async function getResultAndUpdateREADME() {
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 关于如何更好得组织博客和推荐内容, 欢迎加入 [Telegram 群](https://t.me/indieBlog) 讨论或者通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
+> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 正在构思一个更好得组织博客和推荐内容的[工具](https://mailchi.mp/7585311373a3/indieblogs), 欢迎通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs) 或加入 [Telegram 群](https://t.me/indieBlogs) 讨论
 
 ${tableContentInMD}
 
@@ -93,13 +89,13 @@ ${tableContentInMD}
 
 ## 为什么要收集这张列表
 
-不止一次听到有人说: “在中国, 独立博客得时代已经过去了”. 确实, 很多博主都转到了公众号, 知乎专栏, 小密圈, 微博... 因为读者比较多; 平台的推荐算法让内容可以被更多人看到; 因为大厂更专业的 SEO (甚至直接与搜索引擎合作😅), 你的内容更容易被搜索到.
+不止一次听到有人说: “在中国, 独立博客的时代已经过去了”. 确实, 很多博主都转到了公众号, 知乎专栏, 小密圈, 微博... 因为读者比较多; 平台的推荐算法让内容可以被更多人看到; 因为大厂更专业的 SEO (甚至直接与搜索引擎合作😅), 你的内容更容易被搜索到.
 
 但我还是更喜欢独立博客, 因为属于自己的域名, 因为可以自由的排版, 自由的说话.
 
 不得不说, 独立博客在获取新读者方面确实存在问题. 即使你内容再好, 总是需要自己发到各个论坛才能让没有订阅你博客的读者看到你的内容.
 
-是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由得同时, 组织一个独立博客的创作和读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 读者可以点赞, 评论. 可以知道我们 follow 的博主 follow 了谁...
+是否可以做一个工具, 可以连接这些独立博主, 在保持独立博客的自由的同时, 组织一个独立博客的创作和读者群体, 让独立博客们也有一个稳定的被发现的渠道. 这个工具可能是一个带个性化推荐系统的 RSS 客户端, 可能是一个类似微博, twitter 但是主要内容是独立博客的新东西, 读者可以点赞, 评论. 可以知道我们 follow 的博主 follow 了谁...
 
 这个列表是一个开始, 先把独立博客们收集起来, 欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具. 或者你也可以通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
 
@@ -111,7 +107,16 @@ ${tableContentInMD}
 - https://ohmyrss.com/
 - https://github.com/tangqiaoboy/iOSBlogCN
 - https://www.zhihu.com/question/19928148
-  `
+
+## 博客构建工具推荐
+
+  - [Saber](https://saber.land/)
+  - [Hexo](https://hexo.io)
+  - [vue-press](https://vuepress.vuejs.org/)
+  - [Gastsby](https://www.gatsbyjs.org/)
+  - [Ghost](https://ghost.org/)
+  - [Wordpress](https://wordpress.com/)
+`
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
  
