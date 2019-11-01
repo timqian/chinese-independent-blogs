@@ -1,6 +1,9 @@
 name: update readme
 
-on: [push]
+on:
+  push:
+    paths:
+    - 'blogs-original.csv'
 
 jobs:
   build:
