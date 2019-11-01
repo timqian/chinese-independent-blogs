@@ -178,6 +178,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://desvl.xyz/index.xml)                              | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
+|                                                                                                                 | Deepzz's Blog             | https://deepzz.com                | 编程; 生活;                      |
 
 ## 什么是独立博客
 
