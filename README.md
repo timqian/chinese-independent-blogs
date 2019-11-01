@@ -102,6 +102,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lucifer.ren/blog/atom.xml)                        | lucifer的网络博客              | https://lucifer.ren/blog          | 编程; 前端; 算法;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hfdavidyu.com/feed/)                              | 余海峯 David 物理喵 phycat      | https://hfdavidyu.com             | 物理;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jiongks.name/atom.xml)                            | 囧克斯 勾三股四                  | https://jiongks.name              | 编程; 开源; 前端;                  |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://glumes.com/index.xml)                             | 多媒体开发札记                   | https://glumes.com                | 软件开发; 音视频; 图形图像; 随笔思考;       |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xilidou.com/atom.xml)                             | 犀利豆的博客                    | https://xilidou.com               | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dongwm.com/atom.xml)                          | 小明明S À DOMICILE           | https://www.dongwm.com            | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xiang578.com/atom.xml)                            | 算法花园                      | https://xiang578.com              | 编程; 算法; 随笔;                  |
