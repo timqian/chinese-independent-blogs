@@ -150,6 +150,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://dumplingbao.github.io/atom.xml)                   | diss带码                    | https://dumplingbao.github.io     | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jdon.com/jivejdon/rss)                        | 解道jdon.com                | https://www.jdon.com              | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vivaxyblog.github.io/atom.xml)                    | Vivaxy's blog             | https://vivaxyblog.github.io      | 编程;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.debuginn.cn/feed)                             | Debug客栈                   | https://www.debuginn.cn           | 编程;PHP;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin's blog             | https://blog.singee.me            | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.60sky.com/index.php/feed/)                     | 小撸                        | http://www.60sky.com/             | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.just4fun.site/index.xml)                     | 某行人                       | https://blog.just4fun.site        | 编程; 教育; 随笔; 诗; 哲学;           |
@@ -168,9 +169,9 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zkqiang.cn/atom.xml)                              | 张凯强的博客                    | https://zkqiang.cn                | Python; 爬虫; Java; 后端;        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.xulihang.me/feed/)                           | xulihang's blog           | https://blog.xulihang.me          | 编程; 翻译; 随笔;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hiwannz.com/feed)                                 | 见字如面                      | https://hiwannz.com               | 产品; 思考; 生活;                  |
-|                                                                                                                 | Debug客栈                   | https://www.debuginn.cn           | 编程;PHP;                      |
-|                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源               |
-|                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程;python;ruby;前端            |
+|                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
+|                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
+|                                                                                                                 | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
 
 ## 什么是独立博客
 
