@@ -119,6 +119,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jeffjade.com/atom.xml)                        | 晚晴幽草轩                     | https://www.jeffjade.com          | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hateonion.me/index.xml)                           | OnionTalk                 | https://hateonion.me              | 编程; 前端; 随笔;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://seo.g2soft.net/atom.xml)                          | SEO 网站优化及网站推广             | https://seo.g2soft.net/           | 搜索引擎优化; 网站优化;网站推广;网站;        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://anran758.github.io/blog/atom.xml)                 | anran758's blog           | https://anran758.github.io/blog/  | 编程; 前端;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://feeds.feedburner.com/TheWillWillWeb)              | The Will Will Web         | https://blog.miniasp.com          | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.isaced.com/index.xml)                          | isaced                    | http://www.isaced.com             | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jack-liu.com/rss.php)                         | Jack Liu博客                | https://www.jack-liu.com          | 编程;                          |
