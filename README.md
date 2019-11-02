@@ -185,6 +185,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://athorx.com/rss.xml)                               | AthorX's Blog             | https://athorx.com/               | 编程; Golang; 生活; 随笔;          |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
+|                                                                                                                 | 己羊的梦                      | https://www.jiyang00.cn/          | 文学; 小说;                      |
 
 ## 什么是独立博客
 
