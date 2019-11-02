@@ -147,6 +147,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.102no.com/feed)                                | 把酒诗代码                     | http://102no.com                  | 编程; 随笔;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://zwkang.com/feed)                                   | ZWkang的技术博客               | http://zwkang.com                 | 编程; 前端; 生活;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.josherich.me/feed.xml)                        | Josherich的博客              | https://www.josherich.me/         | 编程; 随笔;                      |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fsky7.com/feed)                              | FlyingSky's Blog          | https://blog.fsky7.com/           | 编程; 随笔;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                          |
@@ -181,9 +182,9 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://desvl.xyz/index.xml)                              | Desvl's blog              | https://desvl.xyz                 | 数学;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hkvision.cn/index.xml)                            | haokunt的博客                | https://hkvision.cn               | Python; Golang; GIS; 编程      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://deepzz.com/feed)                                  | Deepzz's Blog             | https://deepzz.com                | 编程; 生活;                      |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://athorx.com/rss.xml)                               | AthorX's Blog             | https://athorx.com/               | 编程; Golang; 生活; 随笔;          |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
-|                                                                                                                 | AthorX's Blog             | https://athorx.com/               | 编程; Golang; 生活; 随笔;          |
 
 ## 什么是独立博客
 
