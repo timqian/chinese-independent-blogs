@@ -189,6 +189,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://axionl.me/index.xml)                              | 初等記憶體                     | https://axionl.me                 | Linux 使用; 個人隨筆;              |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
+|                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 个人原创文章;                  |
 
 ## 什么是独立博客
 
