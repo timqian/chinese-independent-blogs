@@ -188,6 +188,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://athorx.com/rss.xml)                               | AthorX's Blog             | https://athorx.com/               | 编程; Golang; 生活; 随笔;            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jiyang00.cn/atom.xml)                         | 己羊的梦                      | https://www.jiyang00.cn/          | 文学; 小说;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://axionl.me/index.xml)                              | 初等記憶體                     | https://axionl.me                 | Linux 使用; 個人隨筆;                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.darmau.com/rss)                                | 城中村群租房                    | https://www.darmau.com            | 设计; 生活; 编程;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jyzhu.top/feed)                                   | 天可优可                      | https://jyzhu.top                 | 编程; 随笔; 诗; 恋爱;                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zofun.github.io/atom.xml)                         | 爱写代码的小书童                  | https://zofun.github.io/          | 编程; 随笔; 后端;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gyl-coder.top/atom.xml)                           | yanliang's blog           | https://gyl-coder.top/            | 后端; 算法; 随笔; 架构; 思考;            |
