@@ -194,6 +194,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zofun.github.io/atom.xml)                         | 爱写代码的小书童                  | https://zofun.github.io/          | 编程; 随笔; 后端;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gyl-coder.top/atom.xml)                           | yanliang's blog           | https://gyl-coder.top/            | 后端; 算法; 随笔; 架构; 思考;            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://amonxu.com/atom.xml)                              | 逐鹿IT-猛猛如玉                 | https://amonxu.com/               | 编程; 思考; 随笔; 鬼画弧;               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.xiaoi.me/feed.xml)                           | Xiaoi's Blog              | https://blog.xiaoi.me/            | 编程；技术教程                        |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;          |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                        |
