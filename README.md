@@ -150,6 +150,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://zwkang.com/feed)                                   | ZWkang的技术博客               | http://zwkang.com                 | 编程; 前端; 生活;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.josherich.me/feed.xml)                        | Josherich的博客              | https://www.josherich.me/         | 编程; 随笔;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fsky7.com/feed)                              | FlyingSky's Blog          | https://blog.fsky7.com/           | 编程; 随笔;                      |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ttalk.im/rss.xml)                             | Teach Talk                | https://www.ttalk.im/             | Web；MQTT；XMPP；RabbitMQ；翻译；   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                          |
@@ -187,6 +188,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://athorx.com/rss.xml)                               | AthorX's Blog             | https://athorx.com/               | 编程; Golang; 生活; 随笔;          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jiyang00.cn/atom.xml)                         | 己羊的梦                      | https://www.jiyang00.cn/          | 文学; 小说;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://axionl.me/index.xml)                              | 初等記憶體                     | https://axionl.me                 | Linux 使用; 個人隨筆;              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jyzhu.top/feed)                                   | 天可优可                      | https://jyzhu.top                 | 编程; 随笔; 诗; 恋爱;               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zofun.github.io/atom.xml)                         | 爱写代码的小书童                  | https://zofun.github.io/          | 编程; 随笔; 后端;                  |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;              |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;        |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 个人原创文章;                  |
