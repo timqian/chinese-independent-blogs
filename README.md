@@ -100,6 +100,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.forecho.com/atom.xml)                        | forecho 的独立博客             | https://blog.forecho.com          | 编程;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hufangyun.com/atom.xml)                           | 小猿大圣                      | https://hufangyun.com/            | 编程;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.kingname.info/atom.xml)                       | 谢乾坤&#124;青南               | https://www.kingname.info/        | 编程; Python; 爬虫                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://charlesliuyx.github.io/atom.xml)                  | 遥行 Gofurther 技术&ML&BC博客   | https://charlesliuyx.github.io/   | 机器学习; 区块链; 算法; 幕布; Dota2;      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lucifer.ren/blog/atom.xml)                        | lucifer的网络博客              | https://lucifer.ren/blog          | 编程; 前端; 算法;                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hfdavidyu.com/feed/)                              | 余海峯 David 物理喵 phycat      | https://hfdavidyu.com             | 物理;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jiongks.name/atom.xml)                            | 囧克斯 勾三股四                  | https://jiongks.name              | 编程; 开源; 前端;                    |
