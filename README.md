@@ -239,6 +239,6 @@
   - [Saber](https://saber.land/)
   - [Hexo](https://hexo.io)
   - [vue-press](https://vuepress.vuejs.org/)
-  - [Gastsby](https://www.gatsbyjs.org/)
+  - [Gatsby](https://www.gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Wordpress](https://wordpress.com/)
