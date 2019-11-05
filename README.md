@@ -200,6 +200,7 @@
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                                                                 |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                                                           |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                                                         |
+|                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby 随写记                                                                      |
 |                                                                                                                 | LIANYONGXING的博客           | https://lianyongxing.github.io/   | feed%2F%E7%BC%96%E7%A8%8B%EF%BC%9B%E6%8A%80%E6%9C%AF%EF%BC%9B%E7%94%9F%E6%B4%BB |
 
 ## 什么是独立博客
@@ -239,6 +240,6 @@
   - [Saber](https://saber.land/)
   - [Hexo](https://hexo.io)
   - [vue-press](https://vuepress.vuejs.org/)
-  - [Gatsby](https://www.gatsbyjs.org/)
+  - [Gastsby](https://www.gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Wordpress](https://wordpress.com/)
