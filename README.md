@@ -94,6 +94,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://keelii.com/atom.xml)                             | 臨池不輟                      | https://keelii.com/               | 编程; 前端; 软件开发; 思考;                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://xiangwangfeng.com/atom.xml)                      | 阿毛的蛋疼地                    | https://xiangwangfeng.com/        | 编程; 开源;                          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chai2010.cn/index.xml)                           | chai2010 的博客              | https://chai2010.cn               | 编程;                              |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://old-panda.com/feed/)                             | Panda Home                | https://old-panda.com/            | 编程; 生活;                          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://geekplux.com/atom.xml)                           | GeekPlux                  | https://geekplux.com              | 编程;                              |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://egoist.moe/atom.xml)                             | EGOIST 庶民样本               | https://egoist.moe/               | 编程; 前端; 开源;                      |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhaliezhi.com/feed.xml)                          | 炸裂志                       | https://zhaliezhi.com/            | 骑行; 旅行; 播客;                      |
@@ -156,6 +157,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fsky7.com/feed)                              | FlyingSky's Blog          | https://blog.fsky7.com/           | 编程; 随笔;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ttalk.im/rss.xml)                             | Teach Talk                | https://www.ttalk.im/             | Web; MQTT; XMPP; RabbitMQ; 翻译;   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.vincentqin.tech/atom.xml)                     | Realcat                   | https://www.vincentqin.tech/      | 计算机视觉；算法；思考；生活；                  |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.iyouhun.com/rss.php)                          | 游魂博客                      | https://www.iyouhun.com/          | 编程; 前端; 技术; 生活;                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                              |
