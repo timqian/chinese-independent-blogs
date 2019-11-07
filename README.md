@@ -59,6 +59,7 @@
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://lukefan.com/?feed=rss2)                          | 硕鼠的博客站                    | http://lukefan.com/               | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://rsshub.app/blogs/wangyin)                       | 王垠的博客                     | https://www.yinwang.org/          | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.phodal.com/blog/feeds/rss/)                 | 全栈应用开发：精益实践               | https://www.phodal.com            | 编程;                              |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://lepture.com/feed.xml)                           | Just lepture              | https://lepture.com/              | 创业; 开源; 随笔;                      |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://atjason.com/atom.xml)                           | Jason                     | https://atjason.com               | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.mifengtd.cn/feed.xml)                       | 褪墨・时间管理                   | https://www.mifengtd.cn/          | 时间管理;                            |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://gigix.thoughtworkers.org/atom.xml)               | 透明思考                      | http://gigix.thoughtworkers.org   | 编程;                              |
