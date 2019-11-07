@@ -82,6 +82,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://wsgzao.github.io/atom.xml)                       | HelloDog                  | https://wsgzao.github.io          | 编程;                              |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://halfrost.com/rss/)                                | Halfrost's Field          | https://halfrost.com/             | 编程;                              |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhowkev.in/rss/)                                 | Kevin Blog                | https://zhowkev.in/               | 编程; 创业;                          |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://codesky.me/feed/)                                | CodeSky                   | https://codesky.me                | 编程; 前端; 后端; 运维; 折腾;              |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://webview.tech/category/original/feed/)             | WEB VIEW                  | https://webview.tech/             | 泛科技; 思考; 播客;                     |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://greatdk.com/feed)                                | 王登科-DK博客                  | https://greatdk.com               | 编程; 创业;                          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.kymjs.com/feed.xml)                          | 开源实验室                     | https://kymjs.com                 | 编程;                              |
@@ -159,7 +160,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ttalk.im/rss.xml)                             | Teach Talk                | https://www.ttalk.im/             | Web; MQTT; XMPP; RabbitMQ; 翻译;   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.vincentqin.tech/atom.xml)                     | Realcat                   | https://www.vincentqin.tech/      | 计算机视觉；算法；思考；生活；                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.iyouhun.com/rss.php)                          | 游魂博客                      | https://www.iyouhun.com/          | 编程; 前端; 技术; 生活;                  |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fxcdev.com/feed/)                            | 自学路漫漫                     | https://blog.fxcdev.com           | 编程; 生活;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fxcdev.com/feed/)                            | 自学轮漫漫                     | https://blog.fxcdev.com           | 编程; 生活;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                              |
@@ -207,6 +208,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leovan.me/rss)                                    | 范叶亮的博客                    | https://leovan.me/                | 编程；算法；数据科学；智慧农业；思考；生活;           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ahonn.me/atom.xml)                            | Ahonn's Blog              | https://www.ahonn.me/             | 编程; 前端; 生活;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lanka.cn/feed/)                               | 蓝卡                        | https://www.lanka.cn/             | 科技; 数码; 技术; 生活;                  |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xsky.me/feed/)                                    | 空之领域                      | https://xsky.me                   | 生活;                              |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                  |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;            |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                          |
