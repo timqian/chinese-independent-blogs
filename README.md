@@ -118,6 +118,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://cnberg.div.io/feed/)                               | 冰山一角                      | http://cnberg.div.io/             | 编程; 旅行; 摄影;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://tingtalk.me/atom.xml)                             | 庭说                        | https://tingtalk.me/              | 科技互联网; 数字生活; 外贸; 设计; 排版; 随笔;     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.joouis.com/atom.xml)                         | 江边的旱鸭子                    | https://blog.joouis.com           | 编程; 前端; 旅行; 阅读; 招聘;              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://newdee.cf/atom.xml)                               | 阁子                        | https://newdee.cf                 | 编程; 算法;生活;                       |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://arminli.com/feed/)                                | INTJer                    | https://arminli.com               | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.cnfeat.com/feed.xml)                          | 笨方法学写作                    | https://www.cnfeat.com            | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://hawstein.com/feed.xml)                             | Hawstein's Blog           | http://hawstein.com               | 编程;                              |
