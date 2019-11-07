@@ -161,7 +161,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ttalk.im/rss.xml)                             | Teach Talk                | https://www.ttalk.im/             | Web; MQTT; XMPP; RabbitMQ; 翻译;   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.vincentqin.tech/atom.xml)                     | Realcat                   | https://www.vincentqin.tech/      | 计算机视觉；算法；思考；生活；                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.iyouhun.com/rss.php)                          | 游魂博客                      | https://www.iyouhun.com/          | 编程; 前端; 技术; 生活;                  |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fxcdev.com/feed/)                            | 自学轮漫漫                     | https://blog.fxcdev.com           | 编程; 生活;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.fxcdev.com/feed/)                            | 自学路漫漫                     | https://blog.fxcdev.com           | 编程; 生活;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                              |
