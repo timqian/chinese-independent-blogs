@@ -55,7 +55,7 @@
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://mercurychong.blogspot.com/feeds/posts/default)   | 水星投资理财                    | http://mercurychong.blogspot.com  | 投资;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://zeove.com/feed)                                  | Zeove'blog                | https://zeove.com/                | 编程; 创业;                          |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://www.barretlee.com/rss2.xml)                      | 小胡子哥的个人网站                 | https://www.barretlee.com         | 编程;                              |
-| [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://jimmysong.io/index.xml)                         | 云原生�                      | https://jimmysong.io              | 编程;                              |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://jimmysong.io/index.xml)                         | 云原生                       | https://jimmysong.io              | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://lukefan.com/?feed=rss2)                          | 硕鼠的博客站                    | http://lukefan.com/               | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://rsshub.app/blogs/wangyin)                       | 王垠的博客                     | https://www.yinwang.org/          | 编程;                              |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.phodal.com/blog/feeds/rss/)                 | 全栈应用开发：精益实践               | https://www.phodal.com            | 编程;                              |
@@ -128,6 +128,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://seo.g2soft.net/atom.xml)                          | SEO 网站优化及网站推广             | https://seo.g2soft.net/           | 搜索引擎优化; 网站优化;网站推广;网站;            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://anran758.github.io/blog/atom.xml)                 | anran758's blog           | https://anran758.github.io/blog/  | 编程; 前端;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://xlbd.me/rss/)                                      | 小蘿蔔丁                      | http://xlbd.me/                   | 编程; 前端;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyric.im/feed/rss2.xml)                           | Lyric                     | https://lyric.im/                 | 产品; 创业; 编程;                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://feeds.feedburner.com/TheWillWillWeb)              | The Will Will Web         | https://blog.miniasp.com          | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.isaced.com/index.xml)                          | isaced                    | http://www.isaced.com             | 编程;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jack-liu.com/rss.php)                         | Jack Liu博客                | https://www.jack-liu.com          | 编程;                              |
