@@ -222,6 +222,7 @@
 |                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby; 随笔;                      |
 |                                                                                                                 | LIANYONGXING的博客           | https://lianyongxing.github.io/   | 编程；技术；生活;                        |
 |                                                                                                                 | 后端进阶                      | https://objcoding.com/            | Java、Golang、分布式中间件、WEB框架、服务治理等等; |
+|                                                                                                                 | 不才's blog                 | http://blog.ncgame.cc/            | 编程; 前端; 生活;                      |
 
 ## 什么是独立博客
 
