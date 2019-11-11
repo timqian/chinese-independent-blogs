@@ -218,6 +218,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xsky.me/feed/)                                    | 空之领域                      | https://xsky.me                   | 生活;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://sword.studio/feed)                                | 杂货屋                       | https://sword.studio/             | 技术;分享;记录;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.cccccc.online/atom.xml)                      | 沐凉                        | https://blog.cccccc.online        | 编程;Java;                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.endureblaze.cn/atom.xml)                     | 炎忍的博客                     | https://blog.endureblaze.cn/      | 编程;随笔;生活;折腾;                           |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
