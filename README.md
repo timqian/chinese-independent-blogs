@@ -130,6 +130,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://xlbd.me/rss/)                                      | 小蘿蔔丁                      | http://xlbd.me/                   | 编程; 前端;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyric.im/feed/rss2.xml)                           | Lyric                     | https://lyric.im/                 | 产品; 创业; 编程;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://idealclover.top/feed)                             | idealclover               | https://idealclover.top           | 编程; 随笔; 思考; 生活;                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://easeapi.com/blog/feed.xml)                        | easeapi blog              | https://easeapi.com/blog          | iOS;开发;产品;生活;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://feeds.feedburner.com/TheWillWillWeb)              | The Will Will Web         | https://blog.miniasp.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.isaced.com/index.xml)                          | isaced                    | http://www.isaced.com             | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jack-liu.com/rss.php)                         | Jack Liu博客                | https://www.jack-liu.com          | 编程;                                    |
@@ -218,6 +219,9 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xsky.me/feed/)                                    | 空之领域                      | https://xsky.me                   | 生活;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://sword.studio/feed)                                | 杂货屋                       | https://sword.studio/             | 技术;分享;记录;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.cccccc.online/atom.xml)                      | 沐凉                        | https://blog.cccccc.online        | 编程;Java;                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.endureblaze.cn/atom.xml)                     | 炎忍的博客                     | https://blog.endureblaze.cn/      | 编程;随笔;生活;折腾;                           |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gylidian.js.org/rss2.xml)                         | 啊哈呵嗨的博客                   | https://gylidian.js.org           | 编程;前端;全栈;任天堂;专栏;                       |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.z16388.top/atom.xml)                           | 崎径 其镜赵安琪的博客               | http://www.z16388.top/            | 编程;游戏;音乐;                              |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
