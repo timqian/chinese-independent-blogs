@@ -144,6 +144,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ioiox.com/feed)                               | 思有云                       | https://www.ioiox.com             | 技术教程; 云服务; 私有云; 存储NAS; 群晖技巧; Synology; |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://yuuno.cc/atom.xml)                                | Yuuno Blog                | https://yuuno.cc                  | 技术; 编程; 后端; 前端;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://claude-ray.github.io/atom.xml)                    | Claude's Blog             | https://claude-ray.github.io      | 编程; 折腾;                                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.h404bi.com/feed/atom.xml)                     | The Art of Chawye Hsu     | https://www.h404bi.com/           | 编程; 游戏; 随笔; 杂谈;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                     | Python 工匠                 | https://www.zlovezl.cn            | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                             | 但行好事，莫问前程                 | https://windard.com               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                           | 后端技术杂谈                    | https://www.rowkey.me             | 编程;                                    |
