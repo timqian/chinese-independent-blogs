@@ -234,6 +234,7 @@
 |                                                                                                                 | 后端进阶                      | https://objcoding.com/            | Java、Golang、分布式中间件、WEB框架、服务治理等等;       |
 |                                                                                                                 | 不才's blog                 | http://blog.ncgame.cc/            | 编程; 前端; 生活;                            |
 |                                                                                                                 | 吴凯凯的博客                    | https://wukaikai.tech             | 编程; iOS                                |
+|                                                                                                                 | 风滚草                       | http://tuwee.cn/                  | 算法; 深度学习; 人工智能; 编程;                    |
 
 ## 什么是独立博客
 
