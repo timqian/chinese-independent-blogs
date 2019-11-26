@@ -87,6 +87,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://webview.tech/category/original/feed/)             | WEB VIEW                  | https://webview.tech/             | 泛科技; 思考; 播客;                           |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://greatdk.com/feed)                                | 王登科-DK博客                  | https://greatdk.com               | 编程; 创业;                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.kymjs.com/feed.xml)                          | 开源实验室                     | https://kymjs.com                 | 编程;                                    |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhaliezhi.com/feed.xml)                          | 炸裂志                       | https://zhaliezhi.com             | 单车; 旅行; 摄影;                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.zmrenwu.com/all/rss/)                        | 追梦人物的博客                   | https://www.zmrenwu.com           | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://xiaix.me/rss/)                                    | xiaix's Blog              | https://xiaix.me                  | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://droidyue.com/atom.xml)                           | 技术小黑屋                     | https://droidyue.com              | 编程;                                    |
@@ -97,6 +98,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://xiangwangfeng.com/atom.xml)                      | 阿毛的蛋疼地                    | https://xiangwangfeng.com/        | 编程; 开源;                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chai2010.cn/index.xml)                           | chai2010 的博客              | https://chai2010.cn               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://old-panda.com/feed/)                             | Panda Home                | https://old-panda.com/            | 编程; 生活;                                |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://blog.jiayuanzhang.com/index.xml)                  | 张佳圆                       | http://jiayuanzhang.com/          | 编程; Python; Web;                       |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://geekplux.com/atom.xml)                           | GeekPlux                  | https://geekplux.com              | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://egoist.moe/atom.xml)                             | EGOIST 庶民样本               | https://egoist.moe/               | 编程; 前端; 开源;                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhaliezhi.com/feed.xml)                          | 炸裂志                       | https://zhaliezhi.com/            | 骑行; 旅行; 播客;                            |
@@ -226,6 +228,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gylidian.js.org/rss2.xml)                         | 啊哈呵嗨的博客                   | https://gylidian.js.org           | 编程;前端;全栈;任天堂;专栏;                       |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.z16388.top/atom.xml)                           | 崎径 其镜赵安琪的博客               | http://www.z16388.top/            | 编程;游戏;音乐;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gaficat.com/atom.xml)                             | 加菲猫的创客工坊                  | https://gaficat.com               | 电子DIY; 物联网; 生活; 技术教程; 钢琴; 网络安全;        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blogbo.org/atom.xml)                               | 四公子的剑                     | http://blogbo.org/                | 编程; 生活; 随笔;                            |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
@@ -235,6 +238,7 @@
 |                                                                                                                 | 不才's blog                 | http://blog.ncgame.cc/            | 编程; 前端; 生活;                            |
 |                                                                                                                 | 吴凯凯的博客                    | https://wukaikai.tech             | 编程; iOS                                |
 |                                                                                                                 | 风滚草                       | http://tuwee.cn/                  | 算法; 深度学习; 人工智能; 编程;                    |
+|                                                                                                                 | 朱双印                       | http://www.zsythink.net/          | 运维；编程                                  |
 
 ## 什么是独立博客
 
