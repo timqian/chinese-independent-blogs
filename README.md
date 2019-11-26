@@ -99,6 +99,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chai2010.cn/index.xml)                           | chai2010 的博客              | https://chai2010.cn               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://old-panda.com/feed/)                             | Panda Home                | https://old-panda.com/            | 编程; 生活;                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://blog.jiayuanzhang.com/index.xml)                  | 张佳圆                       | http://jiayuanzhang.com/          | 编程; Python; Web;                       |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.dongwm.com/atom.xml)                         | 小明明s à domicile           | https://www.dongwm.com/           | 编程; Python 大佬; k8s; 随笔;                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://geekplux.com/atom.xml)                           | GeekPlux                  | https://geekplux.com              | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://egoist.moe/atom.xml)                             | EGOIST 庶民样本               | https://egoist.moe/               | 编程; 前端; 开源;                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhaliezhi.com/feed.xml)                          | 炸裂志                       | https://zhaliezhi.com/            | 骑行; 旅行; 播客;                            |
@@ -239,6 +240,7 @@
 |                                                                                                                 | 吴凯凯的博客                    | https://wukaikai.tech             | 编程; iOS                                |
 |                                                                                                                 | 风滚草                       | http://tuwee.cn/                  | 算法; 深度学习; 人工智能; 编程;                    |
 |                                                                                                                 | 朱双印                       | http://www.zsythink.net/          | 运维；编程                                  |
+|                                                                                                                 | the5fire的技术博客             | https://www.the5fire.com/         | 编程; Python 大佬; 算法; 随笔; 读书              |
 
 ## 什么是独立博客
 
