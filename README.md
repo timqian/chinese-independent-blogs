@@ -87,6 +87,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://webview.tech/category/original/feed/)             | WEB VIEW                  | https://webview.tech/             | 泛科技; 思考; 播客;                           |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://greatdk.com/feed)                                | 王登科-DK博客                  | https://greatdk.com               | 编程; 创业;                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.kymjs.com/feed.xml)                          | 开源实验室                     | https://kymjs.com                 | 编程;                                    |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhaliezhi.com/feed.xml)                          | 炸裂志                       | https://zhaliezhi.com             | 单车; 旅行; 摄影;                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.zmrenwu.com/all/rss/)                        | 追梦人物的博客                   | https://www.zmrenwu.com           | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://xiaix.me/rss/)                                    | xiaix's Blog              | https://xiaix.me                  | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://droidyue.com/atom.xml)                           | 技术小黑屋                     | https://droidyue.com              | 编程;                                    |
