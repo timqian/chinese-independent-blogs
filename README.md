@@ -244,6 +244,7 @@
 |                                                                                                                 | 风滚草                       | http://tuwee.cn/                  | 算法; 深度学习; 人工智能; 编程;                    |
 |                                                                                                                 | 朱双印                       | http://www.zsythink.net/          | 运维；编程                                  |
 |                                                                                                                 | the5fire的技术博客             | https://www.the5fire.com/         | 编程; Python 大佬; 算法; 随笔; 读书              |
+|                                                                                                                 | 以梦喂马                      | http://hwdef.com/                 | 编程; 随笔; k8s; golang                    |
 
 ## 什么是独立博客
 
