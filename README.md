@@ -129,6 +129,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://hawstein.com/feed.xml)                             | Hawstein's Blog           | http://hawstein.com               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ifttl.com/index.xml)                              | 自由人的 BLOG                 | https://ifttl.com                 | 生活;读书;随想;编程                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hutusi.com/feed.xml)                              | 胡涂说                       | https://hutusi.com/               | 编程;随笔;生活;                              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zdyxry.github.io/atom.xml)                        | Yiran's Blog              | https://zdyxry.github.io/         | 编程;Linux                               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jeffjade.com/atom.xml)                        | 晚晴幽草轩                     | https://www.jeffjade.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hateonion.me/index.xml)                           | OnionTalk                 | https://hateonion.me              | 编程; 前端; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://seo.g2soft.net/atom.xml)                          | SEO 网站优化及网站推广             | https://seo.g2soft.net/           | 搜索引擎优化; 网站优化;网站推广;网站;                  |
@@ -234,6 +235,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blogbo.org/atom.xml)                               | 四公子的剑                     | http://blogbo.org/                | 编程; 生活; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lfhacks.com/rss/)                             | LFhacks.com               | https://www.lfhacks.com/          | 日志;测试;数学;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.taoweng.site/feed)                             | 桃园                        | http://www.taoweng.site/          | 编程；随想；前端                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://shen.bioinit.com/topic/index.xml)                 | 沈维燕的个人博客                  | https://shen.bioinit.com          | 生物信息学；IT；编程                            |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
