@@ -46,6 +46,8 @@ async function getResultAndUpdateREADME() {
         await new Promise(res => setTimeout(res, 1000));
       }
       console.log(row[1], row[5])
+    } else {
+      row[5] = -1;
     }
   }
 
