@@ -137,6 +137,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyric.im/feed/rss2.xml)                           | Lyric                     | https://lyric.im/                 | 产品; 创业; 编程;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://idealclover.top/feed)                             | idealclover               | https://idealclover.top           | 编程; 随笔; 思考; 生活;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://easeapi.com/blog/feed.xml)                        | easeapi blog              | https://easeapi.com/blog          | iOS;开发;产品;生活;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://oldj.net/feed)                                    | oldj's blog               | https://oldj.net                  | 编程，写作，以及涂鸦                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://feeds.feedburner.com/TheWillWillWeb)              | The Will Will Web         | https://blog.miniasp.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.isaced.com/index.xml)                          | isaced                    | http://www.isaced.com             | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jack-liu.com/rss.php)                         | Jack Liu博客                | https://www.jack-liu.com          | 编程;                                    |
