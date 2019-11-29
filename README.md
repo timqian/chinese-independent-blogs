@@ -235,6 +235,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blogbo.org/atom.xml)                               | 四公子的剑                     | http://blogbo.org/                | 编程; 生活; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lfhacks.com/rss/)                             | LFhacks.com               | https://www.lfhacks.com/          | 日志;测试;数学;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.taoweng.site/feed)                             | 桃园                        | http://www.taoweng.site/          | 编程；随想；前端                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://callmesoul.cn/atom.xml)                           | CallMeSoul                | https://callmesoul.cn             | 编程; 前端;                                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://laogongshuo.com/feed)                             | 龚成博客                      | https://laogongshuo.com           | 随想;编程;哲学;经济学                           |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
@@ -247,6 +249,7 @@
 |                                                                                                                 | 朱双印                       | http://www.zsythink.net/          | 运维；编程                                  |
 |                                                                                                                 | the5fire的技术博客             | https://www.the5fire.com/         | 编程; Python 大佬; 算法; 随笔; 读书              |
 |                                                                                                                 | 以梦喂马                      | http://hwdef.com/                 | 编程; 随笔; k8s; golang                    |
+|                                                                                                                 | Seven's blog              | https://blog.diqigan.cn/          | 编程; 随笔; Geek; Java; Linux              |
 
 ## 什么是独立博客
 
