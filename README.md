@@ -153,6 +153,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://yuuno.cc/atom.xml)                                | Yuuno Blog                | https://yuuno.cc                  | 技术; 编程; 后端; 前端;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://claude-ray.github.io/atom.xml)                    | Claude's Blog             | https://claude-ray.github.io      | 编程; 折腾;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.h404bi.com/feed/atom.xml)                     | The Art of Chawye Hsu     | https://www.h404bi.com/           | 编程; 游戏; 随笔; 杂谈;                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.guowenfh.com/atom.xml)                       | 三省吾身丶丶                    | https://blog.guowenfh.com/        | 编程;前端;随笔;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                     | Python 工匠                 | https://www.zlovezl.cn            | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                             | 但行好事，莫问前程                 | https://windard.com               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                           | 后端技术杂谈                    | https://www.rowkey.me             | 编程;                                    |
@@ -235,6 +236,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blogbo.org/atom.xml)                               | 四公子的剑                     | http://blogbo.org/                | 编程; 生活; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lfhacks.com/rss/)                             | LFhacks.com               | https://www.lfhacks.com/          | 日志;测试;数学;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.taoweng.site/feed)                             | 桃园                        | http://www.taoweng.site/          | 编程；随想；前端                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://callmesoul.cn/atom.xml)                           | CallMeSoul                | https://callmesoul.cn             | 编程; 前端;                                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://laogongshuo.com/feed)                             | 龚成博客                      | https://laogongshuo.com           | 随想;编程;哲学;经济学                           |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
@@ -247,6 +250,7 @@
 |                                                                                                                 | 朱双印                       | http://www.zsythink.net/          | 运维；编程                                  |
 |                                                                                                                 | the5fire的技术博客             | https://www.the5fire.com/         | 编程; Python 大佬; 算法; 随笔; 读书              |
 |                                                                                                                 | 以梦喂马                      | http://hwdef.com/                 | 编程; 随笔; k8s; golang                    |
+|                                                                                                                 | Seven's blog              | https://blog.diqigan.cn/          | 编程; 随笔; Geek; Java; Linux              |
 
 ## 什么是独立博客
 
