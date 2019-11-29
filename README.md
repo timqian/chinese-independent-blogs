@@ -232,6 +232,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://gaficat.com/atom.xml)                             | 加菲猫的创客工坊                  | https://gaficat.com               | 电子DIY; 物联网; 生活; 技术教程; 钢琴; 网络安全;        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blogbo.org/atom.xml)                               | 四公子的剑                     | http://blogbo.org/                | 编程; 生活; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lfhacks.com/rss/)                             | LFhacks.com               | https://www.lfhacks.com/          | 日志;测试;数学;                              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.taoweng.site/feed)                             | 桃园                        | http://www.taoweng.site/          | 编程；随想；前端                               |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
