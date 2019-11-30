@@ -259,6 +259,7 @@
 |                                                                                                                 | the5fire的技术博客             | https://www.the5fire.com/         | 编程; Python 大佬; 算法; 随笔; 读书              |
 |                                                                                                                 | 以梦喂马                      | http://hwdef.com/                 | 编程; 随笔; k8s; golang                    |
 |                                                                                                                 | Seven's blog              | https://blog.diqigan.cn/          | 编程; 随笔; Geek; Java; Linux              |
+|                                                                                                                 | 小非的物理小站                   | https://xiaophy.com/              | 物理; 开放科学; 随笔;                          |
 
 ## 什么是独立博客
 
