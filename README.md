@@ -266,6 +266,7 @@
 |                                                                                                                 | Seven's blog              | https://blog.diqigan.cn/          | 编程; 随笔; Geek; Java; Linux              |
 |                                                                                                                 | 小非的物理小站                   | https://xiaophy.com/              | 物理; 开放科学; 随笔;                          |
 |                                                                                                                 | 会打篮球的程序猿                  | http://www.lzhpo.com              | 编程; 福利; 技术; 生活;                        |
+|                                                                                                                 | 轶哥博客                      | https://www.wyr.me                | 编程; 全栈; 随笔;                            |
 
 ## 什么是独立博客
 
