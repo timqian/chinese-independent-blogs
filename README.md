@@ -250,6 +250,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.codewoody.com/atom.xml)                       | 治部少辅                      | https://www.codewoody.com         | 编程; 随笔; 新闻;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dosk.win/feed.xml)                            | Dosk 技术站                  | https://www.dosk.win/             | 编程; 前端; C++;                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://aqours.life/index.php/feed/)                      | 仙神の小屋                     | https://aqours.life/              | 编程; OI; 随笔; 思考;                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.xiejingyang.com/feed/)                        | Xieisabug                 | https://www.xiejingyang.com/      | 编程; 前端; 随笔; 思考; 创意;                    |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
