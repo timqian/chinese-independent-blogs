@@ -183,6 +183,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://iphyer.github.io/feed.xml)                        | 桑弧蓬矢射四方                   | https://iphyer.github.io/         | 深度学习;科研;生活;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.ixk.me/feed)                                 | 青空之蓝                      | https://blog.ixk.me               | 编程; 随笔; Web开发;                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://huiweishijie.com/feed.xml)                        | 回未视戒                      | https://huiweishijie.com          | 设计; 读书; 日记                             |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhengzexin.com/feed/)                             | 郑泽鑫的博客                    | https://zhengzexin.com/           | 编程; 生物信息学; 生活;                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                                    |
