@@ -131,6 +131,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hutusi.com/feed.xml)                              | 胡涂说                       | https://hutusi.com/               | 编程;随笔;生活;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zdyxry.github.io/atom.xml)                        | Yiran's Blog              | https://zdyxry.github.io/         | 编程; Linux                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.crimx.com/rss.xml)                           | CRIMX Blog                | https://blog.crimx.com/           | 编程; 前端; 开源; 随笔;                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://michael728.github.io/atom.xml)                    | Michael翔                  | https://michael728.github.io/     | 编程; DevOps; 随笔;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jeffjade.com/atom.xml)                        | 晚晴幽草轩                     | https://www.jeffjade.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hateonion.me/index.xml)                           | OnionTalk                 | https://hateonion.me              | 编程; 前端; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://seo.g2soft.net/atom.xml)                          | SEO 网站优化及网站推广             | https://seo.g2soft.net/           | 搜索引擎优化; 网站优化;网站推广;网站;                  |
