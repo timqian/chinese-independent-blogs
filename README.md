@@ -254,6 +254,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fengxu.ink/atom.xml)                              | 隋堤倦客                      | https://fengxu.ink/               | 编程；前端；生活；随笔；诗词                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wolone.wang/feed/)                            | 老镭                        | https://www.wolone.wang/          | 编程; 生活;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://scottyeung.club/atom.xml)                          | Scott Yeung's Blog        | http://scottyeung.club/           | 编程; 算法; 思考; WEB; 随笔;                   |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.larscheng.com/atom.xml)                       | LarsCheng                 | https://www.larscheng.com/        | 编程; Java; 生活;                          |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
