@@ -251,6 +251,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dosk.win/feed.xml)                            | Dosk 技术站                  | https://www.dosk.win/             | 编程; 前端; C++;                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://aqours.life/index.php/feed/)                      | 仙神の小屋                     | https://aqours.life/              | 编程; OI; 随笔; 思考;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.xiejingyang.com/feed/)                        | Xieisabug                 | https://www.xiejingyang.com/      | 编程; 前端; 随笔; 思考; 创意;                    |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fengxu.ink/atom.xml)                              | 隋堤倦客                      | https://fengxu.ink/               | 编程；前端；生活；随笔；诗词                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wolone.wang/feed/)                            | 老镭                        | https://www.wolone.wang/          | 编程; 生活;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://scottyeung.club/atom.xml)                          | Scott Yeung's Blog        | http://scottyeung.club/           | 编程; 算法; 思考; WEB; 随笔;                   |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
