@@ -184,7 +184,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.ixk.me/feed)                                 | 青空之蓝                      | https://blog.ixk.me               | 编程; 随笔; Web开发;                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://huiweishijie.com/feed.xml)                        | 回未视戒                      | https://huiweishijie.com          | 设计; 读书; 日记                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhengzexin.com/feed/)                             | 郑泽鑫的博客                    | https://zhengzexin.com/           | 编程; 生物信息学; 生活;                         |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin                    | https://blog.singee.me/           | 编程；Python；全栈                           |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin                    | https://blog.singee.me/           | 编程；Python；全栈;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                                    |
@@ -256,6 +256,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wolone.wang/feed/)                            | 老镭                        | https://www.wolone.wang/          | 编程; 生活;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://scottyeung.club/atom.xml)                          | Scott Yeung's Blog        | http://scottyeung.club/           | 编程; 算法; 思考; WEB; 随笔;                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.larscheng.com/atom.xml)                       | LarsCheng                 | https://www.larscheng.com/        | 编程; Java; 生活;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bmqy.net/feed)                                | 北门清燕                      | https://www.bmqy.net/             | 生活；随笔；前端；                              |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
