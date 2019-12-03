@@ -80,6 +80,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://colobu.com/atom.xml)                             | 鸟窝                        | https://colobu.com/               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://blog.xiayf.cn/feeds/rss.xml)                      | 黑·白                       | http://blog.xiayf.cn/             | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.niclin.tw/index.xml)                        | Nic Lin's Blog            | https://blog.niclin.tw/           | 编程;                                    |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://z.arlmy.me/atom.xml)                              | 素生                        | http://z.arlmy.me/                | 随笔; 写作; 旅行; 日常; 读书;                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://wsgzao.github.io/atom.xml)                       | HelloDog                  | https://wsgzao.github.io          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://halfrost.com/rss/)                                | Halfrost's Field          | https://halfrost.com/             | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhowkev.in/rss/)                                 | Kevin Blog                | https://zhowkev.in/               | 编程; 创业;                                |
@@ -260,6 +261,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.larscheng.com/atom.xml)                       | LarsCheng                 | https://www.larscheng.com/        | 编程; Java; 生活;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bmqy.net/feed)                                | 北门清燕                      | https://www.bmqy.net/             | 生活; 随笔; 前端;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.bihell.com/feed.xml)                           | BiHell                    | http://www.bihell.com/            | 编程;全栈;生活;                              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.strongwong.top/atom.xml)                     | strongwong's Blog         | https://blog.strongwong.top/      | 编程; 嵌入式; ASIC; 随笔;                     |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
