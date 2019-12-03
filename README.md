@@ -259,6 +259,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://scottyeung.club/atom.xml)                          | Scott Yeung's Blog        | http://scottyeung.club/           | 编程; 算法; 思考; WEB; 随笔;                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.larscheng.com/atom.xml)                       | LarsCheng                 | https://www.larscheng.com/        | 编程; Java; 生活;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bmqy.net/feed)                                | 北门清燕                      | https://www.bmqy.net/             | 生活; 随笔; 前端;                            |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.bihell.com/feed.xml)                           | BiHell                    | http://www.bihell.com/            | 编程;全栈;生活;                              |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
