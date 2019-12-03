@@ -263,6 +263,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bmqy.net/feed)                                | 北门清燕                      | https://www.bmqy.net/             | 生活; 随笔; 前端;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.bihell.com/feed.xml)                           | BiHell                    | http://www.bihell.com/            | 编程;全栈;生活;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.strongwong.top/atom.xml)                     | strongwong's Blog         | https://blog.strongwong.top/      | 编程; 嵌入式; ASIC; 随笔;                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://paugram.com/feed)                                 | 保罗的小宇宙                    | https://paugram.com               | 生活; 随笔; 前端; 动漫; 数码;                    |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源;                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端;                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程;                                |
