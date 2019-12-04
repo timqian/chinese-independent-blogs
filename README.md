@@ -293,6 +293,7 @@
 |                                                                                                                 | hywel前端个人博客               | http://www.hywel.cn/              | 编程; 前端; WEB; 随笔;                       |
 |                                                                                                                 | 开发者小蓝                     | http://lanhao.name                | 编程;                                    |
 |                                                                                                                 | Jansora                   | http://www.jansora.com/           | 编程;全栈;                                 |
+|                                                                                                                 | 杯酒故事                      | https://beijiu.ink                | 文学;小说;诗歌;                              |
 
 ## 什么是独立博客
 
