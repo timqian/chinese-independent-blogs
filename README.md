@@ -289,7 +289,7 @@
 |                                                                                                                 | 会打篮球的程序猿                  | http://www.lzhpo.com              | 编程; 福利; 技术; 生活;                        |
 |                                                                                                                 | 雷全的个人网站                   | https://leiquan.website/          | 编程; 文学; 科技; 生活;                        |
 |                                                                                                                 | 轶哥博客                      | https://www.wyr.me                | 编程; 全栈; 随笔;                            |
-|                                                                                                                 | 前端迷                       | https://ru23.com                  | 编程; 前端;                                |
+|                                                                                                                 | 前端迷                       | https://ru23.com?fr=cib           | 编程; 前端;                                |
 |                                                                                                                 | 清竹茶馆博客                    | https://blog.vadxq.com            | 编程; 前端; 全栈; 生活;                        |
 |                                                                                                                 | hywel前端个人博客               | http://www.hywel.cn/              | 编程; 前端; WEB; 随笔;                       |
 |                                                                                                                 | 开发者小蓝                     | http://lanhao.name                | 编程;                                    |
