@@ -192,6 +192,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhengzexin.com/feed/)                             | 郑泽鑫的博客                    | https://zhengzexin.com/           | 编程; 生物信息学; 生活;                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.singee.me/atom.xml)                          | Origin                    | https://blog.singee.me/           | 编程; Python; 全栈;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://lichuanyang.top/atom.xml)                          | Mobility                  | http://lichuanyang.top/           | 编程; 后端; java;                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wuxinhua.com/atom.xml)                            | wuxinhua's Blog           | https://wuxinhua.com/             | 生活; 编程; 随想;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程;                                    |
