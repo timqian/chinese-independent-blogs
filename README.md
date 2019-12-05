@@ -299,6 +299,7 @@
 |                                                                                                                 | 杯酒故事                      | https://beijiu.ink                | 文学; 小说; 诗歌                            |
 |                                                                                                                 | 无文字                       | https://blog.imalan.cn/           | 前端; 编程; 日常; 互联网; 二次元; 读书              |
 |                                                                                                                 | DuyaoSS                   | https://www.duyaoss.com/          | SS; SSR                               |
+|                                                                                                                 | Dasyatis                  | https://www.bobby285271.top/      | 编程; Linux                             |
 
 ## 什么是独立博客
 
