@@ -19,7 +19,7 @@ for line in lines[1:]:
         parts[3] = parts[3].strip().replace('；', ';')
         tags = parts[3].split(';')
         tags = [tag.strip() for tag in tags]
-        parts[3] = ';'.join([tag for tag in tags if tag])
+        parts[3] = '; '.join([tag for tag in tags if tag])
         content += ', '.join(parts) + '\n'
 
 with open('blogs-original.csv', 'w') as f:
