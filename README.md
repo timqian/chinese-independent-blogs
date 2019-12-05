@@ -70,7 +70,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://www.the5fire.com/rss)                             | the5fire的技术博客             | https://www.the5fire.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.t9t.io/atom.xml)                            | 透明创业实验                    | https://blog.t9t.io               | 创业; 编程; 开源;                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://feed.miantiao.me/)                                | 吃面条么                      | https://chi.miantiao.me           | 编程; 开源; 前端;                            |
-| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://typeblog.net/rss/)                               | typeblog                  | https://typeblog.net/             | Linux; 隐私; 随笔                          |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://typeblog.net/rss/)                               | typeblog                  | https://typeblog.net/             | Linux; 隐私; 随笔;                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.lilydjwg.me/posts.rss)                      | 依云's Blog                 | https://blog.lilydjwg.me          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://daimajia.com/feed)                               | 代码家                       | https://daimajia.com              | 编程; 投资;                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://feihu.me/blog/feed.atom)                          | libfeihu Blog             | http://feihu.me/blog/             | 编程;                                    |
@@ -117,6 +117,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://glumes.com/index.xml)                             | 多媒体开发札记                   | https://glumes.com                | 软件开发; 音视频; 图形图像; 随笔思考;                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xilidou.com/atom.xml)                             | 犀利豆的博客                    | https://xilidou.com               | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mednoter.com/feed.xml)                            | 吕小荣的网志                    | https://mednoter.com/             | 编程;随笔;生活;                              |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.502.li/atom.xml)                             | 木子                        | https://blog.502.li/              | Linux; 科学上网; 读书笔记; 运维; 隐私; android     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dongwm.com/atom.xml)                          | 小明明S À DOMICILE           | https://www.dongwm.com            | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xiang578.com/atom.xml)                            | 算法花园                      | https://xiang578.com              | 编程; 算法; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://kaix.in/feed)                                     | KAIX.IN                   | https://kaix.in                   | 读书; 咖啡; 随笔;                            |
@@ -135,7 +136,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zdyxry.github.io/atom.xml)                        | Yiran's Blog              | https://zdyxry.github.io/         | 编程; Linux                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.crimx.com/rss.xml)                           | CRIMX Blog                | https://blog.crimx.com/           | 编程; 前端; 开源; 随笔;                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://michael728.github.io/atom.xml)                    | Michael翔                  | https://michael728.github.io/     | 编程; DevOps; 随笔;                        |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://notlsd.github.io/atom.xml)                        | not LSD                   | https://notlsd.github.io          | 编程; 游戏设计; 旅行                           |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://notlsd.github.io/atom.xml)                        | not LSD                   | https://notlsd.github.io          | 编程; 游戏设计; 旅行;                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.jeffjade.com/atom.xml)                        | 晚晴幽草轩                     | https://www.jeffjade.com          | 编程;                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hateonion.me/index.xml)                           | OnionTalk                 | https://hateonion.me              | 编程; 前端; 随笔;                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://seo.g2soft.net/atom.xml)                          | SEO 网站优化及网站推广             | https://seo.g2soft.net/           | 搜索引擎优化; 网站优化;网站推广;网站;                  |
@@ -269,7 +270,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.bihell.com/feed.xml)                           | BiHell                    | http://www.bihell.com/            | 编程;全栈;生活;                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.strongwong.top/atom.xml)                     | strongwong's Blog         | https://blog.strongwong.top/      | 编程; 嵌入式; ASIC; 随笔;                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://paugram.com/feed)                                 | 保罗的小宇宙                    | https://paugram.com               | 生活; 随笔; 前端; 动漫; 数码;                    |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jhuo.ca//./index.xml)                             | HuoJu's BLOG              | https://jhuo.ca/                  | 隐私; 随笔                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jhuo.ca//./index.xml)                             | HuoJu's BLOG              | https://jhuo.ca/                  | 隐私; 随笔;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blog.mikeoperfect.com/atom.xml)                    | MikeoPerfect's Diary      | http://blog.mikeoperfect.com/     | 生活; 日志;                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.myfreax.com/feed/)                            | myfreax                   | https://www.myfreax.com/          | 编程; 全栈; Linux;                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.kai666666.top/atom.xml)                       | 橙光笔记                      | https://www.kai666666.top/        | 编程; 前端; 笔记; 运动;                        |
@@ -295,7 +296,9 @@
 |                                                                                                                 | hywel前端个人博客               | http://www.hywel.cn/              | 编程; 前端; WEB; 随笔;                       |
 |                                                                                                                 | 开发者小蓝                     | http://lanhao.name                | 编程;                                    |
 |                                                                                                                 | Jansora                   | http://www.jansora.com/           | 编程;全栈;                                 |
-|                                                                                                                 | 杯酒故事                      | https://beijiu.ink                | 文学;小说;诗歌;                              |
+|                                                                                                                 | 杯酒故事                      | https://beijiu.ink                | 文学; 小说; 诗歌;                            |
+|                                                                                                                 | 无文字                       | https://blog.imalan.cn/           | 前端; 编程; 日常; 互联网; 二次元; 读书;              |
+|                                                                                                                 | DuyaoSS                   | https://www.duyaoss.com/          | SS; SSR;                               |
 
 ## 什么是独立博客
 
