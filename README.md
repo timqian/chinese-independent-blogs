@@ -300,6 +300,7 @@
 |                                                                                                                 | 无文字                       | https://blog.imalan.cn/           | 前端; 编程; 日常; 互联网; 二次元; 读书              |
 |                                                                                                                 | DuyaoSS                   | https://www.duyaoss.com/          | SS; SSR                               |
 |                                                                                                                 | Dasyatis                  | https://www.bobby285271.top/      | 编程; Linux                             |
+|                                                                                                                 | 薛定喵君的博客                   | http://blog.xuedingmiao.com/      | 编程; 前端; 产品; 笔记                        |
 
 ## 什么是独立博客
 
