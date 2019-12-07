@@ -196,6 +196,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://lichuanyang.top/atom.xml)                          | Mobility                  | http://lichuanyang.top/           | 编程; 后端; java                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wuxinhua.com/atom.xml)                            | wuxinhua's Blog           | https://wuxinhua.com/             | 生活; 编程; 随想                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.shizuri.net/feed)                            | 静之林                       | https://blog.shizuri.net/         | 生活; 随笔; 前端; 动漫                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.javatang.com/feed)                            | 爪哇堂                       | https://www.javatang.com/         | 编程; 笔记                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程                                    |
