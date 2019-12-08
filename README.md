@@ -278,6 +278,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blog.mikeoperfect.com/atom.xml)                    | MikeoPerfect's Diary      | http://blog.mikeoperfect.com/     | 生活; 日志                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.myfreax.com/feed/)                            | myfreax                   | https://www.myfreax.com/          | 编程; 全栈; Linux                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.kai666666.top/atom.xml)                       | 橙光笔记                      | https://www.kai666666.top/        | 编程; 前端; 笔记; 运动                        |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://inote.xyz/rss)                                    | iNote                     | https://inote.xyz                 | 创业; 投资; 随笔                            |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程                                |
