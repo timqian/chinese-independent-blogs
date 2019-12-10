@@ -280,6 +280,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.kai666666.top/atom.xml)                       | 橙光笔记                      | https://www.kai666666.top/        | 编程; 前端; 笔记; 运动                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://inote.xyz/rss)                                    | iNote                     | https://inote.xyz                 | 创业; 投资; 随笔                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blog.grayson.org.cn/feed.xml)                      | Grayson's blog            | http://blog.grayson.org.cn/       | 编程; Ruby; 全栈; 笔记; 后端; 前端; Linux       |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jw12138.com/atom.xml)                             | 一个球                       | https://jw12138.com               | 前端; 生活; 技术; 音乐                        |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | 五分钟学算法                    | https://www.cxyxiaowu.com         | 算法; 编程                                |
