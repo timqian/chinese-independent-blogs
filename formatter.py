@@ -3,7 +3,7 @@ with open('blogs-original.csv', 'r') as f:
 
 lines = file_content.split('\n')
 
-content = lines[0] + '\n'
+content = lines[0]
 
 for line in lines[1:]:
     line = line.strip()
@@ -14,13 +14,13 @@ for line in lines[1:]:
     if len(parts) != 4:
         continue
     parts = [part.strip() for part in parts]
-
+    
     if parts[3]:
-        parts[3] = parts[3].strip().replace('；', ';')
-        tags = parts[3].split(';')
+        parts[3] = parts[3].strip().replace(';', '；')
+        tags = parts[3].split('；')
         tags = [tag.strip() for tag in tags]
-        parts[3] = '; '.join([tag for tag in tags if tag])
-        content += ', '.join(parts) + '\n'
+        parts[3] = '；'.join([tag for tag in tags if tag])
+        content += '\n' + ', '.join(parts)
 
 with open('blogs-original.csv', 'w') as f:
     f.write(content)
