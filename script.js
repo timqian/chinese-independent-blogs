@@ -34,9 +34,18 @@ async function getResultAndUpdateREADME() {
       }
 
       if (!isOld) {
-        // cloudquery: github.com/t9tio/cloudquery
-        // const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
-        const res = await axios.get(feedlyAPI);
+        let res;
+        
+        if (true) {
+          // Use Cloud Query (github.com/t9tio/cloudquery)
+          const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+          const cloudqueryRes = await axios.get(feedlyAPI);
+          res = { data: JSON.parse(cloudqueryRes.data.contents[0].innerText) };
+        } else {
+          // Direct feedly
+          res = await axios.get(feedlyAPI);
+        }
+
         let subscribers;
         if (res.data && res.data.feedId === feedId) {
           subscribers = res.data.subscribers || 0;
