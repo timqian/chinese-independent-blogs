@@ -8,54 +8,70 @@ const rows = data.toString().split('\n');
 
 const table = rows
   .map(row => row.split(',').map(column => column.trim()))
-  .filter((row, i) => row.length > 1 && i !== 0)
-  .map(row => {
-    if (row[2]) {
-      const feedlyId = encodeURIComponent(`feed/${row[2]}`);
-      row.push(feedlyId);
-    }
-    return row;
-  })
+  .filter((row, i) => row.length === 4 && i !== 0)
+  .map(row => row.push(-1) && row) // row[4] = count of RSS subscribers (feedly)
 
 async function getResultAndUpdateREADME() {
-
-  // add count to row
   for (const row of table) {
-    if (row[4]) {
-      const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${row[4]}`;
-
-      // see if it is an old blog
-      try {
-        const jsonStr = fs.readFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, 'utf8');
-        const subscribers = JSON.parse(jsonStr).subscribers;
-        if (subscribers !== undefined) {
-          row[5] = subscribers;
-        } else {
-          row[5] = -1;
-        }
+    if (row[2]) { // Have RSS
+      const feedId = 'feed/' +  row[2];
+      const feedlyAPI = `http://cloud.feedly.com/v3/feeds/${encodeURIComponent(feedId)}`;
       
-      // new blog
-      } catch (e) {
-        // cloudquery: github.com/t9tio/cloudquery
-        const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
-        const res = await axios.get(cloudqueryAPI);
-        const subscribers = Number.isInteger(JSON.parse(res.data.contents[0].innerText).subscribers) ? JSON.parse(res.data.contents[0].innerText).subscribers : -1;
-        fs.writeFileSync(`./blogs/${encodeURIComponent(row[1])}.json`, res.data.contents[0].innerText);
-        
-        row[5] = subscribers;
-        await new Promise(res => setTimeout(res, 1000));
+      const cacheFilename = `./blogs/${encodeURIComponent(row[1])}.json`;
+      let isOld = false;
+      
+      if (fs.existsSync(cacheFilename)) {
+        // Have Cache
+        const jsonStr = fs.readFileSync(cacheFilename, 'utf8');
+        const jsonObj = JSON.parse(jsonStr);
+
+        if (jsonObj.feedId === feedId && jsonObj.subscribers !== undefined) {
+            row[4] = jsonObj.subscribers;
+            isOld = true;
+        }
       }
-      console.log(row[1], row[5])
-    } else {
-      row[5] = -1;
+
+      if (!isOld) {
+        let res;
+        
+        if (false) {
+          // Use Cloud Query (github.com/t9tio/cloudquery)
+          const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
+          const cloudqueryRes = await axios.get(cloudqueryAPI);
+          res = { data: JSON.parse(cloudqueryRes.data.contents[0].innerText) };
+        } else {
+          // Direct feedly
+          res = await axios.get(feedlyAPI);
+        }
+
+        let subscribers;
+        if (res.data && res.data.feedId === feedId) {
+          subscribers = res.data.subscribers;
+          fs.writeFileSync(cacheFilename, JSON.stringify(res.data));
+        } else {
+          subscribers = 0; // feedly can not handle this feed
+          fs.writeFileSync(cacheFilename, JSON.stringify({
+            feedId,
+            subscribers: 0,
+            flag: 1
+          }));
+        }
+
+        row[4] = subscribers;
+
+        console.log(row[1], row[4], 'FETCHED');
+        // await new Promise(res => setTimeout(res, 1000));
+      } else {
+        // console.log(row[1], row[4], 'CACHED');
+      }
     }
   }
 
-  table.sort((a, b) => b[5] - a[5]);
+  table.sort((a, b) => b[4] - a[4]);
 
   const newTable = table.map(row => {
-    const subscribeCount = row[5] >= 1000 ? row[5] : (row[5] + '').replace(/\d/g, '*');
-    return [row[5] >= 0 ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})` : '', row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
+    const subscribeCount = row[4] >= 1000 ? row[4] : (row[4] + '').replace(/\d/g, '*');
+    return [row[4] >= 0 ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})` : '', row[0].replace(/\|/g, '&#124;'), `${row[1]}`, row[3]]
   });
 
   // update README
