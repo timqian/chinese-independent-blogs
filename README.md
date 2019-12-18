@@ -166,6 +166,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://east-bladder.com/atom.xml)                        | 东方之胱                      | https://east-bladder.com          | 编程; 技术; 生活                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mazhuang.org/feed.xml)                            | 码志                        | https://mazhuang.org/             | 编程; Java; Android                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wikimoe.com/rss.php)                          | 维基萌                       | https://www.wikimoe.com/          | 动画; 漫画; 游戏; 日常; 前端                    |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ouorz.com/feed)                               | TonyHe 的博客                | https://www.ouorz.com             | 编程; 思考; 前端; 笔记; 生活                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                     | Python 工匠                 | https://www.zlovezl.cn            | 编程                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                             | 但行好事，莫问前程                 | https://windard.com               | 编程                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                           | 后端技术杂谈                    | https://www.rowkey.me             | 编程                                    |
