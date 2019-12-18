@@ -288,6 +288,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jw12138.com/atom.xml)                             | 一个球                       | https://jw12138.com               | 前端; 生活; 技术; 音乐                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wangxin.io/atom.xml)                              | 王欣的博客                     | https://wangxin.io/               | 后端; 开源; RPC; 微服务                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.scarsu.com/atom.xml)                          | ScarSu的个人网站               | https://www.scarsu.com/           | 编程; 前端; 思考                            |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.lucien.ink/feed/)                            | Lucien's Blog             | https://blog.lucien.ink           | 编程; 算法; 后端; ACM; 思考                   |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby; 随笔                            |
