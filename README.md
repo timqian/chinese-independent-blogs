@@ -290,6 +290,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wangxin.io/atom.xml)                              | 王欣的博客                     | https://wangxin.io/               | 后端; 开源; RPC; 微服务                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.scarsu.com/atom.xml)                          | ScarSu的个人网站               | https://www.scarsu.com/           | 编程; 前端; 思考                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.lucien.ink/feed/)                            | Lucien's Blog             | https://blog.lucien.ink           | 编程; 算法; 后端; ACM; 思考                   |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hxkj.vip/feed)                                | HashTang 的个人空间            | https://www.hxkj.vip              | 编程; 娱乐; 前端; 笔记                        |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby; 随笔                            |
