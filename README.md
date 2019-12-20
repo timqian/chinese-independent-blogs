@@ -117,6 +117,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hfdavidyu.com/feed/)                              | 余海峯 David 物理喵 phycat      | https://hfdavidyu.com             | 物理                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jiongks.name/atom.xml)                            | 囧克斯 勾三股四                  | https://jiongks.name              | 编程; 开源; 前端                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://glumes.com/index.xml)                             | 多媒体开发札记                   | https://glumes.com                | 软件开发; 音视频; 图形图像; 随笔思考                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://liqiang.io/atom.xml)                              | 格物致知                      | https://liqiang.io                | 编程; 后台; Go; Kubernetes; 生活            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xilidou.com/atom.xml)                             | 犀利豆的博客                    | https://xilidou.com               | 编程                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mednoter.com/feed.xml)                            | 吕小荣的网志                    | https://mednoter.com/             | 编程; 随笔; 生活                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.502.li/atom.xml)                             | 木子                        | https://blog.502.li/              | Linux; 科学上网; 读书笔记; 运维; 隐私; android    |
