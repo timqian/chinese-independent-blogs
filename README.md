@@ -295,6 +295,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hxkj.vip/feed)                                | HashTang 的个人空间            | https://www.hxkj.vip              | 编程; 娱乐; 前端; 笔记                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://knightyun.github.io/feed.xml)                     | 黄琦雲的博客                    | https://knightyun.github.io/      | 编程; 前端; Linux; 技术                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://raincorn.top/atom.xml)                            | Chores                    | https://raincorn.top/             | 计算机; 网络; 日常                           |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wizardbyron.com/index.xml)                    | 顾宇的研习笔记                   | https://www.wizardbyron.com/      | 编程; 微服务; DevOps; 质量                   |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby; 随笔                            |
