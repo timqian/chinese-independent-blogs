@@ -204,6 +204,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.javatang.com/feed)                            | 爪哇堂                       | https://www.javatang.com/         | 编程; 笔记                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lujun9972.win/rss.xml)                        | 暗无天日                      | https://www.lujun9972.win         | Emacs; Linux                          |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://chenhua.name/cn/index.xml)                        | 陈华的个人主页                   | https://chenhua.name              | 物理; 生活                                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://iamxcb.com/atom.xml)                              | 三点钟的太阳                    | https://iamxcb.com                | 编程; 随笔; Golang; LeetCode              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程                                    |
