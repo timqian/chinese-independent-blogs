@@ -299,6 +299,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://raincorn.top/atom.xml)                            | Chores                    | https://raincorn.top/             | 计算机; 网络; 日常                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.wizardbyron.com/index.xml)                    | 顾宇的研习笔记                   | https://www.wizardbyron.com/      | 编程; 微服务; DevOps; 质量                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.skrskrskrskr.com/atom.xml)                   | 小熊写字的地方                   | https://blog.skrskrskrskr.com     | 编程; 前端; 随笔                            |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.liesauer.net/blog/feed/)                      | LiesAuer's Blog           | https://www.liesauer.net/         | 编程                                    |
 |                                                                                                                 | IPhysResearch             | https://iphysresearch.github.io   | 编程; 科研; 物理; 开源                        |
 |                                                                                                                 | 刘悦的技术博客                   | https://v3u.cn                    | 编程; python; ruby; 前端                  |
 |                                                                                                                 | Drcus &#124; 潜默           | https://yazhen.me                 | Gatsby; 随笔                            |
