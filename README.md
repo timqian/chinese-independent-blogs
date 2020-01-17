@@ -41,6 +41,7 @@
 | [![](https://badgen.net/badge/icon/1320?icon=rss&label)](http://www.techug.com/feed)                            | 程序师                       | https://www.techug.com            | 编程                                    |
 | [![](https://badgen.net/badge/icon/1049?icon=rss&label)](http://luolei.org/feed/)                               | 罗磊的独立博客                   | https://luolei.org                | 编程; 旅行                                |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://chinese.catchen.me/feeds/posts/default)          | Cat in Chinese            | https://chinese.catchen.me        | 编程                                    |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.byvoid.com/feed)                            | Beyond the Void           | https://www.byvoid.com/           | 语言学; 经济学; 信息学竞赛/ACM经验; 算法讲解; 技术知识; 随笔 |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://www.ideawu.net/blog/feed)                        | idea's blog               | http://www.ideawu.net/blog        | 编程                                    |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://www.fanbing.net/feed)                            | F.B                       | http://www.fanbing.net            | 编程                                    |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://blog.cnbang.net/feed/)                           | bang's blog               | http://blog.cnbang.net/           | 编程; 开源                                |
