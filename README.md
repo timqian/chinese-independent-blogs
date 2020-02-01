@@ -333,6 +333,7 @@
 |                                                                                                                 | Ryan_naiquan              | https://www.lpime.cn/             | 编程; C++; 后台                                    |
 |                                                                                                                 | 索菲外贸笔记                    | https://sophienotes.cn/           | 外贸; 随笔; 英语                                     |
 |                                                                                                                 | 阳志平的网志                    | https://www.yangzhiping.com/      | 认知科学; 随笔                                       |
+|                                                                                                                 | Power's Wiki              | https://wiki-power.com            | 硬件; 编程; 生活方式; 读书                               |
 
 ## 什么是独立博客
 
