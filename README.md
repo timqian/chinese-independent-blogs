@@ -335,6 +335,8 @@
 |                                                                                                                 | 索菲外贸笔记                    | https://sophienotes.cn/           | 外贸; 随笔; 英语                                     |
 |                                                                                                                 | 阳志平的网志                    | https://www.yangzhiping.com/      | 认知科学; 随笔                                       |
 |                                                                                                                 | Power's Wiki              | https://wiki-power.com            | 硬件; 编程; 生活方式; 读书                               |
+|                                                                                                                 | 未知的世界                     | http://lulalap.com/               | 编程; 随笔                                         |
+|                                                                                                                 | shingle's blog            | https://shingle.me/               | 技术; 随笔                                         |
 
 ## 什么是独立博客
 
