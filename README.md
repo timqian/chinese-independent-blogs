@@ -337,6 +337,7 @@
 |                                                                                                                 | Power's Wiki              | https://wiki-power.com            | 硬件; 编程; 生活方式; 读书                               |
 |                                                                                                                 | 未知的世界                     | http://lulalap.com/               | 编程; 随笔                                         |
 |                                                                                                                 | shingle's blog            | https://shingle.me/               | 技术; 随笔                                         |
+|                                                                                                                 | @Lenciel                  | https://lenciel.com/              | 技术; 管理; 创业; 吹水                                 |
 
 ## 什么是独立博客
 
