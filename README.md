@@ -129,6 +129,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.dongwm.com/atom.xml)                          | 小明明S À DOMICILE           | https://www.dongwm.com            | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xiang578.com/atom.xml)                            | 算法花园                      | https://xiang578.com              | 编程; 算法; 随笔                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://kaix.in/feed)                                     | KAIX.IN                   | https://kaix.in                   | 读书; 咖啡; 随笔                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lenciel.com/feed.xml)                             | @Lenciel                  | https://lenciel.com/              | 技术; 管理; 创业; 吹水                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.xiabingbao.com/atom.xml)                      | 蚊子前端博客                    | https://www.xiabingbao.com        | 编程; 前端                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhang.ge/feed)                                    | 张戈博客                      | https://zhang.ge                  | 编程; 运维                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://cnberg.div.io/feed/)                               | 冰山一角                      | http://cnberg.div.io/             | 编程; 旅行; 摄影                                     |
@@ -212,6 +213,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.lujun9972.win/rss.xml)                        | 暗无天日                      | https://www.lujun9972.win         | Emacs; Linux                                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://chenhua.name/cn/index.xml)                        | 陈华的个人主页                   | https://chenhua.name              | 物理; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://iamxcb.com/atom.xml)                              | 三点钟的太阳                    | https://iamxcb.com                | 编程; 随笔; Golang; LeetCode                       |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://chinomars.github.io/atom.xml)                     | Chino's Workspace         | https://chinomars.github.io/      | 编译器; 编程; 管理                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                      | ShrekShao                 | http://shrekshao.github.io        | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                              | RidiQulous                | https://ridiqulous.com            | 图像处理; 乐高                                       |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                     | vzard's blog              | https://vzardlloo.github.io       | 编程                                             |
@@ -339,7 +341,6 @@
 |                                                                                                                 | Power's Wiki              | https://wiki-power.com            | 硬件; 编程; 生活方式; 读书                               |
 |                                                                                                                 | 未知的世界                     | http://lulalap.com/               | 编程; 随笔                                         |
 |                                                                                                                 | shingle's blog            | https://shingle.me/               | 技术; 随笔                                         |
-|                                                                                                                 | @Lenciel                  | https://lenciel.com/              | 技术; 管理; 创业; 吹水                                 |
 
 ## 什么是独立博客
 
