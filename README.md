@@ -343,6 +343,9 @@
 |                                                                                                                 | Power's Wiki              | https://wiki-power.com            | 硬件; 编程; 生活方式; 读书                               |
 |                                                                                                                 | 未知的世界                     | http://lulalap.com/               | 编程; 随笔                                         |
 |                                                                                                                 | shingle's blog            | https://shingle.me/               | 技术; 随笔                                         |
+|                                                                                                                 | KurryLuo's Website        | https://blog.kurryluo.com/        | 编程; 随笔                                         |
+|                                                                                                                 | 奶爸的天空                     | https://www.meirenji.info/        | 技术; 随笔                                         |
+|                                                                                                                 | chattymoney(跟我一起来谈钱)      | https://chattymoney.com/          | 理财                                             |
 
 ## 什么是独立博客
 
