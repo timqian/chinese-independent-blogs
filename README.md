@@ -358,6 +358,7 @@
 |                                                                                                                 | 奶爸的天空                     | https://www.meirenji.info/        | 技术; 随笔                                         |
 |                                                                                                                 | chattymoney(跟我一起来谈钱)      | https://chattymoney.com/          | 理财                                             |
 |                                                                                                                 | Rapiz's Blog              | https://rapiz.me/                 | 编程; 随笔                                         |
+|                                                                                                                 | 架构师修炼之道                   | https://tianmingxing.com          | 架构; 编程; 笔记                                     |
 
 ## 什么是独立博客
 
