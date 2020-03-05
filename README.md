@@ -364,6 +364,7 @@
 |                                                                                                                 | 架构师修炼之道                   | https://tianmingxing.com          | 架构; 编程; 笔记                                     |
 |                                                                                                                 | 王二的个人网站                   | https://wangyulue.com             | 代码; 工具; 阅读; 文章                                 |
 |                                                                                                                 | 杏子的书架                     | http://moe48.moe                  | 编程; 随笔; 二次元; 小说                                |
+|                                                                                                                 | 狂奔的骆驼                     | http://www.geektcp.com/           | 完全个性化博客; 技术; 文艺                                |
 
 ## 什么是独立博客
 
