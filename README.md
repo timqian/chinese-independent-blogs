@@ -361,6 +361,7 @@
 |                                                                                                                 | chattymoney(跟我一起来谈钱)      | https://chattymoney.com/          | 理财                                             |
 |                                                                                                                 | Rapiz's Blog              | https://rapiz.me/                 | 编程; 随笔                                         |
 |                                                                                                                 | 架构师修炼之道                   | https://tianmingxing.com          | 架构; 编程; 笔记                                     |
+|                                                                                                                 | 王二的个人网站                   | https://wangyulue.com             | 代码; 工具; 阅读; 文章                                 |
 
 ## 什么是独立博客
 
