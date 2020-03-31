@@ -77,7 +77,11 @@ async function getResultAndUpdateREADME() {
   // update README
   const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
 
-  const readmeContent = `# 中文独立博客列表
+  const readmeContent = `
+
+> Update: 社会化的 RSS 阅读器上线了, 欢迎试用- [Feeds Pub](https://feeds.pub)
+
+# 中文独立博客列表
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
 
