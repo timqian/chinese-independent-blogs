@@ -410,6 +410,7 @@
 |                                                                                                                     | 杏子的书架                      | http://moe48.moe                      | 编程; 随笔; 二次元; 小说                                |
 |                                                                                                                     | 狂奔的骆驼                      | http://www.geektcp.com/               | 完全个性化博客; 技术; 文艺                                |
 |                                                                                                                     | Tsanfer's Blog             | https://tsanfer.xyz/                  | 编程; 技术                                         |
+|                                                                                                                     | Kerminate's Blog           | https://kerminate.me/                 | 编程; 前端; 技术                                     |
 
 ## 什么是独立博客
 
