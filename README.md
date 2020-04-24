@@ -378,6 +378,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://dawner.top/atom.xml)                                  | Dawner                     | https://dawner.top/                   | 生活; 文学; 艺术; 哲学                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://yanhang.me/atom.xml)                                  | 涯余                         | https://yanhang.me                    | 编程; 思考                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://frost-lee.github.io/atom.xml)                         | Frost's Blog               | https://frost-lee.github.io           | 编程; 数据分析; 随笔; 旅行                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://kerminate.me/atom.xml)                                | Kerminate's Blog           | https://kerminate.me/                 | 编程; 前端; 技术                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://marsvet.top/atom.xml)                                 | Marsvet's Blog             | https://marsvet.top/                  | 编程; 折腾; Web开发; 算法                              |
 |                                                                                                                     | IPhysResearch              | https://iphysresearch.github.io       | 编程; 科研; 物理; 开源                                 |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
@@ -416,7 +417,6 @@
 |                                                                                                                     | 王二的个人网站                    | https://wangyulue.com                 | 代码; 工具; 阅读; 文章                                 |
 |                                                                                                                     | 狂奔的骆驼                      | http://www.geektcp.com/               | 完全个性化博客; 技术; 文艺                                |
 |                                                                                                                     | Tsanfer's Blog             | https://tsanfer.xyz/                  | 编程; 技术                                         |
-|                                                                                                                     | Kerminate's Blog           | https://kerminate.me/                 | 编程; 前端; 技术                                     |
 |                                                                                                                     | Lineuman's Blog            | https://lineuman.github.io/blog/      | 编程; 测试                                         |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
 
