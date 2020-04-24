@@ -419,6 +419,7 @@
 |                                                                                                                     | Tsanfer's Blog             | https://tsanfer.xyz/                  | 编程; 技术                                         |
 |                                                                                                                     | Lineuman's Blog            | https://lineuman.github.io/blog/      | 编程; 测试                                         |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
+|                                                                                                                     | 伪斜杠青年                      | http://i.lckiss.com                   | 技术; 折腾; 随记                                     |
 
 ## 什么是独立博客
 
