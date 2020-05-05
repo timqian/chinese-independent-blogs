@@ -427,6 +427,7 @@
 |                                                                                                                     | Lineuman's Blog            | https://lineuman.github.io/blog/      | 编程; 测试                                         |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
 |                                                                                                                     | 伪斜杠青年                      | http://i.lckiss.com                   | 技术; 折腾; 随记                                     |
+|                                                                                                                     | 骁之屋 - 孙天骁的随身记录个人网站         | https://www.ybusad.com                | 生活; 随记; 技术; 思考                                 |
 
 ## 什么是独立博客
 
