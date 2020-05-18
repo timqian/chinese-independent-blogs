@@ -433,6 +433,7 @@
 |                                                                                                                     | 伪斜杠青年                      | http://i.lckiss.com                   | 技术; 折腾; 随记                                     |
 |                                                                                                                     | 骁之屋 - 孙天骁的随身记录个人网站         | https://www.ybusad.com                | 生活; 随记; 技术; 思考                                 |
 |                                                                                                                     | 飞刀说                        | https://www.feidaoshuo.com            | 生活; 程序; 读书; 足球                                 |
+|                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
 
 ## 什么是独立博客
 
