@@ -439,6 +439,7 @@
 |                                                                                                                     | 飞刀说                        | https://www.feidaoshuo.com            | 生活; 程序; 读书; 足球                                 |
 |                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
 |                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
+|                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
 
 ## 什么是独立博客
 
