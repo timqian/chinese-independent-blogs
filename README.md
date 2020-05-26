@@ -398,6 +398,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://cyril3.github.io/feed.xml)                            | Bingwhispers               | https://cyril3.github.io              | 编程; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.victrid.dev/feed.xml)                            | VictriD's blog             | https://blog.victrid.dev/             | 编程; 随笔                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wuzhuti.cn/feed)                                      | 无主题博客                      | https://wuzhuti.cn                    | 编程; 技术; 分享                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://raincorn.top/atom.xml)                                | Chores                     | https://raincorn.top/                 | 计算机; 网络; 日常                                    |
 |                                                                                                                     | IPhysResearch              | https://iphysresearch.github.io       | 编程; 科研; 物理; 开源                                 |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | Drcus &#124; 潜默            | https://yazhen.me                     | Gatsby; 随笔                                     |
@@ -443,6 +444,7 @@
 |                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
 |                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
 |                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
+|                                                                                                                     | 甜欣屋                        | https://www.tcxx.info                 | 美国生活; 技术; 人工智能                                 |
 
 ## 什么是独立博客
 
