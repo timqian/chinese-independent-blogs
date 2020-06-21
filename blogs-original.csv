@@ -244,7 +244,7 @@ Seven's blog, https://blog.diqigan.cn/, https://blog.diqigan.cn/atom.xml, 编程
 东方之胱, https://east-bladder.com, https://east-bladder.com/atom.xml, 编程; 技术; 生活
 治部少辅, https://www.codewoody.com, https://www.codewoody.com/atom.xml, 编程; 随笔; 新闻
 CRIMX Blog, https://blog.crimx.com/, https://blog.crimx.com/rss.xml, 编程; 前端; 开源; 随笔
-小非的物理小站, https://xiaophy.com/, , 物理; 开放科学; 随笔
+小非的物理小站, https://xiaophy.com/, https://xiaophy.com/feed.xml, 物理; 开放科学; 随笔
 Michael翔, https://michael728.github.io/, https://michael728.github.io/atom.xml, 编程; DevOps; 随笔
 Dosk 技术站, https://www.dosk.win/, https://www.dosk.win/feed.xml, 编程; 前端; C++
 会打篮球的程序猿, http://www.lzhpo.com, , 编程; 福利; 技术; 生活
@@ -399,7 +399,7 @@ Lineuman's Blog, https://lineuman.github.io/blog/, , 编程; 测试
 Tinywan 杂货摊, https://www.tinywan.com, , 技术; 折腾; 生活
 news view, https://zsqk.github.io/news/, https://zsqk.github.io/news/feed.xml, 编程; 随笔
 Nala Ginrut's Blog, https://nalaginrut.com/index, https://nalaginrut.com/feed/atom, 编程; GNU Guile
-伪斜杠青年, http://i.lckiss.com, , 技术; 折腾; 随记
+伪斜杠青年, http://i.lckiss.com, http://i.lckiss.com/?feed=rss2, 技术; 折腾; 随记
 热河, https://www.hismaplestory.online, https://www.hismaplestory.online/atom.xml, 随笔
 ZedeX, https://zedex.cn, https://zedex.cn/feed, 产品; 科技; 生活
 Gavin notes, https://blog.gavln.com, https://blog.gavln.com/atom.xml, 技术; 随笔
@@ -429,4 +429,13 @@ Luyu Huang's Tech Blog, https://luyuhuang.github.io, https://luyuhuang.github.io
 费照君个人网站, https://feizhaojun.com, https://feizhaojun.com/?feed=rss2, 编程; 科技; 分享
 年华转瞬, https://blog.xiaket.org, https://blog.xiaket.org/feed.xml, 编程; 读书
 逸思杂陈, http://blog.ponder.work, http://blog.ponder.work/atom.xml, 编程; 随笔
+<<<<<<< HEAD
 YIDAJIABEI, https://www.yidajiabei.xyz/, https://www.yidajiabei.xyz/rss.xml, 生活; 技术
+=======
+王玄的博客, https://blog.wangxuan.name, https://blog.wangxuan.name/feed/, 随笔; 自由互联网; 数字生活; 分享
+重归混沌的BLOG, https://blog.gotocoding.com, https://blog.gotocoding.com/feed/, 编程
+旁逸斜出, https://www.mihu.live, https://www.mihu.live/index.php/feed/, 技术; 分享; 随笔
+YIDAJIABEI, https://www.yidajiabei.xyz/, https://www.yidajiabei.xyz/rss.xml, 生活; 技术
+四方之云, https://jingyig.com/, https://jingyig.com/atom.xml, 思考; 外语; 数学; 记录
+Aksoo's blog, https://aksoo.site/, https://aksoo.site/atom.xml, 文学
+>>>>>>> upstream/master
