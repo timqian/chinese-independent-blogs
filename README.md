@@ -455,6 +455,7 @@
 |                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
 |                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
 |                                                                                                                     | 甜欣屋                        | https://www.tcxx.info                 | 美国生活; 技术; 人工智能                                 |
+|                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
 
 ## 什么是独立博客
 
