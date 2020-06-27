@@ -500,3 +500,5 @@
   - [Gatsby](https://www.gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Wordpress](https://wordpress.com/)
+  - [Hugo](https://gohugo.io/)
+  - [Typecho](https://typecho.org/)
