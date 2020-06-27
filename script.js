@@ -108,7 +108,7 @@ ${tableContentInMD}
 1. 点击项目页面右上角的 Fork 按钮，点击之后，系统将会在您的 GitHub 账户下创建此项目的一个副本；
 2. 克隆您的 GitHub 账户下的此项目的副本至本地，按格式编辑 [./blogs-original.csv](./blogs-original.csv) 文件，主要是填入博客 URL, RSS 及简介，完成之后，保存，后使用 git 有关命令提交并推送；
 3. 访问您的 GitHub 账户下该项目页面，点击页面的 Pull requests，再点击 New pull request 按钮，按提示创建并提交 Pull request；
-4. PR 被 merge 之后，README.md 文件将会自动地由 [./script.js](./script.js) 生成，在此期间您只需耐心等待，您的 Pull request 被并入主分支之后，您将可能通过来自 GitHub 发送的电子邮件通知或者 [GitHub 的通知页面](https://github.com/notifications) 获知这一讯息．
+4. PR 被 merge 之后，README.md 文件将会自动地由 [./script.js](./script.js) 生成，主要原理是 [GitHub Action](https://github.com/timqian/chinese-independent-blogs/blob/master/.github/workflows/updateInfo.yml)，在此期间您只需耐心等待，您的 Pull request 被并入主分支之后，您将可能通过来自 GitHub 发送的电子邮件通知或者 [GitHub 的通知页面](https://github.com/notifications) 获知这一讯息．
 
 ## 为什么要收集这张列表
 
