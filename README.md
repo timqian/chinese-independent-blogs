@@ -147,6 +147,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lenciel.com/feed.xml)                                 | @Lenciel                   | https://lenciel.com/                  | 技术; 管理; 创业; 吹水                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.physixfan.com/feed)                               | 宇宙的心弦                      | https://www.physixfan.com             | 物理; 投资                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.mutoo.im/atom.xml)                               | 木匣子                        | https://mutoo.im                      | 前端; 游戏开发; 随笔                                   |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.chenweiliang.com/feed/)                           | 陈沩亮博客                      | https://www.chenweiliang.com/         | 电子商务; 网络营销; IT技术资讯                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.xiabingbao.com/atom.xml)                          | 蚊子前端博客                     | https://www.xiabingbao.com            | 编程; 前端                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhang.ge/feed)                                        | 张戈博客                       | https://zhang.ge                      | 编程; 运维                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://cnberg.div.io/feed/)                                   | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
@@ -213,6 +214,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hismaplestory.online/atom.xml)                    | 热河                         | https://www.hismaplestory.online      | 随笔                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://twistoy.com/feed)                                     | TwIStOy                    | https://twistoy.com/                  | 编程; 后端; C++                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://feizhaojun.com/?feed=rss2)                            | 费照君个人网站                    | https://feizhaojun.com                | 编程; 科技; 分享                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://chegva.com/feed/)                                     | 安志合的学习博客                   | https://chegva.com                    | 编程; 运维; 随笔; 国学                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leonson.me/feed.xml)                                  | 浮云游子意                      | https://leonson.me                    | 生活; 美国; 思考; 阅读; 编程                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                         | Python 工匠                  | https://www.zlovezl.cn                | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                                 | 但行好事，莫问前程                  | https://windard.com                   | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                               | 后端技术杂谈                     | https://www.rowkey.me                 | 编程                                             |
@@ -267,6 +270,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://guhub.cn/feed)                                        | Eltrac's Track             | https://guhub.cn                      | 编程; 前端; 生活; 游戏; 思考; 随笔                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zsqk.github.io/news/feed.xml)                         | news view                  | https://zsqk.github.io/news/          | 编程; 随笔                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.yidajiabei.xyz/rss.xml)                           | YIDAJIABEI                 | https://www.yidajiabei.xyz/           | 生活; 技术                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fourhappylions.com/index.xml)                         | 四喜丸子                       | https://fourhappylions.com/           | 养娃; 家庭; 海外生活                                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://shrekshao.github.io/feed.xml)                          | ShrekShao                  | http://shrekshao.github.io            | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ridiqulous.com/feed)                                  | RidiQulous                 | https://ridiqulous.com                | 图像处理; 乐高                                       |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://vzardlloo.github.io/atom.xml)                         | vzard's blog               | https://vzardlloo.github.io           | 编程                                             |
@@ -412,6 +416,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.mihu.live/index.php/feed/)                        | 旁逸斜出                       | https://www.mihu.live                 | 技术; 分享; 随笔                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jingyig.com/atom.xml)                                 | 四方之云                       | https://jingyig.com/                  | 思考; 外语; 数学; 记录                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://aksoo.site/atom.xml)                                  | Aksoo's blog               | https://aksoo.site/                   | 文学                                             |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.happyhack.io/atom.xml)                           | HappyHack                  | https://blog.happyhack.io             | 编程; 生活; 云原生; Hack                              |
 |                                                                                                                     | IPhysResearch              | https://iphysresearch.github.io       | 编程; 科研; 物理; 开源                                 |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | Drcus &#124; 潜默            | https://yazhen.me                     | Gatsby; 随笔                                     |
@@ -455,6 +460,7 @@
 |                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
 |                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
 |                                                                                                                     | 甜欣屋                        | https://www.tcxx.info                 | 美国生活; 技术; 人工智能                                 |
+|                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
 
 ## 什么是独立博客
 
