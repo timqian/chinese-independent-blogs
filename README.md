@@ -221,7 +221,6 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://qwq.best/feed/)                                       | 皮皮凛基地                      | https://qwq.best                      | 编程; 生活; 评论                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.lgf.im/atom.xml)                                 | zu1k                       | https://blog.lgf.im/                  | 编程; 网安; 思考                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://baozi.fun/atom.xml)                                   | 寒山志                        | https://baozi.fun/                    | 编程; 生活; 电影; 随笔                                 |
-| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://baozi.fun/atom.xml)                                   | 杨永康的个人博客                   | https://blog.yangyk.com/              | 编程; 随笔                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                         | Python 工匠                  | https://www.zlovezl.cn                | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://windard.com/feed.xml)                                 | 但行好事，莫问前程                  | https://windard.com                   | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.rowkey.me/atom.xml)                               | 后端技术杂谈                     | https://www.rowkey.me                 | 编程                                             |
@@ -473,6 +472,7 @@
 |                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
 |                                                                                                                     | 甜欣屋                        | https://www.tcxx.info                 | 美国生活; 技术; 人工智能                                 |
 |                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
+|                                                                                                                     | 杨永康的个人博客                   | https://blog.yangyk.com/              | 编程; 随笔                                         |
 
 ## 什么是独立博客
 
