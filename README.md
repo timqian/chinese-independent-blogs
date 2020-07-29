@@ -474,6 +474,7 @@
 |                                                                                                                     | 甜欣屋                        | https://www.tcxx.info                 | 美国生活; 技术; 人工智能                                 |
 |                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
 |                                                                                                                     | 杨永康的个人博客                   | https://blog.yangyk.com/              | 编程; 随笔                                         |
+|                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
 
 ## 什么是独立博客
 
