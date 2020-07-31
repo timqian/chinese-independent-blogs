@@ -475,6 +475,7 @@
 |                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
 |                                                                                                                     | 杨永康的个人博客                   | https://blog.yangyk.com/              | 编程; 随笔                                         |
 |                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
+|                                                                                                                     | 多半不走运                      | https://www.likelyunlucky.xyz         | 文理; 工艺; 商政; 娱乐                                 |
 
 ## 什么是独立博客
 
