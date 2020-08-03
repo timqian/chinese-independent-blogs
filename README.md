@@ -431,6 +431,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://58fe.com/rss)                                         | 前端社区                       | https://58fe.com                      | 前端; 社区; 编程                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.gowhich.com/feed)                                 | Gowhich                    | https://www.gowhich.com               | 编程; 网络; 计算机; 日常                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mathpretty.com/feed/)                                 | 文艺数学君                      | https://mathpretty.com/               | 编程; 生活; 数学                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.likelyunlucky.xyz/feed)                           | 多半不走运                      | https://www.likelyunlucky.xyz         | 文理; 工艺; 商政; 娱乐                                 |
 |                                                                                                                     | IPhysResearch              | https://iphysresearch.github.io       | 编程; 科研; 物理; 开源                                 |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | 王亚振-随笔博客                   | https://yazhen.me                     | Gatsby; 生活; 记录; 前端                             |
@@ -476,7 +477,6 @@
 |                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
 |                                                                                                                     | 杨永康的个人博客                   | https://blog.yangyk.com/              | 编程; 随笔                                         |
 |                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
-|                                                                                                                     | 多半不走运                      | https://www.likelyunlucky.xyz         | 文理; 工艺; 商政; 娱乐                                 |
 
 ## 什么是独立博客
 
