@@ -83,7 +83,7 @@ async function getResultAndUpdateREADME() {
 
 # 中文独立博客列表
 
-  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://mailchi.mp/7585311373a3/indieblogs)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
+  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
 
 ## 目录
 
@@ -94,7 +94,7 @@ async function getResultAndUpdateREADME() {
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 正在构思一个更好得组织博客和推荐内容的[工具](https://mailchi.mp/7585311373a3/indieblogs), 欢迎通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs) 或加入 [Telegram 群](https://t.me/indieBlogs) 讨论
+> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
 ${tableContentInMD}
 
