@@ -486,6 +486,7 @@
 |                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
 |                                                                                                                     | 人生這部戲                      | https://gatsby.franks.hk/blog/        | 生活; 思考; 閱讀; 旅行; 技術                             |
 |                                                                                                                     | 峡州仙士之页                     | https://cjh0613.com                   | 技术; 生活; 思考; 分享; 编程                             |
+|                                                                                                                     | Jiayi Liu                  | https://jiayiliu.me/                  | 生活; 随笔; 生物信息学; 生物医学; 折腾                        |
 
 ## 什么是独立博客
 
