@@ -107,7 +107,7 @@ ${tableContentInMD}
 
 1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客 URL, RSS 及简介
 2. 提交 PR
-3. PR 被 merge 之后 README 通过 [./script.js](./script.js) 生成
+3. (自动) PR 被 merge 之后 README 通过 [./script.js](./script.js) 生成
 
 ## 为什么要收集这张列表
 
