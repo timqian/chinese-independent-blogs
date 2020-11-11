@@ -1,9 +1,13 @@
-name: update readme
+name: Update readme and feed.opml
 
-on:
+on: 
   push:
-    paths:
-    - 'blogs-original.csv'
+    paths: 
+      - 'blogs-original.csv'
+      - 'formatter.py'
+      - 'opml_generator.py'
+      - 'script.js'
+      - '.github/workflows/updateInfo.yml'
 
 jobs:
   build:
@@ -16,16 +20,26 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: formatter
+      run: |
+        python formatter.py
     - name: update readme
       run: |
         npm install
         node script.js
+    - name: Generate feed.opml
+      run: |
+        python opml_generator.py
     - name: Commit files
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "update readme after adding blog(s)" -a
+        git commit -m "update README and feed.opml after adding blog(s)"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
