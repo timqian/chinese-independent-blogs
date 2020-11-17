@@ -39,6 +39,11 @@ async function getResultAndUpdateREADME() {
           const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
           const cloudqueryRes = await axios.get(cloudqueryAPI);
           res = { data: JSON.parse(cloudqueryRes.data.contents[0].innerText) };
+          
+          const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|newsblur|feedsPub&queryKey=` + row[2];
+          const substatsRes = await axios.get(substatsAPI);
+          substats = { data: JSON.parse(substatsRes.data) };
+          json.res.data.subscribers = substatsRes.data.totalSubs;
         } else {
           // Direct feedly
           res = await axios.get(feedlyAPI);
@@ -132,17 +137,17 @@ ${tableContentInMD}
 
 ## 博客构建工具推荐
 
-- [Gatsby](https://gatsbyjs.org/)
-- [Ghost](https://ghost.org/)
-- [Gride](https://gridea.dev/)
-- [Hexo](https://hexo.io/)
-- [Hugo](https://gohugo.io/)
-- [Jekyll](https://jekyllrb.com/)
-- [Saber](https://saber.land/)
-- [Typecho](https://typecho.org)
-- [Vuepress](https://vuepress.vuejs.org/)
-- [Wordpress](https://wordpress.com/)
-- [Wowchemy](https://wowchemy.com)
+  - [Gatsby](https://gatsbyjs.org/)
+  - [Ghost](https://ghost.org/)
+  - [Gride](https://gridea.dev/)
+  - [Hexo](https://hexo.io/)
+  - [Hugo](https://gohugo.io/)
+  - [Jekyll](https://jekyllrb.com/)
+  - [Saber](https://saber.land/)
+  - [Typecho](https://typecho.org)
+  - [Vuepress](https://vuepress.vuejs.org/)
+  - [Wordpress](https://wordpress.com/)
+  - [Wowchemy](https://wowchemy.com)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
