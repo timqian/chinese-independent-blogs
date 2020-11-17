@@ -99,7 +99,7 @@ async function getResultAndUpdateREADME() {
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
+> 暂时根据各 RSS 服务订阅数据排了个先后顺序. 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
 ${tableContentInMD}
 
