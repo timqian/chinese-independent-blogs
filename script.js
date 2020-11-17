@@ -132,13 +132,17 @@ ${tableContentInMD}
 
 ## 博客构建工具推荐
 
-  - [Saber](https://saber.land/)
-  - [Hexo](https://hexo.io)
-  - [vue-press](https://vuepress.vuejs.org/)
-  - [Gatsby](https://www.gatsbyjs.org/)
-  - [Ghost](https://ghost.org/)
-  - [Wordpress](https://wordpress.com/)
-  - [Wowchemy](https://wowchemy.com)
+- [Gatsby](https://gatsbyjs.org/)
+- [Ghost](https://ghost.org/)
+- [Gride](https://gridea.dev/)
+- [Hexo](https://hexo.io/)
+- [Hugo](https://gohugo.io/)
+- [Jekyll](https://jekyllrb.com/)
+- [Saber](https://saber.land/)
+- [Typecho](https://typecho.org)
+- [Vuepress](https://vuepress.vuejs.org/)
+- [Wordpress](https://wordpress.com/)
+- [Wowchemy](https://wowchemy.com)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
