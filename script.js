@@ -39,6 +39,11 @@ async function getResultAndUpdateREADME() {
           const cloudqueryAPI = `https://cloudquery.t9t.io/query?url=${encodeURIComponent(feedlyAPI)}&selectors=*:nth-child(2)%20>%20*`;
           const cloudqueryRes = await axios.get(cloudqueryAPI);
           res = { data: JSON.parse(cloudqueryRes.data.contents[0].innerText) };
+          
+          const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|newsblur|feedsPub&queryKey=` + row[2];
+          const substatsRes = await axios.get(substatsAPI);
+          substats = { data: JSON.parse(substatsRes.data) };
+          json.res.data.subscribers = substatsRes.data.totalSubs;
         } else {
           // Direct feedly
           res = await axios.get(feedlyAPI);
@@ -94,7 +99,7 @@ async function getResultAndUpdateREADME() {
 
 ## 博客列表
 
-> 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
+> 暂时根据各 RSS 服务订阅数据排了个先后顺序. 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
 ${tableContentInMD}
 
@@ -132,11 +137,15 @@ ${tableContentInMD}
 
 ## 博客构建工具推荐
 
-  - [Saber](https://saber.land/)
-  - [Hexo](https://hexo.io)
-  - [vue-press](https://vuepress.vuejs.org/)
-  - [Gatsby](https://www.gatsbyjs.org/)
+  - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
+  - [Gride](https://gridea.dev/)
+  - [Hexo](https://hexo.io/)
+  - [Hugo](https://gohugo.io/)
+  - [Jekyll](https://jekyllrb.com/)
+  - [Saber](https://saber.land/)
+  - [Typecho](https://typecho.org)
+  - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
 `
