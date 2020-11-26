@@ -11,7 +11,7 @@ const table = rows
   .map(row => row.push(-1) && row) // row[4] to store count of RSS subscribers
 
 async function getLatestSubstatsRes(feedUrl, cacheFilename) {
-  const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|newsblur|feedsPub&queryKey=${feedUrl}`;
+  const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|feedsPub&queryKey=${feedUrl}`;
  
   try {
     const substatsRes = await axios.get(substatsAPI, { timeout: 5000 }); // wait for 5s
@@ -27,6 +27,7 @@ async function getLatestSubstatsRes(feedUrl, cacheFilename) {
       return -1;
     }
   } catch (err) {
+    console.error(`Failed to fetch: ${feedUrl}`);
     throw err;
   }
 }
@@ -68,7 +69,7 @@ async function getResultAndUpdateREADME() {
     await Promise.allSettled(resPromise).then(responses => {
       responses.forEach(res => {
         if (res.status === 'fulfilled') { // succeeded
-          console.log(`INFO: ${JSON.stringify(res.value)}`);
+          // console.debug(`INFO: ${JSON.stringify(res.value)}`);
           table[res.value.index][4] = res.value.totalSubs;
         }
         if (res.status === 'rejected') { // failed
