@@ -38,8 +38,8 @@ async function getTotalSubs(feedUrl, index) {
 
   if (fs.existsSync(cacheFilename)) {
     const cachedRes = JSON.parse(fs.readFileSync(cacheFilename, 'utf8'));
-    // cache available within two days
-    const cacheExpired = (new Date().getTime() - parseInt(cachedRes.lastModified)) > 172800000 ? true : false;
+    // cache available within 5 days
+    const cacheExpired = 86400 * 1000 * 5 < (new Date().getTime() - parseInt(cachedRes.lastModified)) ? true : false;
 
     totalSubs = !cacheExpired ?
       cachedRes.data.totalSubs :
