@@ -1,5 +1,5 @@
 const fs = require('fs');
-const axios = require('axios');
+const fetch = require('node-fetch');
 const markdownTable = require('markdown-table');
 
 const data = fs.readFileSync('./blogs-original.csv');
@@ -14,9 +14,9 @@ async function getLatestSubstatsRes(feedUrl, cacheFilename) {
   const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|feedsPub&queryKey=${feedUrl}`;
  
   try {
-    const substatsRes = await axios.get(substatsAPI, { timeout: 5000 }); // wait for 5s
-    if (substatsRes.status === 200) {
-      let data = substatsRes.data;
+    const substatsRes = await fetch(substatsAPI, { timeout: 5000 }); // wait for 5s
+    let data = await substatsRes.json();
+    if (data.status === 200) {
       // Mark lastModified
       data['lastModified'] = new Date().getTime();
       const totalSubs = data.data.totalSubs;
@@ -27,7 +27,7 @@ async function getLatestSubstatsRes(feedUrl, cacheFilename) {
       return -1;
     }
   } catch (err) {
-    console.error(`Failed to fetch: ${feedUrl}`);
+    console.log(`Failed to fetch: ${feedUrl}`);
     throw err;
   }
 }
