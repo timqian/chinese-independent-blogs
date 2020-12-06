@@ -347,6 +347,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://ljason.cn/atom.xml)                              | 野生程序猴子                     | https://ljason.cn                     | 编程; 技术; 折腾; 翻译                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chawyehsu.com/feed/atom.xml)                     | The Art of Chawye Hsu      | https://chawyehsu.com/                | 编程; 游戏; 随笔; 杂谈                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://jhuo.ca//./index.xml)                            | HuoJu's BLOG               | https://jhuo.ca/                      | 隐私; 随笔                                         |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.ouorz.com/feed)                              | TonyHe 的博客                 | https://www.ouorz.com                 | 编程; 思考; 前端; 笔记; 生活                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhang0peter.com/atom.xml)                        | zhang0peter-记录生活           | http://zhang0peter.com/               | Java                                           |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://jicki.me/feed.xml)                               | 小炒肉                        | https://jicki.me                      | Kubernetes; 运维; 编程                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.xiaket.org/feed.xml)                        | 年华转瞬                       | https://blog.xiaket.org               | 编程; 读书                                         |
@@ -497,7 +498,6 @@
 |                                                                                                                 | Dasyatis                   | https://www.bobby285271.top/          | 编程; Linux                                      |
 |                                                                                                                 | 薛定喵君的博客                    | http://blog.xuedingmiao.com/          | 编程; 前端; 产品; 笔记                                 |
 |                                                                                                                 | Ryan_naiquan               | https://www.lpime.cn/                 | 编程; C++; 后台                                    |
-|                                                                                                                 | TonyHe 的博客                 | https://www.ouorz.com                 | 编程; 思考; 前端; 笔记; 生活                             |
 |                                                                                                                 | 索菲外贸笔记                     | https://sophienotes.cn/               | 外贸; 随笔; 英语                                     |
 |                                                                                                                 | 阳志平的网志                     | https://www.yangzhiping.com/          | 认知科学; 随笔                                       |
 |                                                                                                                 | Power's Wiki               | https://wiki-power.com                | 硬件; 编程; 生活方式; 读书                               |
@@ -527,6 +527,7 @@
 |                                                                                                                 | 峡州仙士之页                     | https://cjh0613.com                   | 技术; 生活; 思考; 分享; 编程                             |
 |                                                                                                                 | 翻墙101的Blog                 | https://wall101.com                   | 技术; 编程; 网安; Hack                               |
 |                                                                                                                 | 251                        | https://blog.251.sh                   | 编程; 生活; 技术; 教程; 学习                             |
+|                                                                                                                 | Holmesian Blog             | https://holmesian.org/                | 编程; 随笔                                         |
 
 ## 什么是独立博客
 
