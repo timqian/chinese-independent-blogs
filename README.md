@@ -369,6 +369,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chegva.com/feed/)                                    | 安志合的学习博客                   | https://chegva.com                    | 编程; 运维; 随笔; 国学                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://cdjax.com/?feed=rss2)                                | jax - 走在路上                 | https://cdjax.com/                    | 产品; 数码; 随笔                                     |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://earture.org/atom.xml)                                | 凉天客栈                       | https://earture.org                   | 技术; 随笔; 音乐                                     |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://juemuren4449.com/atom.xml)                           | 掘墓人的小铲子                    | https://juemuren4449.com/             | 编程; 微信; 支付; 效率                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://hwchiu.com/atom.xml)                                 | Hwchiu Learning Note       | https://hwchiu.com                    | 编程; 技术; Kubernetes; Linux; Networking          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://muyun.work/feed/)                                    | Muyun的杂谈                   | https://muyun.work                    | 科技; 生活; 算法; 随笔                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.jayzangwill.cn/atom.xml)                         | Jay Zangwill的博客            | https://www.jayzangwill.cn            | 编程; 前端; 技术                                     |
@@ -512,7 +513,6 @@
 |                                                                                                                     | 架构师修炼之道                    | https://tianmingxing.com              | 架构; 编程; 笔记                                     |
 |                                                                                                                     | 王二的个人网站                    | https://wangyulue.com                 | 代码; 工具; 阅读; 文章                                 |
 |                                                                                                                     | 狂奔的骆驼                      | http://www.geektcp.com/               | 完全个性化博客; 技术; 文艺                                |
-|                                                                                                                     | 掘墓人的小铲子                    | https://juemuren4449.com/             | 编程; 微信; 支付; 效率                                 |
 |                                                                                                                     | Tsanfer's Blog             | https://tsanfer.xyz/                  | 编程; 技术                                         |
 |                                                                                                                     | Lineuman's Blog            | https://lineuman.github.io/blog/      | 编程; 测试                                         |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
@@ -530,6 +530,7 @@
 |                                                                                                                     | 翻墙101的Blog                 | https://wall101.com                   | 技术; 编程; 网安; Hack                               |
 |                                                                                                                     | 251                        | https://blog.251.sh                   | 编程; 生活; 技术; 教程; 学习                             |
 |                                                                                                                     | 牧云云的博客                     | http://muyunyun.cn/blog/              | 编程; 前端; 算法; 读书; 分享                             |
+|                                                                                                                     | 墙外看的博客                     | https://qiangwaikan.com/              | 教程; 安全; 技术                                     |
 
 ## 什么是独立博客
 
