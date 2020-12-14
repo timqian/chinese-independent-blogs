@@ -341,6 +341,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://morso.space/atom.xml)                                | 莫尔索                        | https://morso.space                   | 编程; 设计; 思考                                     |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://blog.grayson.org.cn/feed.xml)                         | Grayson's blog             | http://blog.grayson.org.cn/           | 编程; Ruby; 全栈; 笔记; 后端; 前端; Linux                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://jhuo.ca//./index.xml)                                | HuoJu's BLOG               | https://jhuo.ca/                      | 隐私; 随笔                                         |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.ouorz.com/feed)                                  | TonyHe 的博客                 | https://www.ouorz.com                 | 编程; 思考; 前端; 笔记; 生活                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://zhang0peter.com/atom.xml)                            | zhang0peter-记录生活           | http://zhang0peter.com/               | Java                                           |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://jicki.me/feed.xml)                                   | 小炒肉                        | https://jicki.me                      | Kubernetes; 运维; 编程                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.aceact.com/feed/)                                | 老张说思路                      | https://www.aceact.com                | 项目管理                                           |
@@ -412,7 +413,6 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://aksoo.site/atom.xml)                                 | Aksoo's blog               | https://aksoo.site/                   | 文学                                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.gowhich.com/feed)                                | Gowhich                    | https://www.gowhich.com               | 编程; 网络; 计算机; 日常                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.triplez.cn/feed/)                               | TripleZ's Blog             | https://blog.triplez.cn               | 编程; 随笔                                         |
-| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://chenhua.name/feed.xml)                               | 陈华的个人主页                    | https://chenhua.name                  | 物理; 生活                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.sund.site/index.xml)                             | 电波障害                       | https://sund.site/                    | 数字生活; 文化; 架构                                   |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://58fe.com/rss)                                        | 前端社区                       | https://58fe.com                      | 前端; 社区; 编程                                     |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://lhymwm.github.io//atom.xml)                          | 以梦为马                       | https://lhymwm.github.io              | 学习; 生活; 断想                                     |
@@ -478,7 +478,9 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.grofis.com/feed.xml)                              | 书呆子创业网                     | https://www.grofis.com                | 产品杂谈; 编程; 技术                                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ambroseren.github.io)                                 | AmbroseRen                 | https://ambroseren.github.io/test/    | 综合数据库笔记; 博客                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ichenh.com/rss.xml)                                   | 陈华                         | https://ichenh.com                    | 物理; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://bubuzou.com/)                                         | 步步走前端                      | https://bubuzou.com/                  | 编程; 前端; 生活; 读书                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.shorz.cn/index.xml)                                | shorz的博客                   | http://www.shorz.cn                   | 编程; 比特币; 技术                                    |
 |                                                                                                                     | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | 王亚振-随笔博客                   | https://yazhen.me                     | Gatsby; 生活; 记录; 前端                             |
@@ -501,7 +503,6 @@
 |                                                                                                                     | Dasyatis                   | https://www.bobby285271.top/          | 编程; Linux                                      |
 |                                                                                                                     | 薛定喵君的博客                    | http://blog.xuedingmiao.com/          | 编程; 前端; 产品; 笔记                                 |
 |                                                                                                                     | Ryan_naiquan               | https://www.lpime.cn/                 | 编程; C++; 后台                                    |
-|                                                                                                                     | TonyHe 的博客                 | https://www.ouorz.com                 | 编程; 思考; 前端; 笔记; 生活                             |
 |                                                                                                                     | 索菲外贸笔记                     | https://sophienotes.cn/               | 外贸; 随笔; 英语                                     |
 |                                                                                                                     | 阳志平的网志                     | https://www.yangzhiping.com/          | 认知科学; 随笔                                       |
 |                                                                                                                     | Power's Wiki               | https://wiki-power.com                | 硬件; 编程; 生活方式; 读书                               |
@@ -532,6 +533,7 @@
 |                                                                                                                     | 251                        | https://blog.251.sh                   | 编程; 生活; 技术; 教程; 学习                             |
 |                                                                                                                     | 牧云云的博客                     | http://muyunyun.cn/blog/              | 编程; 前端; 算法; 读书; 分享                             |
 |                                                                                                                     | 墙外看的博客                     | https://qiangwaikan.com/              | 教程; 安全; 技术                                     |
+|                                                                                                                     | VPN大大                      | https://www.vpndada.com/              | 教程; 安全; 技术; 产品; 数码                             |
 
 ## 什么是独立博客
 
