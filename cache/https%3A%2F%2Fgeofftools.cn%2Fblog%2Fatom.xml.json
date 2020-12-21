@@ -1,1 +1,1 @@
-{"status":200,"data":{"totalSubs":13,"subsInEachSource":{"feedly":0,"inoreader":10,"feedsPub":3},"failedSources":{"feedly":"too many requests, slow down"}},"lastModified":1607906822269}
+{"status":200,"data":{"totalSubs":27,"subsInEachSource":{"feedly":14,"inoreader":10,"feedsPub":3},"failedSources":{}},"lastModified":1608511883746}
