@@ -534,6 +534,7 @@
 |                                                                                                                     | 牧云云的博客                     | http://muyunyun.cn/blog/              | 编程; 前端; 算法; 读书; 分享                             |
 |                                                                                                                     | 墙外看的博客                     | https://qiangwaikan.com/              | 教程; 安全; 技术                                     |
 |                                                                                                                     | VPN大大                      | https://www.vpndada.com/              | 教程; 安全; 技术; 产品; 数码                             |
+|                                                                                                                     | WallVPN                    | https://wallvpn.com/                  | 教程; 安全; 技术; 产品                                 |
 
 ## 什么是独立博客
 
