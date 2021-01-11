@@ -538,6 +538,7 @@
 |                                                                                                                     | 墙外看的博客                     | https://qiangwaikan.com/              | 教程; 安全; 技术                                     |
 |                                                                                                                     | VPN大大                      | https://www.vpndada.com/              | 教程; 安全; 技术; 产品; 数码                             |
 |                                                                                                                     | WallVPN                    | https://wallvpn.com/                  | 教程; 安全; 技术; 产品                                 |
+|                                                                                                                     | Vmaig                      | https://vmaig.com/                    | 教程; 编程; 技术                                     |
 
 ## 什么是独立博客
 
