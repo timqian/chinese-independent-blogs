@@ -544,6 +544,8 @@
 |                                                                                                                     | VPN大大                      | https://www.vpndada.com/              | 教程; 安全; 技术; 产品; 数码                             |
 |                                                                                                                     | WallVPN                    | https://wallvpn.com/                  | 教程; 安全; 技术; 产品                                 |
 |                                                                                                                     | Vmaig                      | https://vmaig.com/                    | 教程; 编程; 技术                                     |
+|                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
+|                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 
 ## 什么是独立博客
 
