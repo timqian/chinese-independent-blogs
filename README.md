@@ -588,6 +588,7 @@
 
 ## 博客构建工具推荐
 
+  - [blogdown](https://github.com/rstudio/blogdown)
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
