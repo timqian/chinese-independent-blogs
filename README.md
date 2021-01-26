@@ -554,6 +554,7 @@
 |                                                                                                                     | Vmaig                      | https://vmaig.com/                    | 教程; 编程; 技术                                     |
 |                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
+|                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 
 ## 什么是独立博客
 
