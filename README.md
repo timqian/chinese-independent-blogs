@@ -560,6 +560,7 @@
 |                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
+|                                                                                                                     | 没喝的                        | https://blog.nodr.ink/                | 编程; 随笔; 学习; 读书                                 |
 
 ## 什么是独立博客
 
