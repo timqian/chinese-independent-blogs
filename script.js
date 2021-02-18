@@ -150,12 +150,14 @@ ${tableContentInMD}
 
 ## 博客构建工具推荐
 
+  - [blogdown](https://github.com/rstudio/blogdown)
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
   - [Hexo](https://hexo.io/)
   - [Hugo](https://gohugo.io/)
   - [Jekyll](https://jekyllrb.com/)
+  - [Pelican](https://blog.getpelican.com/)
   - [Saber](https://saber.land/)
   - [Typecho](https://typecho.org)
   - [Vuepress](https://vuepress.vuejs.org/)
