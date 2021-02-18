@@ -503,7 +503,9 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://bubuzou.com/)                                         | 步步走前端                      | https://bubuzou.com/                  | 编程; 前端; 生活; 读书                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.nodr.ink/atom.xml)                               | 没喝的                        | https://blog.nodr.ink/                | 编程; 随笔; 学习; 读书                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zuanfeng.club/index.php/feed/)                        | 小钻风的博客                     | https://zuanfeng.club/                | 读书; 随笔; 学习                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://5ime.cn/atom.xml)                                     | I Am I                     | https://5ime.cn/                      | 技术; 随笔; 学习; 编程                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.superpung.xyz/atom.xml)                           | SupTalk                    | https://www.superpung.xyz             | 编程; 随笔; 技术; 思考                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyunvy.tk/atom.xml)                                   | Lyunvy's Blog              | https://lyunvy.tk                     | 生活; 学习                                         |
 |                                                                                                                     | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
@@ -565,6 +567,7 @@
 |                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
+|                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 
 ## 什么是独立博客
 
