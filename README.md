@@ -473,6 +473,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.winterchen.com/atom.xml)                         | winter's Blog              | https://blog.winterchen.com           | 编程; 摄影                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lihui.net/feed)                                       | Li Hui Blog                | https://lihui.net/                    | 认知; 思考; 读书; 技术; 编程; 随想                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://anillc.cn/atom.xml)                                   | Anillc's blog              | https://anillc.cn                     | 编程; 随笔                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ksmeow.moe/feed/)                                     | KSkun's Blog               | https://ksmeow.moe/                   | 算法; 开发; 互联网; 生活                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.l1yu.com/feed)                                     | 李宇的博客                      | http://www.l1yu.com                   | 技术; 折腾; 生活                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://tingfei.art/index.xml)                                | Fat Blog &#124; 挺肥的博客      | http://tingfei.art/                   | 区块链; 科幻; Rust; 美食                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://cyrusyip.org/index.xml)                               | 叶寻的日志                      | https://cyrusyip.org/                 | 生活; 学习                                         |
@@ -509,6 +510,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://tcpgnl.com/feed/)                                     | TCPGNL                     | https://tcpgnl.com/                   | 认知; 编程; 随想; 生活; 思考                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.superpung.xyz/atom.xml)                          | SuperPung                  | https://blog.superpung.xyz            | 编程; 随笔; 技术; 思考                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://kevinnan.org.cn/feed)                                  | Lucas's Blog               | http://kevinnan.org.cn/               | 编程; 算法; 音视频开发; 服务器开发                           |
 |                                                                                                                     | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | 王亚振-随笔博客                   | https://yazhen.me                     | Gatsby; 生活; 记录; 前端                             |
@@ -571,7 +573,6 @@
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
-|                                                                                                                     | KSkun's Blog               | https://ksmeow.moe/                   | 算法; 开发; 互联网; 生活                                |
 
 ## 什么是独立博客
 
