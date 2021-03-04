@@ -123,6 +123,7 @@
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.dongwm.com/atom.xml)                            | 小明明s à domicile            | https://www.dongwm.com/               | 编程; Python 大佬; k8s; 随笔                         |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://mednoter.com/feed.xml)                              | 吕小荣的网志                     | https://mednoter.com/                 | 编程; 随笔; 生活                                     |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://huhuhang.com/feed)                                  | HUHUHANG                   | https://huhuhang.com/                 | 机器学习; 应用推荐; 手机摄影                               |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://blog.fivest.one/feed)                                | fivestone - 同一种调调          | http://blog.fivest.one/               | 生活; 吐槽; 文艺; 社会; 技术                             |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.huhexian.com/feed)                              | 胡和先的个人博客                   | https://www.huhexian.com/             | 生活; 随笔; 学习; 读书                                 |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://yuechuanx.top/atom.xml)                             | Yuechuan Blog              | https://yuechuanx.top/                | 编程; DevOps; Automation                         |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://blog.biezhi.me/feed.xml)                            | 魔王不造反                      | https://blog.biezhi.me                | 编程                                             |
@@ -230,6 +231,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.singee.me/atom.xml)                             | Origin                     | https://blog.singee.me/               | 编程; Python; 全栈                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://beyondstars.xyz/posts/index.xml)                     | beyond stars               | https://beyondstars.xyz/              | 探索; 思考; 记录                                     |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.physixfan.com/feed)                              | 宇宙的心弦                      | https://www.physixfan.com             | 物理; 投资                                         |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://markonreview.com/rss/)                               | Markon Review              | https://markonreview.com/             | 游戏及产业评论                                        |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.velasx.com/feed)                                 | Velas电波站                   | https://www.velasx.com                | 动画; 游戏; 小说; 设计; 鉴赏                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.ttalk.im/rss.xml)                                | Teach Talk                 | https://www.ttalk.im/                 | Web; MQTT; XMPP; RabbitMQ; 翻译                  |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://claude-ray.github.io/atom.xml)                       | Claude's Blog              | https://claude-ray.github.io          | 编程; 折腾                                         |
@@ -584,7 +586,6 @@
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 |                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
-|                                                                                                                     | fivestone - 同一种调调          | http://blog.fivest.one/               | 生活; 吐槽; 文艺; 社会; 技术                             |
 
 ## 什么是独立博客
 
