@@ -514,8 +514,10 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyunvy.tk/atom.xml)                                   | Lyunvy's Blog              | https://lyunvy.tk                     | 生活; 学习                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://kevinnan.org.cn/feed)                                  | Lucas's Blog               | http://kevinnan.org.cn/               | 编程; 算法; 音视频开发; 服务器开发                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.2hu.net/feed)                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fantalovelife.club/archives/)                         | Fanta's Blog               | https://fantalovelife.club            | 技术; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wangyikai.com/feed)                                    | 王宜楷工作室                     | http://wangyikai.com                  | 非虚构写作; 用身体写作的纯文学                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://saulnoble.github.io/atom.xml)                         | Saul's Space               | https://saulnoble.github.io/          | 小说; 统计学; 艺术                                    |
 |                                                                                                                     | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | 王亚振-随笔博客                   | https://yazhen.me                     | Gatsby; 生活; 记录; 前端                             |
@@ -576,7 +578,6 @@
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
-|                                                                                                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 
 ## 什么是独立博客
 
