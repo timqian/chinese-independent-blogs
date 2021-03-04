@@ -579,6 +579,7 @@
 |                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
+|                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
 
 ## 什么是独立博客
 
