@@ -127,6 +127,7 @@
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://yuechuanx.top/atom.xml)                             | Yuechuan Blog              | https://yuechuanx.top/                | 编程; DevOps; Automation                         |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://blog.biezhi.me/feed.xml)                            | 魔王不造反                      | https://blog.biezhi.me                | 编程                                             |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://evilcos.me/?feed=rss2)                              | EVILCOS                    | https://evilcos.me/                   | 安全                                             |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://anthropology.fivest.one/feed)                        | fieldnotes                 | http://anthropology.fivest.one/       | 人类学                                            |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://inote.xyz/rss)                                      | iNote                      | https://inote.xyz                     | 创业; 投资; 随笔                                     |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://lenciel.com/feed.xml)                               | @Lenciel                   | https://lenciel.com/                  | 技术; 管理; 创业; 吹水                                 |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.zlovezl.cn/feeds/latest/)                       | Python 工匠                  | https://www.zlovezl.cn                | 编程                                             |
@@ -583,6 +584,7 @@
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 |                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
+|                                                                                                                     | fivestone - 同一种调调          | http://blog.fivest.one/               | 生活; 吐槽; 文艺; 社会; 技术                             |
 
 ## 什么是独立博客
 
