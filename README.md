@@ -588,6 +588,7 @@
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 |                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
+|                                                                                                                     | 木小丰的博客                     | https://lesofn.com/                   | 编程; 后端; 架构                                     |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 
 ## 什么是独立博客
