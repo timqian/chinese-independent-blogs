@@ -116,6 +116,7 @@
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://www.ahonn.me/atom.xml)                              | Ahonn's Blog               | https://www.ahonn.me/                 | 编程; 前端; 生活                                     |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://www.the5fire.com/rss)                                | the5fire的技术博客              | https://www.the5fire.com              | 编程                                             |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](http://www.nansey.me/feed/)                                 | Nansey的博客                  | http://www.nansey.me/                 | 翻译; 读书; 随笔                                     |
+| [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://astrianzheng.cn/atom.xml)                           | 本格异想录                      | https://astrianzheng.cn/              | 随笔; 生活; 随想                                     |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://jiajunhuang.com/rss)                                | Jiajun的编程随想                | https://jiajunhuang.com/              | 编程; 开源; 随想                                     |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://idealclover.top/feed)                               | idealclover                | https://idealclover.top               | 编程; 随笔; 思考; 生活                                 |
 | [![](https://badgen.net/badge/icon/***?icon=rss&label)](https://plausistory.blog/feed/)                             | 清言                         | https://plausistory.blog/             | 人文; 清史研究; 读书                                   |
@@ -490,6 +491,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lihui.net/feed)                                       | Li Hui Blog                | https://lihui.net/                    | 认知; 思考; 读书; 技术; 编程; 随想                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://anillc.cn/atom.xml)                                   | Anillc's blog              | https://anillc.cn                     | 编程; 随笔                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ryan4yin.space/index.xml)                             | Ryan4Yin's Space           | https://ryan4yin.space/               | 云原生; Kubernetes; 运维; Linux                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://nyan.im/feed)                                         | Frank's Weblog             | https://nyan.im/                      | 编程; 技术; 生活                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hxkj.vip/feed)                                    | HashTang 的个人空间             | https://www.hxkj.vip                  | 编程; 娱乐; 前端; 笔记                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://baozi.fun/rss.xml)                                    | 寒山志                        | https://baozi.fun/                    | 编程; 生活; 电影; 随笔                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.zcmimi.top/atom.xml)                             | zcmimi's blog              | https://blog.zcmimi.top/              | 编程; 算法; 学习; 笔记; 技术                             |
@@ -520,6 +522,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lyunvy.tk/atom.xml)                                   | Lyunvy's Blog              | https://lyunvy.tk                     | 生活; 学习                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://kevinnan.org.cn/feed)                                  | Lucas's Blog               | http://kevinnan.org.cn/               | 编程; 算法; 音视频开发; 服务器开发                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.riichiie.net/feed/)                               | Richie的时光机                 | https://rriichiie.net                 | 生活; 兴趣; 思考; Blog                               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.2hu.net/feed)                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fantalovelife.club/archives/)                         | Fanta's Blog               | https://fantalovelife.club            | 技术; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wangyikai.com/feed)                                    | 王宜楷工作室                     | http://wangyikai.com                  | 非虚构写作; 用身体写作的纯文学                               |
@@ -587,6 +590,8 @@
 |                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 |                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
+|                                                                                                                     | 木小丰的博客                     | https://lesofn.com/                   | 编程; 后端; 架构                                     |
+|                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 
 ## 什么是独立博客
 
