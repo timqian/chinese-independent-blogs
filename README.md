@@ -472,6 +472,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zuanfeng.club/index.php/feed/)                        | 小钻风的博客                     | https://zuanfeng.club/                | 读书; 随笔; 学习                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://nyan.im/feed)                                         | Frank's Weblog             | https://nyan.im/                      | 编程; 技术; 生活                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://nyan.im/feed)                                         | Frank's Weblog             | https://nyan.im/                      | 编程; 技术; 生活                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hxkj.vip/feed)                                    | HashTang 的个人空间             | https://www.hxkj.vip                  | 编程; 娱乐; 前端; 笔记                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.nodr.ink/atom.xml)                               | 没喝的                        | https://blog.nodr.ink/                | 编程; 随笔; 学习; 读书                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.superpung.xyz/atom.xml)                          | SuperPung                  | https://blog.superpung.xyz            | 编程; 随笔; 技术; 思考                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://www.l1yu.com/feed)                                     | 李宇的博客                      | http://www.l1yu.com                   | 技术; 折腾; 生活                                     |
@@ -487,6 +488,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://kevinnan.org.cn/feed)                                  | Lucas's Blog               | http://kevinnan.org.cn/               | 编程; 算法; 音视频开发; 服务器开发                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.mghio.cn/atom.xml)                                | mghio                      | https://www.mghio.cn                  | 技术; 后端; 随笔; 终身学习者                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.ybusad.com/rss)                                   | 骁之屋 - 孙天骁的随身记录个人网站         | https://www.ybusad.com                | 生活; 随记; 技术; 思考                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.riichiie.net/feed/)                               | Richie的时光机                 | https://riichiie.net                  | 生活; 兴趣; 思考; Blog                               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lesofn.com/atom.xml)                                  | 木小丰的博客                     | https://lesofn.com/                   | 编程; 后端; 架构                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wangjiezhe.com/atom.xml)                              | 如鱼饮水                       | https://wangjiezhe.com/               | 数学; 随笔                                         |
@@ -556,7 +558,6 @@
 |                                                                                                                     | Dasyatis                   | https://www.bobby285271.top/          | 编程; Linux                                      |
 |                                                                                                                     | 薛定喵君的博客                    | http://blog.xuedingmiao.com/          | 编程; 前端; 产品; 笔记                                 |
 |                                                                                                                     | Ryan_naiquan               | https://www.lpime.cn/                 | 编程; C++; 后台                                    |
-|                                                                                                                     | HashTang 的个人空间             | https://www.hxkj.vip                  | 编程; 娱乐; 前端; 笔记                                 |
 |                                                                                                                     | 索菲外贸笔记                     | https://sophienotes.cn/               | 外贸; 随笔; 英语                                     |
 |                                                                                                                     | 阳志平的网志                     | https://www.yangzhiping.com/          | 认知科学; 随笔                                       |
 |                                                                                                                     | Power's Wiki               | https://wiki-power.com                | 硬件; 编程; 生活方式; 读书                               |
@@ -575,7 +576,6 @@
 |                                                                                                                     | Tsanfer's Blog             | https://tsanfer.xyz/                  | 编程; 技术                                         |
 |                                                                                                                     | Lineuman's Blog            | https://lineuman.github.io/blog/      | 编程; 测试                                         |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
-|                                                                                                                     | 骁之屋 - 孙天骁的随身记录个人网站         | https://www.ybusad.com                | 生活; 随记; 技术; 思考                                 |
 |                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
 |                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
 |                                                                                                                     | 挥舞思绪的博客                    | https://asazero.blogspot.com          | 评论; 心路历程; 分享                                   |
@@ -599,6 +599,7 @@
 |                                                                                                                     | 高原石博客                      | https://www.gaoyuanshi.com            | 旅行; 摄影; 英语; 留学                                 |
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
+|                                                                                                                     | 祝融说                        | https://zhurongshuo.com/index.xml     | 法不净空，觉无性也。                                     |
 
 ## 什么是独立博客
 
