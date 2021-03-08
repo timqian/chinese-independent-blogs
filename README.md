@@ -602,6 +602,7 @@
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                     | 祝融说                        | https://zhurongshuo.com/index.xml     | 法不净空，觉无性也。                                     |
+|                                                                                                                     | 祈雨的博客                      | https://wakzz.cn/                     | 编程; 后端; 架构                                     |
 
 ## 什么是独立博客
 
