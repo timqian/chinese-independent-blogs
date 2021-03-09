@@ -540,6 +540,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wakzz.cn/atom.xml)                                    | 祈雨的博客                      | https://wakzz.cn/                     | 编程; 后端; 架构                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.liurongxing.com/feed)                             | 刘荣星的博客                     | https://www.liurongxing.com/          | Linux; BSD; 运维                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://chenjt.com/feed)                                       | 珒陶                         | http://chenjt.com/                    | 技术; 生活; 随笔                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://amore.ink/feed/)                                      | 述尔 &#124; 一个产品经理的碎碎念       | https://amore.ink                     | 产品经理; 随笔; 生活; 读书笔记                             |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://shoyu.top/feed)                                       | 芍芋之家                       | https://shoyu.top                     | 编程; 随笔; 分享                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://cyberve.top/rss.xml)                                  | Ve                         | https://cyberve.top                   | 生活; 游戏; 随笔                                     |
 |                                                                                                                     | 冰山一角                       | http://cnberg.div.io/                 | 编程; 旅行; 摄影                                     |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
@@ -605,6 +607,7 @@
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                     | 祝融说                        | https://zhurongshuo.com/index.xml     | 法不净空，觉无性也。                                     |
+|                                                                                                                     | 任峻宏的小站                     | https://renny.ren                     | 编程; 生活; 学习; 钢琴                                 |
 
 ## 什么是独立博客
 
