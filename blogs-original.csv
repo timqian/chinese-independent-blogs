@@ -54,7 +54,7 @@ The Will Will Web, https://blog.miniasp.com, https://feeds.feedburner.com/TheWil
 晚晴幽草轩, https://www.jeffjade.com, https://www.jeffjade.com/atom.xml, 编程
 林小沐, https://immmmm.com, http://feed.immmmm.com/, 编程
 HelloDog, https://wsgzao.github.io, https://wsgzao.github.io/atom.xml, 编程
-the5fire的技术博客, https://www.the5fire.com, http://www.the5fire.com/rss, 编程
+the5fire的技术博客, https://www.the5fire.com/, http://www.the5fire.com/rss, 编程; Python; 算法; 随笔; 读书
 余海峯 David 物理喵 phycat, https://hfdavidyu.com, https://hfdavidyu.com/feed/, 物理
 水星投资理财, http://mercurychong.blogspot.com, http://mercurychong.blogspot.com/feeds/posts/default, 投资
 Mr. PM 下午先生, http://mrpm.cc, http://feeds.feedburner.com/pmmustknow, 编程
@@ -219,8 +219,7 @@ The Art of Chawye Hsu, https://chawyehsu.com/, https://chawyehsu.com/feed/atom.x
 四公子的剑, http://blogbo.org/, http://blogbo.org/atom.xml, 编程; 生活; 随笔
 朱双印, http://www.zsythink.net/, , 运维; 编程
 HUHUHANG, https://huhuhang.com/, https://huhuhang.com/feed, 机器学习; 应用推荐; 手机摄影
-小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python 大佬; k8s; 随笔
-the5fire的技术博客, https://www.the5fire.com/, , 编程; Python 大佬; 算法; 随笔; 读书
+小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python; k8s; 随笔
 LFhacks.com, https://www.lfhacks.com/, https://www.lfhacks.com/rss/, 日志; 测试; 数学
 桃园, http://www.taoweng.site/, http://www.taoweng.site/feed, 编程; 随想; 前端
 oldj's blog, https://oldj.net, https://oldj.net/feed, 编程; 写作; 以及涂鸦
