@@ -12,7 +12,6 @@ ShrekShao, http://shrekshao.github.io, http://shrekshao.github.io/feed.xml, 编�
 全栈应用开发:精益实践, https://www.phodal.com, https://www.phodal.com/blog/feeds/rss/, 编程
 追梦人物的博客, https://www.zmrenwu.com, https://www.zmrenwu.com/all/rss/, 编程
 Python 工匠, https://www.zlovezl.cn, https://www.zlovezl.cn/feeds/latest/, 编程
-小明明S À DOMICILE, https://www.dongwm.com, https://www.dongwm.com/atom.xml, 编程
 但行好事，莫问前程, https://windard.com, https://windard.com/feed.xml, 编程
 罗磊的独立博客, https://luolei.org, http://luolei.org/feed/, 编程; 旅行
 阁子, https://newdee.cf, https://newdee.cf/atom.xml, 编程; 算法; 生活
@@ -55,7 +54,7 @@ The Will Will Web, https://blog.miniasp.com, https://feeds.feedburner.com/TheWil
 晚晴幽草轩, https://www.jeffjade.com, https://www.jeffjade.com/atom.xml, 编程
 林小沐, https://immmmm.com, http://feed.immmmm.com/, 编程
 HelloDog, https://wsgzao.github.io, https://wsgzao.github.io/atom.xml, 编程
-the5fire的技术博客, https://www.the5fire.com, http://www.the5fire.com/rss, 编程
+the5fire的技术博客, https://www.the5fire.com/, http://www.the5fire.com/rss, 编程; Python; 算法; 随笔; 读书
 余海峯 David 物理喵 phycat, https://hfdavidyu.com, https://hfdavidyu.com/feed/, 物理
 水星投资理财, http://mercurychong.blogspot.com, http://mercurychong.blogspot.com/feeds/posts/default, 投资
 Mr. PM 下午先生, http://mrpm.cc, http://feeds.feedburner.com/pmmustknow, 编程
@@ -65,7 +64,6 @@ Mr. PM 下午先生, http://mrpm.cc, http://feeds.feedburner.com/pmmustknow, 编
 O3noBLOG, https://blog.othree.net, https://feeds.feedburner.com/othree, 编程
 Vivaxy's blog, https://vivaxyblog.github.io, https://vivaxyblog.github.io/atom.xml, 编程
 Debug客栈, https://www.debuginn.cn, https://www.debuginn.cn/feed, 编程; PHP
-Origin's blog, https://blog.singee.me, https://blog.singee.me/atom.xml, 编程
 isaced, http://www.isaced.com, http://www.isaced.com/index.xml, 编程
 Jason, https://atjason.com, https://atjason.com/atom.xml, 编程
 forecho 的独立博客, https://blog.forecho.com, https://blog.forecho.com/atom.xml, 编程
@@ -221,8 +219,7 @@ The Art of Chawye Hsu, https://chawyehsu.com/, https://chawyehsu.com/feed/atom.x
 四公子的剑, http://blogbo.org/, http://blogbo.org/atom.xml, 编程; 生活; 随笔
 朱双印, http://www.zsythink.net/, , 运维; 编程
 HUHUHANG, https://huhuhang.com/, https://huhuhang.com/feed, 机器学习; 应用推荐; 手机摄影
-小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python 大佬; k8s; 随笔
-the5fire的技术博客, https://www.the5fire.com/, , 编程; Python 大佬; 算法; 随笔; 读书
+小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python; k8s; 随笔
 LFhacks.com, https://www.lfhacks.com/, https://www.lfhacks.com/rss/, 日志; 测试; 数学
 桃园, http://www.taoweng.site/, http://www.taoweng.site/feed, 编程; 随想; 前端
 oldj's blog, https://oldj.net, https://oldj.net/feed, 编程; 写作; 以及涂鸦
@@ -257,7 +254,7 @@ YeungYeah 的乱写地, http://scottyeung.top/, http://scottyeung.top/atom.xml, 
 hywel前端个人博客, http://www.hywel.cn/, , 编程; 前端; WEB; 随笔
 LarsCheng, https://www.larscheng.com/, https://www.larscheng.com/atom.xml, 编程; Java; 生活
 开发者小蓝, http://lanhao.name, , 编程
-Origin, https://blog.singee.me/, https://blog.singee.me/atom.xml, 编程; Python; 全栈
+Origin's blog, https://blog.singee.me/, https://blog.singee.me/atom.xml, 编程; Python; 全栈
 码志, https://mazhuang.org/, https://mazhuang.org/feed.xml, 编程; Java; Android
 北门清燕, https://www.bmqy.net/, https://www.bmqy.net/feed, 生活; 随笔; 前端
 Joe's Blog, https://hijiangtao.github.io/, https://hijiangtao.github.io/feed.xml, 编程; 生活
@@ -419,7 +416,6 @@ ddadaal.me, https://ddadaal.me, https://ddadaal.me/rss.xml, 编程; 消费数码
 无主题博客, https://wuzhuti.cn, https://wuzhuti.cn/feed, 编程; 技术; 分享
 区块链罗宾, https://dbarobin.com, https://dbarobin.com/feed.xml, 区块链; 加密货币; 比特币; 以太坊; DeFi; 隐私
 甜欣屋, https://www.tcxx.info, , 美国生活; 技术; 人工智能
-Chores, https://raincorn.top/, https://raincorn.top/atom.xml, 计算机; 网络; 日常
 Luyu Huang's Tech Blog, https://luyuhuang.github.io, https://luyuhuang.github.io/feed.xml, 编程
 费照君个人网站, https://feizhaojun.com, https://feizhaojun.com/?feed=rss2, 编程; 科技; 分享
 年华转瞬, https://blog.xiaket.org, https://blog.xiaket.org/feed.xml, 编程; 读书
