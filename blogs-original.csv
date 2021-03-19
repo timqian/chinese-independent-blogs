@@ -36,7 +36,7 @@ chai2010 的博客, https://chai2010.cn, https://chai2010.cn/index.xml, 编程
 笨方法学写作, https://www.cnfeat.com, https://www.cnfeat.com/feed.xml, 编程
 云原生, https://jimmysong.io, https://jimmysong.io/index.xml, 编程
 Hawstein's Blog, https://hawstein.com/, http://hawstein.com/feed.xml, 编程
-Skywind Inside, http://www.skywind.me/blog, http://www.skywind.me/blog/feed, 编程
+Skywind Inside, https://www.skywind.me/blog/, http://www.skywind.me/blog/feed, 编程
 某岛, http://www.shuizilong.com/house, http://www.shuizilong.com/house/feed/, 编程
 陈沙克日志, http://www.chenshake.com, http://www.chenshake.com/feed/, 编程
 Cat in Chinese, https://chinese.catchen.me, http://chinese.catchen.me/feeds/posts/default, 编程
@@ -94,7 +94,7 @@ Garan no dou, https://blog.ibireme.com/, https://blog.ibireme.com/feed/, 编程;
 可能吧, https://kenengba.com/, http://feeds.kenengba.com/kenengbarss, 创业
 鸟窝, https://colobu.com/, https://colobu.com/atom.xml, 编程
 火丁笔记, https://blog.huoding.com/, http://huoding.com/feed, 编程
-libfeihu Blog, http://feihu.me/blog/, http://feihu.me/blog/feed.atom, 编程
+libfeihu Blog, https://feihu.me/blog/, http://feihu.me/blog/feed.atom, 编程
 Nic Lin's Blog, https://blog.niclin.tw/, https://blog.niclin.tw/index.xml, 编程
 Halfrost's Field, https://halfrost.com/, http://halfrost.com/rss/, 编程
 limboy's HQ, https://limboy.me, http://feeds.feedburner.com/lzyy, 编程; 设计
@@ -179,7 +179,7 @@ yanliang's blog, https://gyl-coder.top/, https://gyl-coder.top/atom.xml, 后端;
 Teach Talk, https://www.ttalk.im/, https://www.ttalk.im/rss.xml, Web; MQTT; XMPP; RabbitMQ; 翻译
 逐鹿IT-猛猛如玉, https://amonxu.com/, https://amonxu.com/atom.xml, 编程; 思考; 随笔; 鬼画弧
 Xiaoi's Blog, https://blog.xiaoi.me/, https://blog.xiaoi.me/feed.xml, 编程; 技术教程
-小蘿蔔丁, http://xlbd.me/, http://xlbd.me/rss/, 编程; 前端
+小蘿蔔丁, https://www.xlbd.me/, http://xlbd.me/rss/, 编程; 前端
 王亚振-随笔博客, https://yazhen.me, , Gatsby; 生活; 记录; 前端
 Realcat, https://www.vincentqin.tech/, https://www.vincentqin.tech/atom.xml, 计算机视觉; 算法; 思考; 生活
 悬铃木, https://blog.hbsun.top/, , 算法; 编程; 后台开发
@@ -217,7 +217,7 @@ The Art of Chawye Hsu, https://chawyehsu.com/, https://chawyehsu.com/feed/atom.x
 风滚草, http://tuwee.cn/, , 算法; 深度学习; 人工智能; 编程
 张佳圆, https://jiayuanzhang.com/, http://blog.jiayuanzhang.com/index.xml, 编程; Python; Web
 四公子的剑, http://blogbo.org/, http://blogbo.org/atom.xml, 编程; 生活; 随笔
-朱双印, http://www.zsythink.net/, , 运维; 编程
+朱双印, https://www.zsythink.net/, , 运维; 编程
 HUHUHANG, https://huhuhang.com/, https://huhuhang.com/feed, 机器学习; 应用推荐; 手机摄影
 小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python; k8s; 随笔
 LFhacks.com, https://www.lfhacks.com/, https://www.lfhacks.com/rss/, 日志; 测试; 数学
