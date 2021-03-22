@@ -168,6 +168,10 @@ ${tableContentInMD}
 
   - [Netlify](https://www.netlify.com/)
   - [Vercel](https://vercel.com/)
+
+## 内容管理系统推荐
+
+  - [Forestry](https://forestry.io/)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
