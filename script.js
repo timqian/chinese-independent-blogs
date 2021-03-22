@@ -163,6 +163,11 @@ ${tableContentInMD}
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
+
+## 博客部署工具推荐
+
+  - [Netlify](https://www.netlify.com/)
+  - [Vercel](https://vercel.com/)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
