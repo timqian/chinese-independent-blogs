@@ -429,6 +429,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.murphyyi.com/atom.xml)                           | 墨菲易                        | https://blog.murphyyi.com             | 技术; 后端; golang                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://codeyang.pages.dev/atom.xml)                          | 一只会敲代码的Sheep               | https://codeyang.pages.dev/           | 编程; 分享; 折腾; 生活                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.eastonman.com/feed)                              | Easton Man's Blog          | https://blog.eastonman.com            | 开源; Linux; 计算机系统                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://sht2019.cn/atom.xml)                                   | 开源之心                       | http://sht2019.cn                     | 哲学; 笔记                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zikin.org/feed/)                                      | Zikin的独立博客                 | https://zikin.org                     | 生活; 折腾; 笔记                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.cyfan.top/atom.xml)                              | ChenYFanのBlog              | https://blog.cyfan.top                | 编程; 技术; 分享; 记录                                 |
@@ -587,6 +588,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.tefact.com/)                                     | 跳动的神经元                     | https://blog.tefact.com/              | 技术; 生活; 历史; 笔记; 读书                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zeqiang.fun/index.xml)                                | 方泽强                        | https://zeqiang.fun                   | 数据科学; 地图数据可视化; 生活                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ljp.me/index.xml)                                     | 大魔头闪电                      | https://ljp.me/                       | 生活; 工作; 笔记                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.hidandelion.com/rss)                              | hiDandelion's Space        | https://www.hidandelion.com           | 编程; 物理; 笔记; 生活                                 |
 |                                                                                                                     | 刘悦的技术博客                    | https://v3u.cn                        | 编程; python; ruby; 前端                           |
 |                                                                                                                     | 王亚振-随笔博客                   | https://yazhen.me                     | Gatsby; 生活; 记录; 前端                             |
 |                                                                                                                     | 悬铃木                        | https://blog.hbsun.top/               | 算法; 编程; 后台开发                                   |
@@ -633,7 +635,6 @@
 |                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
-|                                                                                                                     | 开源之心                       | http://sht2019.cn                     | 哲学; 笔记                                         |
 |                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
 
 ## 什么是独立博客
