@@ -638,6 +638,7 @@
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
+|                                                                                                                     | Leon.D's blog              | https://kongfandong.cn                | 前端; 编程; 技术                                     |
 
 ## 什么是独立博客
 
