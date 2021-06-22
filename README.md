@@ -649,6 +649,7 @@
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
+|                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
 
 ## 什么是独立博客
 
