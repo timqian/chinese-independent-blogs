@@ -351,8 +351,8 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://weirane.github.io/feed.xml)                          | weirane's blog             | https://weirane.github.io/            | 编程; Linux; Rust                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.jiejiss.com/atom.xml)                           | JieJiSS' Blog              | https://blog.jiejiss.com              | 编程; 技术; 算法; 密码学; 随笔                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://weisenhui.top/atom.xml)                              | shwei's blog               | https://weisenhui.top/                | 编程; 算法; 思考                                     |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://juemuren4449.com/atom.xml)                           | 掘墓人的小铲子                    | https://juemuren4449.com/             | 编程; 微信; 支付; 效率                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://holmesian.org/feed)                                  | Holmesian Blog             | https://holmesian.org/                | 编程; 随笔                                         |
-| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.luotaoruby.me/rss.xml)                           | Placeholder                | https://www.luotaoruby.me             | 编程; 随笔                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.wolone.wang/feed/)                               | 老镭                         | https://www.wolone.wang/              | 编程; 生活                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://emuqi.github.io/atom.xml)                            | Wulu's Blog                | https://emuqi.github.io/              | 笔记; 经验分享; 学习                                   |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://frost-lee.github.io/atom.xml)                        | Frost's Blog               | https://frost-lee.github.io           | 编程; 数据分析; 随笔; 旅行                               |
@@ -494,6 +494,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://timemachine.icu/atom.xml)                             | TimeMachine Notes          | https://timemachine.icu/              | 大数据; 编程; 生活; 随笔; 学习                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.junz.org/index.xml)                               | Jun's Blog                 | https://www.junz.org/                 | 编程; C++; Linux; 随想                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.sulinehk.com/index.xml)                           | sulinehk's blog            | https://www.sulinehk.com/             | 编程; Golang                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hellodk.cn/feed/)                                     | Allen Hua 的网络博客            | https://hellodk.cn                    | 编程; Linux; 后端; 网络; 随笔; 生活                      |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://alili.tech/index.xml)                                 | Alili丶前端大爆炸                | https://alili.tech                    | 编程; 前端                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://tcpgnl.com/feed/)                                     | TCPGNL                     | https://tcpgnl.com/                   | 认知; 编程; 随想; 生活; 思考                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mathpretty.com/feed/)                                 | 文艺数学君                      | https://mathpretty.com/               | 编程; 生活; 数学                                     |
@@ -597,6 +598,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://littlepoco.github.io/rss.xml)                         | littlepoco's Blog          | https://littlepoco.github.io/         | Programming; 想法                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://sanzo.top/atom.xml)                                   | Sanzo's Blog               | https://sanzo.top/                    | 编程; 技术; 生活                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.developerastrid.com/index.xml)                    | 程序员忆初                      | https://www.developerastrid.com/      | 编程                                             |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bugcatt.com.com/rss)                              | 阿航的技术小站                    | https://www.bugcatt.com.com/          | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.quarticcat.com/index.xml)                        | QuarticCat's Blog          | https://blog.quarticcat.com/          | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leftshadow.com/?call_custom_simple_rss=1&csrp_cat=11) | 影留                         | https://leftshadow.com                | 读书; 念经                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://mengtnt.com/rss)                                      | mengtnt的Blog               | https://mengtnt.com/                  | iOS; 移动端开发; 编程; 架构                             |
@@ -631,7 +633,6 @@
 |                                                                                                                     | 王二的个人网站                    | https://wangyulue.com                 | 代码; 工具; 阅读; 文章                                 |
 |                                                                                                                     | 杏子的书架                      | http://moe48.moe                      | 编程; 随笔; 二次元; 小说                                |
 |                                                                                                                     | 狂奔的骆驼                      | http://www.geektcp.com/               | 完全个性化博客; 技术; 文艺                                |
-|                                                                                                                     | 掘墓人的小铲子                    | https://juemuren4449.com/             | 编程; 微信; 支付; 效率                                 |
 |                                                                                                                     | 琚致远                        | https://wineso.me/blog                | 编程; 自由职业; 生活; 思考                               |
 |                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
 |                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
@@ -650,9 +651,7 @@
 |                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
-|                                                                                                                     | Allen Hua 的网络博客            | https://hellodk.cn                    | 编程; Linux; 后端; 网络; 随笔; 生活                      |
 |                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
-|                                                                                                                     | 阿航的技术小站                    | https://www.bugcatt.com.com/          | 编程                                             |
 
 ## 什么是独立博客
 
