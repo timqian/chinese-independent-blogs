@@ -1,1 +1,1 @@
-{"status":200,"data":{"totalSubs":33397,"subsInEachSource":{"feedly":33370,"inoreader":0,"feedsPub":27},"failedSources":{"inoreader":"RSS feed not found on Inoreader"}},"lastModified":1629266669610}
+{"status":200,"data":{"totalSubs":27,"subsInEachSource":{"feedly":0,"inoreader":0,"feedsPub":27},"failedSources":{"substats-error":{},"inoreader":"RSS feed not found on Inoreader"}},"lastModified":1630282228459}
