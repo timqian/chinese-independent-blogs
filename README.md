@@ -574,6 +574,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.cyfan.top/atom.xml)                                              | ChenYFanのBlog              | https://blog.cyfan.top                | 编程; 技术; 分享; 记录                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ljp.me/feed)                                                          | 大魔头闪电                      | https://ljp.me/                       | 生活; 工作; 笔记                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.emperinter.info/sitemap.rss)                                      | emperinter's blog          | https://www.emperinter.info           | IT; 计算机; 影评; 读书笔记; 体验                          |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://yousazoe.top/atom.xml)                                                | Fl0w3r                     | https://yousazoe.top                  | 计算机图形学; 游戏开发; 生活                               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.jinreal.com/index.xml)                                           | 牛津的博客                      | https://blog.jinreal.com              | 随想                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://haoxiang.org/rss)                                                      | Haoxiang's Blog            | http://haoxiang.org                   | 计算机视觉; 编程; 游戏; 生活                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.lihaoya.com/rss)                                                 | 浩子's Blog                  | https://blog.lihaoya.com              | 全栈; 独立开发者; 编程; DevOps; 架构                      |
@@ -601,6 +602,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.besscroft.com/rss.xml)                                           | 尼采为谁哭泣                     | https://blog.besscroft.com/           | 编程; 生活; 哲学                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.netdoge.com/feed/)                                                | 多吉冲浪                       | https://netdoge.com/                  | 技术; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.labno3.com/feed/)                                                 | 3号实验室                      | https://www.labno3.com/               | 树莓派; 开发板; 编程; 折腾                               |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://huzizi.com/feed/)                                                     | 胡子的独立博客                    | https://www.huzizi.com/               | 普拉提; 健身; 生活; 旅行; 程序员                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://adores.cc/atom.xml)                                                   | Xudong's Blog              | https://adores.cc                     | 编程; 生活; 笔记                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.halberd.cn/rss.xml)                                              | Simple code Simple life    | https://blog.halberd.cn/              | 前端; 编程; 计算机; 生活记录                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wu.run/atom.xml)                                                       | 吴润写字的地方                    | http://wu.run                         | 编程; 生活; 思考                                     |
@@ -667,9 +669,7 @@
 |                                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
 |                                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
 |                                                                                                                                     | Leon.D's blog              | https://kongfandong.cn                | 前端; 编程; 技术                                     |
-|                                                                                                                                     | Fl0w3r                     | https://yousazoe.top                  | 计算机图形学; 游戏开发; 生活                               |
 |                                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
-|                                                                                                                                     | 胡子的独立博客                    | https://www.huzizi.com/               | 普拉提; 健身; 生活; 旅行; 程序员                           |
 
 ## 什么是独立博客
 
