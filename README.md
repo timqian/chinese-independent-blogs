@@ -675,6 +675,7 @@
 |                                                                                                                                     | 贰猹的小窝                      | https://noionion.top/                 | 编程; 分享; 生活                                     |
 |                                                                                                                                     | Leon.D's blog              | https://kongfandong.cn                | 前端; 编程; 技术                                     |
 |                                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
+|                                                                                                                                     | 张浩在路上                      | https://imzhanghao.com/               | 机器学习; 计算广告; 推荐系统; 技术变现                         |
 
 ## 什么是独立博客
 
