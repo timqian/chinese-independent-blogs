@@ -6,6 +6,14 @@
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs) [![](https://badgen.net/badge/icon/Patrons/orange?icon=patreon&label)](https://www.patreon.com/timqian) [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
 
+## Sponsors
+
+<a href="https://bytebase.com/"> <img height="80px" src="https://i.v2ex.co/3VSATzOl.png" /> </a>
+
+[Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
+
+[Become a sponsor](https://www.patreon.com/timqian)
+
 ## 目录
 
 - [博客列表](#博客列表)
@@ -330,6 +338,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://dbarobin.com/feed.xml)                                                | 区块链罗宾                      | https://dbarobin.com                  | 区块链; 加密货币; 比特币; 以太坊; DeFi; 隐私                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fourhappylions.com/index.xml)                                         | 四喜丸子                       | https://fourhappylions.com/           | 养娃; 家庭; 海外生活                                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://chegva.com/feed/)                                                     | 安志合的学习博客                   | https://chegva.com                    | 编程; 运维; 随笔; 国学                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.chenweiliang.com/feed/)                                           | 陈沩亮博客                      | https://www.chenweiliang.com/         | 电子商务; 网络营销; IT技术资讯                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.happyhack.io/atom.xml)                                           | HappyHack                  | https://blog.happyhack.io             | 编程; 生活; 云原生; Hack                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.ofo.moe/rss.xml)                                                 | Jiansing's Blog            | https://blog.ofo.moe                  | 技术; 生活; 思考; 阅读                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://leejarod.wordpress.com/feed/)                                         | 理想年代                       | https://leejarod.wordpress.com/       | 生活与编程                                          |
@@ -467,6 +476,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jhuo.ca//./index.xml)                                                 | HuoJu's BLOG               | https://jhuo.ca/                      | 隐私; 随笔                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.myfreax.com/feed/)                                                | myfreax                    | https://www.myfreax.com/              | 编程; 全栈; Linux                                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.imalan.cn/feed.xml)                                              | 失眠海峡                       | https://blog.imalan.cn                | 编程; 日常; 二次元; 读书                                |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://wuxinhua.com/atom.xml)                                                | wuxinhua's Blog            | https://wuxinhua.com/                 | 生活; 编程; 随想                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://jw1.dev/atom.xml)                                                     | Jacky's Blog               | https://jw1.dev                       | 前端; 生活; 技术; 音乐                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.scarsu.com/atom.xml)                                              | ScarSu的个人网站                | https://www.scarsu.com/               | 编程; 前端; 思考                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.liesauer.net/blog/feed/)                                          | LiesAuer's Blog            | https://www.liesauer.net/             | 编程                                             |
@@ -581,6 +591,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://diego.plus/atom.xml)                                                   | Diego的小站                   | http://diego.plus                     | 编程; 教程; 笔记                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://blog.diego.plus:2000/feed/)                                            | Diego's Blog               | http://blog.diego.plus:5800           | 编程; 技巧; 安利                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://azhuge233.com/feed)                                                   | azhuge233's Blog           | https://azhuge233.com                 | 编程; 技术; 教程; dotnet; python                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.geekzl.com/feed)                                                  | 极客中心                       | https://www.geekzl.com                | 编程; 技术; SEO; 教程; dotnet; python                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.grofis.com/feed.xml)                                              | 书呆子创业网                     | https://www.grofis.com                | 产品杂谈; 编程; 技术                                   |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://kubesphereio.com/tags/index.xml)                                      | 一切皆有可能                     | https://kubesphereio.com/             | 学习; K8s; 运维                                    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://geekplayers.com/feed.xml)                                             | 极客玩家大白                     | https://geekplayers.com               | 技术; SEO; 运营; 教程; python                        |
@@ -592,6 +603,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://qiangwaikan.com/feed/)                                                | 墙外看的博客                     | https://qiangwaikan.com/              | 教程; 安全; 技术                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.vpndada.com/feed/)                                                | VPN大大                      | https://www.vpndada.com/              | 教程; 安全; 技术; 产品; 数码                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://teobler.com/rss.xml)                                                  | teobler                    | https://teobler.com                   | 前端; 敏捷                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zuanfeng.club/index.php/feed/)                                        | 小钻风的博客                     | https://zuanfeng.club/                | 读书; 随笔; 学习                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.2hu.net/feed)                                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fantalovelife.club/archives/)                                         | Fanta's Blog               | https://fantalovelife.club            | 技术; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wangyikai.com/feed)                                                    | 王宜楷工作室                     | http://wangyikai.com                  | 非虚构写作; 用身体写作的纯文学                               |
@@ -604,6 +616,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://adores.cc/atom.xml)                                                   | Xudong's Blog              | https://adores.cc                     | 编程; 生活; 笔记                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.halberd.cn/rss.xml)                                              | Simple code Simple life    | https://blog.halberd.cn/              | 前端; 编程; 计算机; 生活记录                              |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wu.run/atom.xml)                                                       | 吴润写字的地方                    | http://wu.run                         | 编程; 生活; 思考                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.ruixiaolu.com/feed/)                                             | Rainshaw's Blog            | https://blog.ruixiaolu.com/           | 编程; 随想; 安全                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://marwin.cn/rss2.xml)                                                   | Marwin's Blog              | https://marwin.cn/                    | 编程; 数码                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://cat.dorcandy.cn/feed)                                                 | 火喵日记本                      | https://cat.dorcandy.cn/              | 生活; 日常; 编程; 笔记                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://acmic.top/feed)                                                       | Acmic                      | https://acmic.top/                    | 读书; 生活; 编程; 笔记; 分享                             |
@@ -631,7 +644,6 @@
 |                                                                                                                                     | Jansora                    | https://www.jansora.com/              | 编程; 全栈                                         |
 |                                                                                                                                     | 橙光笔记                       | https://www.kai666666.top/            | 编程; 前端; 笔记; 运动                                 |
 |                                                                                                                                     | 杯酒故事                       | https://beijiu.ink                    | 文学; 小说; 诗歌                                     |
-|                                                                                                                                     | wuxinhua's Blog            | https://wuxinhua.com/                 | 生活; 编程; 随想                                     |
 |                                                                                                                                     | Dasyatis                   | https://www.bobby285271.top/          | 编程; Linux                                      |
 |                                                                                                                                     | 薛定喵君的博客                    | http://blog.xuedingmiao.com/          | 编程; 前端; 产品; 笔记                                 |
 |                                                                                                                                     | Ryan_naiquan               | https://www.lpime.cn/                 | 编程; C++; 后台                                    |
@@ -653,19 +665,16 @@
 |                                                                                                                                     | 赵宏程的博客                     | https://zhaohongcheng.com             | 编程; 前端; 开源                                     |
 |                                                                                                                                     | Nero的博客                    | https://www.neroht.com                | 技术; 分享; 创造                                     |
 |                                                                                                                                     | 豌豆(没有荚)                    | https://wandoer.com                   | 编程; 摄影; 随笔; 无线电                                |
-|                                                                                                                                     | 陈沩亮博客                      | https://www.chenweiliang.com/         | 电子商务; 网络营销; IT技术资讯                             |
 |                                                                                                                                     | 皮皮凛基地                      | https://qwq.best                      | 编程; 生活; 评论                                     |
 |                                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
 |                                                                                                                                     | 峡州仙士之页                     | https://cjh0613.com                   | 技术; 生活; 思考; 分享; 编程                             |
 |                                                                                                                                     | 翻墙101的Blog                 | https://wall101.com                   | 技术; 编程; 网安; Hack                               |
 |                                                                                                                                     | 迷途小书童                      | https://xugaoxiang.com                | 工作; 编程; 技术                                     |
-|                                                                                                                                     | 极客中心                       | https://www.geekzl.com                | 编程; 技术; SEO; 教程; dotnet; python                |
 |                                                                                                                                     | 牧云云的博客                     | http://muyunyun.cn/blog/              | 编程; 前端; 算法; 读书; 分享                             |
 |                                                                                                                                     | Vmaig                      | https://vmaig.com/                    | 教程; 编程; 技术                                     |
 |                                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
 |                                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
-|                                                                                                                                     | 小钻风的博客                     | https://zuanfeng.club/                | 读书; 随笔; 学习                                     |
 |                                                                                                                                     | Adkinsm博客                  | https://www.adkinsm.top               | 技术; 前端; 世界; 互联网                                |
 |                                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
 |                                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
@@ -675,7 +684,6 @@
 |                                                                                                                                     | Leon.D's blog              | https://kongfandong.cn                | 前端; 编程; 技术                                     |
 |                                                                                                                                     | Fl0w3r                     | https://yousazoe.top                  | 计算机图形学; 游戏开发; 生活                               |
 |                                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
-|                                                                                                                                     | Rainshaw's Blog            | https://blog.ruixiaolu.com/           | 编程; 随想; 安全                                     |
 |                                                                                                                                     | 张浩在路上                      | https://imzhanghao.com/               | 机器学习; 计算广告; 推荐系统; 技术变现                         |
 
 ## 什么是独立博客
