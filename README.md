@@ -565,6 +565,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://ksmeow.moe/feed/)                                                     | KSkun's Blog               | https://ksmeow.moe/                   | 算法; 开发; 互联网; 生活                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://kevinnan.org.cn/feed)                                                  | Lucas's Blog               | http://kevinnan.org.cn/               | 编程; 算法; 音视频开发; 服务器开发                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://qq52o.me/feed)                                                        | 沈唁志                        | https://qq52o.me                      | 编程; 后端; 技术; 随笔                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://2hu.net/feed.xml)                                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fantalovelife.club/archives/)                                         | Fanta's Blog               | https://fantalovelife.club            | 技术; 生活                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://wangyikai.com/feed)                                                    | 王宜楷工作室                     | http://wangyikai.com                  | 非虚构写作; 用身体写作的纯文学                               |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://saulnoble.github.io/atom.xml)                                         | Saul's Space               | https://saulnoble.github.io/          | 小说; 统计学; 艺术                                    |
@@ -677,7 +678,6 @@
 |                                                                                                                                     | 小碎银                        | https://xiaosuiyin.com                | 分享编程经验; 好的网站，软件                                |
 |                                                                                                                                     | 指尖上的梦想                     | https://varyblog.cn/                  | 学习; 旅行; 收藏                                     |
 |                                                                                                                                     | Adkinsm博客                  | https://www.adkimsm.asia              | 技术; 前端; 世界; 互联网                                |
-|                                                                                                                                     | 二只老虎                       | https://2hu.net                       | 互联网; 随笔; 学习; 资源                                |
 |                                                                                                                                     | plusplus7's Blog           | https://blog.plusplus7.com            | 编程; 信息安全; 旅行; 游戏                               |
 |                                                                                                                                     | icodex                     | https://icodex.me/                    | 前端                                             |
 |                                                                                                                                     | Max_Qiu                    | https://maxqiu.com                    | 编程                                             |
@@ -687,6 +687,7 @@
 |                                                                                                                                     | Fl0w3r                     | https://yousazoe.top                  | 计算机图形学; 游戏开发; 生活                               |
 |                                                                                                                                     | XTAO's Tech Blog           | https://xiaotaoguo.com                | 编程; 技术; 自动驾驶; 机器人                              |
 |                                                                                                                                     | 张浩在路上                      | https://imzhanghao.com/               | 机器学习; 计算广告; 推荐系统; 技术变现                         |
+|                                                                                                                                     | 木澤的研發腦                     | https://woodloch.blog/                | 編程; 開源; 隨筆                                     |
 
 ## 什么是独立博客
 
