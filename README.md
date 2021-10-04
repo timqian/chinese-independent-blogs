@@ -627,6 +627,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://hocassian.cn/feed/)                                                   | 同和故事匯                      | https://hocassian.cn/                 | 編程; 隨筆; Galgame; 雜談                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://imzl.com/feed/)                                                       | 周良博客                       | https://imzl.com/                     | 产品; 运营; 商业; 编程; WordPress; 随笔                  |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.miaoer.xyz/atom.xml)                                              | 喵二の小博客                     | https://www.miaoer.xyz/               | 技术; 生活; 学习                                     |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://itgoyo.github.io/atom.xml)                                              | 一个二货程序员的编码日常                     | https://itgoyo.github.io/               | 编程; UP; 学习; Vim; Mac; Linux                                     |
 |                                                                                                                                     | 吕大卫的官方网站                   | https://lvdawei.com                   | 编程                                             |
 |                                                                                                                                     | 某岛                         | http://www.shuizilong.com/house       | 编程                                             |
 |                                                                                                                                     | idea's blog                | http://www.ideawu.net/blog            | 编程                                             |
@@ -692,6 +693,7 @@
 |                                                                                                                                     | Rainshaw's Blog            | https://blog.ruixiaolu.com/           | 编程; 随想; 安全                                     |
 |                                                                                                                                     | 张浩在路上                      | https://imzhanghao.com/               | 机器学习; 计算广告; 推荐系统; 技术变现                         |
 |                                                                                                                                     | 木澤的研發腦                     | https://woodloch.blog/                | 編程; 開源; 隨筆                                     |
+
 
 ## 什么是独立博客
 
