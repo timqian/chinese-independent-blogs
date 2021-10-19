@@ -701,6 +701,7 @@
 |                                                                                                                                     | 张浩在路上                      | https://imzhanghao.com/               | 机器学习; 计算广告; 推荐系统; 技术变现                         |
 |                                                                                                                                     | 木澤的研發腦                     | https://woodloch.blog/                | 編程; 開源; 隨筆                                     |
 |                                                                                                                                     | 荆棘小栈                       | https://jsun969.cn/                   | 编程; 生活; 学习; 游戏                                 |
+|                                                                                                                                     | BAI YUN                    | https://baiyun.me/                    | 技术; 分享                                         |
 
 ## 什么是独立博客
 
