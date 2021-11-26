@@ -129,6 +129,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.byvoid.com/feed)                                                 | Beyond the Void            | https://www.byvoid.com/               | 语言学; 经济学; 信息学竞赛/ACM经验; 算法讲解; 技术知识; 随笔          |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.gotocoding.com/feed/)                                           | 重归混沌的BLOG                  | https://blog.gotocoding.com           | 编程                                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.frank.hk/rss.xml)                                                | 人生這部戲                      | https://www.frank.hk/                 | 生活; 思考; 閱讀; 旅行; 技術                             |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.geekzl.com/feed)                                                 | 极客中心                       | https://www.geekzl.com                | 编程; 技术; SEO; 教程; dotnet; python                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://blog.winterchen.com/atom.xml)                                        | winter's Blog              | https://blog.winterchen.com           | 编程; 摄影                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://timemachine.icu/atom.xml)                                            | TimeMachine Notes          | https://timemachine.icu/              | 大数据; 编程; 生活; 随笔; 学习                            |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://phuker.github.io/feeds/all.atom.xml)                                 | Phuker's Blog              | https://phuker.github.io/             | 编程; 技术; 安全                                     |
@@ -707,7 +708,6 @@
 |                                                                                                                                     | 愤怒的蜂鸟                      | https://peon.top                      | 编程; 随笔                                         |
 |                                                                                                                                     | 峡州仙士之页                     | https://cjh0613.com                   | 技术; 生活; 思考; 分享; 编程                             |
 |                                                                                                                                     | 翻墙101的Blog                 | https://wall101.com                   | 技术; 编程; 网安; Hack                               |
-|                                                                                                                                     | 极客中心                       | https://www.geekzl.com                | 编程; 技术; SEO; 教程; dotnet; python                |
 |                                                                                                                                     | 牧云云的博客                     | http://muyunyun.cn/blog/              | 编程; 前端; 算法; 读书; 分享                             |
 |                                                                                                                                     | Vmaig                      | https://vmaig.com/                    | 教程; 编程; 技术                                     |
 |                                                                                                                                     | coding2live                | http://coding2live.com                | 编程经验; 前端; 学习经验                                 |
@@ -767,6 +767,7 @@
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
+  - [Halo](https://github.com/halo-dev/halo)
   - [Hexo](https://hexo.io/)
   - [Hugo](https://gohugo.io/)
   - [Jekyll](https://jekyllrb.com/)
