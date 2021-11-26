@@ -767,7 +767,6 @@
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
-  - [Halo](https://github.com/halo-dev/halo)
   - [Hexo](https://hexo.io/)
   - [Hugo](https://gohugo.io/)
   - [Jekyll](https://jekyllrb.com/)
