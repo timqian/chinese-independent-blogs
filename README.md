@@ -670,6 +670,8 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://xqrp.com/feed)                                                        | 闲趣日评                       | https://xqrp.com                      | 生活; 笔记; 分享                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.librehat.com/feed)                                                | Librehat's Blog            | https://www.librehat.com              | C++; Qt; Python; Linux; Windows; 网络; 编程; 生活    |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fengmengzhao.github.io/feed.xml)                                      | 冯兄话吉博客                     | https://fengmengzhao.github.io/       | Java; Linux; 编程; 生活                            |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zuopin.jingluole.com/feed)                                            | 当代写作仓库                     | https://zuopin.jingluole.com/         | 纯文学; 写作; 小说; 诗歌; 随笔                            |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.buzhangjiuzhou.com/index.php/feed/)                               | 步丈九州的博客                    | https://www.buzhangjiuzhou.com/       | 博客; 随想                                         |
 |                                                                                                                                     | 吕大卫的官方网站                   | https://lvdawei.com                   | 编程                                             |
 |                                                                                                                                     | 某岛                         | http://www.shuizilong.com/house       | 编程                                             |
 |                                                                                                                                     | 冰山一角                       | http://cnberg.com                     | 编程; 旅行; 摄影                                     |
@@ -735,7 +737,6 @@
 |                                                                                                                                     | 低调小熊猫                      | https://ilovey.live/                  | 技术; 编程; 分享                                     |
 |                                                                                                                                     | 小 pu 的博客                   | https://www.puronglong.com/           | 生活; 随想; 分享                                     |
 |                                                                                                                                     | 蓝星回忆录                      | https://lxhyl.cn                      | 编程; 前端; 记录                                     |
-|                                                                                                                                     | 当代写作仓库                     | https://zuopin.jingluole.com/         | 纯文学; 写作; 小说; 诗歌; 随笔                            |
 
 ## 什么是独立博客
 
