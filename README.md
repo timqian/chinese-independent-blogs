@@ -735,6 +735,7 @@
 |                                                                                                                                     | 低调小熊猫                      | https://ilovey.live/                  | 技术; 编程; 分享                                     |
 |                                                                                                                                     | 小 pu 的博客                   | https://www.puronglong.com/           | 生活; 随想; 分享                                     |
 |                                                                                                                                     | 蓝星回忆录                      | https://lxhyl.cn                      | 编程; 前端; 记录                                     |
+|                                                                                                                                     | 当代写作仓库                     | https://zuopin.jingluole.com/         | 纯文学; 写作; 小说; 诗歌; 随笔                            |
 
 ## 什么是独立博客
 
