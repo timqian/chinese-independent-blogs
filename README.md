@@ -445,6 +445,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fengmengzhao.github.io/feed.xml)                                      | 冯兄话吉博客                     | https://fengmengzhao.github.io/       | Java; Linux; 编程; 生活                            |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.buzhangjiuzhou.com/index.php/feed/)                               | 步丈九州的博客                    | https://www.buzhangjiuzhou.com/       | 博客; 随想                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://www.bbing.com.cn/index.xml)                                           | BBing's Blog               | https://www.bbing.com.cn/             | 编程; 随笔                                         |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.kevinzhow.com/rss/)                                              | Kevin Blog                 | https://blog.kevinzhow.com/           | 产品; 技术; 生活                                     |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zddhub.com/feed)                                                      | ZDDHUB 的博客                 | https://zddhub.com/                   | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://rowkey.cn/atom.xml)                                                   | 后端技术杂谈                     | https://rowkey.cn                     | 编程                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.lui8.cn/feed.xml)                                                | zhonger 前端开发者，喜爱运维管理       | https://blog.lui8.cn                  | 编程                                             |
@@ -744,6 +745,7 @@
 |                                                                                                                                     | 小 pu 的博客                   | https://www.puronglong.com/           | 生活; 随想; 分享                                     |
 |                                                                                                                                     | 蓝星回忆录                      | https://lxhyl.cn                      | 编程; 前端; 记录                                     |
 |                                                                                                                                     | 千古壹号                       | https://www.qianguyihao.com           | 前端; 读书笔记; 产品思考; 软件工具; 具体生活                     |
+|                                                                                                                                     | DavidCai                   | https://davidc.ai/                    | nodejs; 编程; 创业; 思考                             |
 
 ## 什么是独立博客
 
