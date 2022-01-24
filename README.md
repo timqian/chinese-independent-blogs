@@ -93,6 +93,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://feeds.kenengba.com/kenengbarss)                                       | 可能吧                        | https://kenengba.com/                 | 创业                                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.ixiqin.com/feed/)                                                | 西秦公子                       | https://www.ixiqin.com/               | 编程; 开源                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://gylidian.js.org/rss2.xml)                                            | 啊哈呵嗨的博客                    | https://gylidian.js.org               | 编程; 前端; 全栈; 任天堂; 专栏                            |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://geofftools.cn/blog/atom.xml)                                         | 樵夫的小站                      | https://geofftools.cn/blog/           | 编程; Swift; Python                              |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://juemuren4449.com/atom.xml)                                           | 掘墓人的小铲子                    | https://juemuren4449.com/             | 编程; 微信; 支付; 效率                                 |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.aceact.com/feed/)                                                | 老张说思路                      | https://www.aceact.com                | 项目管理                                           |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://www.chenweiliang.com/feed/)                                          | 陈沩亮博客                      | https://www.chenweiliang.com/         | 电子商务; 网络营销; IT技术资讯                             |
@@ -746,7 +747,6 @@
 |                                                                                                                                     | 王二的个人网站                    | https://wangyulue.com                 | 代码; 工具; 阅读; 文章                                 |
 |                                                                                                                                     | 杏子的书架                      | http://moe48.moe                      | 编程; 随笔; 二次元; 小说                                |
 |                                                                                                                                     | 狂奔的骆驼                      | http://www.geektcp.com/               | 完全个性化博客; 技术; 文艺                                |
-|                                                                                                                                     | 樵夫的小站                      | https://geofftools.cn/blog/           | 编程; Swift; Python                              |
 |                                                                                                                                     | 琚致远                        | https://wineso.me/blog                | 编程; 自由职业; 生活; 思考                               |
 |                                                                                                                                     | 二丫讲梵                       | http://eryajf.net                     | 运维; 思索; 编程                                     |
 |                                                                                                                                     | Tinywan 杂货摊                | https://www.tinywan.com               | 技术; 折腾; 生活                                     |
@@ -780,6 +780,7 @@
 |                                                                                                                                     | 千古壹号                       | https://www.qianguyihao.com           | 前端; 读书笔记; 产品思考; 软件工具; 具体生活                     |
 |                                                                                                                                     | DavidCai                   | https://davidc.ai/                    | nodejs; 编程; 创业; 思考                             |
 |                                                                                                                                     | icy's blog                 | https://icys.top/                     | 编程; 思考; 笔记                                     |
+|                                                                                                                                     | 林林杂语                       | https://www.linlinzzo.top/            | 生活; 随笔                                         |
 
 ## 什么是独立博客
 
