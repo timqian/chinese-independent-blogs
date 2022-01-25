@@ -416,7 +416,7 @@ Luyu Huang's Tech Blog, https://luyuhuang.github.io, https://luyuhuang.github.io
 王玄的博客, https://blog.wangxuan.name, https://blog.wangxuan.name/feed/, 随笔; 自由互联网; 数字生活; 分享
 重归混沌的BLOG, https://blog.gotocoding.com, https://blog.gotocoding.com/feed/, 编程
 旁逸斜出, https://www.mihu.live, https://www.mihu.live/feed/, 技术; 分享; 随笔
-一大加贝, https://blog.yidajiabei.xyz/, https://blog.yidajiabei.xyz/index.xml, 生活; 技术
+一大加贝, https://www.yidajiabei.xyz/, https://www.yidajiabei.xyz/blog/index.xml, 生活; 技术
 四方之云, https://jingyig.com/, https://jingyig.com/atom.xml, 思考; 外语; 数学; 记录
 四喜丸子, https://fourhappylions.com/, https://fourhappylions.com/index.xml, 养娃; 家庭; 海外生活
 豌豆(没有荚), https://wandoer.com, , 编程; 摄影; 随笔; 无线电
@@ -613,7 +613,7 @@ Haoxiang's Blog, http://haoxiang.org, http://haoxiang.org/rss, 计算机视觉; 
 mengtnt的Blog, https://mengtnt.com/, https://mengtnt.com/rss, iOS; 移动端开发; 编程; 架构
 Surager Blog, https://surager.pub/, https://surager.pub/feed.xml, 安全; 生活
 ControlNet Blog, https://controlnet.space/, https://controlnet.space/atom.xml, 编程; 技术; 笔记
-Amphibia, https://lumitytw.github.io/, https://lumitytw.github.io/index.xml, Programming; 想法
+Amphibia, https://iaarwu.github.io/, https://iaarwu.github.io/index.xml, Programming; 想法
 Eluyee个人博客, https://www.eluyee.com/, https://www.eluyee.com/feed/, 跨境支付; 虚拟卡; 亚马逊
 咸糖的博客, https://vim0.com/, https://vim0.com/index.xml, 编程; 理财; 想法
 Sanzo's Blog, https://sanzo.top/, https://sanzo.top/atom.xml, 编程; 技术; 生活
@@ -753,4 +753,5 @@ jtr109's Castle, https://jtr109.com, https://www.jtr109.com/index.xml, 编程; �
 胡言胡语, https://husay.cc/, https://husay.cc/feed, 生活; 随笔
 V for Vong, https://vfvong.blog/, https://vfvong.blog/feed.xml, 编程; 数学; 物理; 随笔
 林林杂语, https://www.linlinzzo.top/, https://www.linlinzzo.top/feed/, 生活; 随笔
+一叶斋, https://xieguanglei.github.io, https://xieguanglei.github.io/blog/feed.xml, 编程; 随笔
 WangDeer, https://w.toomore.us, https://w.toomore.us/index.xml, 生活; 读书; 编程
