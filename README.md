@@ -795,6 +795,7 @@
 |                                                                                                                                     | DavidCai                   | https://davidc.ai/                    | nodejs; 编程; 创业; 思考                             |
 |                                                                                                                                     | module Zephray             | https://www.zephray.me                | 硬件; 编程; 技术; 全栈                                 |
 |                                                                                                                                     | xuetengfei'Blog            | https://xuetengfei.github.io/         | 编程                                             |
+|                                                                                                                                     | 7Wate`s Blog               | https://blog.7wate.com                | 生活; 开发; 旅行; 摄影; 分享                             |
 
 ## 什么是独立博客
 
