@@ -41,6 +41,7 @@
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://www.btorange.com/feed)                                                | 冰糖橙子                       | http://www.btorange.com/              | 前端; 编程                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://luyuhuang.github.io/feed.xml)                                        | Luyu Huang's Tech Blog     | https://luyuhuang.github.io           | 编程                                             |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://rsshub.app/blogs/wangyin)                                            | 王垠的博客                      | https://www.yinwang.org/              | 编程                                             |
+| [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://gh0st.cn/feed.xml)                                                   | Vulkey_Chen's Blog         | https://gh0st.cn/                     | 安全; 编程                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](http://feeds.feedburner.com/yuguo)                                           | 余果的博客                      | https://yuguo.us                      | 编程; 产品                                         |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://easeapi.com/blog/feed.xml)                                           | easeapi blog               | https://easeapi.com/blog              | iOS; 开发; 产品; 生活                                |
 | [![](https://badgen.net/badge/icon/**?icon=rss&label)](https://livid.v2ex.com/feed.xml)                                             | Livid                      | https://livid.v2ex.com/               | 创业; 社区; 编程                                     |
@@ -807,7 +808,6 @@
 |                                                                                                                                     | 冰以东的博客                     | https://bninecoding.com/              | iOS; 编程; 职场; 产品观; 技术方案                         |
 |                                                                                                                                     | 像清水一般清澈透明                  | https://sumsec.me/                    | 技术; 安全; 生活; Java安全                             |
 |                                                                                                                                     | ROYWANG                    | https://rise.rs                       | 技术; 生活; 日记                                     |
-|                                                                                                                                     | Vulkey_Chen's Blog         | https://gh0st.cn/                     | 安全; 编程                                         |
 
 ## 什么是独立博客
 
