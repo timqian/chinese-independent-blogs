@@ -807,6 +807,7 @@
 |                                                                                                                                     | 冰以东的博客                     | https://bninecoding.com/              | iOS; 编程; 职场; 产品观; 技术方案                         |
 |                                                                                                                                     | 像清水一般清澈透明                  | https://sumsec.me/                    | 技术; 安全; 生活; Java安全                             |
 |                                                                                                                                     | ROYWANG                    | https://rise.rs                       | 技术; 生活; 日记                                     |
+|                                                                                                                                     | Vulkey_Chen's Blog         | https://gh0st.cn/                     | 安全; 编程                                         |
 
 ## 什么是独立博客
 
