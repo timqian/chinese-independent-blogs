@@ -118,7 +118,7 @@ Mohuishou's Blog, https://lailin.xyz, https://lailin.xyz/atom.xml, 编程; Go
 1A23 Studio, https://1a23.com/, https://1a23.com/feed/, 编程; 设计; 音乐; 开源
 Jiajun的编程随想, https://jiajunhuang.com/, https://jiajunhuang.com/rss, 编程; 开源; 随想
 忘归, http://jalan.space/, http://jalan.space/atom.xml, 编程; 后端; 生活
-贼拉正经的技术博客, https://www.stackoverflow.wiki/, https://stackoverflow.wiki/blog/rss.xml, 编程; 后端; Java
+贼拉正经的技术博客, https://www.stackoverflow.wiki/blog/, https://stackoverflow.wiki/blog/rss.xml, 编程; 后端; Java
 Lenix Blog, https://blog.p2hp.com/, https://blog.p2hp.com/feed, 编程; 后端; WEB开发
 西秦公子, https://www.ixiqin.com/, https://www.ixiqin.com/feed/, 编程; 开源
 OnionTalk, https://hateonion.me, https://hateonion.me/index.xml, 编程; 前端; 随笔
@@ -157,10 +157,10 @@ HansChen 的博客, https://blog.hanschen.site/, http://blog.hanschen.site/atom.
 IPhysResearch, https://iphysresearch.github.io/blog/, https://iphysresearch.github.io/blog/post/index.xml, 编程; 科研; 物理; 引力波; AI; 机器学习; 深度学习; 开源
 刘悦的技术博客, https://v3u.cn, , 编程; python; ruby; 前端
 Desvl's blog, https://desvl.xyz, https://desvl.xyz/atom.xml, 数学
-haokunt的博客, https://hkvision.cn, https://hkvision.cn/index.xml, Python; Golang; GIS; 编程
+HaoKunT的博客, https://hkvision.cn, https://hkvision.cn/index.xml, Python; Golang; GIS; 编程
 Deepzz's Blog, https://deepzz.com, https://deepzz.com/feed, 编程; 生活
 lucifer的网络博客, https://lucifer.ren/blog, https://lucifer.ren/blog/atom.xml, 编程; 前端; 算法
-多媒体开发札记, https://glumes.com, https://glumes.com/index.xml, 软件开发; 音视频; 图形图像; 随笔思考
+音视频开发进阶, https://glumes.com, https://glumes.com/index.xml, 软件开发; 音视频; 图形图像; 随笔思考
 Josherich的博客, https://www.josherich.me/, https://www.josherich.me/feed.xml, 编程; 随笔
 Zhshch`s Blog, https://xzhsh.ch/, https://xzhsh.ch/index.xml, 日常; 学生; 编程; 奇思妙想
 FlyingSky's Blog, https://blog.fsky7.com/, https://blog.fsky7.com/feed, 编程; 随笔
@@ -214,7 +214,7 @@ The Art of Chawye Hsu, https://chawyehsu.com/, https://chawyehsu.com/feed/atom.x
 风滚草, http://tuwee.cn/, , 算法; 深度学习; 人工智能; 编程
 张佳圆, https://jiayuanzhang.com/, http://blog.jiayuanzhang.com/index.xml, 编程; Python; Web
 四公子的剑, https://www.965.one/, , 编程; 生活; 随笔
-朱双印, https://www.zsythink.net/, , 运维; 编程
+朱双印, https://www.zsythink.net/, https://www.zsythink.net/feed/, 运维; 编程
 HUHUHANG, https://huhuhang.com/, https://huhuhang.com/feed, 机器学习; 应用推荐; 手机摄影
 小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python; k8s; 随笔
 LFhacks.com, https://www.lfhacks.com/, https://www.lfhacks.com/rss/, 日志; 测试; 数学
