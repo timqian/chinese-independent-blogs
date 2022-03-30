@@ -177,7 +177,7 @@ Teach Talk, https://www.ttalk.im/, https://www.ttalk.im/rss.xml, Web; MQTT; XMPP
 逐鹿IT-猛猛如玉, https://amonxu.com/, https://amonxu.com/atom.xml, 编程; 思考; 随笔; 鬼画弧
 Xiaoi's Blog, https://blog.xiaoi.me/, https://blog.xiaoi.me/feed.xml, 编程; 技术教程
 小蘿蔔丁, https://www.xlbd.me/, http://xlbd.me/rss/, 编程; 前端
-王亚振-随笔博客, https://yazhen.me, , Gatsby; 生活; 记录; 前端
+Drcus-迪卡, https://yazhen.me, , Gatsby; 生活; 记录; 前端
 Realcat, https://www.vincentqin.tech/, https://www.vincentqin.tech/atom.xml, 计算机视觉; 算法; 思考; 生活
 悬铃木, https://blog.hbsun.top/, , 算法; 编程; 后台开发
 LIANYONGXING的博客, https://lianyongxing.github.io/, , 编程; 技术; 生活
@@ -197,7 +197,7 @@ Claude's Blog, https://claude-ray.github.io, https://claude-ray.github.io/atom.x
 Just lepture, https://lepture.com/, https://lepture.com/feed.xml, 创业; 开源; 随笔
 Lyric, https://lyric.im/, https://lyric.im/feed/rss2.xml, 产品; 创业; 编程
 桑弧蓬矢射四方, https://iphyer.github.io/, https://iphyer.github.io/feed.xml, 深度学习; 科研; 生活
-杂货屋, https://sword.studio/, https://sword.studio/feed, 技术; 分享; 记录
+杂货屋, https://sword.studio/, https://sword.studio/feed/, 技术; 分享; 记录
 不才's blog, https://www.notbucai.com/, , 编程; 前端; 生活
 沐凉, https://blog.lacia.cn, https://blog.lacia.cn/atom.xml, 编程; Java
 idealclover, https://idealclover.top, https://idealclover.top/feed, 编程; 随笔; 思考; 生活
@@ -211,14 +211,13 @@ The Art of Chawye Hsu, https://chawyehsu.com/, https://chawyehsu.com/feed/atom.x
 吕小荣的网志, https://mednoter.com/, https://mednoter.com/feed.xml, 编程; 随笔; 生活
 加菲猫的创客工坊, https://gaficat.com, https://gaficat.com/atom.xml, 电子DIY; 物联网; 生活; 技术教程; 钢琴; 网络安全
 胡涂说, https://hutusi.com/, https://hutusi.com/feed.xml, 编程; 随笔; 生活
-风滚草, http://tuwee.cn/, , 算法; 深度学习; 人工智能; 编程
 张佳圆, https://jiayuanzhang.com/, http://blog.jiayuanzhang.com/index.xml, 编程; Python; Web
 四公子的剑, https://www.965.one/, , 编程; 生活; 随笔
 朱双印, https://www.zsythink.net/, https://www.zsythink.net/feed/, 运维; 编程
 HUHUHANG, https://huhuhang.com/, https://huhuhang.com/feed, 机器学习; 应用推荐; 手机摄影
 小明明s à domicile, https://www.dongwm.com/, https://www.dongwm.com/atom.xml, 编程; Python; k8s; 随笔
 LFhacks.com, https://www.lfhacks.com/, https://www.lfhacks.com/rss/, 日志; 测试; 数学
-桃园, https://www.taoweng.site/, https://www.taoweng.site/feed, 编程; 随想; 前端
+桃园, https://www.taoweng.site/, , 编程; 随想; 前端
 oldj's blog, https://oldj.net, https://oldj.net/feed, 编程; 写作; 以及涂鸦
 以梦喂马, http://hwdef.com/, , 编程; 随笔; k8s; golang
 Yiran's Blog, https://zdyxry.github.io/, https://zdyxry.github.io/atom.xml, 编程; Linux
