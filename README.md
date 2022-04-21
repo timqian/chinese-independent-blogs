@@ -882,6 +882,7 @@
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
+  - [docusaurus](https://docusaurus.io/)
 
 ## 博客部署工具推荐
 
