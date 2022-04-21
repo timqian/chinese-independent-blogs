@@ -8,9 +8,7 @@
 
 ## Sponsors
 
-<a href="https://bytebase.com/"> <img height="80px" src="https://i.v2ex.co/3VSATzOl.png" /> </a>
-
-[Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
+[Bytebase](https://bytebase.com/) | [Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
 
 [Become a sponsor](https://www.patreon.com/timqian)
 
@@ -732,6 +730,7 @@
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://zhul.in/rss.xml)                                                      | 竹林里有冰的博客                   | https://zhul.in/                      | 技术; 折腾; 笔记; 分享                                         |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://yeshu.cloud/atom.xml)                                                 | 一颗小树                       | https://yeshu.cloud/                  | 编程; 生活; 投资                                             |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://fucktheworld.top/atom.xml)                                            | Huiliu                     | https://fucktheworld.top/             | 摄影; 生活                                                 |
+| [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://moeci.com/atom.xml)                                                   | yiyun's Blog               | https://moeci.com                     | 编程; 全栈; 机器学习                                           |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://lithcore.cn/feed/)                                                    | Lithia's Core              | https://www.lithcore.cn               | 硬件; 集成电路; 模拟电路; 射频; 技术                                 |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](http://7400.me/atom.xml)                                                      | EE Archeology 电子考古学        | http://7400.me/                       | 硬件; 摄影; 折腾; 无线电                                        |
 | [![](https://badgen.net/badge/icon/*?icon=rss&label)](https://blog.vzchn.com/feed/)                                                 | vzchnのBlog                 | https://blog.vzchn.com                | 生活; 读书; 技术; 扯淡                                         |
@@ -826,7 +825,6 @@
 |                                                                                                                                     | 遥近                         | https://www.yjdzm.com                 | 前端; 编程; 思考                                             |
 |                                                                                                                                     | 千古壹号                       | https://www.qianguyihao.com           | 前端; 读书笔记; 产品思考; 软件工具; 具体生活                             |
 |                                                                                                                                     | DavidCai                   | https://davidc.ai/                    | nodejs; 编程; 创业; 思考                                     |
-|                                                                                                                                     | yiyun's Blog               | https://moeci.com                     | 编程; 全栈; 机器学习                                           |
 |                                                                                                                                     | module Zephray             | https://www.zephray.me                | 硬件; 编程; 技术; 全栈                                         |
 |                                                                                                                                     | xuetengfei'Blog            | https://xuetengfei.github.io/         | 编程                                                     |
 |                                                                                                                                     | 天哥de博客                     | https://mctg.ink                      | 日常                                                     |
@@ -869,7 +867,8 @@
 
 ## 博客构建工具推荐
 
-  - [blogdown](https://github.com/rstudio/blogdown)
+  - [Blogdown](https://github.com/rstudio/blogdown)
+  - [Docusaurus](https://docusaurus.io/)
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
@@ -883,6 +882,7 @@
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
+
 
 ## 博客部署工具推荐
 
