@@ -105,9 +105,7 @@ async function getResultAndUpdateREADME() {
 
 ## Sponsors
 
-<a href="https://bytebase.com/"> <img height="80px" src="https://i.v2ex.co/3VSATzOl.png" /> </a>
-
-[Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
+[Bytebase](https://bytebase.com/) | [Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
 
 [Become a sponsor](https://www.patreon.com/timqian)
 
@@ -159,7 +157,8 @@ ${tableContentInMD}
 
 ## 博客构建工具推荐
 
-  - [blogdown](https://github.com/rstudio/blogdown)
+  - [Blogdown](https://github.com/rstudio/blogdown)
+  - [Docusaurus](https://docusaurus.io/)
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
   - [Gride](https://gridea.dev/)
@@ -173,6 +172,7 @@ ${tableContentInMD}
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
+
 
 ## 博客部署工具推荐
 
