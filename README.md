@@ -8,9 +8,9 @@
 
 ## Sponsors
 
-[Bytebase](https://bytebase.com/) | [Madao](https://madao.me/) | [SecondState - Rust and WebAssembly in Node.js](https://bit.ly/3gfWwps)
+[琚致远](https://github.com/juzhiyuan) | [Bytebase](https://bytebase.com/) | [Madao](https://madao.me/) | [SecondState](https://bit.ly/3gfWwps)
 
-[Become a sponsor](https://www.patreon.com/timqian)
+[Become a sponsor](https://github.com/sponsors/timqian)
 
 ## 目录
 
