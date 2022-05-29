@@ -1,6 +1,7 @@
 name: Update readme and feed.opml
 
-on: 
+on:
+  workflow_dispatch:
   push:
     paths: 
       - 'blogs-original.csv'
@@ -19,11 +20,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3.2.0
       with:
-        node-version: 12.x
+        node-version: 16.x
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v3.1.2
       with:
         python-version: 3.7
     - name: formatter
