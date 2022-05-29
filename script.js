@@ -172,7 +172,8 @@ ${tableContentInMD}
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
-
+  - [Hugo](https://gohugo.io/)
+  - [Typecho](https://typecho.org/)
 
 ## 博客部署工具推荐
 
