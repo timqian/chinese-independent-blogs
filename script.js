@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fetch = require('node-fetch');
+const fetch = import('node-fetch');
 const markdownTable = require('markdown-table');
 
 const data = fs.readFileSync('./blogs-original.csv');
