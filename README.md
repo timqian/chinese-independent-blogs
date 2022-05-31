@@ -877,6 +877,7 @@
 |                                                                                                                                     | Yongchin's Blog            | https://www.yongchin.xyz              | 生活随笔; 技术                                               |
 |                                                                                                                                     | jujimeizuo's Blog          | http://www.jujimeizuo.cn/blog/        | 编程; 随笔; 技术; 课程                                         |
 |                                                                                                                                     | informal                   | http://www.informal.top/              | 技术; 随笔; NLP; 生活                                        |
+|                                                                                                                                     | 冰雪殇璃陌梦の小站                  | https://www.dreamofice.cn             | 编程; 随笔; 技术; 二次元; 生活                                    |
 |                                                                                                                                     | Bright LGM's Blog          | https://brightliao.com                | 技术; 数据; 智能                                             |
 
 ## 什么是独立博客
