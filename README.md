@@ -881,6 +881,7 @@
 |                                                                                                 | 冰雪殇璃陌梦の小站                  | https://www.dreamofice.cn             | 编程; 随笔; 技术; 二次元; 生活                                    |
 |                                                                                                 | Bright LGM's Blog          | https://brightliao.com                | 技术; 数据; 智能                                             |
 |                                                                                                 | 文轩的Blog                    | https://allanware.github.io/zh/       | 电影; 音乐; 足球; 围棋; 编程; 书                                  |
+|                                                                                                 | Luwang's Blog              | https://myblog.wallleap.cn/           | 前端; 网络; 设计; 广告; 生活                                     |
 |                                                                                                 | Airing's Blog              | https://ursb.me/                      | 生活; 随笔; 技术                                             |
 
 ## 什么是独立博客
