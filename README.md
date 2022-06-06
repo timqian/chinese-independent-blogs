@@ -885,6 +885,7 @@
 |         | Luwang's Blog              | https://myblog.wallleap.cn/           | 前端; 网络; 设计; 广告; 生活                                     |
 |         | Airing's Blog              | https://ursb.me/                      | 生活; 随笔; 技术                                             |
 |         | 杨宝强的技术笔记                   | https://bqyang.top/                   | 编程; Golang; 生活; 随笔; 技术                                 |
+|         | 探索者                        | https://www.seeseeme.cn/              | 生活; 运动; 影音                                             |
 
 ## 什么是独立博客
 
