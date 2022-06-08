@@ -820,7 +820,7 @@
 |         | SpaceTime Blog             | https://blog.spacetimee.xyz           | 编程; 随笔                                                 |
 |         | 飞翔沫沫情博客                    | https://fxkjnj.com                    | 科技; 运维; 随笔                                             |
 |         | 帆域 &#124; 帆帆的个人站           | https://www.fancraft.top              | 学业; 编程; 兴趣; 随笔                                         |
-|         | Jieran233's Blog           | https://jieran233.gitee.io/           | 编程; 随笔; 记录                                             |
+|         | Jieran233's Blog           | https://jieran233.github.io/          | 编程; 随笔; 记录                                             |
 |         | ZkeqのCoding日志              | https://icodeq.com                    | 编程; Python                                             |
 |         | Redish101博客                | https://blog.redish101.tk             | Python; Java; 随笔                                       |
 |         | Amicoyuan的高性能计算世界          | https://xingyuanjie.top               | 高性能计算; 并行计算; 性能优化; 算法                                  |
