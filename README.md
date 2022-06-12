@@ -88,7 +88,7 @@
 |         | 轉個彎日誌                      | https://blog.turn.tw/                 | 编程                                                     |
 |         | 余果的博客                      | https://yuguo.us                      | 编程; 产品                                                 |
 |         | O3noBLOG                   | https://blog.othree.net               | 编程                                                     |
-|         | Vivaxy's blog              | https://vivaxyblog.github.io          | 编程                                                     |
+|         | Vivaxy's blog              | https://vivaxyblog.github.io          | 编程; 前端                                                 |
 |         | Debug客栈                    | https://www.debuginn.cn               | 编程; PHP                                                |
 |         | isaced                     | https://www.isaced.com/               | 编程                                                     |
 |         | Jason                      | https://atjason.com                   | 编程                                                     |
@@ -151,7 +151,7 @@
 |         | Nicksxs's Blog             | https://nicksxs.me                    | 编程; 后端; Java; PHP                                      |
 |         | Allen's Blog               | https://www.capallen.top              | 编程; 数据科学                                               |
 |         | 谢益辉                        | https://yihui.name/cn/                | 编程; 统计学; 开源                                            |
-|         | 木遥的窗子                      | http://blog.farmostwood.net/          | 数学; 小说; 随笔                                             |
+|         | 木遥的窗子                      | https://blog.farmostwood.net/         | 数学; 小说; 随笔                                             |
 |         | 卢昌海的个人主页                   | https://www.changhai.org/             | 物理; 科普                                                 |
 |         | UsubeniFantasy             | https://ssshooter.com                 | 前端; 随想; 游戏; 摄影                                         |
 |         | 博言技术杂谈                     | https://boyn.top                      | 编程; 后端; Java; Linux                                    |
