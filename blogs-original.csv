@@ -62,7 +62,7 @@ Mr. PM 下午先生, https://mrpm.cc/, http://feeds.feedburner.com/pmmustknow, �
 轉個彎日誌, https://blog.turn.tw/, http://blog.turn.tw/?feed=rss2, 编程
 余果的博客, https://yuguo.us, http://feeds.feedburner.com/yuguo, 编程; 产品
 O3noBLOG, https://blog.othree.net, https://feeds.feedburner.com/othree, 编程
-Vivaxy's blog, https://vivaxyblog.github.io, https://vivaxyblog.github.io/atom.xml, 编程
+Vivaxy's blog, https://vivaxyblog.github.io, https://vivaxyblog.github.io/atom.xml, 编程；前端
 Debug客栈, https://www.debuginn.cn, https://www.debuginn.cn/feed, 编程; PHP
 isaced, https://www.isaced.com/, http://www.isaced.com/index.xml, 编程
 Jason, https://atjason.com, https://atjason.com/atom.xml, 编程
@@ -86,7 +86,7 @@ ChrAlpha 的幻想乡（博客）, https://blog.ichr.me, https://blog.ichr.me/at
 褪墨・时间管理, https://www.mifengtd.cn/, https://www.mifengtd.cn/feed.xml, 时间管理
 冰山一角, https://cnberg.com, , 编程; 旅行; 摄影
 我爱自然语言处理, https://www.52nlp.cn/, http://www.52nlp.cn/feed, 编程; 机器学习
-唐巧的博客, https://blog.devtang.com/, http://blog.devtang.com/atom.xml, 编程; 创业; iOS
+唐巧的博客, https://blog.devtang.com/, https://blog.devtang.com/atom.xml, 编程; 创业; iOS
 OneV's Den, https://onevcat.com/#blog, https://onevcat.com/feed.xml, 编程; iOS
 Garan no dou, https://blog.ibireme.com/, https://blog.ibireme.com/feed/, 编程; 开源; iOS
 可能吧, https://kenengba.com/, http://feeds.kenengba.com/kenengbarss, 创业
@@ -125,7 +125,7 @@ OnionTalk, https://hateonion.me, https://hateonion.me/index.xml, 编程; 前端;
 Nicksxs's Blog, https://nicksxs.me, https://nicksxs.me/atom.xml, 编程; 后端; Java; PHP
 Allen's Blog, https://www.capallen.top, https://www.capallen.top/atom.xml, 编程; 数据科学
 谢益辉, https://yihui.name/cn/, http://yihui.name/cn/feed/, 编程; 统计学; 开源
-木遥的窗子, http://blog.farmostwood.net/, http://blog.farmostwood.net/feed/, 数学; 小说; 随笔
+木遥的窗子, https://blog.farmostwood.net/, https://blog.farmostwood.net/feed, 数学; 小说; 随笔
 卢昌海的个人主页, https://www.changhai.org/, https://www.changhai.org/feed.xml, 物理; 科普
 UsubeniFantasy, https://ssshooter.com, https://ssshooter.com/rss.xml, 前端; 随想; 游戏; 摄影
 博言技术杂谈, https://boyn.top, https://boyn.top/atom.xml, 编程; 后端; Java; Linux
@@ -192,7 +192,7 @@ Panda Home, https://old-panda.com/, https://old-panda.com/feed/, 编程; 生活
 Yuuno Blog, https://yuuno.cc, https://yuuno.cc/atom.xml, 技术; 编程; 后端; 前端
 自学路漫漫, https://blog.fxcdev.com, https://blog.fxcdev.com/atom.xml, 编程; 生活
 CodeSky, https://codesky.me, https://codesky.me/feed/, 编程; 前端; 后端; 运维; 折腾
-空之领域, https://xsky.me, https://xsky.me/feed/, 生活
+空之领域, https://xsky.me, https://xsky.me/atom.xml, 生活
 Claude's Blog, https://claude-ray.github.io, https://claude-ray.github.io/atom.xml, 编程; 折腾
 Just lepture, https://lepture.com/, https://lepture.com/feed.xml, 创业; 开源; 随笔
 Lyric, https://lyric.im/, https://lyric.im/feed/rss2.xml, 产品; 创业; 编程
