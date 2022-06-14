@@ -887,6 +887,7 @@
 |         | 杨宝强的技术笔记                   | https://bqyang.top/                   | 编程; Golang; 生活; 随笔; 技术                                 |
 |         | 探索者                        | https://www.seeseeme.cn/              | 生活; 运动; 影音                                             |
 |         | Raz1ner                    | https://dev-coco.github.io/           | Excel; 技术; 随笔; 软件                                      |
+|         | DAVID'S BLOG               | https://blog.davidweng.tk/            | 生活; 随笔; 影评; 作品集                                        |
 
 ## 什么是独立博客
 
