@@ -888,6 +888,8 @@
 |         | 探索者                        | https://www.seeseeme.cn/              | 生活; 运动; 影音                                             |
 |         | Raz1ner                    | https://dev-coco.github.io/           | Excel; 技术; 随笔; 软件                                      |
 |         | DAVID'S BLOG               | https://blog.davidweng.tk/            | 生活; 随笔; 影评; 作品集                                        |
+|         | Ethan's Blog               | https://ethan-phu.github.io           | 生活; 技术; 后端; 深度学习                                       |
+|         | 白云苍狗                       | https://www.imalun.com                | 编程; 前端; 生活; 技术                                         |
 
 ## 什么是独立博客
 
