@@ -686,7 +686,7 @@
 |         | DGideas' Blog              | https://dgideas.net/                  | 编程; 技术; 生活                                             |
 |         | 喵二の小博客                     | https://www.miaoer.xyz/               | 技术; 生活; 学习                                             |
 |         | 荆棘小栈                       | https://jsun969.cn/                   | 编程; 生活; 学习; 游戏                                         |
-|         | nojsja'个人博客                | https://nojsja.gitee.io/blogs/        | 编程; 技术; 前端; Linux                                      |
+|         | nojsja'个人博客                | https://nojsja.github.io/blogs/       | 编程; 技术; 前端; Linux                                      |
 |         | itgoyo's blog              | https://itgoyo.github.io/             | 编程; UP; 学习; Vim; Mac; Linux                            |
 |         | 思泉&#124;Jev0n              | https://jev0n.com/                    | 安全; 编程; 生活                                             |
 |         | 橘子味的心                      | https://www.52xml.cn/                 | 编程; 技术; 安全; 教程                                         |
