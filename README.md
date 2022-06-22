@@ -890,6 +890,7 @@
 |         | DAVID'S BLOG               | https://blog.davidweng.tk/            | 生活; 随笔; 影评; 作品集                                        |
 |         | Ethan's Blog               | https://ethan-phu.github.io           | 生活; 技术; 后端; 深度学习                                       |
 |         | 白云苍狗                       | https://www.imalun.com                | 编程; 前端; 生活; 技术                                         |
+|         | jinji's Blog               | https://jinjipang.com                 | 爱好; 随笔; 生物; 统计                                         |
 
 ## 什么是独立博客
 
