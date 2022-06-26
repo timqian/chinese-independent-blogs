@@ -96,7 +96,7 @@
 |         | Jack Liu博客                 | https://www.jack-liu.com              | 编程                                                     |
 |         | GeekPlux                   | https://geekplux.com                  | 编程                                                     |
 |         | 王子亭的博客                     | https://jysperm.me                    | 编程                                                     |
-|         | EGOIST 中文博客                | https://egoist.sh/                    | 编程; 前端; 开源                                             |
+|         | EGOIST 博客                  | https://egoist.proselog.com/          | 编程; 前端; 开源                                             |
 |         | 王垠的博客                      | https://www.yinwang.org/              | 编程                                                     |
 |         | 扯氮集                        | http://weiwuhui.com/                  | 创业; 人生                                                 |
 |         | Aiur · Zellux 的博客          | https://blog.yxwang.me/               | 编程; 智能家居                                               |
