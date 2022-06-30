@@ -892,6 +892,8 @@
 |         | 白云苍狗                       | https://www.imalun.com                | 编程; 前端; 生活; 技术                                         |
 |         | jinji's Blog               | https://jinjipang.com                 | 爱好; 随笔; 生物; 统计                                         |
 |         | Owen的博客                    | https://www.owenyoung.com             | 注意力管理，读书，笔记，技术                                         |
+|         | 谭升的博客                      | https://face2ai.com                   | 机器学习; 编程                                               |
+|         | 哲●科●文Jerkwin               | https://jerkwin.github.io             | 科研; 随笔                                                 |
 
 ## 什么是独立博客
 
@@ -944,6 +946,7 @@
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
   - [Hugo](https://gohugo.io/)
+  - [Typecho](https://typecho.org/)
 
 ## 博客部署工具推荐
 
