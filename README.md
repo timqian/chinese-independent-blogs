@@ -735,7 +735,7 @@
 |         | 2BAB 的工程博客                 | https://2bab.me/                      | Android; 编译构建                                          |
 |         | zhaoo's blog               | https://www.izhaoo.com/               | 前端; 摄影; 技术; 生活                                         |
 |         | ypingcn's blog             | https://blog.ypingcn.com/             | 技术; 生活; 分享; 火狐; 投资                                     |
-|         | 乔治小站                       | https://licaoz.com                    | 生活; 笔记                                                 |
+|         | LCZBlog                    | https://blog.licaoz.com               | 生活; 笔记                                                 |
 |         | Surmon.me                  | https://surmon.me                     | 前端; 编程; 思考                                             |
 |         | ZhensJoke 飞云算              | https://blog.fyun.org                 | 编程; 生活; 折腾                                             |
 |         | 遥近                         | https://www.yjdzm.com                 | 前端; 编程; 思考                                             |
