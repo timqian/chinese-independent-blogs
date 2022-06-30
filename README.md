@@ -892,6 +892,7 @@
 |         | 白云苍狗                       | https://www.imalun.com                | 编程; 前端; 生活; 技术                                         |
 |         | jinji's Blog               | https://jinjipang.com                 | 爱好; 随笔; 生物; 统计                                         |
 |         | Owen的博客                    | https://www.owenyoung.com             | 注意力管理，读书，笔记，技术                                         |
+|         | 阿朱宝宝的博客                    | https://blog.azhubaby.com             | 编程，前端，思考，成长                                            |
 |         | 谭升的博客                      | https://face2ai.com                   | 机器学习; 编程                                               |
 |         | 哲●科●文Jerkwin               | https://jerkwin.github.io             | 科研; 随笔                                                 |
 
