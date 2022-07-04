@@ -895,6 +895,10 @@
 |         | 阿朱宝宝的博客                    | https://blog.azhubaby.com             | 编程，前端，思考，成长                                            |
 |         | 谭升的博客                      | https://face2ai.com                   | 机器学习; 编程                                               |
 |         | 哲●科●文Jerkwin               | https://jerkwin.github.io             | 科研; 随笔                                                 |
+|         | 土豆不好吃                      | https://dmesg.app                     | 编程                                                     |
+|         | 卡瓦邦噶！                      | https://www.kawabangga.com            | 编程; 随笔; 技术                                             |
+|         | 伊藤•博文                      | https://moc.1tlt1.com                 | 技术; 随笔; 科研                                             |
+|         | 如有乐享                       | https://51.ruyo.net                   | 技术; 分享                                                 |
 
 ## 什么是独立博客
 
