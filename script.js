@@ -1,5 +1,10 @@
+/**
+ * 1. Get original CSV of feeds
+ * 2. Get follower counts for each feed
+ * 3. Order by follower count
+ */
+
 const fs = require('fs');
-const fetch = import('node-fetch');
 const markdownTable = require('markdown-table');
 
 const data = fs.readFileSync('./blogs-original.csv');
@@ -10,82 +15,52 @@ const table = rows
   .filter((row, i) => row.length === 4 && i !== 0)
   .map(row => row.push(-1) && row) // row[4] to store count of RSS subscribers
 
-async function getLatestSubstatsRes(feedUrl, cacheFilename) {
-  const substatsAPI = `https://api.spencerwoo.com/substats/?source=feedly|inoreader|feedsPub&queryKey=${feedUrl}`;
- 
-  try {
-    const substatsRes = await fetch(substatsAPI, { timeout: 5000 }); // wait for 5s
-    let data = await substatsRes.json();
-    if (data.status === 200) {
-      // Mark lastModified
-      data['lastModified'] = new Date().getTime();
-      const totalSubs = data.data.totalSubs;
-      // Save to cache
-      fs.writeFileSync(cacheFilename, JSON.stringify(data));
-      return totalSubs;
-    } else {
-      return -1;
-    }
-  } catch (err) {
-    console.log(`Failed to fetch: ${feedUrl}`);
-    throw err;
-  }
-}
+const {  GraphQLClient } = require('graphql-request');
 
-async function getTotalSubs(feedUrl, index) {
-  const cacheFilename = `./cache/${encodeURIComponent(feedUrl)}.json`;
-  let totalSubs = -1;
-  let fromCache = false;
-
-  if (fs.existsSync(cacheFilename)) {
-    const cachedRes = JSON.parse(fs.readFileSync(cacheFilename, 'utf8'));
-    // cache available within 5 days
-    const cacheExpired = 86400 * 1000 * 5 < (new Date().getTime() - parseInt(cachedRes.lastModified)) ? true : false;
-
-    totalSubs = !cacheExpired ?
-      cachedRes.data.totalSubs :
-      await getLatestSubstatsRes(feedUrl, cacheFilename);
-    fromCache = !cacheExpired;
-  } else {
-    totalSubs = await getLatestSubstatsRes(feedUrl, cacheFilename);
-  }
-
-  return { feedUrl, index, totalSubs, fromCache };
-}
+const endpoint = 'https://api.feeds.pub/graphql'
+const client = new GraphQLClient(endpoint, {errorPolicy: "ignore"});
 
 
 async function getResultAndUpdateREADME() {
-  const feedTable = table
-    .map((row, index) => row.push(index) && row) // row[5]: original table index
-    .filter(row => row[2]) // Have RSS
+  // Get follower counts
+  const feedLinks = table.map(row => row[2]);
+  const queries = feedLinks.map((feedLink, i) => {
+    if (feedLink) {
+      return `f${i}: feed(id: "${feedLink}") {
+        followerCount
+      }`
+    } else return '';
+  })
 
-  while(feedTable.length) {
-    const resPromise = [];
+  for (let i = 0; i < queries.length; i += 99) {
+    const query = `{
+        ${queries.slice(i, i + 99).join('\n')}
+      }`
 
-    feedTable.splice(-20, 20).forEach(row => {
-      resPromise.push(getTotalSubs(row[2], row[5]));
-    })
+    const data = await client.request(query);
 
-    await Promise.allSettled(resPromise).then(responses => {
-      responses.forEach(res => {
-        if (res.status === 'fulfilled') { // succeeded
-          // console.debug(`INFO: ${JSON.stringify(res.value)}`);
-          table[res.value.index][4] = res.value.totalSubs;
-        }
-        if (res.status === 'rejected') { // failed
-          // no-op
-        }
-      })
-    })
+    Object.keys(data).forEach(key => {
+      const index = Number(key.replace('f', ''));
+      const count = data[key] ? data[key].followerCount : 0;
+      table[index][4] = count;
+    });
+
+    console.log(`Got followerCount for ${i} to ${i + 99}`);
   }
 
-  // Sort by RSS subscribers count first, then by alphanumeric
+  // Order by follower count
   table.sort((a, b) => (b[4] - a[4]) || (a[0] - b[0]));
 
+  const getFeedsPubBtn = (feedLink, followCount) => {
+    return '[![Follow on Feeds Pub]('
+      +
+      `https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAABFCAYAAAAcjSspAAAACXBIWXMAAAInAAACJwG+ElQIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASkSURBVHgB7Ztdcts2EMf/oDyeNO5MnBOUN4hzAtNvrZ0H8QSimwPEPoHlE9g5gZkTSJ46mU77YPYEVd/6yN5AnWkzrVNxuxAhN3UA0YL46eA3Y30AkDT8c7FY7MKAw+FwlIfAAyAafe2rl/w8m8bhjxOsQedEiUbBNrAVeQLPCBTwJfiaYROiWRiH36ewYAMdIBfiUV+I3oDfBrKN5j3Ge7rDYy/4eQ8WtFoUOS08zxsQiSN+u73ap7EDS1opCosR8J0+4ZcBEWyZwpJWiRKN9tnsxRnUFFkHIjqFJa1wtNJneN7WCVvFEexgqyD+E1MBkWaUXcbhuxiWNC7Ky8sXrzKiIVbzGVO2hDeANwb+mMRhYj1VdDQmytw6xJcXvKz2V/hYwk73NA6vElRII6Io3zHCPNgqhK1CvGaLOC/bIkzU7mij0TccbwgZQxRNl9rFWFCrpby8PBhkhLhoHPsLFuP9sG4xFtQmioo9rguGcXgujqv2GUX0UAMyMmVBpA8xThllHYdx+MOvaJhafIqyEN/Qzb7DY+v4LkZLqFwUFYf4hm4Zb+yxIGtt9cumUp+ipo3RSliQ5xx5tkoQiYdK8QIYBcFxGwWRVCoKxyMnhi4Ozd+eo6VUJopKEfq6PqKbQ7SYCh3txs4iP3aHqRCbZ4fjA16eSS3RIp0/CkyyjH4BssQ2lVgGFYqS7Rj8uBQiyF/e9vvygf0MB3iyrYdvxwdxRrPTJsSpZPrkq47YxRqwjUW8cv0sN4+omdJFkXGJvBiUkD1jtlnc649KGLVQ2vTJ8yOPzzhQi1AuPN08mZGzzcqtTCmWIgURYuuaICJUAFvLADWydkS7EAT3LClwFPsT3wuOUbIU2OTUwI20BOl85WrEuRYM9J/782lnkkwq4XxvZ8h3/auL/tXY0D0+HO/v6qp+vc3HT7BG2WIV1po+vDJEFhl4P6/4mRDaC5/dfHiKmlhLlCVhvIw5ONtOqb73i0DXGo36UiyD1X1IURPWokgrgXn3+5r3NlHuPzQ/anCcPe8fk0NN60xNWouyxEr4At6pKSUS3QBepYK7U0jGIqr+oxmPBDViJYqKMn1dH+dYP9rsbUqHqrvD84rgf993m3fR+xoSb1AjVktyNDo44qXzTNM1uei/ff7/sfvnbFWvdN8jRG4ZBacKEv5OqyMVtlgtyewTdkmzAybKNHc045ikpxWFxRiiAKJZ7WkGq+lDt1v+u/Q+yaTJXW5e1LL4nXl2rjO7ZFMi+m/DCrEx5IcUq/zCvGbcTHbOUhTh61pNB/DicMxZ+5n0CynuQW4hV0M0xMqiqABLx9I4Ip9Gsz1ejsdLhiV5hr/Z/K2Fo/1r21BYLAyulH8Io9GLgB2wLLQ/ExzWZ5T9Js+aNF0uXdDI8S518Qlaio1P8Q3tKR4IFRfDuokTRYONKKmh3ccDwVmKBieKBieKBgtRHpmCtKLTjp1hZVHkPsbQ9fmK8jlgK4rWWpaXLrqDbT5FK4oqWHUeN300OFE0OFE02KYjU13r7Ob973gA2GXziY5xZwXKE83N/NdF2VifT8mPXHlHXAN6knEFry2pRIfD4XA4usm//qauBcoh1b8AAAAASUVORK5CYII=`
+      +
+      `)](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
+  }
   const newTable = table.map(row => {
-    const subscribeCount = row[4] >= 1000 ? row[4] : (row[4] + '').replace(/\d/g, '*');
     return [
-      row[4] >= 0 ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})` : '',
+      row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
       row[0].replace(/\|/g, '&#124;'),
       row[1],
       row[3]
@@ -182,7 +157,8 @@ ${tableContentInMD}
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
- 
+
+  console.log('README.md 文件生成成功！');
 }
 
 getResultAndUpdateREADME()
