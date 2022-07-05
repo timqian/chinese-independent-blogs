@@ -51,13 +51,8 @@ async function getResultAndUpdateREADME() {
   // Order by follower count
   table.sort((a, b) => (b[4] - a[4]) || (a[0] - b[0]));
 
-  const getFeedsPubBtn = (feedLink, followCount) => {
-    return '[![Follow on Feeds Pub]('
-      +
-      `https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAABFCAYAAAAcjSspAAAACXBIWXMAAAInAAACJwG+ElQIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASkSURBVHgB7Ztdcts2EMf/oDyeNO5MnBOUN4hzAtNvrZ0H8QSimwPEPoHlE9g5gZkTSJ46mU77YPYEVd/6yN5AnWkzrVNxuxAhN3UA0YL46eA3Y30AkDT8c7FY7MKAw+FwlIfAAyAafe2rl/w8m8bhjxOsQedEiUbBNrAVeQLPCBTwJfiaYROiWRiH36ewYAMdIBfiUV+I3oDfBrKN5j3Ge7rDYy/4eQ8WtFoUOS08zxsQiSN+u73ap7EDS1opCosR8J0+4ZcBEWyZwpJWiRKN9tnsxRnUFFkHIjqFJa1wtNJneN7WCVvFEexgqyD+E1MBkWaUXcbhuxiWNC7Ky8sXrzKiIVbzGVO2hDeANwb+mMRhYj1VdDQmytw6xJcXvKz2V/hYwk73NA6vElRII6Io3zHCPNgqhK1CvGaLOC/bIkzU7mij0TccbwgZQxRNl9rFWFCrpby8PBhkhLhoHPsLFuP9sG4xFtQmioo9rguGcXgujqv2GUX0UAMyMmVBpA8xThllHYdx+MOvaJhafIqyEN/Qzb7DY+v4LkZLqFwUFYf4hm4Zb+yxIGtt9cumUp+ipo3RSliQ5xx5tkoQiYdK8QIYBcFxGwWRVCoKxyMnhi4Ozd+eo6VUJopKEfq6PqKbQ7SYCh3txs4iP3aHqRCbZ4fjA16eSS3RIp0/CkyyjH4BssQ2lVgGFYqS7Rj8uBQiyF/e9vvygf0MB3iyrYdvxwdxRrPTJsSpZPrkq47YxRqwjUW8cv0sN4+omdJFkXGJvBiUkD1jtlnc649KGLVQ2vTJ8yOPzzhQi1AuPN08mZGzzcqtTCmWIgURYuuaICJUAFvLADWydkS7EAT3LClwFPsT3wuOUbIU2OTUwI20BOl85WrEuRYM9J/782lnkkwq4XxvZ8h3/auL/tXY0D0+HO/v6qp+vc3HT7BG2WIV1po+vDJEFhl4P6/4mRDaC5/dfHiKmlhLlCVhvIw5ONtOqb73i0DXGo36UiyD1X1IURPWokgrgXn3+5r3NlHuPzQ/anCcPe8fk0NN60xNWouyxEr4At6pKSUS3QBepYK7U0jGIqr+oxmPBDViJYqKMn1dH+dYP9rsbUqHqrvD84rgf993m3fR+xoSb1AjVktyNDo44qXzTNM1uei/ff7/sfvnbFWvdN8jRG4ZBacKEv5OqyMVtlgtyewTdkmzAybKNHc045ikpxWFxRiiAKJZ7WkGq+lDt1v+u/Q+yaTJXW5e1LL4nXl2rjO7ZFMi+m/DCrEx5IcUq/zCvGbcTHbOUhTh61pNB/DicMxZ+5n0CynuQW4hV0M0xMqiqABLx9I4Ip9Gsz1ejsdLhiV5hr/Z/K2Fo/1r21BYLAyulH8Io9GLgB2wLLQ/ExzWZ5T9Js+aNF0uXdDI8S518Qlaio1P8Q3tKR4IFRfDuokTRYONKKmh3ccDwVmKBieKBieKBgtRHpmCtKLTjp1hZVHkPsbQ9fmK8jlgK4rWWpaXLrqDbT5FK4oqWHUeN300OFE0OFE02KYjU13r7Ob973gA2GXziY5xZwXKE83N/NdF2VifT8mPXHlHXAN6knEFry2pRIfD4XA4usm//qauBcoh1b8AAAAASUVORK5CYII=`
-      +
-      `)](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
-  }
+  const getFeedsPubBtn = (feedLink, followCount) => 
+    `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
   const newTable = table.map(row => {
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
@@ -71,9 +66,6 @@ async function getResultAndUpdateREADME() {
   const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `
-
-> Update: 社会化的 RSS 阅读器上线了，欢迎试用—— [Feeds Pub](https://feeds.pub)
-
 # 中文独立博客列表
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
