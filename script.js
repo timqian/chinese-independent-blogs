@@ -51,13 +51,8 @@ async function getResultAndUpdateREADME() {
   // Order by follower count
   table.sort((a, b) => (b[4] - a[4]) || (a[0] - b[0]));
 
-  const getFeedsPubBtn = (feedLink, followCount) => {
-    return '[![Follow on Feeds Pub]('
-      +
-      `https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss`
-      +
-      `)](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
-  }
+  const getFeedsPubBtn = (feedLink, followCount) => 
+    `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
   const newTable = table.map(row => {
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
@@ -71,9 +66,6 @@ async function getResultAndUpdateREADME() {
   const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `
-
-> Update: 社会化的 RSS 阅读器上线了，欢迎试用—— [Feeds Pub](https://feeds.pub)
-
 # 中文独立博客列表
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
