@@ -896,6 +896,7 @@
 |                                                                                                                                                                                                                                    | Angin                      | https://zilinn.wang                   | 编程; 随笔; 技术                                             |
 |                                                                                                                                                                                                                                    | Luwang's Blog              | https://myblog.wallleap.cn/           | 前端; 网络; 设计; 广告; 生活                                     |
 |                                                                                                                                                                                                                                    | 阿朱宝宝的博客                    | https://blog.azhubaby.com             | 编程，前端，思考，成长                                            |
+|                                                                                                                                                                                                                                    | 胡正                         | http://www.huzheng.org/               | 编程; 佛教                                                 |
 
 ## 什么是独立博客
 
