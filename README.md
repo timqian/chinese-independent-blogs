@@ -23,7 +23,7 @@
 | RSS 订阅数                                                                                                                                                                                                                            | 简介                         | 链接                                    | 标签                                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------- | ------------------------------------------------------ |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=267&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/http%3A%2F%2Ffeeds.feedburner.com%2Fruanyifeng)                                       | 阮一峰的网络日志                   | https://www.ruanyifeng.com/blog/      | 创业; 编程; 前端                                             |
-| [<img src="https://img.shields.io/static/v1?label=follow&message=233&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/https%3A%2F%2Fblog.t9t.io%2Fatom.xml)                                                 | 透明创业实验                     | https://blog.t9t.io                   | 创业; 编程; 开源                                             |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=234&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/https%3A%2F%2Fblog.t9t.io%2Fatom.xml)                                                 | 透明创业实验                     | https://blog.t9t.io                   | 创业; 编程; 开源                                             |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=113&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/https%3A%2F%2Fhutusi.com%2Ffeed.xml)                                                  | 胡涂说                        | https://hutusi.com/                   | 编程; 随笔; 生活                                             |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=79&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/http%3A%2F%2Ffeeds.feedburner.com%2Fyuguo)                                             | 余果的博客                      | https://yuguo.us                      | 编程; 产品                                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=79&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/https%3A%2F%2Frsshub.app%2Fblogs%2Fwangyin)                                            | 王垠的博客                      | https://www.yinwang.org/              | 编程                                                     |
@@ -935,7 +935,7 @@
   - [Docusaurus](https://docusaurus.io/)
   - [Gatsby](https://gatsbyjs.org/)
   - [Ghost](https://ghost.org/)
-  - [Gride](https://gridea.dev/)
+  - [Gridea](https://gridea.dev/)
   - [Halo](https://github.com/halo-dev/halo)
   - [Hexo](https://hexo.io/)
   - [Hugo](https://gohugo.io/)
