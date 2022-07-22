@@ -841,8 +841,8 @@ Shiroha白羽的博客, https://hukeqing.github.io, https://hukeqing.github.io/r
 白云苍狗, https://www.imalun.com, https://www.imalun.com/atom.xml, 编程; 前端; 生活; 技术
 jujimeizuo's Blog, http://www.jujimeizuo.cn/blog/, , 编程; 随笔; 技术; 课程
 我有点酷-HuntZou的博客, https://blog.woyou.cool, https://blog.woyou.cool/feed, 技术; 随笔; whim
-informal, http://www.informal.top/, , 技术; 随笔; NLP; 生活
-浮云翩迁之间, https://blognas.hwb0307.com, https://blognas.hwb0307.com/feed, Docker; Linux; 生活
+informal, http://www.informal.top/, http://www.informal.top/index.php/feed/, 技术; 随笔; NLP; 生活
+浮云翩迁之间, https://blognas.hwb0307.com, https://blognas.hwb0307.com/feed/, Docker; Linux; 生活
 星空下的YZY, https://www.226yzy.com, https://www.226yzy.com/atom.xml, 编程; 学习; 随笔; 生活
 PinkR1ver Studio, https://pinkr1ver.com/, https://pinkr1ver.com/feed.xml, 成长; 生活; 综述; 思考
 SakuraWald, https://www.sakurawald.com/, https://www.sakurawald.com/?feed=rss2, 编程
@@ -861,7 +861,6 @@ Airing's Blog, https://ursb.me/, https://me.ursb.me/feed, 生活; 随笔; 技术
 Raz1ner, https://dev-coco.github.io/, https://dev-coco.github.io/atom.xml, Excel函数; Google脚本; 技术; 随笔; 软件
 DAVID'S BLOG, https://blog.davidweng.tk/, https://blog.davidweng.tk/feed, 生活; 随笔; 影评; 作品集
 Ethan's Blog, https://ethan-phu.github.io, https://ethan-phu.github.io/index.xml, 生活; 技术; 后端; 深度学习
-白云苍狗, https://www.imalun.com, https://www.imalun.com/atom.xml, 编程; 前端; 生活; 技术
 jinji's Blog, https://jinjipang.com, https://jinjipang.com/index.xml, 爱好; 随笔; 生物; 统计
 Owen的博客, https://www.owenyoung.com, https://www.owenyoung.com/atom.xml, 注意力管理，读书，笔记，技术
 阿朱宝宝的博客, https://blog.azhubaby.com, , 编程，前端，思考，成长
