@@ -67,7 +67,7 @@ async function getResultAndUpdateREADME() {
   });
 
   // update README
-  const tableContentInMD = markdownTable([['RSS 订阅数', '简介', '链接', '标签'], ...newTable]);
+  const tableContentInMD = markdownTable([['RSS 订阅数 <img width=110/> ', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `
 # 中文独立博客列表
