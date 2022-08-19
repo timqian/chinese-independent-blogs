@@ -21,7 +21,7 @@ const endpoint = 'https://api.feeds.pub/graphql'
 const client = new GraphQLClient(endpoint, {errorPolicy: "ignore"});
 
 
-const pageSize = 100;
+const pageSize = 60;
 async function getResultAndUpdateREADME() {
   // Get follower counts
   const feedLinks = table.map(row => row[2]);
@@ -38,15 +38,18 @@ async function getResultAndUpdateREADME() {
         ${queries.slice(i, i + pageSize).join('\n')}
       }`
 
-    const data = await client.request(query);
+    try {
+      const data = await client.request(query);
 
-    Object.keys(data).forEach(key => {
-      const index = Number(key.replace('f', ''));
-      const count = data[key] ? data[key].followerCount : 0;
-      table[index][4] = count;
-    });
-
-    console.log(`Got followerCount for ${i} to ${i + pageSize}`);
+      Object.keys(data).forEach(key => {
+        const index = Number(key.replace('f', ''));
+        const count = data[key] ? data[key].followerCount : 0;
+        table[index][4] = count;
+      });
+      console.log(`Got followerCount for ${i} to ${i + pageSize}`);
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   // Order by follower count
