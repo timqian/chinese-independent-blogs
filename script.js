@@ -56,8 +56,8 @@ async function getResultAndUpdateREADME() {
   table.sort((a, b) => (b[4] - a[4]) || (a[0] - b[0]));
 
   const getFeedsPubBtn = (feedLink, followCount) => 
-    `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss" height="20" width="150">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
-  const newTable = table.map(row => {
+    `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
+  const newTable = table.map(row => 
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
       row[0].replace(/\|/g, '&#124;'),
