@@ -57,7 +57,7 @@ async function getResultAndUpdateREADME() {
 
   const getFeedsPubBtn = (feedLink, followCount) => 
     `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
-  const newTable = table.map(row => 
+  const newTable = table.map(row => {
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
       row[0].replace(/\|/g, '&#124;'),
