@@ -31,7 +31,7 @@ async function getResultAndUpdateREADME() {
         followerCount
       }`
     } else return '';
-  })
+  }).filter(query => query.trim().length > 0);
 
   for (let i = 0; i < queries.length; i += pageSize) {
     const query = `{
