@@ -919,6 +919,7 @@
 |                                                                                                                                                                                                            | 哲●科●文Jerkwin               | https://jerkwin.github.io             | 科研; 随笔                                                 |
 |                                                                                                                                                                                                            | 胡正                         | http://www.huzheng.org/               | 编程; 佛教                                                 |
 |                                                                                                                                                                                                            | Rhuen &#124; Rivendell     | https://rhuen.netlify.app/            | 生活; 工作; 成长                                             |
+|                                                                                                                                                                                                            | 一念                         | https://xnzw.org                      | 生活; 随笔; 佛学                                             |
 
 ## 什么是独立博客
 
