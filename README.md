@@ -936,6 +936,8 @@
 |                                                                                                                                                                                                            | 一念                         | https://xnzw.org                        | 生活; 随笔; 佛学                                             |
 |                                                                                                                                                                                                            | 小冷-瞎逼逼                     | https://littlecold.cn/                  | 生活; 建站                                                 |
 |                                                                                                                                                                                                            | 布鲁斯鱼的奇思乱想                  | https://emergencyexit.xyz/              | 编程; 工作笔记; 生活; 游戏; 电影                                   |
+|                                                                                                                                                                                                            | 造壳 MkShell                  | https://www.mkshell.com/             | 随笔; 技术; 折腾; 生活                                  |
+
 
 ## 什么是独立博客
 
