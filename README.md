@@ -948,6 +948,7 @@
 |                                                                                                                                                                                                            | 布鲁斯鱼的奇思乱想                  | https://emergencyexit.xyz/              | 编程; 工作笔记; 生活; 游戏; 电影                                   |
 |                                                                                                                                                                                                            | Ares Chang的小笔记             | https://areschang.top/                  | 前端; docs; 分享                                           |
 |                                                                                                                                                                                                            | 亦非书                        | https://yifeishu.com/hu@yifeishu.com    | 前端; 文章; 笔记                                             |
+|                                                                                                                                                                                                            | 李昆博客                       | https://onelk.cn                        | 学习; 技术; 生活; 日常                                         |
 
 ## 什么是独立博客
 
