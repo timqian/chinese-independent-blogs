@@ -1013,6 +1013,7 @@
   - [Vuepress](https://vuepress.vuejs.org/)
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
+  - [Astro](https://astro.build)
 
 ## 博客部署工具推荐
 
