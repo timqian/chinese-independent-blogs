@@ -1016,6 +1016,7 @@
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
   - [Astro](https://astro.build)
+  - [VanBlog](https://vanblog.mereith.com)
 
 ## 博客部署工具推荐
 
