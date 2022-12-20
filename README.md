@@ -1003,6 +1003,7 @@
 |                                                                                                                                                                                                            | 甘凯元的博客                     | https://garygky.github.io/              | 分布式系统; 分布式存储; 论文笔记                                     |
 |                                                                                                                                                                                                            | 沧海明月                       | https://www.inlighting.org/             | 编程                                                     |
 |                                                                                                                                                                                                            | YYshino's Blog             | https://v-blog.yyshino.top/             | 编程; 前端; 计算机基础; 随笔                                      |
+|                                                                                                                                                                                                            | 铁匠's blog                  | http://blog.fengjx.com/                 | 编程; 技术; 随笔                                             |
 
 ## 什么是独立博客
 
