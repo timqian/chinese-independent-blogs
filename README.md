@@ -1018,7 +1018,7 @@
 |                                                                                                                                                                                                            | 铁匠's blog                  | http://blog.fengjx.com/                 | 编程; 技术; 随笔                                             |
 |                                                                                                                                                                                                            | Tony.Lin 的小屋               | https://tonylin1026.live/               | 编程; 技术分享; 数码测评; 生活; 音乐分享                               |
 |                                                                                                                                                                                                            | Java不加糖's Blog             | http://blog.jimmyisme.top/              | 软件分享; 计算机视觉                                            |
-|                                                                                                                                                                                                            | 诚哥博客                       | https://www.chengzz.com/                | 随笔; 日常; 分享; 技术                                         |
+|                                                                                                                                                                                                            | 诚哥博客                       | https://www.chengzz.com/                | 随笔; 日常; 技术; 软件; 测试                                     |
 
 ## 什么是独立博客
 
