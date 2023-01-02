@@ -1025,6 +1025,7 @@
 |                                                                                                                                                                                                            | Tony.Lin 的小屋               | https://tonylin1026.live/               | 编程; 技术分享; 数码测评; 生活; 音乐分享                               |
 |                                                                                                                                                                                                            | Java不加糖's Blog             | http://blog.jimmyisme.top/              | 软件分享; 计算机视觉                                            |
 |                                                                                                                                                                                                            | 诚哥博客                       | https://www.chengzz.com/                | 随笔; 日常; 技术; 软件; 测试                                     |
+|                                                                                                                                                                                                            | HuangFuSL's Blog           | https://blog.huangfusl.net/             | 编程; 数学; 机器学习; 深度学习; 论文笔记; 课程笔记; 游戏                     |
 
 ## 什么是独立博客
 
