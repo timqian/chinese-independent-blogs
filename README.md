@@ -1053,6 +1053,9 @@
 |                                                                                                                                                                                                            | 我的成长实证                     | https://www.huanxi.pub                  | 学习; 生活; 成长                                             |
 |                                                                                                                                                                                                            | Sixty's Den                | https://www.sixtyden.com/               | 前端; 阅读                                                 |
 |                                                                                                                                                                                                            | muzing的杂货铺                 | https://muzing.top/                     | 编程; Python; 车辆工程; 自动驾驶                                 |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=1&style=social&logo=rss">](https://feeds.pub/feed/http%3A%2F%2Fwww.longluo.me%2Fatom) | Long Luo's Life Notes                     | http://www.longluo.me/             | 编程; 数学; 技术; 生活; 学习;                                  |
+
+
 
 ## 什么是独立博客
 
