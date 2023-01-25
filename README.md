@@ -1056,6 +1056,7 @@
 |                                                                                                                                                                                                            | 我的成长实证                     | https://www.huanxi.pub                  | 学习; 生活; 成长                                             |
 |                                                                                                                                                                                                            | Sixty's Den                | https://www.sixtyden.com/               | 前端; 阅读                                                 |
 |                                                                                                                                                                                                            | muzing的杂货铺                 | https://muzing.top/                     | 编程; Python; 车辆工程; 自动驾驶                                 |
+|                                                                                                                                                                                                            | Tempest's Blog             | https://blog.epicanecdotes.games        | 编程; 技术; 日常; 游戏; 前端; 申请                                 |
 
 ## 什么是独立博客
 
