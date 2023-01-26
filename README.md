@@ -1062,6 +1062,7 @@
 |                                                                                                                                                                                                            | Sixty's Den                | https://www.sixtyden.com/               | 前端; 阅读                                                 |
 |                                                                                                                                                                                                            | muzing的杂货铺                 | https://muzing.top/                     | 编程; Python; 车辆工程; 自动驾驶                                 |
 |                                                                                                                                                                                                            | Tempest's Blog             | https://blog.epicanecdotes.games        | 编程; 技术; 日常; 游戏; 前端; 申请                                 |
+|                                                                                                                                                                                                            | RustFisher软件开发             | https://an.rustfisher.com               | 编程; Android; Java                                      |
 
 ## 什么是独立博客
 
