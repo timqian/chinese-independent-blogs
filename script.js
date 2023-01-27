@@ -144,6 +144,7 @@ ${tableContentInMD}
   - [Wordpress](https://wordpress.com/)
   - [Wowchemy](https://wowchemy.com)
   - [Astro](https://astro.build)
+  - [Vanblog](https://vanblog.mereith.com/)
 
 ## 博客部署工具推荐
 
