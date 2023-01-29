@@ -969,6 +969,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.fanmingming.com%2Ffeed%2F)                                            | 范明明                        | https://www.fanmingming.com             | 分享; 日常; 学习; 技术                                         |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fn-xin.com%2Findex.php%2Ffeed%2F)                                          | 宁鑫的个人博客                    | https://n-xin.com                       | JAVA; 学习; 工作日志                                         |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.tsukistar.fun%2Fatom.xml)                                             | 月落星河Tsukistar              | https://www.tsukistar.fun               | 编程; 随笔; 笔记                                             |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fdsy4567.github.io%2Frss.xml)                                              | dsy4567 的小站                | https://dsy4567.github.io/blog.html     | 编程; HTML; CSS; JS; 算法竞赛                                |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.cyrilstudio.top%2Ffeed)                                               | 梦溪博客                       | http://www.cyrilstudio.top/             | 编程; 随笔; 笔记                                             |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=0&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ftotapo.netlify.app%2Findex.xml)                                           | Captain的博客                 | https://totapo.netlify.app              | 编程; 生活; 学习; 教程; 软件分享; 笔记                               |
 |                                                                                                                                                                                                            | 吕大卫的官方网站                   | https://lvdawei.com                     | 编程                                                     |
@@ -1090,7 +1091,7 @@
 
 是否可以做一个工具，可以连接这些独立博主，在保持独立博客的自由的同时，组织一个独立博客的创作和读者群体，让独立博客们也有一个稳定的被发现的渠道。这个工具可能是一个带个性化推荐系统的 RSS 客户端，可能是一个类似微博、twitter 但是主要内容是独立博客的新东西，读者可以点赞，评论。可以知道我们 follow 的博主 follow 了谁……
 
-这个列表是一个开始，先把独立博客们收集起来。欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具。或者你也可以通过 email [订阅更新](https://mailchi.mp/7585311373a3/indieblogs)
+这个列表是一个开始，先把独立博客们收集起来。欢迎加入 [Telegram 群](https://t.me/indieBlogs)一起思考和讨论如何构建这样一个工具。
 
 ## Thanks
 
