@@ -1077,6 +1077,7 @@
 |                                                                                                                                                                                                               | RustFisher软件开发             | https://an.rustfisher.com                                   | 编程; Android; Java                                      |
 |                                                                                                                                                                                                               | 万圣节恶魔的领地                   | https://cytrogen.icu/                                       | 编程; Python; 学习; 笔记                                     |
 |                                                                                                                                                                                                               | TARESKY                    | https://taresky.com/                                        | 生活; 数码                                                 |
+|                                                                                                                                                                                                               | 夕泥                         | https://www.xinies.cn/                                      | 编程; 前端; WEB; 全栈                                        |
 
 ## 什么是独立博客
 
