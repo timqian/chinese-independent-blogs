@@ -1127,7 +1127,7 @@
 
 ### 如何提交
 
-1. 在 [./blogs-original.csv](./blogs-original.csv) 中填入博客的 名称、URL、RSS以及标签
+1. 在 [./blogs-original.csv](./blogs-original.csv) 尾部添加一行，填入博客的 名称、URL、RSS以及标签
 2. 提交 PR
 3. (自动) PR 被 merge 之后 README 通过 [./script.js](./script.js) 生成
 
