@@ -1136,6 +1136,7 @@
 |                                                                                                                                                                                                               | 闫越的网络日志                    | https://yanyue404.github.io/blog/                           | 基督徒; 歌者; 前端                                                  |
 |                                                                                                                                                                                                               | 王先森的博客                     | http://wangxiansen.top/                                     | 编程; Java; Angular; TypeScript; 日常; 摄影                        |
 |                                                                                                                                                                                                               | 小祝同学的日常                    | https://www.zzy2001.com/                                    | 生活; 编程; 笔记                                                   |
+|                                                                                                                                                                                                               | 清风菀月轩                      | http://qingwan.top                                          | 技术; 日常; 信息安全; 学习笔记; 摄影                                       |
 
 ## 什么是独立博客
 
