@@ -1168,6 +1168,7 @@
 |                                                                                                                                                                                                               | 小祝同学的日常                    | https://www.zzy2001.com/                                    | 生活; 编程; 笔记                                                   |
 |                                                                                                                                                                                                               | 清风菀月轩                      | http://qingwan.top                                          | 技术; 日常; 信息安全; 学习笔记; 摄影                                       |
 |                                                                                                                                                                                                               | Kexi Dang's blog           | https://kexizeroing.github.io                               | 技术; 编程; 学习                                                   |
+|                                                                                                                                                                                                               | 布袋青年                       | https://great-jin.github.io                                 | 编程; 笔记; 随感                                                   |
 
 ## 什么是独立博客
 
