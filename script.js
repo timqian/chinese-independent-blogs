@@ -150,6 +150,7 @@ ${tableContentInMD}
 
   - [Netlify](https://www.netlify.com/)
   - [Vercel](https://vercel.com/)
+  - [Cloudflare Pages](https://pages.cloudflare.com/)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');
