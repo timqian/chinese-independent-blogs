@@ -1230,3 +1230,4 @@
 
   - [Netlify](https://www.netlify.com/)
   - [Vercel](https://vercel.com/)
+  - [Cloudflare Pages](https://pages.cloudflare.com/)
