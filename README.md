@@ -1197,6 +1197,7 @@
 |                                                                                                                                                                                                               | Gakkiyomi's blog           | http://gakkiyomi.me                                         | 编程; 感悟; 历史                                                   |
 |                                                                                                                                                                                                               | s0urce's Lab               | https://blog.src.moe                                        | 笔记; 技术; 折腾; 生活                                               |
 |                                                                                                                                                                                                               | 有（冇）用                      | https://usefulness.info/                                    | 生活; 随想; 灵感; 思考                                               |
+|                                                                                                                                                                                                               | IceCliffs                  | https://iloli.moe/                                          | 生活; 安全; 编程; 音乐                                               |
 
 ## 什么是独立博客
 
