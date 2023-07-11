@@ -1198,6 +1198,7 @@
 |                                                                                                                                                                                                               | s0urce's Lab               | https://blog.src.moe                                        | 笔记; 技术; 折腾; 生活                                               |
 |                                                                                                                                                                                                               | 有（冇）用                      | https://usefulness.info/                                    | 生活; 随想; 灵感; 思考                                               |
 |                                                                                                                                                                                                               | IceCliffs                  | https://iloli.moe/                                          | 生活; 安全; 编程; 音乐                                               |
+|                                                                                                                                                                                                               | 潘智祥                        | https://panzhixiang.cn                                      | 编程; 随笔; Python; 机器人                                          |
 
 ## 什么是独立博客
 
