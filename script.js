@@ -58,16 +58,17 @@ async function getResultAndUpdateREADME() {
   const getFeedsPubBtn = (feedLink, followCount) => 
     `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
   const newTable = table.map(row => {
+    const url = new URL(row[1])
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
       row[0].replace(/\|/g, '&#124;'),
-      row[1],
+      `[${url.protocol}//${url.host}/](${url.href})`,
       row[3]
     ]
   });
 
   // update README
-  const tableContentInMD = markdownTable([['RSS 订阅数 <img width=110/> ', '简介', '链接', '标签'], ...newTable]);
+  const tableContentInMD = markdownTable([['<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RSS 订阅数</p>', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `
 # 中文独立博客列表
