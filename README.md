@@ -1274,6 +1274,7 @@
 |                                                                                                                                                                                                               | 王郁的小站                      | https://wycode.cn/                                          | 前端; 后端; 安卓; Unity; 读书; 思考                                    |
 |                                                                                                                                                                                                               | Lcblogcraft                | http://luviichann.top/                                      | 深度学习; 经验分享; 思考; 学习过程; 二次元                                    |
 |                                                                                                                                                                                                               | Qifei's Blog               | https://blog.sci.ci/                                        | 学习笔记; 机器学习; 前端; 算法; 开源                                       |
+|                                                                                                                                                                                                               | 迦识                         | https://www.wejias.com                                      | 编程; 生活; 技术; 随笔; 笔记                                           |
 
 ## 什么是独立博客
 
