@@ -1277,6 +1277,7 @@
 |                                                                                                                                                                                                                | 迦识                         | https://www.wejias.com                                      | 编程; 生活; 技术; 随笔; 笔记                                           |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fduanmourena.github.io%2Ffeed.xml)                                            | 段某人的博客                     | https://duanmourena.github.io/                              | 编程; 技术; 架构; 随笔                                               |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fliudon.com%2Findex.xml)                                                      | 流动                         | https://liudon.com                                          | 技术; 生活                                                       |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.fghrsh.net%2Ffeed.php)                                                   | FGHRSH 的博客                 | https://www.fghrsh.net                                      | 生活; 日常; 科技; 数码; 编程; 技术                                       |
 
 ## 什么是独立博客
 
