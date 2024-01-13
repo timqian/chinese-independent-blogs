@@ -1281,6 +1281,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.terminals.run%2Frss.xml)                                                | 但为君故                       | https://blog.terminals.run                                  | 编程; 技术; 生活; 笔记                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.zl-asica.com%2Fatom.xml)                                                 | ZL Asica的博客                | https://www.zl-asica.com/                                   | 生活; 日常; 科技; 数码; 编程; 技术; 随笔; 机器学习; 深度学习                          |
 |                                                                                                                                                                                                                | 小橡树指北                      | https://blog.growingoak.top/                                | 读书笔记; Affiliate Marketing; Google SEO; 终身学习; WordPress 建站; 网站推荐 |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fanotherdayu.com%2Ffeed%2F)                                                   | Another Dayu               | https://anotherdayu.com/                                    | 日常; 流行病与卫生统计; 科技; 数码                                            |
 
 ## 什么是独立博客
 
