@@ -1284,6 +1284,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fanotherdayu.com%2Ffeed%2F)                                                   | Another Dayu               | https://anotherdayu.com/                                    | 日常; 流行病与卫生统计; 科技; 数码                                            |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.zhangyingwei.com%2Findex.xml)                                           | 胡说                         | https://blog.zhangyingwei.com/                              | 生活; 日常; 编程; 技术; 产品                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fchangshiban.com%2Findex.xml)                                                 | 唱诗班                        | https://changshiban.com/                                    | 生活方式; 哲学宗教; 历史人文; 财富幸福                                          |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.guangweiblog.com%2Ffeed%2F)                                              | 王光卫博客                      | https://www.guangweiblog.com/                               | 数字营销; 数据分析                                                      |
 
 ## 什么是独立博客
 
