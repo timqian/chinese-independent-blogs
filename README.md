@@ -1288,6 +1288,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fsugarat.top%2Ffeed.rss)                                                      | 粥里有勺糖                      | https://sugarat.top/                                        | 编程; 大前端; 开源; 生活; 随笔                                             |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fpath2exile.com%2Ffeed.xml)                                                   | Path2Exile                 | https://path2exile.com/                                     | 编程; 爱好; 随笔                                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Finnomad.io%2Ffeed)                                                           | Innomad一挪迈                 | https://innomad.io                                          | 投资; 独立开发; 数字游民                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Frayepeng.net%2Ffeed)                                                         | Raye's Journey             | https://rayepeng.net                                        | 编程; 技术; 随笔; 生活                                                  |
 
 ## 什么是独立博客
 
