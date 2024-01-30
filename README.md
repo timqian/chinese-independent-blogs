@@ -1290,6 +1290,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Finnomad.io%2Ffeed)                                                           | Innomad一挪迈                 | https://innomad.io                                          | 投资; 独立开发; 数字游民                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Frayepeng.net%2Ffeed)                                                         | Raye's Journey             | https://rayepeng.net                                        | 编程; 技术; 随笔; 生活                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.cubeyond.net%2Ffeed.xml)                                                 | CuB3y0nd's Writings        | https://cubeyond.net                                        | 网络安全; PWN; 逆向; 密码学; 编程; 随笔                                      |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fnaive514.top%2Fatom.xml)                                                     | 俟河清                        | https://naive514.top                                        | 技术; 随笔; 水文; 水利工程                                                |
 
 ## 什么是独立博客
 
