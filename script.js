@@ -60,14 +60,13 @@ async function getResultAndUpdateREADME() {
   const newTable = table.map(row => {
     return [
       row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
-      row[0].replace(/\|/g, '&#124;'),
-      row[1],
+      `[${row[0].replace(/\|/g, '&#124;')}](${row[1]})`,
       row[3]
     ]
   });
 
   // update README
-  const tableContentInMD = markdownTable([['<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RSS 订阅数</p>', '简介', '链接', '标签'], ...newTable]);
+  const tableContentInMD = markdownTable([['<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RSS 订阅数</p>', '博客/简介', '标签'], ...newTable]);
 
   const readmeContent = `
 # 中文独立博客列表
