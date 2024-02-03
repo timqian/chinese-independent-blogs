@@ -1293,6 +1293,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fnaive514.top%2Fatom.xml)                                                     | 俟河清                        | https://naive514.top                                        | 技术; 随笔; 水文; 水利工程                                                |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Flhasa.icu%2Fatom.xml)                                                        | 游钓四方                       | https://lhasa.icu/                                          | 骑行; 音乐; 技术; 随笔                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fgreniray.org%2Ffeed)                                                         | 十月遗忘诗                      | https://greniray.org                                        | 生活; 随笔; 文学; 诗歌                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fhi.asyncx.top%2Frss.xml)                                                     | AsyncX's Blog              | https://hi.asyncx.top                                       | 编程; 日常; 哲学; 技术                                                  |
 
 ## 什么是独立博客
 
