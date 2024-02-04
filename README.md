@@ -1296,6 +1296,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fhi.asyncx.top%2Frss.xml)                                                     | AsyncX's Blog              | https://hi.asyncx.top                                       | 编程; 日常; 哲学; 技术                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fmag267.github.io%2Fatom.xml)                                                 | Mag‘s Blog                 | https://mag267.github.io/                                   | 绘画; 美术; 书影音                                                     |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.liuailin.top%2Fatom.xml)                                                | Ali's Blog                 | https://blog.liuailin.top                                   | 生活; 日常; 技术; 编程; 随笔                                              |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.peiluming.com%2Ffeed)                                                   | 裴先生笔记                      | https://blog.peiluming.com                                  | 技术; 随笔; 编程; 教程; 攻略                                              |
 
 ## 什么是独立博客
 
