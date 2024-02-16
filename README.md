@@ -1298,6 +1298,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.liuailin.top%2Fatom.xml)                                                | Ali's Blog                 | https://blog.liuailin.top                                   | 生活; 日常; 技术; 编程; 随笔                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.peiluming.com%2Ffeed)                                                   | 裴先生笔记                      | https://blog.peiluming.com                                  | 技术; 随笔; 编程; 教程; 攻略                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fqingmingzong.cn%2Findex.php%2Ffeed%2F)                                       | 纸灯的博客                      | https://qingmingzong.cn/                                    | 游戏; 日常; 编程; 杂谈                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.oyyko.com%2Findex.xml)                                                  | Oyyko's Blog               | https://blog.oyyko.com/                                     | 日常; 编程; 随笔; C++; infra                                          |
 
 ## 什么是独立博客
 
