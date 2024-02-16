@@ -1300,6 +1300,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fqingmingzong.cn%2Findex.php%2Ffeed%2F)                                       | 纸灯的博客                      | https://qingmingzong.cn/                                    | 游戏; 日常; 编程; 杂谈                                                  |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fibcl.us%2Fatom.xml)                                                          | I BCL.                     | https://ibcl.us/                                            | 技术; 编程; Linux; 前后端; 电子; 硬件; 无线电                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.oyyko.com%2Findex.xml)                                                  | Oyyko's Blog               | https://blog.oyyko.com/                                     | 日常; 编程; 随笔; C++; infra                                          |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fraymondhouch.com%2Ffeed)                                                     | 雷蒙三十                       | https://raymondhouch.com/                                   | 创业; 数码; 数字游民; 生产力工具; Notion; 数字生活                               |
 
 ## 什么是独立博客
 
