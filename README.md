@@ -1303,6 +1303,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fkaffa.im%2Ffeeds%2Fall.atom.xml)                                             | Kaffa                      | https://kaffa.im/                                           | 研发; 编程; 阅读; 数智; 软件; 认知方法论; 书影音物                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fval-istar-guo.com%2Fapi%2Frss%2Ffeed)                                        | Val.istar.Guo Blog         | https://val-istar-guo.com                                   | 编程; 日常                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2F0xlau.dev%2Fposts%2Findex.xml)                                               | 码农小易的博客                    | https://0xlau.dev/                                          | 编程; 随笔; 技术; 逆向; 生活; 安全                                          |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.jdjwzx233.cn%2Fatom.xml)                                                 | jdjwzx233-Blog             | https://www.jdjwzx233.cn/                                   | 生活; 编程; 技术; 日常; 前端                                              |
 
 ## 什么是独立博客
 
