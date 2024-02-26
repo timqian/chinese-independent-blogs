@@ -1307,6 +1307,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ffeeds2.feedburner.com%2Fprogramthink)                                        | 编程随想的博客                    | https://program-think.blogspot.com                          | 编程; 随笔; 分享; 隐私; 管理                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwygxmew.github.io%2Findex.xml)                                               | 乌云盖雪                       | https://wygxmew.github.io                                   | 生活; 日常; 思考; 感悟; 随笔; 文学; 诗歌; 笔记; 读书                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fxingpingcn.top%2Fatom.xml)                                                   | 邢平cn-xingpingcn            | https://xingpingcn.top                                      | 编程; 技术; 社会科学; 随笔                                                |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.chaoniulian.com%2Frss%2F)                                                | 骑行超过牛                      | https://www.chaoniulian.com                                 | 好玩的个人网志; 读书; 骑行; 效率翻倍                                           |
 
 ## 什么是独立博客
 
