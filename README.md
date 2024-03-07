@@ -1314,6 +1314,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fcniter.github.io%2Fatom.xml)                                                 | Shaun's Space              | https://cniter.github.io                                    | 技术; 生活                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.wexiami.com%2Ffeed)                                                     | 大熊要飞翔                      | https://blog.wexiami.com                                    | 生活; 成长; 技术                                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/http%3A%2F%2Fcodeinchinese.com%2Ffeed.xml)                                                 | 用中文编程                      | http://codeinchinese.com/                                   | 生活                                                              |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fzzrl.cc%2Fatom.xml)                                                          | 追逐日落                       | https://zzrl.cc                                             | 编程; 后端; 生活; 技术; 笔记; Java                                        |
 
 ## 什么是独立博客
 
