@@ -1323,6 +1323,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.lizhichen.cn%2Ffeed.php)                                                 | 南蛮子懋和                      | https://www.lizhichen.cn                                    | 李至臣; 李懋和; 南通道士; 风水; 家居风水; 住宅风水                                  |
 |                                                                                                                                                                                                                | tcmiku的档案库                 | https://tcmiku.github.io/                                   | 编程; 随笔; 教程; python                                              |
 |                                                                                                                                                                                                                | LT-Space                   | http://www.lter.space/                                      | 编程; 随笔; 教程                                                      |
+|                                                                                                                                                                                                                | HanSan'Blog                | https://my.gintama.love                                     | 编程; 生活; 随笔                                                      |
 
 ## 什么是独立博客
 
