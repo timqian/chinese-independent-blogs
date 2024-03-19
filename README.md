@@ -1324,6 +1324,7 @@
 |                                                                                                                                                                                                                | tcmiku的档案库                 | https://tcmiku.github.io/                                   | 编程; 随笔; 教程; python                                              |
 |                                                                                                                                                                                                                | LT-Space                   | http://www.lter.space/                                      | 编程; 随笔; 教程                                                      |
 |                                                                                                                                                                                                                | HanSan'Blog                | https://my.gintama.love                                     | 编程; 生活; 随笔                                                      |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fbluehe.cn%2Ffeed%2F)                                                         | 云心怀鹤                       | https://bluehe.cn/                                          | 生活; 生活方式; 风光摄影; 科技; 旅行; 阅读                                      |
 
 ## 什么是独立博客
 
