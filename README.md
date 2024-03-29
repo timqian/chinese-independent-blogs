@@ -1328,6 +1328,7 @@
 |                                                                                                                                                                                                                | zzzmh's Blog               | https://zzzmh.cn                                            | Java; Linux; JavaScript; Docker                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fforrestgump618.github.io%2Fatom.xml)                                         | 一个夏天的年少                    | https://forrestgump618.github.io                            | 随笔; 生物信息学; 临床医学                                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fdallas.lu%2Ffeed)                                                            | Dallas Lu                  | https://dallas.lu                                           | 编程; 网络                                                          |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.baiwulin.com%2Ffeed%2F)                                                  | 雾林博客                       | https://www.baiwulin.com/                                   | 技术; 随笔; 生活                                                      |
 
 ## 什么是独立博客
 
