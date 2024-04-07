@@ -1330,6 +1330,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.baiwulin.com%2Ffeed%2F)                                                  | 雾林博客                       | https://www.baiwulin.com/                                   | 技术; 随笔; 生活                                                      |
 |                                                                                                                                                                                                                | Rain9's Home               | https://www.raingpt.top                                     | 技术; 编程; 算法; 前端; 后端; WebGL; Web3                                 |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Farckive.cn%2Findex.xml)                                                      | Yuics Blog                 | https://arckive.cn                                          | 算法竞赛; 算法与数据结构; 生活; 随笔; 数学; 阅读; ACGN                             |
+|                                                                                                                                                                                                                | 烧烤的小站                      | https://verlif.top                                          | 编程; 吐槽; Java                                                    |
 
 ## 什么是独立博客
 
