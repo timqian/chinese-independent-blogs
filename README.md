@@ -1333,6 +1333,7 @@
 |                                                                                                                                                                                                                | 烧烤的小站                       | https://verlif.top                                          | 编程; 吐槽; Java                                                    |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Funnamedtat.xyz%2Frss.xml)                                                    | A small world of unnamedtat | https://unnamedtat.xyz                                      | 技术; GIS、生态文献阅读、算法分享; Web前端; Python; R                           |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fsongfei.org%2Findex.xml)                                                     | 飞飞爱折腾                       | https://songfei.org                                         | 编程; 技术; 随笔; 无线电; DIY                                            |
+|                                                                                                                                                                                                                | 阿豪                          | https://nolanblog.top/                                      | 技术学习; 随笔; web3; java                                            |
 
 ## 什么是独立博客
 
