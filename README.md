@@ -1335,6 +1335,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fsongfei.org%2Findex.xml)                                                     | 飞飞爱折腾                       | https://songfei.org                                         | 编程; 技术; 随笔; 无线电; DIY                                            |
 |                                                                                                                                                                                                                | 阿豪                          | https://nolanblog.top/                                      | 技术学习; 随笔; web3; java                                            |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.menghuan1918.com%2Frss.xml)                                             | Menghuan1918的博客             | https://blog.menghuan1918.com/                              | 编程; Linux; 折腾                                                   |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fceeji.net%2Fblog%2Ffeed%2F)                                                  | 笃志者的博客                      | https://ceeji.net                                           | 编程; 摄影; 旅行; 汉语; 文化                                              |
 
 ## 什么是独立博客
 
