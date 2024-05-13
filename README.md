@@ -1337,6 +1337,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.menghuan1918.com%2Frss.xml)                                             | Menghuan1918的博客             | https://blog.menghuan1918.com/                              | 编程; Linux; 折腾                                                   |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fceeji.net%2Fblog%2Ffeed%2F)                                                  | 笃志者的博客                      | https://ceeji.net                                           | 编程; 摄影; 旅行; 汉语; 文化                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fcosmo-polite.com%2Ffeed%2F)                                                  | Cosmos的博客                   | https://cosmo-polite.com/                                   | 北美生活; 思维碎片                                                      |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.douchi.space%2Findex.xml)                                               | 椒盐豆豉                        | https://blog.douchi.space/                                  | 测评; 生活; 旅行; 科技                                                  |
 
 ## 什么是独立博客
 
