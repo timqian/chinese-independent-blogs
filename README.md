@@ -1341,6 +1341,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fimzh.me%2Findex.xml)                                                         | 在01之间到处找我                   | https://imzh.me/                                            | 工具                                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Framble.imzh.me%2Findex.xml)                                                  | JZ's Rambles                | https://ramble.imzh.me/                                     | 随笔                                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fmafeifan.com%2Ffeed.rss)                                                     | mafeifan的技术博客               | https://mafeifan.com/                                       | Devops; 技术; 云原生; Devops                                         |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwener.me%2Fstory%2Frss.xml)                                                  | Wener's Live & Life         | https://wener.me/                                           | 生活; 技术; 编程; 文化; 杂谈; 架构; 设计; 笔记                                  |
 
 ## 什么是独立博客
 
