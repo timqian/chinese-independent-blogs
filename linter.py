@@ -17,6 +17,9 @@ def check_tags(tags: str):
 def check_csv(csv_file_path):
     with open(csv_file_path, mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file,skipinitialspace=True,strict=True)
+
+        addresses = set()
+        rss_feeds = set()
         for row in reader:
             print(row)
 
@@ -43,9 +46,15 @@ def check_csv(csv_file_path):
             
             assert Address.startswith('http://') or Address.startswith('https://'), "Address does not start with `http(s)://`"
 
+            assert Address not in addresses, "duplicate Address"
+            addresses.add(Address)
+
             if RSS_feed:
                 assert RSS_feed.startswith('http://') or RSS_feed.startswith('https://'), "RSS feed does not start with `http(s)://`"
                 assert RSS_feed != Address, "RSS feed and Address are the same"
+
+                assert RSS_feed not in rss_feeds, "duplicate RSS feed"
+                rss_feeds.add(RSS_feed)
 
             if tags:
                 check_tags(tags)
