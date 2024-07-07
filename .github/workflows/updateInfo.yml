@@ -3,6 +3,8 @@ name: Update readme and feed.opml
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
     paths: 
       - 'blogs-original.csv'
       - 'linter.py'
