@@ -38,12 +38,15 @@ jobs:
       run: |
         python opml_generator.py
     - name: Commit files
+      id: commit
       run: |
+        echo "new=$(git status --porcelain)" >> $GITHUB_OUTPUT
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "update README and feed.opml after adding blog(s)"
+        git commit -m "update README and feed.opml after adding blog(s)" || echo "nothing to commit"
     - name: Push changes
+      if: steps.commit.new != ''
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
