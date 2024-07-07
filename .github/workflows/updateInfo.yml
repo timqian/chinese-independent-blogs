@@ -5,7 +5,7 @@ on:
   push:
     paths: 
       - 'blogs-original.csv'
-      - 'formatter.py'
+      - 'linter.py'
       - 'opml_generator.py'
       - 'script.js'
       - '.github/workflows/updateInfo.yml'
@@ -27,9 +27,9 @@ jobs:
       uses: actions/setup-python@v5.1.0
       with:
         python-version: 3.12
-    - name: formatter
+    - name: linter
       run: |
-        python formatter.py
+        python linter.py
     - name: update readme
       run: |
         npm install
