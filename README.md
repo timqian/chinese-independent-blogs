@@ -1338,6 +1338,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.dwsql.com%2Finterview)                                                   | 数据仓库技术                      | https://www.dwsql.com/                                      | 大数据; 数据仓库; 数据开发面试SQL                                            |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ffatbobman.com%2Fzh%2Frss.xml)                                                | 肘子的 Swift 记事本               | https://fatbobman.com/                                      | 编程; Swift; SwiftUI                                              |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ftevinzhang.com%2Fzh%2Ffeed.xml)                                              | Tevin Zhang                 | https://tevinzhang.com/zh/                                  | 数字化生活; 数据自主; 数字资产; 生产力工具; 经验分享; 随笔                              |
+|                                                                                                                                                                                                                | Simon's Blog                | https://simonhe.me/                                         | 前端 开源 个人                                                        |
 
 ## 什么是独立博客
 
