@@ -1340,6 +1340,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ftevinzhang.com%2Fzh%2Ffeed.xml)                                              | Tevin Zhang                 | https://tevinzhang.com/zh/                                  | 数字化生活; 数据自主; 数字资产; 生产力工具; 经验分享; 随笔                              |
 |                                                                                                                                                                                                                | Simon's Blog                | https://simonhe.me/                                         | 前端 开源 个人                                                        |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.linzihao.com)                                                            | Linzihao's Blog             | https://linzihao.com                                        | 编程; 创业; 生活; 思考                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fkeenwon.com%2Frss.xml)                                                       | Keenwon's Blog              | https://keenwon.com                                         | 编程; 思考; 技术博客; 前端开发; 全栈                                          |
 
 ## 什么是独立博客
 
