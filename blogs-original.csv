@@ -305,7 +305,7 @@ Beyond the Void, https://www.byvoid.com/, https://www.byvoid.com/feed, 语言学
 Yi's blog, https://wangyi.ai/, https://wangyi.ai/atom.xml, C++; LeetCode; Python; iOS; 工具活用; 译文; 读书笔记; 随笔
 1 Byte, https://1byte.io/, https://1byte.io/rss.xml, 创业; 投资; 编程; 随笔
 Inevitable, https://www.inevitable.tech, https://www.inevitable.tech/atom.xml, 大学; 编程; 随笔
-BMPI, https://www.bmpi.dev, https://www.bmpi.dev/index.xml, Learn / Dev / Trade
+BMPI, https://www.bmpi.dev, https://www.bmpi.dev/index.xml, Learn; Dev; Trade
 61's life, https://61.life/, https://61.life/feed.xml, 创业; 管理; 产品
 Power's Wiki, https://wiki-power.com/, https://wiki-power.com/feed_rss_updated.xml, 硬件; 编程; 生活方式; 读书
 瞬间 Press, https://tripper.press/, https://tripper.press/atom.xml, 摄影; 文化产业; 新媒体
@@ -572,7 +572,7 @@ Nuclear'Atk（核攻击）网络安全实验室, https://lcx.cc/, https://lcx.cc
 bboysoul的博客, https://www.bboy.app, https://www.bboy.app/atom.xml, k8s 运维
 一派胡言, https://dantezy.xyz/, https://dantezy.xyz/rss.xml, 编程; 阅读; 随笔
 AiDaiP, https://aidaip.github.io/, https://aidaip.github.io/feed.xml, 安全; 生活
-灵感电台, http://museradio.net/, http://museradio.net/atom.xml, Jack's art hobby habitat
+灵感电台 - Jack's art hobby habitat, http://museradio.net/, http://museradio.net/atom.xml, 
 sulinehk's blog, https://www.sulinehk.com/, https://www.sulinehk.com/index.xml, 编程; Golang
 瘦人志, http://www.wuqiwen.cn/, http://www.wuqiwen.cn/feed/, 产品设计; 生活
 Drawoceans的博客, https://blog.dort.me/, https://blog.dort.me/feed/, 文学; 动漫; 生活; 随笔
@@ -780,7 +780,7 @@ Frange Zone｜Xu's Blog, https://frangezone.github.io, https://frangezone.github
 BlogKe记录志, https://blogke.cn/index.html, https://blogke.cn/index.xml, 笔记; 想法
 nickChenyx, https://nickchenyx.github.io/, https://nickchenyx.github.io/atom.xml, 编程; 技术; 分享
 让我们一起发现西西里岛, https://mattia88.com/, https://mattia88.com/feed/, 西西里人; 西西里旅游
-Shadow Walker 松烟阁, https://www.edony.ink/, https://www.edony.ink/rss/, Linux 操作系统安全（LSM，ebpf 等）; 基础设施可信; 产品思考; 数字花园; Obsidian
+Shadow Walker 松烟阁, https://www.edony.ink/, https://www.edony.ink/rss/, Linux 操作系统安全; LSM; ebpf; 基础设施可信; 产品思考; 数字花园; Obsidian
 烟草的香味, https://hujingnb.com/, https://hujingnb.com/feed, 编程; 技术
 SpaceTime Blog, https://blog.spacetimee.xyz, https://blog.spacetimee.xyz/atom.xml, 编程; 随笔
 飞翔沫沫情博客, https://fxkjnj.com, https://www.fxkjnj.com/feed/, 科技; 运维; 随笔
@@ -1315,6 +1315,6 @@ Wener's Live & Life, https://wener.me/, https://wener.me/story/rss.xml, 生活; 
 数据仓库技术, https://www.dwsql.com/, https://www.dwsql.com/interview, 大数据; 数据仓库; 数据开发面试SQL
 肘子的 Swift 记事本, https://fatbobman.com/, https://fatbobman.com/zh/rss.xml, 编程; Swift; SwiftUI
 Tevin Zhang, https://tevinzhang.com/zh/, https://tevinzhang.com/zh/feed.xml, 数字化生活; 数据自主; 数字资产; 生产力工具; 经验分享; 随笔
-Simon's Blog, https://simonhe.me/, , 前端 开源 个人
+Simon's Blog, https://simonhe.me/, , 前端; 开源; 个人
 Linzihao's Blog, https://linzihao.com, https://www.linzihao.com, 编程; 创业; 生活; 思考
 Keenwon's Blog, https://keenwon.com, https://keenwon.com/rss.xml, 编程; 思考; 技术博客; 前端开发; 全栈

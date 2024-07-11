@@ -11,7 +11,8 @@ def check_tags(tags: str):
     tags_list = tags.split('; ')
     # print(tags_list)
     assert not any([';' in tag for tag in tags_list]), "no trailing space after `;`"
-    assert not any([tag for tag in tags_list if tag != tag.strip()]), "leading/trailing whitespace in tags"
+    assert not any([tag for tag in tags_list if tag != tag.strip()]), "leading/trailing space in tags"
+    assert not any([tag for tag in tags_list if tag.count(" ") > 1]), "multiple spaces in tag, you should use ';' as separator, or consider using '-'/'_' instead of space"
     assert len(tags_list) == len(set(tags_list)), "duplicate tag(s)"
 
 def check_csv(csv_file_path):
