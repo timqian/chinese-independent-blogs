@@ -1191,4 +1191,5 @@
 <outline text="Keenwon's Blog" title="Keenwon's Blog" type="rss" xmlUrl="https://keenwon.com/rss.xml" htmlUrl="https://keenwon.com"/>
 <outline text="Stray Episode" title="Stray Episode" type="rss" xmlUrl="https://farer.org/rss/" htmlUrl="https://farer.org"/>
 <outline text="蒙奇日记" title="蒙奇日记" type="rss" xmlUrl="https://luffy.cc/feed" htmlUrl="https://luffy.cc"/>
+<outline text="data4fun" title="data4fun" type="rss" xmlUrl="https://data4fun.cc/index.xml" htmlUrl="https://data4fun.cc/"/>
 </body></opml>
