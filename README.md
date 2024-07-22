@@ -1344,6 +1344,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Ffarer.org%2Frss%2F)                                                          | Stray Episode                   | https://farer.org                                           | 编程; 技术; 游戏; 思考; 随笔; 阅读; 吐槽                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fluffy.cc%2Ffeed)                                                             | 蒙奇日记                            | https://luffy.cc                                            | 生活; 随笔                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fdata4fun.cc%2Findex.xml)                                                     | data4fun                        | https://data4fun.cc/                                        | 个人随笔; 大数据; AI                                                   |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.reincarnatey.net%2Findex.xml)                                           | 失迹の博客                           | https://blog.reincarnatey.net/                              | 编程; 技术; 随笔; 笔记                                                  |
 
 ## 什么是独立博客
 
