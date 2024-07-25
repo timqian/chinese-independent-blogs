@@ -1345,6 +1345,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fluffy.cc%2Ffeed)                                                             | 蒙奇日记                            | https://luffy.cc                                            | 生活; 随笔                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fdata4fun.cc%2Findex.xml)                                                     | data4fun                        | https://data4fun.cc/                                        | 个人随笔; 大数据; AI                                                   |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.reincarnatey.net%2Findex.xml)                                           | 失迹の博客                           | https://blog.reincarnatey.net/                              | 编程; 技术; 随笔; 笔记                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fkerrynotes.com%2Ffeed%2F)                                                    | Kerry的学习笔记                      | https://kerrynotes.com/                                     | 软件; 技术; 分享                                                      |
 
 ## 什么是独立博客
 
