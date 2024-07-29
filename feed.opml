@@ -1196,5 +1196,6 @@
 <outline text="Kerry的学习笔记" title="Kerry的学习笔记" type="rss" xmlUrl="https://kerrynotes.com/feed/" htmlUrl="https://kerrynotes.com/"/>
 <outline text="smile 的博客花园" title="smile 的博客花园" type="rss" xmlUrl="https://nsddd.top/zh/posts/index.xml" htmlUrl="https://nsddd.top/zh"/>
 <outline text="东东's Blog" title="东东's Blog" type="rss" xmlUrl="https://blog.yasking.org/atom.xml" htmlUrl="https://blog.yasking.org/"/>
+<outline text="有思想的芦苇's Blog" title="有思想的芦苇's Blog" type="rss" xmlUrl="https://thinking-reed.cn/atom.xml" htmlUrl="https://thinking-reed.cn"/>
 <outline text="阮超民的个人网站" title="阮超民的个人网站" type="rss" xmlUrl="https://www.ruanchaomin.com/api/rss" htmlUrl="https://www.ruanchaomin.com/"/>
 </body></opml>
