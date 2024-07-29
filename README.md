@@ -1348,6 +1348,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fkerrynotes.com%2Ffeed%2F)                                                    | Kerry的学习笔记                      | https://kerrynotes.com/                                     | 软件; 技术; 分享                                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fnsddd.top%2Fzh%2Fposts%2Findex.xml)                                          | smile 的博客花园                     | https://nsddd.top/zh                                        | 技术; 编程; AI; 创业; 生活; 思考; 笔记; 生产力工具; 开源                           |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.yasking.org%2Fatom.xml)                                                 | 东东's Blog                       | https://blog.yasking.org/                                   | 编程; 技术; 笔记                                                      |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.ruanchaomin.com%2Fapi%2Frss)                                             | 阮超民的个人网站                        | https://www.ruanchaomin.com/                                | 前端; 编程; 技术; 笔记                                                  |
 
 ## 什么是独立博客
 
