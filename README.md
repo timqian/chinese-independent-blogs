@@ -1350,6 +1350,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fblog.yasking.org%2Fatom.xml)                                                 | 东东's Blog                       | https://blog.yasking.org/                                   | 编程; 技术; 笔记                                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fthinking-reed.cn%2Fatom.xml)                                                 | 有思想的芦苇's Blog                   | https://thinking-reed.cn                                    | 技术; 科研; AI; 生活; 思考; 编程                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.ruanchaomin.com%2Fapi%2Frss)                                             | 阮超民的个人网站                        | https://www.ruanchaomin.com/                                | 前端; 编程; 技术; 笔记                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.zair.top%2Findex.xml)                                                    | 逐水寻源                            | https://www.zair.top/                                       | AI; 大模型; 数据科学; 机器学习; 学习笔记                                       |
 
 ## 什么是独立博客
 
