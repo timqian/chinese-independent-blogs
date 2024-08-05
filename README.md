@@ -1354,6 +1354,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Frazeen.me%2Findex.xml)                                                       | Razeen's Blog                   | https://razeen.me                                           | 编程; 生活; 笔记                                                      |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.qs5.org%2Ffeed%2F)                                                       | 青石坞                             | https://www.qs5.org/                                        | 技术; 生活                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fi.hsfzxjy.site%2Frss.xml)                                                    | hsfzxjy 的博客                     | https://i.hsfzxjy.site                                      | 编程; 开源; 随想; 生活                                                  |
+| [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fsess.xhustudio.eu.org%2Ffeed.xml)                                            | SЕSSのB10GТЕ5Т                   | https://sess.xhustudio.eu.org/                              | 编程; 开源; Linux; 生活                                               |
 
 ## 什么是独立博客
 
