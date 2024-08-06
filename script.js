@@ -67,7 +67,7 @@ async function getResultAndUpdateREADME() {
   });
 
   // update README
-  const tableContentInMD = markdownTable([['RSS 订阅数 <img width=110/> ', '简介', '链接', '标签'], ...newTable]);
+  const tableContentInMD = markdownTable([['<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RSS 订阅数</p>', '简介', '链接', '标签'], ...newTable]);
 
   const readmeContent = `
 # 中文独立博客列表
@@ -150,6 +150,7 @@ ${tableContentInMD}
 
   - [Netlify](https://www.netlify.com/)
   - [Vercel](https://vercel.com/)
+  - [Cloudflare Pages](https://pages.cloudflare.com/)
 `
 
   fs.writeFileSync('./README.md', readmeContent, 'utf8');

@@ -8,7 +8,7 @@ lines = file_content.split('\n')
 
 HEAD = '<?xml version="1.0" encoding="UTF-8"?><opml version="1.0"><head><title>中文独立博客列表</title></head><body>'
 END = '</body></opml>'
-ITEM = '<outline text={title} title={title} type="rss" xmlUrl={rss_link} htmlUrl={link}/>'
+ITEM = '<outline text={title} title={title} type="rss" xmlUrl={rss_link} htmlUrl={link}/>\n'
 
 content = HEAD
 

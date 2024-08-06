@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/timqian/indie-chinese-blogs#readme",
   "dependencies": {
-    "graphql": "^16.5.0",
+    "graphql": "^16.8.1",
     "graphql-request": "^4.3.0",
     "markdown-table": "^1.1.3"
   }
