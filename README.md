@@ -1357,6 +1357,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fsess.xhustudio.eu.org%2Ffeed.xml)                                            | SЕSSのB10GТЕ5Т                   | https://sess.xhustudio.eu.org/                              | 编程; 开源; Linux; 生活                                               |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fwww.ichenfu.com%2Fatom.xml)                                                  | C0reFast记事本                     | https://www.ichenfu.com/                                    | 技术; 编程; Linux                                                   |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fisming.me%2Findex.xml)                                                       | 码农明明桑                           | https://isming.me                                           | 技术; 生活; 旅行; 读书                                                  |
+|                                                                                                                                                                                                                | 七仔的博客                           | https://www.baby7blog.com                                   | 编程; 随笔; 工具; 个人                                                  |
 
 ## 什么是独立博客
 
