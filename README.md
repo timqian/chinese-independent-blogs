@@ -1359,6 +1359,7 @@
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fisming.me%2Findex.xml)                                                       | 码农明明桑                           | https://isming.me                                           | 技术; 生活; 旅行; 读书                                                  |
 |                                                                                                                                                                                                                | 七仔的博客                           | https://www.baby7blog.com                                   | 编程; 随笔; 工具; 个人                                                  |
 |                                                                                                                                                                                                                | Dolingou                        | https://www.dolingou.com                                    | 路由器; 家庭网络; 工具; OpenWRT; 分享                                      |
+|                                                                                                                                                                                                                | Jame                            | https://jametry.github.io/                                  | 生活; 随笔                                                          |
 
 ## 什么是独立博客
 
