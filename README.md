@@ -1360,6 +1360,7 @@
 |                                                                                                                                                                                                                | 七仔的博客                           | https://www.baby7blog.com                                   | 编程; 随笔; 工具; 个人                                                  |
 |                                                                                                                                                                                                                | Dolingou                        | https://www.dolingou.com                                    | 路由器; 家庭网络; 工具; OpenWRT; 分享                                      |
 |                                                                                                                                                                                                                | Jame                            | https://jametry.github.io/                                  | 生活; 随笔                                                          |
+|                                                                                                                                                                                                                | HotaruBlog                      | https://hotaru.icu                                          | 编程; 开源; 技术; 笔记; 记录; 生活; 分享; 个人                                  |
 
 ## 什么是独立博客
 
