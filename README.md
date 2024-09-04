@@ -1362,6 +1362,7 @@
 |                                                                                                                                                                                                                | Jame                            | https://jametry.github.io/                                  | 生活; 随笔                                                          |
 | [<img src="https://img.shields.io/static/v1?label=follow&message=-1&style=social&logo=rss">](https://feeds.pub/feed/https%3A%2F%2Fxubian.com%2Fzh%2Frss.xml)                                                   | 续编                              | https://xubian.com/                                         | 投资; 创业; 生活                                                      |
 |                                                                                                                                                                                                                | HotaruBlog                      | https://hotaru.icu                                          | 编程; 开源; 技术; 笔记; 记录; 生活; 分享; 个人                                  |
+|                                                                                                                                                                                                                | 奥利弗的狗窝                          | https://www.aolifu.org/                                     | 实用工具; Java八股文; 技术分享                                             |
 
 ## 什么是独立博客
 
