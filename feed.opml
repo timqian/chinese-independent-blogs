@@ -1208,4 +1208,6 @@
 <outline text="Dolingou" title="Dolingou" type="rss" xmlUrl="https://www.dolingou.com/rss/feed.xml" htmlUrl="https://www.dolingou.com"/>
 <outline text="续编" title="续编" type="rss" xmlUrl="https://xubian.com/zh/rss.xml" htmlUrl="https://xubian.com/"/>
 <outline text="人生足迹 · 博客平台" title="人生足迹 · 博客平台" type="rss" xmlUrl="https://blog.lifebus.top/feed.xml" htmlUrl="https://blog.lifebus.top"/>
+<outline text="白丁轶事 - FMoran's Blog" title="白丁轶事 - FMoran's Blog" type="rss" xmlUrl="https://fmoran.me/feed/" htmlUrl="https://fmoran.me/"/>
+<outline text="OneCoder的博客" title="OneCoder的博客" type="rss" xmlUrl="https://www.coderli.com/feed.xml" htmlUrl="https://www.coderli.com"/>
 </body></opml>
