@@ -9,7 +9,7 @@ on:
       - 'blogs-original.csv'
       - 'linter.py'
       - 'opml_generator.py'
-      - 'script.js'
+      - 'readme_render.py'
       - '.github/workflows/updateInfo.yml'
   schedule:
     - cron:  '0 0 * * MON'
@@ -21,10 +21,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4.1.7
-    - name: Use Node.js
-      uses: actions/setup-node@v3.2.0
-      with:
-        node-version: 16.x
     - name: Set up Python 3.12
       uses: actions/setup-python@v5.1.0
       with:
@@ -34,8 +30,7 @@ jobs:
         python linter.py
     - name: update readme
       run: |
-        npm install
-        node script.js
+        python readme_render.py > README.md
     - name: Generate feed.opml
       run: |
         python opml_generator.py

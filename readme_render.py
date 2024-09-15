@@ -1,75 +1,9 @@
-/**
- * 1. Get original CSV of feeds
- * 2. Get follower counts for each feed
- * 3. Order by follower count
- */
+import csv
 
-const fs = require('fs');
-const markdownTable = require('markdown-table');
+csv_file_path = 'blogs-original.csv'
 
-const data = fs.readFileSync('./blogs-original.csv');
-const rows = data.toString().split('\n');
-
-const table = rows
-  .map(row => row.split(',').map(column => column.trim()))
-  .filter((row, i) => row.length === 4 && i !== 0)
-  .map(row => row.push(-1) && row) // row[4] to store count of RSS subscribers
-
-const {  GraphQLClient } = require('graphql-request');
-
-const endpoint = 'https://api.feeds.pub/graphql'
-const client = new GraphQLClient(endpoint, {errorPolicy: "ignore"});
-
-
-const pageSize = 60;
-async function getResultAndUpdateREADME() {
-  // Get follower counts
-  const feedLinks = table.map(row => row[2]);
-  const queries = feedLinks.map((feedLink, i) => {
-    if (feedLink) {
-      return `f${i}: feed(id: "${feedLink}") {
-        followerCount
-      }`
-    } else return '';
-  }).filter(query => query.trim().length > 0);
-
-  for (let i = 0; i < queries.length; i += pageSize) {
-    const query = `{
-        ${queries.slice(i, i + pageSize).join('\n')}
-      }`
-
-    try {
-      const data = await client.request(query);
-
-      Object.keys(data).forEach(key => {
-        const index = Number(key.replace('f', ''));
-        const count = data[key] ? data[key].followerCount : 0;
-        table[index][4] = count;
-      });
-      console.log(`Got followerCount for ${i} to ${i + pageSize}`);
-    } catch (error) {
-      console.log(error)
-    }
-  }
-
-  // Order by follower count
-  table.sort((a, b) => (b[4] - a[4]) || (a[0] - b[0]));
-
-  const getFeedsPubBtn = (feedLink, followCount) => 
-    `[<img src="https://img.shields.io/static/v1?label=follow&message=${followCount}&style=social&logo=rss">](https://feeds.pub/feed/${encodeURIComponent(feedLink)})`;
-  const newTable = table.map(row => {
-    return [
-      row[2] ? getFeedsPubBtn(row[2], row[4]) : '',
-      row[0].replace(/\|/g, '&#124;'),
-      row[1],
-      row[3]
-    ]
-  });
-
-  // update README
-  const tableContentInMD = markdownTable([['<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RSS 订阅数</p>', '简介', '链接', '标签'], ...newTable]);
-
-  const readmeContent = `
+def main():
+    print("""\
 # 中文独立博客列表
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
@@ -90,9 +24,17 @@ async function getResultAndUpdateREADME() {
 ## 博客列表
 
 > 暂时根据各 RSS 服务订阅数据排了个先后顺序。 欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
-
-${tableContentInMD}
-
+""")
+    with open(csv_file_path, mode='r', encoding='utf-8') as file:
+        reader = csv.DictReader(file,skipinitialspace=True)
+        print("| RSS feed | Introduction | Address | tags |")
+        print("| --- | --- | --- | --- |")
+        for row in reader:
+            mdlink = f'[Feed]({row["RSS feed"]})'
+            print(
+                f"| {mdlink if row['RSS feed'] else 'None'} | {row['Introduction']} | {row['Address']} | {row['tags']} |"
+            )
+    print("""\
 ## 什么是独立博客
 
 - 拥有自己的域名
@@ -102,7 +44,7 @@ ${tableContentInMD}
 
 1. 在 [./blogs-original.csv](./blogs-original.csv) 尾部添加一行，填入博客的 名称、URL、RSS以及标签
 2. 提交 PR
-3. (自动) PR 被 merge 之后 README 通过 [./script.js](./script.js) 生成
+3. (自动) PR 被 merge 之后 README 通过 [./readme_render.py](./readme_render.py) 生成
 
 ## 为什么要收集这张列表
 
@@ -151,11 +93,7 @@ ${tableContentInMD}
   - [Netlify](https://www.netlify.com/)
   - [Vercel](https://vercel.com/)
   - [Cloudflare Pages](https://pages.cloudflare.com/)
-`
+""")
 
-  fs.writeFileSync('./README.md', readmeContent, 'utf8');
-
-  console.log('README.md 文件生成成功！');
-}
-
-getResultAndUpdateREADME()
+if __name__ == "__main__":
+    main()
