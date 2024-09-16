@@ -12,7 +12,7 @@ ShrekShao, https://shrekshao.github.io/, http://shrekshao.github.io/feed.xml, �
 Reorx’s Forge, https://reorx.com/, https://reorx.com/feed.xml, 数字生活; 产品思考; 生产力工具; 软件开发
 ZDDHUB 的博客, https://zddhub.com/, https://zddhub.com/feed, 编程
 全栈应用开发:精益实践, https://www.phodal.com, https://www.phodal.com/blog/feeds/rss/, 编程
-追梦人物的博客, https://www.zmrenwu.com, https://www.zmrenwu.com/all/rss/, 编程
+追梦人物的博客, https://www.zmrenwu.com, , 编程
 Python 工匠, https://www.zlovezl.cn, https://www.zlovezl.cn/feeds/latest/, 编程
 但行好事，莫问前程, https://windard.com, https://windard.com/feed.xml, 编程
 Ric's Blog, https://www.lichong.work, https://www.lichong.work/atom.xml, 编程; 架构; 设计; 算法
@@ -283,7 +283,7 @@ HashTang 的个人空间, https://www.hxkj.vip, , 编程; 娱乐; 前端; 笔记
 黄琦雲的博客, https://knightyun.github.io/, https://knightyun.github.io/feed.xml, 编程; 前端; Linux; 技术
 阳志平的网志, https://www.yangzhiping.com/, https://www.yangzhiping.com/feed.xml, 认知科学; 随笔
 陈华, https://www.chen.fun/, https://www.chen.fun/index.xml, 物理; 科研; 生活
-Chores, https://raincorn.top/, https://raincorn.top/atom.xml, 计算机; 网络; 日常
+Chores, https://raincorn.top/, https://raincorn.top/feed/, 计算机; 网络; 日常
 顾宇的研习笔记, https://www.guyu.me/posts/, https://www.guyu.me/posts/index.xml, 编程; 微服务; DevOps; 研发效能; 研发体系; 云计算
 小熊写字的地方, https://blog.skrskrskrskr.com, https://blog.skrskrskrskr.com/atom.xml, 编程; 前端; 随笔
 编程沉思录, https://www.cyhone.com, https://www.cyhone.com/atom.xml, 编程; 后端
@@ -313,7 +313,6 @@ Rapiz's Blog, https://rapiz.me/, https://rapiz.me/atom.xml, 编程; 随笔
 Ground Oddity, http://idle.systems/, http://idle.systems/atom.xml, 编程; 旅行; 生活
 姬涛的个人网站, https://www.jitao.tech/, https://www.jitao.tech/rss.xml, 科技; 全栈; 笔记; 随笔
 数字移民博客, https://blog.shuziyimin.org, https://blog.shuziyimin.org/feed, 数字移民; 生活方式; 英语
-Becomin' Charles, https://sexywp.com, https://sexywp.com/feed, 编程; 随笔; 管理; 运维
 Bob Jiang's Blog, https://www.bobjiang.com/, https://www.bobjiang.com/index.xml, 敏捷; Scrum; 高效能组织; 个人成长
 清言, https://plausistory.blog/, https://plausistory.blog/feed/, 人文; 清史研究; 读书
 王二的个人网站, https://wangyulue.com, , 代码; 工具; 阅读; 文章
@@ -546,7 +545,6 @@ Orange, https://blog.orange.tw/, https://feeds.feedburner.com/blogspot/Aohx, 安
 Nuclear'Atk（核攻击）网络安全实验室, https://lcx.cc/, https://lcx.cc/index.xml, 安全
 bboysoul的博客, https://www.bboy.app, https://www.bboy.app/atom.xml, k8s 运维
 一派胡言, https://dantezy.xyz/, https://dantezy.xyz/rss.xml, 编程; 阅读; 随笔
-AiDaiP, https://aidaip.github.io/, https://aidaip.github.io/feed.xml, 安全; 生活
 灵感电台 - Jack's art hobby habitat, http://museradio.net/, http://museradio.net/atom.xml,
 sulinehk's blog, https://www.sulinehk.com/, https://www.sulinehk.com/index.xml, 编程; Golang
 瘦人志, http://www.wuqiwen.cn/, http://www.wuqiwen.cn/feed/, 产品设计; 生活
