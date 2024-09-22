@@ -1296,6 +1296,7 @@
 | [Feed](https://www.coderli.com/feed.xml) | OneCoder的博客 | https://www.coderli.com | 编程; 教程; 技术; 随笔 |
 | [Feed](https://physnya.top/atom.xml) | 菲兹克斯喵 | https://physnya.top | 物理; 数学; 随笔 |
 | [Feed](https://xeonzilla.github.io/index.xml) | Xeonzilla's Note | https://xeonzilla.github.io/ | 二次元; 技术; 随笔 |
+| [Feed](https://blog.kdev.top/atom.xml) | Kang's Blog | https://blog.kdev.top/ | 编程; Linux; 科研学习 |
 ## 什么是独立博客
 
 - 拥有自己的域名
