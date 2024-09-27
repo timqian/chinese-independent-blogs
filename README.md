@@ -1301,6 +1301,7 @@
 | [Feed](https://www.seaeye.cn/feed/) | 深海之眼 | https://www.seaeye.cn/ | 区块链; CTF |
 | [Feed](https://www.hats-land.com/atom.xml) | 帽之岛 - Hat's Land | https://www.hats-land.com | 随笔; 思考; 笔记 |
 | [Feed](https://niracler.xlog.app/feed) | Niracler's Blog | https://niracler.com | 生活; 编程; 工具; 随笔 |
+| [Feed](https://blog.luijp.cn/rss.xml) | 拒绝内耗直接发疯 | https://blog.luijp.cn | 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名
