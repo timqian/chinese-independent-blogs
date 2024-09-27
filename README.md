@@ -1299,6 +1299,7 @@
 | [Feed](https://blog.kdev.top/atom.xml) | Kang's Blog | https://blog.kdev.top/ | 编程; Linux; 科研学习 |
 | [Feed](https://blog.jaspirit.cc/atom.xml) | JaSpirit 的万事屋 | https://blog.jaspirit.cc/ | 算法; 计算机科学; 神经科学; 化学; 技术; 教程; 随笔 |
 | [Feed](https://www.seaeye.cn/feed/) | 深海之眼 | https://www.seaeye.cn/ | 区块链; CTF |
+| [Feed](https://niracler.xlog.app/feed) | Niracler's Blog | https://niracler.com | 生活; 编程; 工具; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
