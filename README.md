@@ -53,7 +53,6 @@
 | [Feed](https://hintsnet.com/pimgeek/feed/) | 思圆笔记 | https://hintsnet.com/ | 编程 |
 | None | 吕大卫的官方网站 | https://lvdawei.com | 编程 |
 | [Feed](https://toweave.github.io/rss.xml) | 前端工程师 Toweave | https://toweave.github.io | 编程 |
-| [Feed](https://zxx.im/feed) | 老周快救我 | https://zxx.im | 编程 |
 | [Feed](https://ghost.mout.me/rss/) | MouT.me | https://mout.me | 编程 |
 | [Feed](https://dumplingbao.github.io/atom.xml) | diss带码 | https://dumplingbao.github.io | 编程 |
 | [Feed](https://greatdk.com/feed) | 王登科-DK博客 | https://greatdk.com | 编程; 创业 |
@@ -465,7 +464,6 @@
 | [Feed](https://masuit.com/rss) | 懒得勤快的博客 | https://masuit.com | 绿色软件; .net; 资源分享 |
 | [Feed](https://geektutu.com/feed.xml) | 极客兔兔 | https://geektutu.com | 分享有趣的技术实践 |
 | [Feed](https://www.geekzl.com/feed) | 极客中心 | https://www.geekzl.com | 编程; 技术; SEO; 教程; dotnet; python |
-| [Feed](https://www.grofis.com/feed.xml) | 书呆子创业网 | https://www.grofis.com | 产品杂谈; 编程; 技术 |
 | [Feed](https://mountaye.github.io/blog/feed.xml) | 阿掖山：一个博客 | https://mountaye.github.io/blog/ | 物理; 生物; 编程; 摄影 |
 | [Feed](https://www.chenshaowen.com/atom.xml) | 陈少文的博客 | https://www.chenshaowen.com/blog/ | 编程; 笔记 |
 | [Feed](https://kubesphereio.com/tags/index.xml) | 一切皆有可能 | https://kubesphereio.com/ | 学习; K8s; 运维 |
@@ -579,7 +577,6 @@
 | [Feed](https://blog.whuzfb.cn/feed.xml) | 晨曦的博客 | https://blog.whuzfb.cn/ | 编程; 技术; 日常; 运维 |
 | [Feed](https://blog.eastonman.com/feed) | Easton Man's Blog | https://blog.eastonman.com | 开源; Linux; 计算机系统 |
 | [Feed](https://lawrenceli.me/atom.xml) | Lawrence's Blog | https://lawrenceli.me | 编程; 技术; 分布式; DevOps |
-| [Feed](https://blog.dev4eos.com/atom.xml) | fun's Blog | https://blog.dev4eos.com | 编程; 技术; 生活 |
 | [Feed](https://zivlog.io/feed.xml) | Ziv Log | https://zivlog.io/ | 编程; 技术; 数学; 物理; 读书; 生活 |
 | [Feed](http://sht2019.cn/atom.xml) | 开源之心 | http://sht2019.cn | 哲学; 笔记 |
 | None | Zikin的独立博客 | https://zikin.org | 生活; 折腾; 笔记 |
@@ -699,7 +696,6 @@
 | [Feed](https://blog.fyun.org/feed) | ZhensJoke 飞云算 | https://blog.fyun.org | 编程; 生活; 折腾 |
 | None | 遥近 | https://www.yjdzm.com | 前端; 编程; 思考 |
 | [Feed](https://qianguyihao.com/atom.xml) | 千古壹号 | https://www.qianguyihao.com | 前端; 读书笔记; 产品思考; 软件工具; 具体生活 |
-| None | DavidCai | https://davidc.ai/ | nodejs; 编程; 创业; 思考 |
 | [Feed](https://blog.kevinzhow.com/rss/) | Kevin Blog | https://blog.kevinzhow.com/ | 产品; 技术; 生活 |
 | [Feed](https://blog.xlab.app/atom.xml) | Tmr Blog | https://blog.xlab.app/ | 安全; 思考 |
 | [Feed](https://mantyke.icu/index.xml) | 小球飞鱼 | https://mantyke.icu/ | 生活; 笔记; 读书 |
