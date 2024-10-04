@@ -1063,7 +1063,6 @@
 <outline text="段某人的博客" title="段某人的博客" type="rss" xmlUrl="https://duanmourena.github.io/feed.xml" htmlUrl="https://duanmourena.github.io/"/>
 <outline text="流动" title="流动" type="rss" xmlUrl="https://liudon.com/index.xml" htmlUrl="https://liudon.com"/>
 <outline text="FGHRSH 的博客" title="FGHRSH 的博客" type="rss" xmlUrl="https://www.fghrsh.net/feed.php" htmlUrl="https://www.fghrsh.net"/>
-<outline text="但为君故" title="但为君故" type="rss" xmlUrl="https://blog.terminals.run/rss.xml" htmlUrl="https://blog.terminals.run"/>
 <outline text="ZL Asica的博客" title="ZL Asica的博客" type="rss" xmlUrl="https://www.zl-asica.com/atom.xml" htmlUrl="https://www.zl-asica.com/"/>
 <outline text="Another Dayu" title="Another Dayu" type="rss" xmlUrl="https://anotherdayu.com/feed/" htmlUrl="https://anotherdayu.com/"/>
 <outline text="胡说" title="胡说" type="rss" xmlUrl="https://blog.zhangyingwei.com/index.xml" htmlUrl="https://blog.zhangyingwei.com/"/>
@@ -1156,4 +1155,5 @@
 <outline text="帽之岛 - Hat's Land" title="帽之岛 - Hat's Land" type="rss" xmlUrl="https://www.hats-land.com/atom.xml" htmlUrl="https://www.hats-land.com"/>
 <outline text="Niracler's Blog" title="Niracler's Blog" type="rss" xmlUrl="https://niracler.xlog.app/feed" htmlUrl="https://niracler.com"/>
 <outline text="拒绝内耗直接发疯" title="拒绝内耗直接发疯" type="rss" xmlUrl="https://blog.luijp.cn/rss.xml" htmlUrl="https://blog.luijp.cn"/>
+<outline text="但为君故" title="但为君故" type="rss" xmlUrl="https://dreams.plus/rss.xml" htmlUrl="https://dreams.plus"/>
 </body></opml>
