@@ -734,7 +734,7 @@
 | [Feed](https://shinekid.com/feed/) | ShineKid | https://shinekid.com/ | 生活; 影视; 文学 |
 | [Feed](https://zincnode.com/index.xml) | An's Blog | https://zincnode.com | 编程; 思考; 生活 |
 | [Feed](https://lorde627.xyz/atom.xml) | 罗二德 | https://Lorde627.xyz | 折腾; 生活; 数字 |
-| [Feed](https://www.noicdi.com/atom.xml) | xStack | https://www.noicdi.com/ | 笔记; 编程; 随笔 |
+| [Feed](https://blog.noicdi.com/atom.xml) | zStack | https://blog.noicdi.com | 笔记; 编程; 随笔 |
 | [Feed](https://u.sb/rss.xml) | 烧饼博客 | https://u.sb | 运维; 域名 |
 | None | xuetengfei'Blog | https://xuetengfei.github.io/ | 编程 |
 | [Feed](https://leimao.github.io/atom.xml) | Lei Mao's Log Book | https://leimao.github.io/ | 人工智能; 机器学习; 计算机科学; 编程 |
@@ -1301,6 +1301,7 @@
 | [Feed](https://dreams.plus/rss.xml) | 但为君故 | https://dreams.plus | 生活; 随笔; 编程; 笔记 |
 | [Feed](https://ycyin.eu.org/sitemap.xml) | 小松鼠的博客 | https://ycyin.eu.org | 编程; 避坑; 技术 |
 | [Feed](https://taxodium.ink/rss.xml) | Taxodium | https://taxodium.ink/ | 编程; 随笔 |
+| [Feed](https://www.wsh233.cn/feed.xml) | WSH | https://wsh233.cn | 生活; 随笔; GISer; 地信 |
 ## 什么是独立博客
 
 - 拥有自己的域名
