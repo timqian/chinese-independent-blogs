@@ -660,7 +660,7 @@
 <outline text="ShineKid" title="ShineKid" type="rss" xmlUrl="https://shinekid.com/feed/" htmlUrl="https://shinekid.com/"/>
 <outline text="An's Blog" title="An's Blog" type="rss" xmlUrl="https://zincnode.com/index.xml" htmlUrl="https://zincnode.com"/>
 <outline text="罗二德" title="罗二德" type="rss" xmlUrl="https://lorde627.xyz/atom.xml" htmlUrl="https://Lorde627.xyz"/>
-<outline text="xStack" title="xStack" type="rss" xmlUrl="https://www.noicdi.com/atom.xml" htmlUrl="https://www.noicdi.com/"/>
+<outline text="zStack" title="zStack" type="rss" xmlUrl="https://blog.noicdi.com/atom.xml" htmlUrl="https://blog.noicdi.com"/>
 <outline text="烧饼博客" title="烧饼博客" type="rss" xmlUrl="https://u.sb/rss.xml" htmlUrl="https://u.sb"/>
 <outline text="Lei Mao's Log Book" title="Lei Mao's Log Book" type="rss" xmlUrl="https://leimao.github.io/atom.xml" htmlUrl="https://leimao.github.io/"/>
 <outline text="gd1214b's blog" title="gd1214b's blog" type="rss" xmlUrl="https://blog.gd1214b.icu/atom.xml" htmlUrl="https://blog.gd1214b.icu/"/>
@@ -1159,4 +1159,6 @@
 <outline text="但为君故" title="但为君故" type="rss" xmlUrl="https://dreams.plus/rss.xml" htmlUrl="https://dreams.plus"/>
 <outline text="小松鼠的博客" title="小松鼠的博客" type="rss" xmlUrl="https://ycyin.eu.org/sitemap.xml" htmlUrl="https://ycyin.eu.org"/>
 <outline text="Taxodium" title="Taxodium" type="rss" xmlUrl="https://taxodium.ink/rss.xml" htmlUrl="https://taxodium.ink/"/>
+<outline text="Yesterday17's Blog" title="Yesterday17's Blog" type="rss" xmlUrl="https://blog.mmf.moe/rss.xml" htmlUrl="https://blog.mmf.moe/"/>
+<outline text="WSH" title="WSH" type="rss" xmlUrl="https://www.wsh233.cn/feed.xml" htmlUrl="https://wsh233.cn"/>
 </body></opml>
