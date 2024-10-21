@@ -1283,7 +1283,7 @@
 | None | 七仔的博客 | https://www.baby7blog.com | 编程; 随笔; 工具; 个人 |
 | [Feed](https://www.dolingou.com/rss/feed.xml) | Dolingou | https://www.dolingou.com | 路由器; 家庭网络; 工具; OpenWRT; 分享 |
 | None | Jame | https://jame.work/ | 随笔 |
-| [Feed](https://xubian.com/zh/rss.xml) | 续编 | https://xubian.com/zh/ | 投资; 创业; 生活 |
+| [Feed](https://zbz.ai/zh/rss.xml) | 指北针 | https://zbz.ai/zh/ | 投资; 创业; 生活 |
 | None | HotaruBlog | https://hotaru.icu | 编程; 开源; 技术; 笔记; 记录; 生活; 分享; 个人 |
 | None | 奥利弗的狗窝 | https://www.aolifu.org/ | 实用工具; Java八股文; 技术分享 |
 | [Feed](https://blog.lifebus.top/feed.xml) | 人生足迹 · 博客平台 | https://blog.lifebus.top | 教程; 软件; 技术; 随笔 |
@@ -1304,6 +1304,8 @@
 | [Feed](https://bducds.com/feed) | 酷酷的白 | https://bducds.com | 技术; 生活; 编程 |
 | [Feed](https://blog.mmf.moe/rss.xml) | Yesterday17's Blog | https://blog.mmf.moe/ | 编程; 技术; 二次元; 随笔 |
 | [Feed](https://www.wsh233.cn/feed.xml) | WSH | https://wsh233.cn | 生活; 随笔; GISer; 地信 |
+| [Feed](https://heggria.site/feed.xml) | Heggria | https://heggria.site/ | 技术; 生活; 编程; 前端 |
+| [Feed](https://blog.sehnsucht.top/rss.xml) | Sehnsucht | https://blog.sehnsucht.top/ | 技术; 生活; 随笔; 读书; 杂谈; 娱乐; 思考 |
 ## 什么是独立博客
 
 - 拥有自己的域名
