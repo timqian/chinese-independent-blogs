@@ -1283,7 +1283,7 @@
 | None | 七仔的博客 | https://www.baby7blog.com | 编程; 随笔; 工具; 个人 |
 | [Feed](https://www.dolingou.com/rss/feed.xml) | Dolingou | https://www.dolingou.com | 路由器; 家庭网络; 工具; OpenWRT; 分享 |
 | None | Jame | https://jame.work/ | 随笔 |
-| [Feed](https://zbz.ai/zh/rss.xml) | 指北针 | https://zbz.ai/zh/ | 投资; 创业; 生活 |
+| [Feed](https://inote.xyz/zh/rss.xml) | iNote | https://inote.xyz/zh/ | 投资; 创业; 生活 |
 | None | HotaruBlog | https://hotaru.icu | 编程; 开源; 技术; 笔记; 记录; 生活; 分享; 个人 |
 | None | 奥利弗的狗窝 | https://www.aolifu.org/ | 实用工具; Java八股文; 技术分享 |
 | [Feed](https://blog.lifebus.top/feed.xml) | 人生足迹 · 博客平台 | https://blog.lifebus.top | 教程; 软件; 技术; 随笔 |
