@@ -1167,5 +1167,6 @@
 <outline text="RisingIce" title="RisingIce" type="rss" xmlUrl="https://www.imrising.cn/sitemap.xml" htmlUrl="https://www.imrising.cn/"/>
 <outline text="Muspi Merol 的个人主页" title="Muspi Merol 的个人主页" type="rss" xmlUrl="https://muspimerol.site/feed" htmlUrl="https://muspimerol.site"/>
 <outline text="qubeijun's Blog" title="qubeijun's Blog" type="rss" xmlUrl="https://qubeijun.github.io/atom.xml" htmlUrl="https://qubeijun.github.io/"/>
+<outline text="VPS严选" title="VPS严选" type="rss" xmlUrl="https://www.vpscp.top/feed/" htmlUrl="https://www.vpscp.top/"/>
 <outline text="有话豪说" title="有话豪说" type="rss" xmlUrl="https://www.lihao00.com/feed/" htmlUrl="https://www.lihao00.com/"/>
 </body></opml>
