@@ -1309,6 +1309,8 @@
 | [Feed](https://www.imrising.cn/sitemap.xml) | RisingIce | https://www.imrising.cn/ | 技术; 生活; 随笔; AIGC |
 | [Feed](https://muspimerol.site/feed) | Muspi Merol 的个人主页 | https://muspimerol.site | 随笔 |
 | [Feed](https://qubeijun.github.io/atom.xml) | qubeijun's Blog | https://qubeijun.github.io/ | 技术; 生活; 随笔 |
+| [Feed](https://www.lihao00.com/feed/) | 有话豪说 | https://www.lihao00.com/ | 思考; 生活; 随笔 |
+| None | Wake Me Up When September Ends. | https://www.zyimm.com | 技术; 生活; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
