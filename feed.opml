@@ -60,7 +60,7 @@
 <outline text="余果的博客" title="余果的博客" type="rss" xmlUrl="http://feeds.feedburner.com/yuguo" htmlUrl="https://yuguo.us"/>
 <outline text="O3noBLOG" title="O3noBLOG" type="rss" xmlUrl="https://feeds.feedburner.com/othree" htmlUrl="https://blog.othree.net"/>
 <outline text="Vivaxy's blog" title="Vivaxy's blog" type="rss" xmlUrl="https://vivaxyblog.github.io/atom.xml" htmlUrl="https://vivaxyblog.github.io"/>
-<outline text="Debug客栈" title="Debug客栈" type="rss" xmlUrl="https://www.debuginn.cn/feed" htmlUrl="https://www.debuginn.cn"/>
+<outline text="Debug客栈" title="Debug客栈" type="rss" xmlUrl="https://blog.debuginn.com/index.xml" htmlUrl="https://blog.debuginn.com"/>
 <outline text="isaced" title="isaced" type="rss" xmlUrl="http://www.isaced.com/index.xml" htmlUrl="https://www.isaced.com/"/>
 <outline text="Jason" title="Jason" type="rss" xmlUrl="https://atjason.com/atom.xml" htmlUrl="https://atjason.com"/>
 <outline text="forecho 的独立博客" title="forecho 的独立博客" type="rss" xmlUrl="https://blog.forecho.com/atom.xml" htmlUrl="https://blog.forecho.com"/>

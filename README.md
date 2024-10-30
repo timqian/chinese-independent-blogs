@@ -85,7 +85,7 @@
 | [Feed](http://feeds.feedburner.com/yuguo) | 余果的博客 | https://yuguo.us | 编程; 产品 |
 | [Feed](https://feeds.feedburner.com/othree) | O3noBLOG | https://blog.othree.net | 编程 |
 | [Feed](https://vivaxyblog.github.io/atom.xml) | Vivaxy's blog | https://vivaxyblog.github.io | 编程; 前端 |
-| [Feed](https://www.debuginn.cn/feed) | Debug客栈 | https://www.debuginn.cn | 编程; PHP |
+| [Feed](https://blog.debuginn.com/index.xml) | Debug客栈 | https://blog.debuginn.com | 编程; 科技; 算法; 读书; 智能家居; 随想; 好物分享; 摄影 |
 | [Feed](http://www.isaced.com/index.xml) | isaced | https://www.isaced.com/ | 编程 |
 | [Feed](https://atjason.com/atom.xml) | Jason | https://atjason.com | 编程 |
 | [Feed](https://blog.forecho.com/atom.xml) | forecho 的独立博客 | https://blog.forecho.com | 编程; 美股投资; 读书; 随想 |
