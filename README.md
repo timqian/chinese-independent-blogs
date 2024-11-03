@@ -641,7 +641,7 @@
 | [Feed](https://woodloch.blog/feed/) | 木澤的研發腦 | https://woodloch.blog/ | 編程; 開源; 隨筆 |
 | [Feed](https://imzl.com/feed/) | 周良博客 | https://imzl.com/ | 产品; 运营; 商业; 编程; WordPress; 随笔 |
 | [Feed](https://dgideas.net/feed/) | DGideas' Blog | https://dgideas.net/ | 编程; 技术; 生活 |
-| [Feed](https://www.miaoer.xyz/atom.xml) | 喵二の小博客 | https://www.miaoer.xyz/ | 技术; 生活; 学习 |
+| [Feed](https://www.miaoer.net/feed) | 喵二の小博客 | https://www.miaoer.net/ | 技术; 生活; 学习 |
 | [Feed](https://nojsja.github.io/blogs/atom.xml) | nojsja'个人博客 | https://nojsja.github.io/blogs/ | 编程; 技术; 前端; Linux |
 | [Feed](https://itgoyo.github.io/atom.xml) | itgoyo's blog | https://itgoyo.github.io/ | 编程; UP; 学习; Vim; Mac; Linux |
 | [Feed](https://Jev0n.com/feed/) | 思泉-Jev0n | https://jev0n.com/ | 安全; 编程; 生活 |
