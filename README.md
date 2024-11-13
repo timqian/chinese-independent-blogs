@@ -1311,7 +1311,7 @@
 | [Feed](https://qubeijun.github.io/atom.xml) | qubeijun's Blog | https://qubeijun.github.io/ | 技术; 生活; 随笔 |
 | [Feed](https://www.vpscp.top/feed/) | VPS严选 | https://www.vpscp.top/ | 技术; 测评; Linux; 主机 |
 | None | 夜雨秋灯 | https://blog.lierhua.top | 技术; 生活; 随笔; 摄影 |
-| None | 秦浩林的博客 | https://qhlcmy.me/ | 编程; 学习 |
+| None | 水木的博客 | https://qhlcmy.me/ | 编程; 学习 |
 | [Feed](https://www.lihao00.com/feed/) | 有话豪说 | https://www.lihao00.com/ | 思考; 生活; 随笔 |
 | None | Wake Me Up When September Ends. | https://www.zyimm.com | 技术; 生活; 随笔 |
 | [Feed](https://xieyonglin.com/blog/rss.xml) | Yonglin's Blog | https://xieyonglin.com/ | 技术; 生活; 随笔 |
