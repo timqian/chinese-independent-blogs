@@ -1311,11 +1311,13 @@
 | [Feed](https://qubeijun.github.io/atom.xml) | qubeijun's Blog | https://qubeijun.github.io/ | 技术; 生活; 随笔 |
 | [Feed](https://www.vpscp.top/feed/) | VPS严选 | https://www.vpscp.top/ | 技术; 测评; Linux; 主机 |
 | None | 夜雨秋灯 | https://blog.lierhua.top | 技术; 生活; 随笔; 摄影 |
-| None | 秦浩林的博客 | https://qhlcmy.me/ | 编程; 学习 |
+| None | 水木的博客 | https://qhlcmy.me/ | 编程; 学习 |
 | [Feed](https://www.lihao00.com/feed/) | 有话豪说 | https://www.lihao00.com/ | 思考; 生活; 随笔 |
 | None | Wake Me Up When September Ends. | https://www.zyimm.com | 技术; 生活; 随笔 |
 | [Feed](https://xieyonglin.com/blog/rss.xml) | Yonglin's Blog | https://xieyonglin.com/ | 技术; 生活; 随笔 |
 | None | 寻渊的博客 | http://lzhgy.cn/ | 大数据; 技术; 笔记 |
+| None | 宇宇博客 | https://nxysj.top/ | seo; 技术; 笔记 |
+| [Feed](https://blog.deepchirp.com/atom.xml) | 空鸣深语 | https://blog.deepchirp.com | 技术; 生活; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
