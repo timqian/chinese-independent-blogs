@@ -1067,7 +1067,7 @@
 | [Feed](https://suiyan.cc/rss.xml) | 碎言博客 | https://suiyan.cc/ | 编程; 笔记; 随感 |
 | [Feed](https://blog.ctftools.com/atom.xml) | Dr3@m's Blog | https://blog.ctftools.com/ | 编程; 随笔; 经验 |
 | [Feed](https://blog.renfei.net/rss.xml) | 任霏博客 | https://blog.renfei.net/ | 编程; Java; 经验 |
-| [Feed](https://blog.shuiba.co/feed) | 水八口的冥想盆 | https://blog.shuiba.co/ | 生活; 旅游; 思考 |
+| [Feed](https://shuiba.co/feed) | Shuibaco • 水八口 | https://shuiba.co/ | 日常; 旅途; 思考 |
 | [Feed](https://iliu.org/feed) | 流金岁月 | https://iliu.org/ | 生活; 读书; 日常 |
 | [Feed](https://blog.darrenzzy.cn/atom.xml) | Darren blog | https://blog.darrenzzy.cn/ | 算法，编程，架构 |
 | [Feed](http://linglan01.cn/feed.xml) | 凌览社 | http://linglan01.cn/ | 前端; Node.js; 随笔; 编程 |
