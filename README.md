@@ -1319,6 +1319,7 @@
 | [Feed](https://pinaland.cn/feed/) | 晴空树 | https://pinaland.cn/ | 日常; 二次元; 动画; 游戏; 技术 |
 | None | 宇宇博客 | https://nxysj.top/ | seo; 技术; 笔记 |
 | [Feed](https://blog.deepchirp.com/atom.xml) | 空鸣深语 | https://blog.deepchirp.com | 技术; 生活; 随笔 |
+| [Feed](https://www.geekery.cn/rss.xml) | 运维开发绿皮书 | https://www.geekery.cn/ | 技术; 生活; 开源 |
 ## 什么是独立博客
 
 - 拥有自己的域名

@@ -1172,4 +1172,5 @@
 <outline text="Yonglin's Blog" title="Yonglin's Blog" type="rss" xmlUrl="https://xieyonglin.com/blog/rss.xml" htmlUrl="https://xieyonglin.com/"/>
 <outline text="晴空树" title="晴空树" type="rss" xmlUrl="https://pinaland.cn/feed/" htmlUrl="https://pinaland.cn/"/>
 <outline text="空鸣深语" title="空鸣深语" type="rss" xmlUrl="https://blog.deepchirp.com/atom.xml" htmlUrl="https://blog.deepchirp.com"/>
+<outline text="运维开发绿皮书" title="运维开发绿皮书" type="rss" xmlUrl="https://www.geekery.cn/rss.xml" htmlUrl="https://www.geekery.cn/"/>
 </body></opml>
