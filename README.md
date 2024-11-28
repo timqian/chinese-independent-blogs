@@ -1314,7 +1314,7 @@
 | None | 水木的博客 | https://qhlcmy.me/ | 编程; 学习 |
 | [Feed](https://www.lihao00.com/feed/) | 有话豪说 | https://www.lihao00.com/ | 思考; 生活; 随笔 |
 | None | Wake Me Up When September Ends. | https://www.zyimm.com | 技术; 生活; 随笔 |
-| [Feed](https://xieyonglin.com/blog/rss.xml) | Yonglin's Blog | https://xieyonglin.com/ | 技术; 生活; 随笔 |
+| [Feed](https://xieyonglin.com/posts/rss.xml) | Yonglin's Blog | https://xieyonglin.com/ | 技术; 生活; 随笔 |
 | None | 寻渊的博客 | http://lzhgy.cn/ | 大数据; 技术; 笔记 |
 | [Feed](https://pinaland.cn/feed/) | 晴空树 | https://pinaland.cn/ | 日常; 二次元; 动画; 游戏; 技术 |
 | None | 宇宇博客 | https://nxysj.top/ | seo; 技术; 笔记 |
