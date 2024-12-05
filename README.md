@@ -1324,6 +1324,7 @@
 | [Feed](https://ruufly.github.io/atom.xml) | distjr_'s blog | https://ruufly.github.io/ | 技术; 随笔; 音乐; 二次元 |
 | [Feed](https://moonstone.fun/feed/) | 月石MoonStone | https://moonstone.fun | 中国古建筑; 唐宋辽金古建筑; 中国木结构建筑; 古建筑知识; 营造法式; 斗栱; 大木作; 3D模型 |
 | [Feed](https://blog.thedoga.tech/feed) | 栖木的网络日志 | https://blog.thedoga.tech/ | 随笔; 生活; 杂七杂八 |
+| [Feed](https://ymxblog.us.kg/rss2.xml) | 叶泯希 | https://ymxblog.us.kg/ | 生活; 摄影; 教程 |
 ## 什么是独立博客
 
 - 拥有自己的域名
