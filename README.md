@@ -916,7 +916,7 @@
 | [Feed](https://blog.l0v0.com/atom.xml) | 智伤帝 | https://blog.l0v0.com/ | 编程; 技术美术; 随笔 |
 | [Feed](https://bili33.top/atom.xml) | GamerNoTitle | https://bili33.top | 编程; 学习; 技术; 杂谈 |
 | [Feed](https://yuzhang.wang/atom.xml) | YuZhangWang的领域 | https://yuzhang.wang/ | 编程; DL; ML; 生活记录; 项目描述 |
-| [Feed](http://www.jingfengshuo.com/feed) | 静风说 | http://www.jingfengshuo.com | 生活; 读书; 电影; 旅游 |
+| [Feed](http://www.jfsay.com/feed) | 静风说 | http://www.jfsay.com | 生活; 读书; 电影; 旅游 |
 | [Feed](https://owlswims.com/feed) | To the Lighthouse | https://owlswims.com | 读书; 播客; 随笔; 书评; 人文 |
 | [Feed](http://blog.trumandu.top/atom.xml) | TrumanDu 博客 | http://blog.trumandu.top/ | 日记; 随笔; 学习; 技术分享; 思考; 阅读 |
 | [Feed](https://vlight.me/rss2.xml) | Wang's Blog | https://vlight.me/ | 数值计算; 优化算法 |
