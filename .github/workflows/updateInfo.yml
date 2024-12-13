@@ -3,11 +3,13 @@ name: Update readme and feed.opml
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
     paths: 
       - 'blogs-original.csv'
-      - 'formatter.py'
+      - 'linter.py'
       - 'opml_generator.py'
-      - 'script.js'
+      - 'readme_render.py'
       - '.github/workflows/updateInfo.yml'
   schedule:
     - cron:  '0 0 * * MON'
@@ -18,32 +20,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js
-      uses: actions/setup-node@v3.2.0
+    - uses: actions/checkout@v4.1.7
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5.1.0
       with:
-        node-version: 16.x
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v3.1.2
-      with:
-        python-version: 3.7
-    - name: formatter
+        python-version: 3.12
+    - name: linter
       run: |
-        python formatter.py
+        python linter.py
     - name: update readme
       run: |
-        npm install
-        node script.js
+        python readme_render.py > README.md
     - name: Generate feed.opml
       run: |
         python opml_generator.py
     - name: Commit files
       run: |
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "update README and feed.opml after adding blog(s)"
+        changes=$(git status --porcelain)
+        if [ -z "$changes" ]; then
+          echo "has_changes=false" >> $GITHUB_ENV
+          echo "nothing to commit"
+        else
+          echo "has_changes=true" >> $GITHUB_ENV
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "update README and feed.opml after adding blog(s)"
+        fi
     - name: Push changes
+      if: env.has_changes == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
