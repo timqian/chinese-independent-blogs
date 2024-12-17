@@ -1328,6 +1328,7 @@
 | [Feed](https://blog.ytmc.fun/rss.xml) | 一桐のBlog | https://blog.ytmc.fun/ | 编程; 技术; 折腾; 生活 |
 | [Feed](https://evan.xin/feed) | Evan | https://evan.xin | 生活 |
 | [Feed](https://pt2mu.top/atom.xml) | 假装看风景 | https://pt2mu.top/ | 生活; 记录; 碎碎念 |
+| [Feed](https://www.voidking.com/sitemap.xml) | 好好学习的郝 | https://www.voidking.com/ | 技术; 编程; 云原生; 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名
