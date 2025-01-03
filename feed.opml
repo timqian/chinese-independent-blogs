@@ -913,7 +913,7 @@
 <outline text="Sekyoro的博客小屋" title="Sekyoro的博客小屋" type="rss" xmlUrl="https://www.sekyoro.top/atom.xml" htmlUrl="https://www.sekyoro.top"/>
 <outline text="柴郡猫" title="柴郡猫" type="rss" xmlUrl="https://www.cheshirex.com/feed" htmlUrl="https://www.cheshirex.com"/>
 <outline text="obaby@mars" title="obaby@mars" type="rss" xmlUrl="https://h4ck.org.cn/feed/" htmlUrl="http://nai.dog"/>
-<outline text="aikenh" title="aikenh" type="rss" xmlUrl="https://aikenh.cn/atom.xml" htmlUrl="https://aikenh.cn/"/>
+<outline text="aikenh" title="aikenh" type="rss" xmlUrl="https://aikenh.cn/index.xml" htmlUrl="https://aikenh.cn/"/>
 <outline text="醉里博客" title="醉里博客" type="rss" xmlUrl="https://202271.xyz/atom.xml" htmlUrl="https://202271.xyz/"/>
 <outline text="RBA的技术分享" title="RBA的技术分享" type="rss" xmlUrl="https://www.firfor.cn/rss.xml" htmlUrl="https://firfor.cn"/>
 <outline text="黑川眠也的猫窝" title="黑川眠也的猫窝" type="rss" xmlUrl="https://www.nekow.cn/index.php/feed/" htmlUrl="https://nekow.cn/"/>
