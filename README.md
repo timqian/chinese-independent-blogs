@@ -393,7 +393,7 @@
 | [Feed](https://twistoy.cn/index.xml) | TwIStOy | https://twistoy.cn/ | 编程; 后端; C++ |
 | [Feed](https://www.zuoyu.top/atom.xml) | 一杯茶 | https://www.zuoyu.top/ | 技术; 生活; 经济 |
 | [Feed](https://blog.aeilot.top/index.xml) | Louis Aeilot's Blog | https://blog.aeilot.top/ | 随笔; 技术; 艺术; 生活 |
-| [Feed](https://pages.clckblog.space/feed.xml) | CLCK's Blog | https://pages.clckblog.space/ | 随笔; 编程; 技术; 生活 |
+| [Feed](https://www.clckblog.space/blog/rss.xml) | CLCK's Space | https://www.clckblog.space/blog/ | 随笔; 编程; 技术; 生活 |
 | [Feed](https://www.yunyoujun.cn/atom.xml) | 云游君的小站 | https://www.yunyoujun.cn | 生活; 技术; 艺术; 编程 |
 | [Feed](https://www.ybusad.com/rss) | 骁之屋 - 孙天骁的随身记录个人网站 | https://www.ybusad.com | 生活; 随记; 技术; 思考 |
 | [Feed](https://wusiyu.me/feed/) | WuSiYu Blog | https://wusiyu.me | 折腾; 技术; DIY; Linux |
