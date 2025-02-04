@@ -1337,6 +1337,7 @@
 | [Feed](https://forcheetah.github.io/atom.xml) | 暮冬Z羡慕的博客 | https://forcheetah.github.io/ | AI编译; 计算加速 |
 | [Feed](http://bolaxious.fun/rss.xml) | Bolaxious 的小站 | http://bolaxious.fun/ | 前端，生活，技术，随笔 |
 | [Feed](https://kangaroogao.com/atom.xml) | Maohang Gao's Blog | https://kangaroogao.com/ | 游记; 读书笔记; 随笔 |
+| [Feed](https://www.waistu.com/atom.xml) | 二歪同学 | https://www.waistu.com/ | 数码; 科技; 生活; 教程 |
 ## 什么是独立博客
 
 - 拥有自己的域名
