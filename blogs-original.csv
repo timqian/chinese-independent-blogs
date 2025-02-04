@@ -417,7 +417,7 @@ Platform Thinking +, https://pt.plus, https://pt.plus/rss/, 科技; 人文; 商�
 文艺数学君, https://mathpretty.com/, https://mathpretty.com/feed/, 编程; 生活; 数学
 luozhiyun`s Blog 我的技术分享, https://www.luozhiyun.com/, https://www.luozhiyun.com/feed, 编程; 生活
 人生這部戲, https://www.frank.hk/, https://www.frank.hk/rss.xml, 生活; 思考; 閱讀; 旅行; 技術
-峡州仙士之页, https://cjh0613.com, , 技术; 生活; 思考; 分享; 编程
+地球人的空间, https://cjh0613.com, https://h.cjh0613.com/zh/index.xml, 技术; 生活; 思考; 分享; 编程
 独孤伶俜, https://blog.dugulingping.com/, https://blog.dugulingping.com/feed, 编程; 生活; 随笔
 maxOS, https://maxoxo.me, https://maxoxo.me/rss/, 设计; 阅读; 随笔; 歌单
 Yuko's Blog, https://yuukoamamiya.github.io/, https://yuukoamamiya.github.io/index.xml, 二次元; 人文; 社科; 读书; 游戏
@@ -442,7 +442,6 @@ XINDOO的博客, https://zxs.io, https://zxs.io/feed, 算法; 编程; 人生
 懒得勤快的博客, https://masuit.com, https://masuit.com/rss, 绿色软件; .net; 资源分享
 极客兔兔, https://geektutu.com, https://geektutu.com/feed.xml, 分享有趣的技术实践
 极客中心, https://www.geekzl.com, https://www.geekzl.com/feed, 编程; 技术; SEO; 教程; dotnet; python
-阿掖山：一个博客, https://mountaye.github.io/blog/, https://mountaye.github.io/blog/feed.xml, 物理; 生物; 编程; 摄影
 陈少文的博客, https://www.chenshaowen.com/blog/, https://www.chenshaowen.com/atom.xml, 编程; 笔记
 一切皆有可能, https://kubesphereio.com/, https://kubesphereio.com/tags/index.xml, 学习; K8s; 运维
 极客玩家大白, https://geekplayers.com, https://geekplayers.com/feed.xml, 技术; SEO; 运营; 教程; python
@@ -1150,7 +1149,7 @@ gorpeln的个人博客, https://gorpeln.top/, https://gorpeln.top/feed.xml, 日�
 Longlong's Blog, https://blog.xlonglong.cn/, https://blog.xlonglong.cn/feed/, 生活日常; 随笔; 学习笔记; 炼丹; 开发
 Ruter's Blog, https://ruterly.com/, https://ruterly.com/feed/, 编程; 技术; 随笔; 开发; 分享
 小吴乐意’blog, https://www.xiaowuleyi.com/, http://xiaowuleyi/feed, 生活随想; 商业思考
-歪麦博客, https://www.awaimai.com/, https://www.awaimai.com/feed/, 编程; IT技术; 海外工作; NLP
+Gary's Blog, https://garymeng.com/, https://garymeng.com/feed/, 编程; IT技术; 海外工作; AI Agent
 局域自由, https://localfreedom.github.io/, https://localfreedom.github.io/index.xml, 软件; 隐私; 笔记
 Qifei's Blog, https://blog.sci.ci/, https://blog.sci.ci/rss2.xml, 学习笔记; 机器学习; 前端; 算法; 开源
 猫四叔, https://yuanj.top/, https://yuanj.top/index.xml, 学习; 生活; 生物信息学
@@ -1315,3 +1314,5 @@ Evan, https://evan.xin, https://evan.xin/feed, 生活
 暮冬Z羡慕的博客, https://forcheetah.github.io/, https://forcheetah.github.io/atom.xml, AI编译; 计算加速
 Bolaxious 的小站, http://bolaxious.fun/, http://bolaxious.fun/rss.xml, 前端，生活，技术，随笔
 Maohang Gao's Blog, https://kangaroogao.com/, https://kangaroogao.com/atom.xml, 游记; 读书笔记; 随笔
+阿掖山·博客, https://blog.mountaye.com, https://blog.mountaye.com/feed.xml, 物理; 生物; 编程; 摄影; 历史
+二歪同学, https://www.waistu.com/, https://www.waistu.com/atom.xml, 数码; 科技; 生活; 教程

@@ -382,6 +382,7 @@
 <outline text="文艺数学君" title="文艺数学君" type="rss" xmlUrl="https://mathpretty.com/feed/" htmlUrl="https://mathpretty.com/"/>
 <outline text="luozhiyun`s Blog 我的技术分享" title="luozhiyun`s Blog 我的技术分享" type="rss" xmlUrl="https://www.luozhiyun.com/feed" htmlUrl="https://www.luozhiyun.com/"/>
 <outline text="人生這部戲" title="人生這部戲" type="rss" xmlUrl="https://www.frank.hk/rss.xml" htmlUrl="https://www.frank.hk/"/>
+<outline text="地球人的空间" title="地球人的空间" type="rss" xmlUrl="https://h.cjh0613.com/zh/index.xml" htmlUrl="https://cjh0613.com"/>
 <outline text="独孤伶俜" title="独孤伶俜" type="rss" xmlUrl="https://blog.dugulingping.com/feed" htmlUrl="https://blog.dugulingping.com/"/>
 <outline text="maxOS" title="maxOS" type="rss" xmlUrl="https://maxoxo.me/rss/" htmlUrl="https://maxoxo.me"/>
 <outline text="Yuko's Blog" title="Yuko's Blog" type="rss" xmlUrl="https://yuukoamamiya.github.io/index.xml" htmlUrl="https://yuukoamamiya.github.io/"/>
@@ -406,7 +407,6 @@
 <outline text="懒得勤快的博客" title="懒得勤快的博客" type="rss" xmlUrl="https://masuit.com/rss" htmlUrl="https://masuit.com"/>
 <outline text="极客兔兔" title="极客兔兔" type="rss" xmlUrl="https://geektutu.com/feed.xml" htmlUrl="https://geektutu.com"/>
 <outline text="极客中心" title="极客中心" type="rss" xmlUrl="https://www.geekzl.com/feed" htmlUrl="https://www.geekzl.com"/>
-<outline text="阿掖山：一个博客" title="阿掖山：一个博客" type="rss" xmlUrl="https://mountaye.github.io/blog/feed.xml" htmlUrl="https://mountaye.github.io/blog/"/>
 <outline text="陈少文的博客" title="陈少文的博客" type="rss" xmlUrl="https://www.chenshaowen.com/atom.xml" htmlUrl="https://www.chenshaowen.com/blog/"/>
 <outline text="一切皆有可能" title="一切皆有可能" type="rss" xmlUrl="https://kubesphereio.com/tags/index.xml" htmlUrl="https://kubesphereio.com/"/>
 <outline text="极客玩家大白" title="极客玩家大白" type="rss" xmlUrl="https://geekplayers.com/feed.xml" htmlUrl="https://geekplayers.com"/>
@@ -1044,7 +1044,7 @@
 <outline text="Longlong's Blog" title="Longlong's Blog" type="rss" xmlUrl="https://blog.xlonglong.cn/feed/" htmlUrl="https://blog.xlonglong.cn/"/>
 <outline text="Ruter's Blog" title="Ruter's Blog" type="rss" xmlUrl="https://ruterly.com/feed/" htmlUrl="https://ruterly.com/"/>
 <outline text="小吴乐意’blog" title="小吴乐意’blog" type="rss" xmlUrl="http://xiaowuleyi/feed" htmlUrl="https://www.xiaowuleyi.com/"/>
-<outline text="歪麦博客" title="歪麦博客" type="rss" xmlUrl="https://www.awaimai.com/feed/" htmlUrl="https://www.awaimai.com/"/>
+<outline text="Gary's Blog" title="Gary's Blog" type="rss" xmlUrl="https://garymeng.com/feed/" htmlUrl="https://garymeng.com/"/>
 <outline text="局域自由" title="局域自由" type="rss" xmlUrl="https://localfreedom.github.io/index.xml" htmlUrl="https://localfreedom.github.io/"/>
 <outline text="Qifei's Blog" title="Qifei's Blog" type="rss" xmlUrl="https://blog.sci.ci/rss2.xml" htmlUrl="https://blog.sci.ci/"/>
 <outline text="猫四叔" title="猫四叔" type="rss" xmlUrl="https://yuanj.top/index.xml" htmlUrl="https://yuanj.top/"/>
@@ -1187,5 +1187,8 @@
 <outline text="崔鹏飞的blog" title="崔鹏飞的blog" type="rss" xmlUrl="https://cuipengfei.me/atom.xml" htmlUrl="https://cuipengfei.me/"/>
 <outline text="通灵卡片" title="通灵卡片" type="rss" xmlUrl="https://www.yuqiqin.me/feed.xml" htmlUrl="https://www.yuqiqin.me/"/>
 <outline text="暮冬Z羡慕的博客" title="暮冬Z羡慕的博客" type="rss" xmlUrl="https://forcheetah.github.io/atom.xml" htmlUrl="https://forcheetah.github.io/"/>
+<outline text="Bolaxious 的小站" title="Bolaxious 的小站" type="rss" xmlUrl="http://bolaxious.fun/rss.xml" htmlUrl="http://bolaxious.fun/"/>
 <outline text="Maohang Gao's Blog" title="Maohang Gao's Blog" type="rss" xmlUrl="https://kangaroogao.com/atom.xml" htmlUrl="https://kangaroogao.com/"/>
+<outline text="阿掖山·博客" title="阿掖山·博客" type="rss" xmlUrl="https://blog.mountaye.com/feed.xml" htmlUrl="https://blog.mountaye.com"/>
+<outline text="二歪同学" title="二歪同学" type="rss" xmlUrl="https://www.waistu.com/atom.xml" htmlUrl="https://www.waistu.com/"/>
 </body></opml>
