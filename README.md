@@ -439,7 +439,7 @@
 | [Feed](https://mathpretty.com/feed/) | 文艺数学君 | https://mathpretty.com/ | 编程; 生活; 数学 |
 | [Feed](https://www.luozhiyun.com/feed) | luozhiyun`s Blog 我的技术分享 | https://www.luozhiyun.com/ | 编程; 生活 |
 | [Feed](https://www.frank.hk/rss.xml) | 人生這部戲 | https://www.frank.hk/ | 生活; 思考; 閱讀; 旅行; 技術 |
-| None | 峡州仙士之页 | https://cjh0613.com | 技术; 生活; 思考; 分享; 编程 |
+| [Feed](https://h.cjh0613.com/zh/index.xml) | 地球人的空间 | https://cjh0613.com | 技术; 生活; 思考; 分享; 编程 |
 | [Feed](https://blog.dugulingping.com/feed) | 独孤伶俜 | https://blog.dugulingping.com/ | 编程; 生活; 随笔 |
 | [Feed](https://maxoxo.me/rss/) | maxOS | https://maxoxo.me | 设计; 阅读; 随笔; 歌单 |
 | [Feed](https://yuukoamamiya.github.io/index.xml) | Yuko's Blog | https://yuukoamamiya.github.io/ | 二次元; 人文; 社科; 读书; 游戏 |
