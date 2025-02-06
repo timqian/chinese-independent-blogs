@@ -1338,6 +1338,7 @@
 | [Feed](https://kangaroogao.com/atom.xml) | Maohang Gao's Blog | https://kangaroogao.com/ | 游记; 读书笔记; 随笔 |
 | [Feed](https://blog.mountaye.com/feed.xml) | 阿掖山·博客 | https://blog.mountaye.com | 物理; 生物; 编程; 摄影; 历史 |
 | [Feed](https://www.waistu.com/atom.xml) | 二歪同学 | https://www.waistu.com/ | 数码; 科技; 生活; 教程 |
+| [Feed](https://cxy0714.github.io/index.xml) | 陈星宇的主页 | https://cxy0714.github.io/ | 统计学; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
