@@ -1340,7 +1340,7 @@
 | [Feed](https://www.waistu.com/atom.xml) | 二歪同学 | https://www.waistu.com/ | 数码; 科技; 生活; 教程 |
 | [Feed](https://cxy0714.github.io/index.xml) | 陈星宇的主页 | https://cxy0714.github.io/ | 统计学; 随笔 |
 | [Feed](https://blog.liushen.fun/atom.xml) | 清羽飞扬 | https://blog.liushen.fun | 技术; 生活; 随笔; 记录 |
-| [Feed](https://peter267.github.io) | PeterTech | https://peter267.zeabur.app | 科技; 生活; 教程; AIGC |
+| [Feed](https://peter267.github.io/rss.xml) | PeterTech | https://peter267.zeabur.app | 科技; 生活; 教程; AIGC |
 ## 什么是独立博客
 
 - 拥有自己的域名
