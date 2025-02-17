@@ -905,7 +905,7 @@
 | [Feed](https://www.mereith.com/feed.xml) | Mereith's Blog | https://www.mereith.com/ | 编程; 技术分享; 折腾; 日常 |
 | [Feed](https://www.wangfenjin.com/index.xml) | Wang Fenjin's Blog | https://www.wangfenjin.com/ | 编程; 技术分享; 折腾; 日常 |
 | [Feed](https://ligdy.com/rss/feed.xml) | Ligdyu Blog | https://ligdy.com/ | 编程; 技术分享; 日记; 随笔; 学习; 前端 |
-| [Feed](https://seersu.me/index.xml) | SeerSu | https://seersu.me/ | 技术分享; 日记; 随笔; 学习 |
+| [Feed](https://suus.me/index.xml) | SeerSu | https://suus.me/ | 技术分享; 日记; 随笔; 学习 |
 | [Feed](https://blog.cpen.top/atom.xml) | Mycpen | https://blog.cpen.top/ | 技术分享; 日记; 随笔; 学习 |
 | [Feed](https://penghh.fun/atom.xml) | 效率工具指南 | https://penghh.fun | 效率工具; 软件; Macbook; 前端; 工具; App; 博客; 写作 |
 | [Feed](https://mark24code.github.io/feed.xml) | Mark24Code | https://mark24code.github.io | 前端; 技术; 博客; 随笔; 编程思考 |
