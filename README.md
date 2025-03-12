@@ -1343,6 +1343,7 @@
 | [Feed](https://peter267.github.io/atom.xml) | PeterTech | https://peter267.github.io | 科技; 生活; 教程; AIGC |
 | [Feed](https://blog.huan99.com/atom.xml) | Huan's Blog | https://blog.huan99.com | 自我成长; 后端; 阅读; 随笔 |
 | [Feed](https://blog.cugxuan.cn/atom.xml) | 泫言 | https://blog.cugxuan.cn | 生活; 编程; 科技; 记录 |
+| [Feed](https://blog.frwalker.top/atom.xml) | FrWalker's Blog | https://blog.frwalker.top | 学习; 随笔; 研究; 记录 |
 ## 什么是独立博客
 
 - 拥有自己的域名
