@@ -1350,6 +1350,7 @@
 | [Feed](https://blog.yesord.top/atom.xml) | Rolenx | https://home.yesord.top/ | 生活; 思考; 记录 |
 | [Feed](https://writings.sh/feed) | 春水煎茶 | https://writings.sh/ | 编程; 算法; 记录 |
 | None | KEKKJ BLOG | https://kekkj123.github.io/ | 生活; 随笔; 技术; 学习 |
+| None | Suni Blog | https://www.yysuni.com/ | 技术; 笔记; 有趣项目 |
 ## 什么是独立博客
 
 - 拥有自己的域名
