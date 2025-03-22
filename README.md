@@ -211,7 +211,7 @@
 | [Feed](https://xsky.me/atom.xml) | 空之领域 | https://xsky.me | 生活 |
 | [Feed](https://claude-ray.github.io/atom.xml) | Claude's Blog | https://claude-ray.github.io | 编程; 折腾 |
 | [Feed](https://lepture.com/feed.xml) | Just lepture | https://lepture.com/ | 创业; 开源; 随笔 |
-| [Feed](https://quail.ink/lyric/feed/atom) | Lyric | https://lyric.im/ | 产品; 创业; 编程 |
+| [Feed](https://quaily.com/lyric/feed/atom) | Lyric | https://lyric.im/ | 产品; 创业; 编程 |
 | [Feed](https://iphyer.github.io/feed.xml) | 桑弧蓬矢射四方 | https://iphyer.github.io/ | 深度学习; 科研; 生活 |
 | [Feed](https://sword.studio/feed/) | 杂货屋 | https://sword.studio/ | 技术; 分享; 记录 |
 | None | 不才's blog | https://www.notbucai.com/ | 编程; 前端; 生活 |
