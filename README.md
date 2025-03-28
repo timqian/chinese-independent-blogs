@@ -1352,6 +1352,7 @@
 | None | KEKKJ BLOG | https://kekkj123.github.io/ | 生活; 随笔; 技术; 学习 |
 | None | Suni Blog | https://www.yysuni.com/ | 技术; 笔记; 有趣项目 |
 | [Feed](https://blog.s22y.moe/rss.xml) | s22y | https://blog.s22y.moe/ | 前端; 编程; 技术 |
+| [Feed](https://fylsen.com/rss.xml) | 别年 | https://fylsen.com/ | 生活; 随笔; 记录 |
 ## 什么是独立博客
 
 - 拥有自己的域名
