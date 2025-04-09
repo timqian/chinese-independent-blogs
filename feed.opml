@@ -1205,4 +1205,6 @@
 <outline text="s22y" title="s22y" type="rss" xmlUrl="https://blog.s22y.moe/rss.xml" htmlUrl="https://blog.s22y.moe/"/>
 <outline text="疯子的天空" title="疯子的天空" type="rss" xmlUrl="https://xuexc.cn/api/articles/rss" htmlUrl="https://xuexc.cn/"/>
 <outline text="别年" title="别年" type="rss" xmlUrl="https://fylsen.com/rss.xml" htmlUrl="https://fylsen.com/"/>
+<outline text="韩小韩博客" title="韩小韩博客" type="rss" xmlUrl="https://www.vvhan.com/rss.xml" htmlUrl="https://www.vvhan.com/"/>
+<outline text="蒙需" title="蒙需" type="rss" xmlUrl="https://jiangcl.com/feed" htmlUrl="https://jiangcl.com/"/>
 </body></opml>
