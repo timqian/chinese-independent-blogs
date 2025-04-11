@@ -1282,7 +1282,7 @@
 | None | 七仔的博客 | https://www.baby7blog.com | 编程; 随笔; 工具; 个人 |
 | [Feed](https://deeprouter.org/rss/feed.xml) | Deeprouter | https://deeprouter.org | 路由器; 家庭网络; 工具; OpenWRT; 分享 |
 | None | Jame | https://jame.work/ | 随笔 |
-| [Feed](https://inote.xyz/zh/rss.xml) | iNote | https://inote.xyz/zh/ | 投资; 创业; 生活 |
+| [Feed](https://idimi.com/zh/rss.xml) | iDiMi | https://idimi.com/zh/ | 投资; 创业; 生活 |
 | None | HotaruBlog | https://hotaru.icu | 编程; 开源; 技术; 笔记; 记录; 生活; 分享; 个人 |
 | None | 奥利弗的狗窝 | https://www.aolifu.org/ | 实用工具; Java八股文; 技术分享 |
 | [Feed](https://blog.lifebus.top/feed.xml) | 人生足迹 · 博客平台 | https://blog.lifebus.top | 教程; 软件; 技术; 随笔 |
@@ -1357,6 +1357,7 @@
 | [Feed](https://blog.millya.top/feed) | 冰屋 | https://blog.millya.top | 编程; 技术; 随笔 |
 | [Feed](https://www.vvhan.com/rss.xml) | 韩小韩博客 | https://www.vvhan.com/ | 编程; 随笔; 分享; 生活; 前端; 后端; 开源; 经验 |
 | [Feed](https://jiangcl.com/feed) | 蒙需 | https://jiangcl.com/ | 法律; 生活; 编程; 工程 |
+| [Feed](https://runzhliu.cn/index.xml) | runzhliu的容器笔记 | https://runzhliu.cn/ | 编程; 记录 |
 ## 什么是独立博客
 
 - 拥有自己的域名
