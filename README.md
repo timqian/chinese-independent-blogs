@@ -1363,6 +1363,7 @@
 | [Feed](https://www.yolo.blue/blog/rss.xml) | YOLO | https://www.yolo.blue/ | 编程; 随笔; 游戏; 生活; 旅行 |
 | [Feed](https://www.ccgxk.com/rss.php) | 独元殇 | https://www.ccgxk.com | 生活; 编程; 科技; 记录 |
 | [Feed](https://www.hfwas.tech/sitemap.xml) | HFwas | https://www.hfwas.tech | 生活; 编程; 随笔 |
+| [Feed](https://obai.cc/feed) | RGB255 | https://obai.cc | 技术; 生活; 编程 |
 ## 什么是独立博客
 
 - 拥有自己的域名
