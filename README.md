@@ -1365,6 +1365,7 @@
 | [Feed](https://www.hfwas.tech/sitemap.xml) | HFwas | https://www.hfwas.tech | 生活; 编程; 随笔 |
 | [Feed](https://obai.cc/feed) | RGB255 | https://obai.cc | 技术; 生活; 编程 |
 | None | Golden Territory金色疆域 | https://dogeas.club | 编程; 笔记; 生活; 游戏; 兴趣使然 |
+| [Feed](https://www.zheep.top/atom.xml) | 云端的解构者 | https://www.zheep.top | code; 生活; 阅读; 游戏 |
 | [Feed](https://blog.goodboyboy.top/atom.xml) | GoodBoyboy 's Blog | https://blog.goodboyboy.top | 编程; 生活; 随笔 |
 ## 什么是独立博客
 
