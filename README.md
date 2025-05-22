@@ -1,6 +1,6 @@
 # 中文独立博客列表
 
-  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/) ![g-star](https://gitcode.com/timqian/chinese-independent-blogs/star/badge.svg)
+  [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://feeds.pub/cn-indie)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/) [![g-star](https://gitcode.com/timqian/chinese-independent-blogs/star/badge.svg)](https://gitcode.com/timqian/chinese-independent-blogs)
 
 ## Sponsors
 
