@@ -1368,6 +1368,7 @@
 | [Feed](https://www.zheep.top/atom.xml) | 云端的解构者 | https://www.zheep.top | code; 生活; 阅读; 游戏 |
 | [Feed](https://blog.goodboyboy.top/atom.xml) | GoodBoyboy 's Blog | https://blog.goodboyboy.top | 编程; 生活; 随笔 |
 | [Feed](https://pengs.top/atom.xml) | Peng's Blog | https://pengs.top/ | 编程; 技术; linux; 生活; 开源; 摄影 |
+| [Feed](https://moitr.ren/atom.xml) | Moitrの自留地 | https://moitr.ren/ | 碎碎念; 生活;|
 ## 什么是独立博客
 
 - 拥有自己的域名
