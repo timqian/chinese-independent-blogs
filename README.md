@@ -1294,7 +1294,7 @@
 | [Feed](https://blog.jaspirit.cc/atom.xml) | JaSpirit 的万事屋 | https://blog.jaspirit.cc/ | 算法; 计算机科学; 神经科学; 化学; 技术; 教程; 随笔 |
 | [Feed](https://www.seaeye.cn/feed/) | 深海之眼 | https://www.seaeye.cn/ | 区块链; CTF |
 | [Feed](https://www.hats-land.com/atom.xml) | 帽之岛 - Hat's Land | https://www.hats-land.com | 随笔; 思考; 笔记 |
-| [Feed](https://niracler.xlog.app/feed) | Niracler's Blog | https://niracler.com | 生活; 编程; 工具; 随笔 |
+| [Feed](https://niracler.com/rss.xml) | Niracler's Blog | https://niracler.com | 生活; 编程; 工具; 随笔 |
 | [Feed](https://blog.luijp.cn/rss.xml) | 拒绝内耗直接发疯 | https://blog.luijp.cn | 生活 |
 | [Feed](https://blog.gentlelucky.com/zh/index.xml) | gentlelucky | https://blog.gentlelucky.com | 随笔; 思考; Java; 知识管理 |
 | [Feed](https://dreams.plus/rss.xml) | 但为君故 | https://dreams.plus | 生活; 随笔; 编程; 笔记 |
@@ -1368,6 +1368,7 @@
 | [Feed](https://www.zheep.top/atom.xml) | 云端的解构者 | https://www.zheep.top | code; 生活; 阅读; 游戏 |
 | [Feed](https://blog.goodboyboy.top/atom.xml) | GoodBoyboy 's Blog | https://blog.goodboyboy.top | 编程; 生活; 随笔 |
 | [Feed](https://pengs.top/atom.xml) | Peng's Blog | https://pengs.top/ | 编程; 技术; linux; 生活; 开源; 摄影 |
+| [Feed](https://dailyminz.org/atom.xml) | DailyMinz | https://dailyminz.org | 人文社科; 思考; 随笔; 阅读; 哲学 |
 ## 什么是独立博客
 
 - 拥有自己的域名
