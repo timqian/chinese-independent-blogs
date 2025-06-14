@@ -297,7 +297,7 @@
 | [Feed](http://jartto.wang/atom.xml) | Jartto's Blog | http://jartto.wang/ | 前端; 架构; 人工智能 |
 | [Feed](https://www.scarsu.com/atom.xml) | ScarSu的个人网站 | https://www.scarsu.com/ | 编程; 前端; 思考 |
 | [Feed](https://blog.lucien.ink/feed/) | Lucien's Blog | https://blog.lucien.ink | 编程; 算法; 后端; ACM; 思考 |
-| [Feed](https://www.pushihao.com/atom.xml) | 葡萄的个人博客 | https://www.pushihao.com | 编程; 全栈; 思考; 笔记; 生活 |
+| [Feed](https://blog.pushihao.com/atom.xml) | 披萨盒的博客 | https://blog.pushihao.com | 编程; AI; 全栈; 思考; 笔记; 生活 |
 | [Feed](https://www.ouorz.com/feed) | TonyHe 的博客 | https://www.ouorz.com | 编程; 思考; 前端; 笔记; 生活 |
 | None | HashTang 的个人空间 | https://www.hxkj.vip | 编程; 娱乐; 前端; 笔记 |
 | [Feed](https://liqiang.io/atom.xml) | 格物致知 | https://liqiang.io | 编程; 后台; Go; Kubernetes; 生活 |
