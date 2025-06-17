@@ -1371,6 +1371,7 @@
 | [Feed](https://www.yingyu5658.me/atom.xml) | 映屿 | https://www.yingyu5658.me | 技术; 随笔; 思考; 阅读 |
 | [Feed](https://dailyminz.org/atom.xml) | DailyMinz | https://dailyminz.org | 人文社科; 思考; 随笔; 阅读; 哲学 |
 | [Feed](https://watermelonabc.top/atom.xml) | Watermelonabc的Blog | https://watermelonabc.top | 编程; 技术; 笔记; 生活 |
+| [Feed](https://unixetc.com/index.xml) | unixetc | https://unixetc.com/ | 编程; 技术; linux; 生活; 开源 |
 ## 什么是独立博客
 
 - 拥有自己的域名
