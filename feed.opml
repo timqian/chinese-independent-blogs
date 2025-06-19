@@ -1224,4 +1224,5 @@
 <outline text="DailyMinz" title="DailyMinz" type="rss" xmlUrl="https://dailyminz.org/atom.xml" htmlUrl="https://dailyminz.org"/>
 <outline text="Watermelonabc的Blog" title="Watermelonabc的Blog" type="rss" xmlUrl="https://watermelonabc.top/atom.xml" htmlUrl="https://watermelonabc.top"/>
 <outline text="unixetc" title="unixetc" type="rss" xmlUrl="https://unixetc.com/index.xml" htmlUrl="https://unixetc.com/"/>
+<outline text="0xd00's blog" title="0xd00's blog" type="rss" xmlUrl="https://blog.0xd00.com/rss.xml" htmlUrl="https://blog.0xd00.com/"/>
 </body></opml>
