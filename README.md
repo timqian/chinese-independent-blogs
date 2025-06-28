@@ -1374,6 +1374,7 @@
 | [Feed](https://unixetc.com/index.xml) | unixetc | https://unixetc.com/ | 编程; 技术; linux; 生活; 开源 |
 | [Feed](https://blog.0xd00.com/rss.xml) | 0xd00's blog | https://blog.0xd00.com/ | 网络安全; 编程; 技术; 随笔 |
 | None | 天际尽头 - Brimflow 的个人博客 | https://brimflow.xyz | 思考; 移动端技术; 视频 |
+| [Feed](https://www.changsun.work/atom.xml) | 硅上观道的个人博客 | https://www.changsun.work/ | 技术; 开源; 随笔; 读书笔记 |
 ## 什么是独立博客
 
 - 拥有自己的域名
