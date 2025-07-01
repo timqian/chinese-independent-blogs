@@ -1375,6 +1375,7 @@
 | [Feed](https://blog.0xd00.com/rss.xml) | 0xd00's blog | https://blog.0xd00.com/ | 网络安全; 编程; 技术; 随笔 |
 | None | 天际尽头 - Brimflow 的个人博客 | https://brimflow.xyz | 思考; 移动端技术; 视频 |
 | [Feed](https://www.changsun.work/atom.xml) | 硅上观道的个人博客 | https://www.changsun.work/ | 技术; 开源; 随笔; 读书笔记 |
+| [Feed](https://blog.fuxieyi.top/rss.xml) | Shine的AI博客 | https://blog.fuxieyi.top/ | 技术开源; 大模型; AI; 生活; 随笔; 笔记 |
 ## 什么是独立博客
 
 - 拥有自己的域名
