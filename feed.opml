@@ -1227,4 +1227,5 @@
 <outline text="0xd00's blog" title="0xd00's blog" type="rss" xmlUrl="https://blog.0xd00.com/rss.xml" htmlUrl="https://blog.0xd00.com/"/>
 <outline text="硅上观道的个人博客" title="硅上观道的个人博客" type="rss" xmlUrl="https://www.changsun.work/atom.xml" htmlUrl="https://www.changsun.work/"/>
 <outline text="Shine的AI博客" title="Shine的AI博客" type="rss" xmlUrl="https://blog.fuxieyi.top/rss.xml" htmlUrl="https://blog.fuxieyi.top/"/>
+<outline text="NBlog" title="NBlog" type="rss" xmlUrl="https://nocp.space/rss/feed.json" htmlUrl="https://blog.nocp.space/"/>
 </body></opml>
