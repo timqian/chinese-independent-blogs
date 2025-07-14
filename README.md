@@ -629,7 +629,7 @@
 | [Feed](https://aemoncao.github.io/rss2.xml) | Aemon's Blog | https://aemoncao.github.io/ | 编程; 折腾; 生活 |
 | [Feed](https://siwei.io/index.xml) | 思为说 | https://siwei.io | 图数据库; 编程; 云计算; 大数据 |
 | [Feed](https://marwin.cn/rss2.xml) | Marwin's Blog | https://marwin.cn/ | 编程; 数码 |
-| [Feed](https://cat.dorcandy.cn/feed) | 火喵日记本 | https://cat.dorcandy.cn/ | 生活; 日常; 编程; 笔记 |
+| [Feed](https://www.mmbkz.cn/feed) | 火喵日记本 | https://www.mmbkz.cn/ | 生活; 日常; 编程; 笔记 |
 | [Feed](https://www.nosuchfield.com/atom.xml) | 御坂研究所 | https://www.nosuchfield.com/ | 编程 |
 | [Feed](https://acmic.top/feed) | Acmic | https://acmic.top/ | 读书; 生活; 编程; 笔记; 分享 |
 | [Feed](https://dianjiaogit.github.io/feed.xml) | 焦点的动力炉 | https://dianjiaogit.github.io/ | 生活; 杂文; 分享; 读书 |
