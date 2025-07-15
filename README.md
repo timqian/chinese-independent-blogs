@@ -1377,6 +1377,7 @@
 | [Feed](https://www.changsun.work/atom.xml) | 硅上观道的个人博客 | https://www.changsun.work/ | 技术; 开源; 随笔; 读书笔记 |
 | [Feed](https://blog.fuxieyi.top/rss.xml) | Shine的AI博客 | https://blog.fuxieyi.top/ | 技术开源; 大模型; AI; 生活; 随笔; 笔记 |
 | [Feed](https://nocp.space/rss/feed.json) | NBlog | https://blog.nocp.space/ | 编程; 技术; 随笔; 音乐 |
+| [Feed](https://citydatum.cn/feed) | 橙树志 | https://citydatum.cn/ | 城市; 数据分析; 技术; 视觉; 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名
