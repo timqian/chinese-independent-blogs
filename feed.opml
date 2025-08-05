@@ -1230,4 +1230,5 @@
 <outline text="NBlog" title="NBlog" type="rss" xmlUrl="https://nocp.space/rss/feed.json" htmlUrl="https://blog.nocp.space/"/>
 <outline text="橙树志" title="橙树志" type="rss" xmlUrl="https://citydatum.cn/feed" htmlUrl="https://citydatum.cn/"/>
 <outline text="屠·城" title="屠·城" type="rss" xmlUrl="https://www.haomwei.com/atom.xml" htmlUrl="https://www.haomwei.com/"/>
+<outline text="叉息的空中咖啡馆" title="叉息的空中咖啡馆" type="rss" xmlUrl="https://www.xchere.fun/atom.xml" htmlUrl="https://www.xchere.fun/"/>
 </body></opml>
