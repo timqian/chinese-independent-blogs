@@ -1382,6 +1382,7 @@
 | None | 行书指南 | https://xszn.org/ | 软件; 教程; 分享 |
 | [Feed](https://www.xchere.fun/atom.xml) | 叉息的空中咖啡馆 | https://www.xchere.fun/ | 生活; 随笔; 记录; 读书笔记; 乱七八糟 |
 | [Feed](https://mingnify.com/zh/blog/atom.xml) | 明立非(Mingnify)的博客 | https://mingnify.com/zh/blog/ | Indie Maker; 独立开发; AI; 打造产品; 内容创作; 数字游民 |
+| None | TansBlog | https://tans.fun | 技术; 硬件DIY; 感想; 编程; 成长经历 |
 ## 什么是独立博客
 
 - 拥有自己的域名
