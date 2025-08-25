@@ -1384,6 +1384,7 @@
 | [Feed](https://mingnify.com/zh/blog/atom.xml) | 明立非(Mingnify)的博客 | https://mingnify.com/zh/blog/ | Indie Maker; 独立开发; AI; 打造产品; 内容创作; 数字游民 |
 | None | TansBlog | https://tans.fun | 技术; 硬件DIY; 感想; 编程; 成长经历 |
 | [Feed](https://kevintan.pro/sitemap.xml) | Kevin's Blog | https://kevintan.pro/ | 技术; 逆向; 大学; 生活; 记录 |
+| [Feed](https://jiashejianyan.com/sitemap.xml) | 假设检验 | https://jiashejianyan.com | 生活; 品牌; 投资; 记录 |
 ## 什么是独立博客
 
 - 拥有自己的域名
