@@ -1386,6 +1386,8 @@
 | [Feed](https://kevintan.pro/sitemap.xml) | Kevin's Blog | https://kevintan.pro/ | 技术; 逆向; 大学; 生活; 记录 |
 | [Feed](https://lamber-maybe.com/blog/index.xml) | Lamber的博客 | https://lamber-maybe.com/ | 技术; 网络安全; 成长; 记录; BugBounty |
 | [Feed](https://jiashejianyan.com/sitemap.xml) | 假设检验 | https://jiashejianyan.com | 生活; 品牌; 投资; 记录 |
+| [Feed](https://yijile.com/atom.xml) | 一极乐博客 | https://yijile.com | 编程; 互联网; 生活; 笔记; AI|
+
 ## 什么是独立博客
 
 - 拥有自己的域名
