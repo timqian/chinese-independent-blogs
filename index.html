@@ -1,0 +1,17 @@
+---
+layout: none
+title: 中文独立博客列表
+---
+{% capture page_content %}{% include_relative README.md.md %}{% endcapture %}
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    {{ page_content | markdownify }}
+</body>
+</html>
