@@ -1236,4 +1236,6 @@
 <outline text="Lamber的博客" title="Lamber的博客" type="rss" xmlUrl="https://lamber-maybe.com/blog/index.xml" htmlUrl="https://lamber-maybe.com/"/>
 <outline text="假设检验" title="假设检验" type="rss" xmlUrl="https://jiashejianyan.com/sitemap.xml" htmlUrl="https://jiashejianyan.com"/>
 <outline text="王圆圆" title="王圆圆" type="rss" xmlUrl="https://www.iconpik.com/rss/" htmlUrl="https://www.iconpik.com"/>
+<outline text="带鱼Blog" title="带鱼Blog" type="rss" xmlUrl="https://blog.beltfish.cn/feed/" htmlUrl="https://blog.beltfish.cn/"/>
+<outline text="涵哲子居" title="涵哲子居" type="rss" xmlUrl="https://blog.afingpo.top/rss.xml" htmlUrl="https://blog.afingpo.top/"/>
 </body></opml>

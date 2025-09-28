@@ -1387,6 +1387,8 @@
 | [Feed](https://lamber-maybe.com/blog/index.xml) | Lamber的博客 | https://lamber-maybe.com/ | 技术; 网络安全; 成长; 记录; BugBounty |
 | [Feed](https://jiashejianyan.com/sitemap.xml) | 假设检验 | https://jiashejianyan.com | 生活; 品牌; 投资; 记录 |
 | [Feed](https://www.iconpik.com/rss/) | 王圆圆 | https://www.iconpik.com | AI; 编程; 随笔 |
+| [Feed](https://blog.beltfish.cn/feed/) | 带鱼Blog | https://blog.beltfish.cn/ | 生活; 日常; 审计; 财务; 数码 |
+| [Feed](https://blog.afingpo.top/rss.xml) | 涵哲子居 | https://blog.afingpo.top/ | 日常; 随笔; 乱七八糟 |
 ## 什么是独立博客
 
 - 拥有自己的域名
