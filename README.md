@@ -1390,6 +1390,7 @@
 | [Feed](https://blog.beltfish.cn/feed/) | 带鱼Blog | https://blog.beltfish.cn/ | 生活; 日常; 审计; 财务; 数码 |
 | [Feed](https://blog.afingpo.top/rss.xml) | 涵哲子居 | https://blog.afingpo.top/ | 日常; 随笔; 乱七八糟 |
 | [Feed](https://supergrey.bearblog.dev/rss/) | SuperGrey的笔记本 | https://supergrey.bearblog.dev/ | 阅读随笔; 动漫影评 |
+| [Feed](https://xingwangzhe.fun/rss.xml) | 姓王者的博客 | https://xingwangzhe.fun/ | 编程，随笔，大学，生活，开源 |
 ## 什么是独立博客
 
 - 拥有自己的域名
