@@ -960,7 +960,7 @@
 <outline text="SRE运维博客" title="SRE运维博客" type="rss" xmlUrl="https://www.cnsre.cn/index.xml" htmlUrl="https://www.cnsre.cn"/>
 <outline text="Ripple's blog" title="Ripple's blog" type="rss" xmlUrl="https://hiripple.com/feed" htmlUrl="https://hiripple.com"/>
 <outline text="远鹏的博客" title="远鹏的博客" type="rss" xmlUrl="https://liangyuanpeng.com/index.xml" htmlUrl="https://liangyuanpeng.com"/>
-<outline text="风萧古道" title="风萧古道" type="rss" xmlUrl="https://windypath.com/index.xml" htmlUrl="https://windypath.com"/>
+<outline text="风萧古道" title="风萧古道" type="rss" xmlUrl="https://windypath.com/rss.xml" htmlUrl="https://windypath.com"/>
 <outline text="饭喵" title="饭喵" type="rss" xmlUrl="https://blog.fanmiao.site/feed" htmlUrl="https://blog.fanmiao.site"/>
 <outline text="丘卡饮品店" title="丘卡饮品店" type="rss" xmlUrl="https://blog.zerolacqua.top/atom.xml" htmlUrl="https://blog.zerolacqua.top/"/>
 <outline text="识文解意的爱书人" title="识文解意的爱书人" type="rss" xmlUrl="http://yyy.zone/rss" htmlUrl="http://yyy.zone/"/>

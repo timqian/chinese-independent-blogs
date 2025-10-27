@@ -1073,7 +1073,7 @@
 | [Feed](https://www.cnsre.cn/index.xml) | SRE运维博客 | https://www.cnsre.cn | Linux; 自动化运维; AWS; K8S |
 | [Feed](https://hiripple.com/feed) | Ripple's blog | https://hiripple.com | 技术; 游戏; 生活 |
 | [Feed](https://liangyuanpeng.com/index.xml) | 远鹏的博客 | https://liangyuanpeng.com | 云原生; Pulsar; CNCF; CDF; 容器; K8S |
-| [Feed](https://windypath.com/index.xml) | 风萧古道 | https://windypath.com | 编程; 软件; 技术 |
+| [Feed](https://windypath.com/rss.xml) | 风萧古道 | https://windypath.com | 编程; 软件; 技术 |
 | [Feed](https://blog.fanmiao.site/feed) | 饭喵 | https://blog.fanmiao.site | 编程; 智能; 生活 |
 | [Feed](https://blog.zerolacqua.top/atom.xml) | 丘卡饮品店 | https://blog.zerolacqua.top/ | 学习; 生活; 编程 |
 | [Feed](http://yyy.zone/rss) | 识文解意的爱书人 | http://yyy.zone/ | 笔记; 札记 |
