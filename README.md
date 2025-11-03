@@ -1396,6 +1396,7 @@
 | [Feed](https://www.sumi233.top/rss.xml) | 酥米的小站 | https://www.sumi233.top | 生活，技术，网络，日常，随笔 |
 | [Feed](https://xieyi.org/rss.xml) | 謝懿Shine©的AI博客 | https://xieyi.org | 技术开源; 大模型; AI; 生活; 随笔; 笔记 |
 | [Feed](https://www.yt-blog.top/atom.xml) | Fgaoxing的博客 | https://www.yt-blog.top/ | 技术; 开源; 随笔; 笔记 |
+| [Feed](https://fuwari.oh1.top/rss.xml) | yCENzh's Blog | https://fuwari.oh1.top/ | 技术; 随笔; 笔记; 乱七八糟 |
 ## 什么是独立博客
 
 - 拥有自己的域名
