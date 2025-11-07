@@ -1398,6 +1398,7 @@
 | [Feed](https://www.yt-blog.top/atom.xml) | Fgaoxing的博客 | https://www.yt-blog.top/ | 技术; 开源; 随笔; 笔记 |
 | [Feed](https://fuwari.oh1.top/rss.xml) | yCENzh's Blog | https://fuwari.oh1.top/ | 技术; 随笔; 笔记; 乱七八糟 |
 | [Feed](https://www.krjojo.com/feed) | 手里有只毛毛虫 | https://www.krjojo.com/ | 技术; 开源; 随笔; 生活 |
+| [Feed](https://changchen.me/atom.xml) | Henry Z's blog | https://changchen.me/ | 技术; Python; SRE; 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名
