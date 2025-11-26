@@ -1402,6 +1402,7 @@
 | [Feed](https://fenglielie.top/atom.xml) | fenglielie | https://fenglielie.top/ | 编程; 技术; 笔记 |
 | [Feed](https://zelikk.blogspot.com/rss.xml) | ICDYCT我能你也行 | https://zelikk.blogspot.com/ | 编程; 随想; DIY |
 | [Feed](https://www.naiwenel.com/rss.xml) | 小涵Naiwenel | https://www.naiwenel.com/ | 编程; 日常; 独立游戏; 独立开发; 开源; 学习; 二次元 |
+| [Feed](https://blog.52013120.xyz/rss.xml ) | 繁星点点 | https://blog.52013120.xyz/ | 编程; 技术; 原创; 网络; 教程 |
 ## 什么是独立博客
 
 - 拥有自己的域名
