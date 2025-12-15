@@ -1340,7 +1340,7 @@
 | [Feed](https://blog.waistu.com/rss.xml) | 二歪同学 | https://blog.waistu.com | 数码; 科技; 生活; 教程 |
 | [Feed](https://cxy0714.github.io/index.xml) | 陈星宇的主页 | https://cxy0714.github.io/ | 统计学; 随笔 |
 | [Feed](https://blog.liushen.fun/atom.xml) | 清羽飞扬 | https://blog.liushen.fun | 技术; 生活; 随笔; 记录 |
-| [Feed](https://peter267.github.io/atom.xml) | PeterTech | https://peter267.github.io | 科技; 生活; 教程; AIGC |
+| [Feed](https://peter267.github.io/atom.xml) | Peter267 | https://peter267.github.io | 生活; 技术; 教程; AIGC |
 | [Feed](https://blog.huan99.com/atom.xml) | Huan's Blog | https://blog.huan99.com | 自我成长; 后端; 阅读; 随笔 |
 | [Feed](https://blog.cugxuan.cn/atom.xml) | 泫言 | https://blog.cugxuan.cn | 生活; 编程; 科技; 记录 |
 | [Feed](https://blog.frwalker.top/atom.xml) | FrWalker's Blog | https://blog.frwalker.top | 学习; 随笔; 研究; 记录 |
@@ -1368,7 +1368,7 @@
 | [Feed](https://www.zheep.top/atom.xml) | 云端的解构者 | https://www.zheep.top | code; 生活; 阅读; 游戏 |
 | [Feed](https://blog.goodboyboy.top/atom.xml) | GoodBoyboy 's Blog | https://blog.goodboyboy.top | 编程; 生活; 随笔 |
 | [Feed](https://pengs.top/atom.xml) | Peng's Blog | https://pengs.top/ | 编程; 技术; linux; 生活; 开源; 摄影 |
-| [Feed](https://www.yingyu5658.me/atom.xml) | 映屿 | https://www.yingyu5658.me | 技术; 随笔; 思考; 阅读 |
+| [Feed](https://www.glowisle.me/atom.xml) | 映屿 | https://www.glowisle.me | 技术; 随笔; 思考; 阅读 |
 | [Feed](https://dailyminz.org/atom.xml) | DailyMinz | https://dailyminz.org | 人文社科; 思考; 随笔; 阅读; 哲学 |
 | [Feed](https://watermelonabc.top/atom.xml) | Watermelonabc的Blog | https://watermelonabc.top | 编程; 技术; 笔记; 生活 |
 | [Feed](https://unixetc.com/index.xml) | unixetc | https://unixetc.com/ | 编程; 技术; linux; 生活; 开源 |
@@ -1405,6 +1405,7 @@
 | [Feed](https://blog.52013120.xyz/rss.xml ) | 繁星点点 | https://blog.52013120.xyz/ | 编程; 技术; 原创; 网络; 教程 |
 | [Feed](https://www.paddysun.top/feed) | Under the Sun with Paddy | https://www.paddysun.top/ | 算法; 生活; 工作; 情感; 随笔 |
 | [Feed](https://argovict.asia/blog/rss/rss.xml) | ArgoVICT's blog | https://argovict.asia/ | 嵌入式; 业余无线电; 编程; 工程; 笔记 |
+| [Feed](http://hankmo.com/index.xml) | 墨寒轩 | https://hankmo.com | 潜心研技术，积极品人生 |
 ## 什么是独立博客
 
 - 拥有自己的域名
