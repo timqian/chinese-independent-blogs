@@ -1230,7 +1230,7 @@
 <outline text="NBlog" title="NBlog" type="rss" xmlUrl="https://nocp.space/rss/feed.json" htmlUrl="https://blog.nocp.space/"/>
 <outline text="橙树志" title="橙树志" type="rss" xmlUrl="https://citydatum.cn/feed" htmlUrl="https://citydatum.cn/"/>
 <outline text="屠·城" title="屠·城" type="rss" xmlUrl="https://www.haomwei.com/atom.xml" htmlUrl="https://www.haomwei.com/"/>
-<outline text="叉息的空中咖啡馆" title="叉息的空中咖啡馆" type="rss" xmlUrl="https://www.xchere.fun/atom.xml" htmlUrl="https://www.xchere.fun/"/>
+<outline text="叉息的空中咖啡馆" title="叉息的空中咖啡馆" type="rss" xmlUrl="https://www.xchere.xyz/atom.xml" htmlUrl="https://www.xchere.xyz/"/>
 <outline text="明立非(Mingnify)的博客" title="明立非(Mingnify)的博客" type="rss" xmlUrl="https://mingnify.com/zh/blog/atom.xml" htmlUrl="https://mingnify.com/zh/blog/"/>
 <outline text="Kevin's Blog" title="Kevin's Blog" type="rss" xmlUrl="https://kevintan.pro/sitemap.xml" htmlUrl="https://kevintan.pro/"/>
 <outline text="Lamber的博客" title="Lamber的博客" type="rss" xmlUrl="https://lamber-maybe.com/blog/index.xml" htmlUrl="https://lamber-maybe.com/"/>
