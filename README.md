@@ -1412,6 +1412,7 @@
 | [Feed](https://www.kayro.top/index.xml) | 敖苛的博客 | https://www.kayro.top/ | 生活; 技术; 编程; 开源; 记录 |
 | [Feed](https://haydenbi.com/feed.xml) | HaydenBi | https://haydenbi.com | 编程; 出海; 生活; 分享; 工作 |
 | [Feed](https://blog.elykia.cn/atom.xml) | 致以无瑕之人 | https://blog.elykia.cn | 编程; 技术; 生活 |
+| [Feed](https://blog.lyujp.com/sitemap.xml) | 闪电的自留地 | https://blog.lyujp.com | 生活; 分享 |
 ## 什么是独立博客
 
 - 拥有自己的域名
