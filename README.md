@@ -1420,6 +1420,7 @@
 | [Feed](https://whyya.xyz/rss.xml) | 小陶持续精进 | https://whyya.xyz | 生活; 生产力工具; 效率; 知识管理 |
 | [Feed](https://uwillno.com/rss.xml) | UWillno's Blog | https://uwillno.com | Qt; WASM; 技术; 记录 |
 | [Feed](https://ventuss.xyz/rss/zh.xml) | ventuss | https://ventuss.xyz | 思考; 写作 |
+| [Feed](https://b.oxue.de/rss.xml) | 傲雪の | https://b.oxue.de | 技术; 写作; 生活; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
