@@ -1422,6 +1422,7 @@
 | [Feed](https://ventuss.xyz/rss/zh.xml) | ventuss | https://ventuss.xyz | 思考; 写作 |
 | [Feed](https://b.oxue.de/rss.xml) | 傲雪の | https://b.oxue.de | 技术; 写作; 生活; 随笔 |
 | [Feed](https://blog.algieba12.cn/atom.xml) | 阿尔的代码屋 | https://blog.algieba12.cn/ | 随笔; AI; 游戏开发; C++; Python; 编程 |
+| [Feed](https://zooyoo.top/rss.xml) | 热衷于的博客 | https://zooyoo.top/ | 生活; 学习; 写作; 技术; 探索 |
 ## 什么是独立博客
 
 - 拥有自己的域名
