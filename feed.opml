@@ -1271,5 +1271,6 @@
 <outline text="ventuss" title="ventuss" type="rss" xmlUrl="https://ventuss.xyz/rss/zh.xml" htmlUrl="https://ventuss.xyz"/>
 <outline text="傲雪の" title="傲雪の" type="rss" xmlUrl="https://b.oxue.de/rss.xml" htmlUrl="https://b.oxue.de"/>
 <outline text="阿尔的代码屋" title="阿尔的代码屋" type="rss" xmlUrl="https://blog.algieba12.cn/atom.xml" htmlUrl="https://blog.algieba12.cn/"/>
+<outline text="猫涅的技术博客" title="猫涅的技术博客" type="rss" xmlUrl="https://www.maonie.top/atom.xml" htmlUrl="https://www.maonie.top/"/>
 <outline text="Yourlai's Blog" title="Yourlai's Blog" type="rss" xmlUrl="https://yourlai.icu/feed/" htmlUrl="https://yourlai.icu/"/>
 </body></opml>

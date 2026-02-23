@@ -1422,6 +1422,7 @@
 | [Feed](https://ventuss.xyz/rss/zh.xml) | ventuss | https://ventuss.xyz | 思考; 写作 |
 | [Feed](https://b.oxue.de/rss.xml) | 傲雪の | https://b.oxue.de | 技术; 写作; 生活; 随笔 |
 | [Feed](https://blog.algieba12.cn/atom.xml) | 阿尔的代码屋 | https://blog.algieba12.cn/ | 随笔; AI; 游戏开发; C++; Python; 编程 |
+| [Feed](https://www.maonie.top/atom.xml) | 猫涅的技术博客 | https://www.maonie.top/ | 技术; 信息安全; 随笔; 编程 |
 | [Feed](https://yourlai.icu/feed/) | Yourlai's Blog | https://yourlai.icu/ | 编程; 嵌入式; 技术; 摄影 |
 ## 什么是独立博客
 
