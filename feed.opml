@@ -11,7 +11,7 @@
 <outline text="Reorx’s Forge" title="Reorx’s Forge" type="rss" xmlUrl="https://reorx.com/feed.xml" htmlUrl="https://reorx.com/"/>
 <outline text="ZDDHUB 的博客" title="ZDDHUB 的博客" type="rss" xmlUrl="https://zddhub.com/feed" htmlUrl="https://zddhub.com/"/>
 <outline text="全栈应用开发:精益实践" title="全栈应用开发:精益实践" type="rss" xmlUrl="https://www.phodal.com/blog/feeds/rss/" htmlUrl="https://www.phodal.com"/>
-<outline text="Python 工匠" title="Python 工匠" type="rss" xmlUrl="https://www.zlovezl.cn/feeds/latest/" htmlUrl="https://www.zlovezl.cn"/>
+<outline text="Python 工匠" title="Python 工匠" type="rss" xmlUrl="https://www.piglei.com/feeds/latest/" htmlUrl="https://www.piglei.com/"/>
 <outline text="但行好事，莫问前程" title="但行好事，莫问前程" type="rss" xmlUrl="https://windard.com/feed.xml" htmlUrl="https://windard.com"/>
 <outline text="Ric's Blog" title="Ric's Blog" type="rss" xmlUrl="https://www.lichong.work/atom.xml" htmlUrl="https://www.lichong.work"/>
 <outline text="罗磊的独立博客" title="罗磊的独立博客" type="rss" xmlUrl="http://luolei.org/feed/" htmlUrl="https://luolei.org"/>
@@ -727,7 +727,7 @@
 <outline text="Shiroha白羽的博客" title="Shiroha白羽的博客" type="rss" xmlUrl="https://hukeqing.github.io/rss.xml" htmlUrl="https://hukeqing.github.io"/>
 <outline text="白云苍狗" title="白云苍狗" type="rss" xmlUrl="https://www.imalun.com/atom.xml" htmlUrl="https://www.imalun.com"/>
 <outline text="我有点酷-HuntZou的博客" title="我有点酷-HuntZou的博客" type="rss" xmlUrl="https://blog.woyou.cool/feed" htmlUrl="https://blog.woyou.cool"/>
-<outline text="informal" title="informal" type="rss" xmlUrl="http://informal.top/feed.xml" htmlUrl="http://www.informal.top/"/>
+<outline text="Benson" title="Benson" type="rss" xmlUrl="https://blog.bensontech.dev/feed.xml" htmlUrl="https://blog.bensontech.dev/"/>
 <outline text="浮云翩迁之间" title="浮云翩迁之间" type="rss" xmlUrl="https://blognas.hwb0307.com/feed/" htmlUrl="https://blognas.hwb0307.com"/>
 <outline text="星空下的YZY" title="星空下的YZY" type="rss" xmlUrl="https://www.226yzy.com/atom.xml" htmlUrl="https://www.226yzy.com"/>
 <outline text="SakuraWald" title="SakuraWald" type="rss" xmlUrl="https://sakurawald.github.io/sitemap.xml" htmlUrl="https://sakurawald.github.io/"/>
@@ -1271,4 +1271,6 @@
 <outline text="ventuss" title="ventuss" type="rss" xmlUrl="https://ventuss.xyz/rss/zh.xml" htmlUrl="https://ventuss.xyz"/>
 <outline text="傲雪の" title="傲雪の" type="rss" xmlUrl="https://b.oxue.de/rss.xml" htmlUrl="https://b.oxue.de"/>
 <outline text="阿尔的代码屋" title="阿尔的代码屋" type="rss" xmlUrl="https://blog.algieba12.cn/atom.xml" htmlUrl="https://blog.algieba12.cn/"/>
+<outline text="猫涅的技术博客" title="猫涅的技术博客" type="rss" xmlUrl="https://www.maonie.top/atom.xml" htmlUrl="https://www.maonie.top/"/>
+<outline text="Yourlai's Blog" title="Yourlai's Blog" type="rss" xmlUrl="https://yourlai.icu/feed/" htmlUrl="https://yourlai.icu/"/>
 </body></opml>

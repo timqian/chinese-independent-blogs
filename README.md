@@ -35,7 +35,7 @@
 | [Feed](https://zddhub.com/feed) | ZDDHUB 的博客 | https://zddhub.com/ | 编程 |
 | [Feed](https://www.phodal.com/blog/feeds/rss/) | 全栈应用开发:精益实践 | https://www.phodal.com | 编程 |
 | None | 追梦人物的博客 | https://www.zmrenwu.com | 编程 |
-| [Feed](https://www.zlovezl.cn/feeds/latest/) | Python 工匠 | https://www.zlovezl.cn | 编程 |
+| [Feed](https://www.piglei.com/feeds/latest/) | Python 工匠 | https://www.piglei.com/ | 编程 |
 | [Feed](https://windard.com/feed.xml) | 但行好事，莫问前程 | https://windard.com | 编程 |
 | [Feed](https://www.lichong.work/atom.xml) | Ric's Blog | https://www.lichong.work | 编程; 架构; 设计; 算法 |
 | [Feed](http://luolei.org/feed/) | 罗磊的独立博客 | https://luolei.org | 编程; 旅行 |
@@ -809,7 +809,7 @@
 | [Feed](https://www.imalun.com/atom.xml) | 白云苍狗 | https://www.imalun.com | 编程; 前端; 生活; 技术 |
 | None | jujimeizuo's Blog | http://www.jujimeizuo.cn/blog/ | 编程; 随笔; 技术; 课程 |
 | [Feed](https://blog.woyou.cool/feed) | 我有点酷-HuntZou的博客 | https://blog.woyou.cool | 技术; 随笔; whim |
-| [Feed](http://informal.top/feed.xml) | informal | http://www.informal.top/ | 技术; 随笔; NLP; 生活 |
+| [Feed](https://blog.bensontech.dev/feed.xml) | Benson | https://blog.bensontech.dev/ | 技术; 随笔; NLP; 生活 |
 | [Feed](https://blognas.hwb0307.com/feed/) | 浮云翩迁之间 | https://blognas.hwb0307.com | Docker; Linux; 生物医学 |
 | [Feed](https://www.226yzy.com/atom.xml) | 星空下的YZY | https://www.226yzy.com | 编程; 学习; 随笔; 生活 |
 | [Feed](https://sakurawald.github.io/sitemap.xml) | SakuraWald | https://sakurawald.github.io/ | 编程 |
@@ -1422,6 +1422,8 @@
 | [Feed](https://ventuss.xyz/rss/zh.xml) | ventuss | https://ventuss.xyz | 思考; 写作 |
 | [Feed](https://b.oxue.de/rss.xml) | 傲雪の | https://b.oxue.de | 技术; 写作; 生活; 随笔 |
 | [Feed](https://blog.algieba12.cn/atom.xml) | 阿尔的代码屋 | https://blog.algieba12.cn/ | 随笔; AI; 游戏开发; C++; Python; 编程 |
+| [Feed](https://www.maonie.top/atom.xml) | 猫涅的技术博客 | https://www.maonie.top/ | 技术; 信息安全; 随笔; 编程 |
+| [Feed](https://yourlai.icu/feed/) | Yourlai's Blog | https://yourlai.icu/ | 编程; 嵌入式; 技术; 摄影 |
 ## 什么是独立博客
 
 - 拥有自己的域名
