@@ -1409,7 +1409,7 @@
 | [Feed](http://hankmo.com/index.xml) | 墨寒轩 | https://hankmo.com | 潜心研技术，积极品人生 |
 | [Feed](https://gui-ying233.github.io/Nest/src/atom.xml) | 鬼影的基地 - 鬼影233 | https://gui-ying233.github.io/Nest/ | 编程 |
 | [Feed](https://blog.zhecydn.asia/feed/) | zhecydn的博客站 | https://blog.zhecydn.asia/ | 生活; 随笔; 技术; 分享; 笔记 |
-| [Feed](https://www.kayro.top/index.xml) | 敖苛的博客 | https://www.kayro.top/ | 生活; 技术; 编程; 开源; 记录 |
+| [Feed](https://blog.kayro.cn/atom.xml) | 敖苛记 | https://blog.kayro.cn/ | 生活; 技术; 编程; 开源; 记录 |
 | [Feed](https://haydenbi.com/feed.xml) | HaydenBi | https://haydenbi.com | 编程; 出海; 生活; 分享; 工作 |
 | [Feed](https://blog.elykia.cn/atom.xml) | 致以无瑕之人 | https://blog.elykia.cn | 编程; 技术; 生活 |
 | [Feed](https://blog.lyujp.com/sitemap.xml) | 闪电的自留地 | https://blog.lyujp.com | 生活; 分享 |
