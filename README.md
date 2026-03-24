@@ -1434,6 +1434,7 @@
 | [Feed](https://fivsevn.com/rss) | 五月七日的思考札记 | https://fivsevn.com/ | 个人数字花园 |
 | [Feed](https://maki49.github.io/feed.xml) | 49th LunaSea | https://maki49.github.io/ | 动漫游戏; 生活随笔; 科研; 编程 |
 | None | Firenze42 | https://firenze42.com/zh | SEO; 产品; 增长; AI; 随笔 |
+| None | Wenix's Blog | https://wenix.dev/ | 编程; 网文; 动漫; 游戏; 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名
