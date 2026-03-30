@@ -1436,6 +1436,7 @@
 | None | Firenze42 | https://firenze42.com/zh | SEO; 产品; 增长; AI; 随笔 |
 | None | Wenix's Blog | https://wenix.dev/ | 编程; 网文; 动漫; 游戏; 生活 |
 | [Feed](https://ducorn.com/feed.xml) | 讀角獸 — 英文來源的矛盾攤開讓你自己判斷 | https://ducorn.com | 投資; 健康; 判斷 |
+| [Feed](https://www.cssforest.org/feed/) | CSS森林 | https://www.cssforest.org/ | 生活随笔; 交互体验; 前端; 学习思考 |
 ## 什么是独立博客
 
 - 拥有自己的域名
