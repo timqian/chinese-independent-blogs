@@ -1446,6 +1446,7 @@
 | [Feed](https://blog.224418.xyz/rss2.xml) | 傥师妹TangShiMei的小空间 | https://blog.224418.xyz/ | 技术; 生活; 随笔; 折腾 |
 | [Feed](https://qingccl.github.io/rss.xml) | QingCCL | https://qingccl.github.io/ | 文学; 读书; 随笔; 技术 |
 | [Feed](https://www.futseyi.com/rss.xml) | 謝懿Shine | https://www.futseyi.com/ | AI; 读博科研; 随笔; 技术; 教程 |
+| [Feed](https://www.alxh.page/feed.rss) | 所谓空想 | https://alxh.page/ | 文学; 音乐; 技术 |
 ## 什么是独立博客
 
 - 拥有自己的域名
