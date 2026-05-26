@@ -1449,6 +1449,7 @@
 | [Feed](https://www.alxh.page/feed.rss) | 所谓空想 | https://alxh.page/ | 文学; 音乐; 技术 |
 | [Feed](https://xiangyugongzuoliu.com/latest/rss/) | 翔宇工作流 | https://xiangyugongzuoliu.com/ | AI; 编程; 自动化; Claude Code; 教程 |
 | [Feed](https://www.imcry.vip/index.xml) | 初然忆 | https://www.imcry.vip/ | 编程; 生活; 记录 |
+| None | MakerJackie | https://makerjackie.com/ | AI; 产品; 全栈; 编程; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
