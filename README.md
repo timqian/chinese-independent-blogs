@@ -1452,6 +1452,7 @@
 | None | MakerJackie | https://makerjackie.com/ | AI; 产品; 全栈; 编程; 随笔 |
 | [Feed](https://vjo.cc/feed/) | 刘郎阁 | https://vjo.cc/ | 编程; 生活; 记录; 随笔 |
 | [Feed](https://impatrick.blog/feed/) | Im Patrick | https://impatrick.blog/ | 繁中; 攝影; 生活; 記錄 |
+| [Feed](https://cocolia.fun/feed.xml) | cocolia小窝 | https://cocolia.fun/ | 编程; 生活; 摄影; AI |
 ## 什么是独立博客
 
 - 拥有自己的域名
