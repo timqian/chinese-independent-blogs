@@ -1456,6 +1456,7 @@
 | [Feed](https://daolanx.me/zh/rss.xml) | Dax | https://daolanx.me/zh/ | 编程; 全栈; 生活 |
 | [Feed](https://re.karlbaey.top/rss.xml) | Haku | https://re.karlbaey.top | 技术; 生活; 编程; 文学; 随笔 |
 | [Feed](https://blog.sayori.org/rss.xml) | Amiya的书桌 | https://blog.sayori.org/ | 日记; 资源; 技术 |
+| None | 郭飞的笔记 | https://www.guofei.site/ | 算法; 编程; 开源; 读书 |
 | [Feed](https://www.xmhai.cn/rss.xml) | 星觅海的博客 | https://www.xmhai.cn/ | 技术; 生活; 资源 |
 ## 什么是独立博客
 
