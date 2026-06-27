@@ -1103,7 +1103,7 @@
 <outline text="张智勇" title="张智勇" type="rss" xmlUrl="https://zyzhang.com/feed/" htmlUrl="https://zyzhang.com"/>
 <outline text="皓子的小站" title="皓子的小站" type="rss" xmlUrl="https://howiehz.top/rss.xml" htmlUrl="https://howiehz.top/"/>
 <outline text="ZoDream's Blog" title="ZoDream's Blog" type="rss" xmlUrl="https://zodream.cn/blog/rss" htmlUrl="https://zodream.cn/"/>
-<outline text="南蛮子懋和" title="南蛮子懋和" type="rss" xmlUrl="https://www.dao.js.cn/feed.php" htmlUrl="https://www.dao.js.cn"/>
+<outline text="懋和道人" title="懋和道人" type="rss" xmlUrl="https://blog.dao.js.cn/atom.xml" htmlUrl="https://blog.dao.js.cn"/>
 <outline text="顶尖研发的个人博客" title="顶尖研发的个人博客" type="rss" xmlUrl="https://bestcoder.cn/feed" htmlUrl="https://bestcoder.cn"/>
 <outline text="云心怀鹤" title="云心怀鹤" type="rss" xmlUrl="https://bluehe.cn/feed/" htmlUrl="https://bluehe.cn/"/>
 <outline text="一个夏天的年少" title="一个夏天的年少" type="rss" xmlUrl="https://forrestgump618.github.io/atom.xml" htmlUrl="https://forrestgump618.github.io"/>
@@ -1175,7 +1175,7 @@
 <outline text="空鸣深语" title="空鸣深语" type="rss" xmlUrl="https://blog.deepchirp.com/atom.xml" htmlUrl="https://blog.deepchirp.com"/>
 <outline text="运维开发绿皮书" title="运维开发绿皮书" type="rss" xmlUrl="https://www.geekery.cn/rss.xml" htmlUrl="https://www.geekery.cn/"/>
 <outline text="芒果勿语" title="芒果勿语" type="rss" xmlUrl="https://mangoman.us.kg/?feed=rss2" htmlUrl="https://mangoman.us.kg/"/>
-<outline text="distjr_'s blog" title="distjr_'s blog" type="rss" xmlUrl="https://ruufly.github.io/atom.xml" htmlUrl="https://ruufly.github.io/"/>
+<outline text="distjr_'s blog" title="distjr_'s blog" type="rss" xmlUrl="https://blog.distjr.top/atom.xml" htmlUrl="https://blog.distjr.top/"/>
 <outline text="月石MoonStone" title="月石MoonStone" type="rss" xmlUrl="https://moonstone.fun/feed/" htmlUrl="https://moonstone.fun"/>
 <outline text="栖木的网络日志" title="栖木的网络日志" type="rss" xmlUrl="https://blog.thedoga.tech/feed" htmlUrl="https://blog.thedoga.tech/"/>
 <outline text="叶泯希" title="叶泯希" type="rss" xmlUrl="https://blog.418121.xyz/rss2.xml" htmlUrl="https://blog.418121.xyz/"/>
@@ -1307,4 +1307,6 @@
 <outline text="冰冻大西瓜的博客" title="冰冻大西瓜的博客" type="rss" xmlUrl="https://bddxg.top/feed.rss" htmlUrl="https://bddxg.top/"/>
 <outline text="毛英龙的数字花园" title="毛英龙的数字花园" type="rss" xmlUrl="https://blog.rnm.gv.uy/atom.xml" htmlUrl="https://blog.rnm.gv.uy/"/>
 <outline text="BotForge Notes" title="BotForge Notes" type="rss" xmlUrl="https://blog.notlove.me/feed.xml" htmlUrl="https://blog.notlove.me/"/>
+<outline text="keggin's blog" title="keggin's blog" type="rss" xmlUrl="https://keggin.tech/rss.xml" htmlUrl="https://keggin.tech/"/>
+<outline text="My Mods" title="My Mods" type="rss" xmlUrl="https://dayzmod.kdns.fr/rss.xml" htmlUrl="https://dayzmod.kdns.fr/"/>
 </body></opml>

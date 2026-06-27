@@ -1232,7 +1232,7 @@
 | [Feed](https://zyzhang.com/feed/) | 张智勇 | https://zyzhang.com | 创业; 投资; 阅读 |
 | [Feed](https://howiehz.top/rss.xml) | 皓子的小站 | https://howiehz.top/ | 技术; 编程; 开源; 前端; 后端; 日常; 随笔; 生活; 杂谈; Python; 分享 |
 | [Feed](https://zodream.cn/blog/rss) | ZoDream's Blog | https://zodream.cn/ | 编程; 开源; 全栈 |
-| [Feed](https://www.dao.js.cn/feed.php) | 南蛮子懋和 | https://www.dao.js.cn | 李至臣; 李懋和; 南通道士; 风水; 家居风水; 住宅风水 |
+| [Feed](https://blog.dao.js.cn/atom.xml) | 懋和道人 | https://blog.dao.js.cn | 李至臣; 李懋和; 南通道士; 风水; 家居风水; 住宅风水 |
 | [Feed](https://bestcoder.cn/feed) | 顶尖研发的个人博客 | https://bestcoder.cn | 日常; 随笔; 技术 |
 | None | tcmiku的档案库 | https://tcmiku.github.io/ | 编程; 随笔; 教程; python |
 | None | LT-Space | http://www.lter.space/ | 编程; 随笔; 教程 |
@@ -1320,7 +1320,7 @@
 | [Feed](https://blog.deepchirp.com/atom.xml) | 空鸣深语 | https://blog.deepchirp.com | 技术; 生活; 随笔 |
 | [Feed](https://www.geekery.cn/rss.xml) | 运维开发绿皮书 | https://www.geekery.cn/ | 技术; 生活; 开源 |
 | [Feed](https://mangoman.us.kg/?feed=rss2) | 芒果勿语 | https://mangoman.us.kg/ | 随笔; 分享; 搞事情 |
-| [Feed](https://ruufly.github.io/atom.xml) | distjr_'s blog | https://ruufly.github.io/ | 技术; 随笔; 音乐; 二次元 |
+| [Feed](https://blog.distjr.top/atom.xml) | distjr_'s blog | https://blog.distjr.top/ | 技术; 随笔; 音乐; 二次元 |
 | [Feed](https://moonstone.fun/feed/) | 月石MoonStone | https://moonstone.fun | 中国古建筑; 唐宋辽金古建筑; 中国木结构建筑; 古建筑知识; 营造法式; 斗栱; 大木作; 3D模型 |
 | [Feed](https://blog.thedoga.tech/feed) | 栖木的网络日志 | https://blog.thedoga.tech/ | 随笔; 生活; 杂七杂八 |
 | [Feed](https://blog.418121.xyz/rss2.xml) | 叶泯希 | https://blog.418121.xyz/ | 生活; 摄影; 教程 |
@@ -1464,6 +1464,9 @@
 | [Feed](https://bddxg.top/feed.rss) | 冰冻大西瓜的博客 | https://bddxg.top/ | 前端; 编程; 生活; AI |
 | [Feed](https://blog.rnm.gv.uy/atom.xml) | 毛英龙的数字花园 | https://blog.rnm.gv.uy/ | 编程; 开源; 前端; 折腾; 数字生活; agent; openclaw; Hermes |
 | [Feed](https://blog.notlove.me/feed.xml) | BotForge Notes | https://blog.notlove.me/ | AI; Telegram; Bot; 编程; 自动化 |
+| None | 命理 | https://xuanxue.daliuren.cfd/ | 玄学; 知识 |
+| [Feed](https://keggin.tech/rss.xml) | keggin's blog | https://keggin.tech/ | 编程; Linux; 数模; 逆向 |
+| [Feed](https://dayzmod.kdns.fr/rss.xml) | My Mods | https://dayzmod.kdns.fr/ | 编程; 模组; 游戏 |
 ## 什么是独立博客
 
 - 拥有自己的域名
