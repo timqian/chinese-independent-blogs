@@ -1466,6 +1466,7 @@
 | [Feed](https://blog.notlove.me/feed.xml) | BotForge Notes | https://blog.notlove.me/ | AI; Telegram; Bot; 编程; 自动化 |
 | None | 命理 | https://xuanxue.daliuren.cfd/ | 玄学; 知识 |
 | [Feed](https://keggin.tech/rss.xml) | keggin's blog | https://keggin.tech/ | 编程; Linux; 数模; 逆向 |
+| [Feed](https://dayzmod.kdns.fr/rss.xml) | My Mods | https://dayzmod.kdns.fr/ | 编程; 模组; 游戏 |
 ## 什么是独立博客
 
 - 拥有自己的域名
