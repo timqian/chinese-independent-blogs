@@ -1464,8 +1464,10 @@
 | [Feed](https://bddxg.top/feed.rss) | 冰冻大西瓜的博客 | https://bddxg.top/ | 前端; 编程; 生活; AI |
 | [Feed](https://blog.rnm.gv.uy/atom.xml) | 毛英龙的数字花园 | https://blog.rnm.gv.uy/ | 编程; 开源; 前端; 折腾; 数字生活; agent; openclaw; Hermes |
 | [Feed](https://blog.notlove.me/feed.xml) | BotForge Notes | https://blog.notlove.me/ | AI; Telegram; Bot; 编程; 自动化 |
+| None | 帷幄 | https://weiwo.de5.net/ | 编程; 生活; AI |
 | None | 命理 | https://xuanxue.daliuren.cfd/ | 玄学; 知识 |
 | [Feed](https://keggin.tech/rss.xml) | keggin's blog | https://keggin.tech/ | 编程; Linux; 数模; 逆向 |
+| [Feed](https://blog.sxizhuo.cn/rss/feed.xml) | BWYLBT Blog | https://blog.sxizhuo.cn/ | 编程; AI; 随笔; 技术 |
 | [Feed](https://dayzmod.kdns.fr/rss.xml) | My Mods | https://dayzmod.kdns.fr/ | 编程; 模组; 游戏 |
 ## 什么是独立博客
 
