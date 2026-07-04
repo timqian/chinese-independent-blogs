@@ -1472,6 +1472,7 @@
 | [Feed](https://blog.liua.us.ci/rss.xml) | LX blog | https://blog.liua.us.ci/ | 编程; AI; 生活 |
 | [Feed](https://www.coderlog.net/rss.xml) | 码农刚子的开发笔记 | https://www.coderlog.net/ | 编程; AI; C#; .NET; 全栈 |
 | [Feed](https://www.rsnocsi.cn/feed) | Abyss的小屋 | https://www.rsnocsi.cn/ | AI; 技术; 生活; 随笔 |
+| [Feed](https://wmhwiki.cn/rss.xml) | wmhwiki | https://wmhwiki.cn/ | 技术; 生活 |
 ## 什么是独立博客
 
 - 拥有自己的域名

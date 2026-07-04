@@ -1313,4 +1313,5 @@
 <outline text="LX blog" title="LX blog" type="rss" xmlUrl="https://blog.liua.us.ci/rss.xml" htmlUrl="https://blog.liua.us.ci/"/>
 <outline text="码农刚子的开发笔记" title="码农刚子的开发笔记" type="rss" xmlUrl="https://www.coderlog.net/rss.xml" htmlUrl="https://www.coderlog.net/"/>
 <outline text="Abyss的小屋" title="Abyss的小屋" type="rss" xmlUrl="https://www.rsnocsi.cn/feed" htmlUrl="https://www.rsnocsi.cn/"/>
+<outline text="wmhwiki" title="wmhwiki" type="rss" xmlUrl="https://wmhwiki.cn/rss.xml" htmlUrl="https://wmhwiki.cn/"/>
 </body></opml>
