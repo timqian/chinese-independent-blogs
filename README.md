@@ -776,7 +776,7 @@
 | [Feed](https://suse.org.cn/feed.xml) | openSUSE 中文社区 | https://suse.org.cn | Linux; openSUSE; 新闻; 本地化 |
 | [Feed](https://d2pe.com/atom.xml) | D2PE | https://d2pe.com | 金融; 技术; 随笔 |
 | [Feed](https://blog.moeif.com/index.xml) | Moeif | https://blog.moeif.com/ | 独立开发; 技术; 游戏 |
-| [Feed](https://pinlyu.com/atom.xml) | 频率 - 风卷过的起点 | https://pinlyu.com | 随笔; 观点; 读书; 影视 |
+| [Feed](https://pinlyu.com/feed/) | 频率 - 风卷过的起点 | https://pinlyu.com | 随笔; 观点; 读书; 影视 |
 | [Feed](https://lishuangquan.cn/index.xml) | Peacalm Notes - 双全的网站 | https://lishuangquan.cn | 编程; 后端; 互联网; 技术; 笔记 |
 | [Feed](https://icodex.me/atom.xml) | icodex - 个人网站 | https://icodex.me | 编程; 前端; 互联网; 技术; 笔记 |
 | [Feed](https://shrik3.com/index.xml) | shrik3 | https://shrik3.com | 编程; 技术; 随笔; 音乐 |
