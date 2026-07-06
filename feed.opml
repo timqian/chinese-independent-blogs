@@ -702,7 +702,7 @@
 <outline text="openSUSE 中文社区" title="openSUSE 中文社区" type="rss" xmlUrl="https://suse.org.cn/feed.xml" htmlUrl="https://suse.org.cn"/>
 <outline text="D2PE" title="D2PE" type="rss" xmlUrl="https://d2pe.com/atom.xml" htmlUrl="https://d2pe.com"/>
 <outline text="Moeif" title="Moeif" type="rss" xmlUrl="https://blog.moeif.com/index.xml" htmlUrl="https://blog.moeif.com/"/>
-<outline text="频率 - 风卷过的起点" title="频率 - 风卷过的起点" type="rss" xmlUrl="https://pinlyu.com/atom.xml" htmlUrl="https://pinlyu.com"/>
+<outline text="频率 - 风卷过的起点" title="频率 - 风卷过的起点" type="rss" xmlUrl="https://pinlyu.com/feed/" htmlUrl="https://pinlyu.com"/>
 <outline text="Peacalm Notes - 双全的网站" title="Peacalm Notes - 双全的网站" type="rss" xmlUrl="https://lishuangquan.cn/index.xml" htmlUrl="https://lishuangquan.cn"/>
 <outline text="icodex - 个人网站" title="icodex - 个人网站" type="rss" xmlUrl="https://icodex.me/atom.xml" htmlUrl="https://icodex.me"/>
 <outline text="shrik3" title="shrik3" type="rss" xmlUrl="https://shrik3.com/index.xml" htmlUrl="https://shrik3.com"/>
