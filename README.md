@@ -1479,6 +1479,7 @@
 | [Feed](https://ryanuo.cc/sitemap.xml) | RYANUO的博客 | https://ryanuo.cc | 编程; 嵌入式; 前端; AI; 开源 |
 | [Feed](https://www.momb.top/rss/feed.xml) | MOMB闲谈 | https://www.momb.top | 热点; 随笔; 知识; 游戏 |
 | [Feed](https://blog.hudd.cn/feed/) | 胡东东博客 | https://blog.hudd.cn/ | 前端; 编程; 技术; AI |
+| [Feed](https://monkeyke.com/index.xml) | 猿客随笔 | https://monkeyke.com/ | 编程; 生活; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名

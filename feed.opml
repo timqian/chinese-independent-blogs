@@ -1320,4 +1320,5 @@
 <outline text="RYANUO的博客" title="RYANUO的博客" type="rss" xmlUrl="https://ryanuo.cc/sitemap.xml" htmlUrl="https://ryanuo.cc"/>
 <outline text="MOMB闲谈" title="MOMB闲谈" type="rss" xmlUrl="https://www.momb.top/rss/feed.xml" htmlUrl="https://www.momb.top"/>
 <outline text="胡东东博客" title="胡东东博客" type="rss" xmlUrl="https://blog.hudd.cn/feed/" htmlUrl="https://blog.hudd.cn/"/>
+<outline text="猿客随笔" title="猿客随笔" type="rss" xmlUrl="https://monkeyke.com/index.xml" htmlUrl="https://monkeyke.com/"/>
 </body></opml>
