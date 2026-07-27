@@ -1483,6 +1483,7 @@
 | [Feed](https://www.zhanggeer.net/feed/) | 戈壁有耳 | https://www.zhanggeer.net/ | 生活; 随笔; 摄影; 音乐 |
 | [Feed](https://blog.leesaitool.com/feed.xml) | Arthur's Review | https://blog.leesaitool.com | AI; 社会; 哲学; 随笔 |
 | [Feed](https://blog.mcenahle.page/feed.xml) | 梅之夏 | https://blog.mcenahle.page | 随笔; 记录; 成长; 学习; 医疗 |
+| [Feed](https://imsuk.cn/feed/) | SukのBlog | https://imsuk.cn | 前端; 编程; 技术; AI |
 ## 什么是独立博客
 
 - 拥有自己的域名
