@@ -1486,6 +1486,7 @@
 | [Feed](https://imsuk.cn/feed/) | SukのBlog | https://imsuk.cn | 前端; 编程; 技术; AI |
 | None | 兰澈 | https://ranchotao.com/ | 数学; AI; 科研; 随笔 |
 | [Feed](https://www.feifun.cn/feed.xml) | Fei's Tours and Tales | https://www.feifun.cn/ | 旅行; 复古计算设备; 随笔 |
+| [Feed](https://www.chenbozheng.com/feed) | 伯正博客 | https://www.chenbozheng.com/ | 读书; 旅行; 电影; 区块链; 文玩; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
