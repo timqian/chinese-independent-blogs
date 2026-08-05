@@ -1326,4 +1326,6 @@
 <outline text="梅之夏" title="梅之夏" type="rss" xmlUrl="https://blog.mcenahle.page/feed.xml" htmlUrl="https://blog.mcenahle.page"/>
 <outline text="SukのBlog" title="SukのBlog" type="rss" xmlUrl="https://imsuk.cn/feed/" htmlUrl="https://imsuk.cn"/>
 <outline text="Fei's Tours and Tales" title="Fei's Tours and Tales" type="rss" xmlUrl="https://www.feifun.cn/feed.xml" htmlUrl="https://www.feifun.cn/"/>
+<outline text="LiaoKe的博客" title="LiaoKe的博客" type="rss" xmlUrl="https://blog.liao-ke.com/index.xml" htmlUrl="https://blog.liao-ke.com"/>
+<outline text="Dort 的博客" title="Dort 的博客" type="rss" xmlUrl="https://blog.dort.me/rss.xml" htmlUrl="https://blog.dort.me/"/>
 </body></opml>
