@@ -373,7 +373,7 @@
 | [Feed](https://www.l1yu.com/feed/feed.xml) | L1Yu's Blog - 蓝色的博客 | https://www.l1yu.com | 技术; 折腾; 生活 |
 | [Feed](https://ljason.cn/atom.xml) | 野生程序猴子 | https://ljason.cn | 编程; 技术; 折腾; 翻译 |
 | [Feed](https://mianao.info/atom.xml) | 不吐不快 | https://mianao.info | 生活; 硬件; 教程; DIY |
-| [Feed](https://blog.feimind.xyz/feed) | 海布里天井 | https://feimind.xyz | 随笔 |
+| [Feed](https://blog.feimind.xyz/feed.xml) | 海布里天井 | https://blog.feimind.xyz | 随笔 |
 | [Feed](https://jayzangwill.github.io/blog/atom.xml) | Jay Zangwill的博客 | https://jayzangwill.github.io/blog/ | 编程; 前端; 技术 |
 | [Feed](https://dawner.top/atom.xml) | Dawner | https://dawner.top/ | 生活; 文学; 艺术; 哲学 |
 | [Feed](https://yanhang.me/index.xml) | 涯余 | https://yanhang.me | 编程; 思考 |

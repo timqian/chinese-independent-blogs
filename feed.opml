@@ -320,7 +320,7 @@
 <outline text="L1Yu's Blog - 蓝色的博客" title="L1Yu's Blog - 蓝色的博客" type="rss" xmlUrl="https://www.l1yu.com/feed/feed.xml" htmlUrl="https://www.l1yu.com"/>
 <outline text="野生程序猴子" title="野生程序猴子" type="rss" xmlUrl="https://ljason.cn/atom.xml" htmlUrl="https://ljason.cn"/>
 <outline text="不吐不快" title="不吐不快" type="rss" xmlUrl="https://mianao.info/atom.xml" htmlUrl="https://mianao.info"/>
-<outline text="海布里天井" title="海布里天井" type="rss" xmlUrl="https://blog.feimind.xyz/feed" htmlUrl="https://feimind.xyz"/>
+<outline text="海布里天井" title="海布里天井" type="rss" xmlUrl="https://blog.feimind.xyz/feed.xml" htmlUrl="https://blog.feimind.xyz"/>
 <outline text="Jay Zangwill的博客" title="Jay Zangwill的博客" type="rss" xmlUrl="https://jayzangwill.github.io/blog/atom.xml" htmlUrl="https://jayzangwill.github.io/blog/"/>
 <outline text="Dawner" title="Dawner" type="rss" xmlUrl="https://dawner.top/atom.xml" htmlUrl="https://dawner.top/"/>
 <outline text="涯余" title="涯余" type="rss" xmlUrl="https://yanhang.me/index.xml" htmlUrl="https://yanhang.me"/>
