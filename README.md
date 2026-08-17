@@ -1470,7 +1470,7 @@
 | [Feed](https://blog.sxizhuo.cn/rss/feed.xml) | BWYLBT Blog | https://blog.sxizhuo.cn/ | 编程; AI; 随笔; 技术 |
 | [Feed](https://dayzmod.kdns.fr/rss.xml) | My Mods | https://dayzmod.kdns.fr/ | 编程; 模组; 游戏 |
 | [Feed](https://blog.liua.us.ci/rss.xml) | LX blog | https://blog.liua.us.ci/ | 编程; AI; 生活 |
-| [Feed](https://www.coderlog.net/rss.xml) | 码农刚子的开发笔记 | https://www.coderlog.net/ | 编程; AI; C#; .NET; 全栈 |
+| [Feed](https://www.coderlog.net/rss.xml) | 码录集（CoderLog） | https://www.coderlog.net/ | 编程; AI; C#; .NET; 全栈 |
 | [Feed](https://www.rsnocsi.cn/feed) | Abyss的小屋 | https://www.rsnocsi.cn/ | AI; 技术; 生活; 随笔 |
 | [Feed](https://wmhwiki.cn/rss.xml) | wmhwiki | https://wmhwiki.cn/ | 技术; 生活 |
 | [Feed](https://victor42.eth.limo/index.xml) | Victor42 | https://victor42.eth.limo | 科学; 数据分析; 设计; 游记; 开发者 |
