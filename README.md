@@ -1494,6 +1494,7 @@
 | [Feed](https://datashare-duo.github.io/datashare-blog/rss.xml) | DataShare 数据人阿多 | https://datashare-duo.github.io/datashare-blog/ | 编程; 数据; 随笔; 技术; AI; 机器学习 |
 | [Feed](https://zooyoo.top/feed/) | 热衷于的博客 | https://zooyoo.top/ | 生活; 技术; 随笔; 观察 |
 | [Feed](https://fravilion.top/index.php/feed/) | 楼船INKFLAKE | https://fravilion.top | 随笔; 生活; 旅行; 摄影; 数码 |
+| [Feed](https://blog.cloverta.top/rss.xml) | 三叶的博客 | https://blog.cloverta.top/ | 随笔; 生活; 技术; 编程 |
 ## 什么是独立博客
 
 - 拥有自己的域名
