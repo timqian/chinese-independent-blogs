@@ -1370,7 +1370,7 @@
 | [Feed](https://pengs.top/atom.xml) | Peng's Blog | https://pengs.top/ | 编程; 技术; linux; 生活; 开源; 摄影 |
 | [Feed](https://www.glowisle.me/atom.xml) | 映屿 | https://www.glowisle.me | 技术; 随笔; 思考; 阅读 |
 | [Feed](https://dailyminz.org/atom.xml) | DailyMinz | https://dailyminz.org | 人文社科; 思考; 随笔; 阅读; 哲学 |
-| [Feed](https://watermelonabc.top/atom.xml) | Watermelonabc的Blog | https://watermelonabc.top | 编程; 技术; 笔记; 生活 |
+| [Feed](https://blog.watermelonabc.top/atom.xml) | Watermelonabc的Blog | https://blog.watermelonabc.top | 编程; 技术; 笔记; 生活 |
 | [Feed](https://unixetc.com/index.xml) | unixetc | https://unixetc.com/ | 编程; 技术; linux; 生活; 开源 |
 | [Feed](https://blog.0xd00.com/rss.xml) | 0xd00's blog | https://blog.0xd00.com/ | 网络安全; 编程; 技术; 随笔 |
 | None | 天际尽头 - Brimflow 的个人博客 | https://brimflow.xyz | 思考; 移动端技术; 视频 |
