@@ -1499,6 +1499,7 @@
 | [Feed](https://blog.zopiya.com/rss.xml) | 仲平 · 文辑 | https://blog.zopiya.com | 生活; 开发; 旅行; 摄影; 分享 |
 | [Feed](https://moyuin.top/rss.xml) | Moyuin's Blog | https://moyuin.top | 生活; 技术; 随笔 |
 | [Feed](https://changyo.pages.dev/index.xml) | ChangYo's Blog | https://changyo.pages.dev | 技术，随笔，阅读，设计 |
+| [Feed](https://yilinhut.net/feed/) | 随轩 | https://yilinhut.net/ | 科学史; 技术哲学; AI; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
