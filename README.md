@@ -1504,6 +1504,7 @@
 | [Feed](https://blog.movcloud.xyz/rss.xml) | Sanmussh Blog | https://blog.movcloud.xyz | 技术; AI; 知识; 随笔 |
 | [Feed](https://www.sagasu.art/rss.xml) | Sagasu | https://www.sagasu.art | AI; 编程; 产品; 独立开发 |
 | None | 冉江龙的个人空间 | https://www.ranjl.cn/ | 技术; 编程; AI; 产品; 随笔 |
+| [Feed](https://samadhi.blog/feed.xml) | Samadhi — 關於我，未完的筆記 | https://samadhi.blog/ | 生活; 随笔; 自我探索 |
 ## 什么是独立博客
 
 - 拥有自己的域名
