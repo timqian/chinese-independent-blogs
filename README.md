@@ -1505,6 +1505,7 @@
 | [Feed](https://www.sagasu.art/rss.xml) | Sagasu | https://www.sagasu.art | AI; 编程; 产品; 独立开发 |
 | None | 冉江龙的个人空间 | https://www.ranjl.cn/ | 技术; 编程; AI; 产品; 随笔 |
 | [Feed](https://samadhi.blog/feed.xml) | Samadhi — 關於我，未完的筆記 | https://samadhi.blog/ | 生活; 随笔; 自我探索 |
+| [Feed](https://blog.gis2all.top/rss.xml) | 知行（gis2all） | https://blog.gis2all.top | 编程; 技术; DevOps; 运维; 自动化测试; GIS; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
