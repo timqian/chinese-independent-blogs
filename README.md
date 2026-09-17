@@ -1506,6 +1506,7 @@
 | None | 冉江龙的个人空间 | https://www.ranjl.cn/ | 技术; 编程; AI; 产品; 随笔 |
 | [Feed](https://samadhi.blog/feed.xml) | Samadhi — 關於我，未完的筆記 | https://samadhi.blog/ | 生活; 随笔; 自我探索 |
 | [Feed](https://blog.gis2all.top/rss.xml) | 知行（gis2all） | https://blog.gis2all.top | 编程; 技术; DevOps; 运维; 自动化测试; GIS; 随笔 |
+| [Feed](https://shawnxie.top/rss.xml) | 肖恩聊技术 | https://shawnxie.top | AI Agent; 效率工作流; 独立开发; 随笔 |
 | [Feed](https://white-ceiling.bearblog.dev/feed/) | 鵝庵筆記 | https://white-ceiling.bearblog.dev/ | 人文; 历史; 文学; 哲学; 阅读 |
 ## 什么是独立博客
 
