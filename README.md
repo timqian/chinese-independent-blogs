@@ -1486,7 +1486,8 @@
 | [Feed](https://imsuk.cn/feed/) | SukのBlog | https://imsuk.cn | 前端; 编程; 技术; AI |
 | None | 兰澈 | https://ranchotao.com/ | 数学; AI; 科研; 随笔 |
 | [Feed](https://www.feifun.cn/feed.xml) | Fei's Tours and Tales | https://www.feifun.cn/ | 旅行; 复古计算设备; 随笔 |
-| [Feed](https://blog.liao-ke.com/rss.xml) | LiaoKe的博客 | https://blog.liao-ke.com | 编程; 开源; 全栈; 开发者 |
+| [Feed](https://www.chenbozheng.com/feed) | 伯正博客 | https://www.chenbozheng.com/ | 读书; 旅行; 电影; 区块链; 随笔|
+| [Feed](https://blog.liao-ke.com/index.xml) | LiaoKe的博客 | https://blog.liao-ke.com | 编程; 开源; 全栈; 开发者 |
 | [Feed](https://blog.dort.me/rss.xml) | Dort 的博客 | https://blog.dort.me/ | 随笔; 生活; 记录 |
 | [Feed](https://dyy.nianmo.top/rss.xml) | 捻墨运营笔记 | https://dyy.nianmo.top | 运营; 自媒体; 小红书; 创业 |
 | None | 未曾见过的山与海 | https://tangzhipeng.cn/ | 编程; 科研; 随笔 |
