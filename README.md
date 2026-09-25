@@ -1508,6 +1508,8 @@
 | [Feed](https://blog.gis2all.top/rss.xml) | 知行（gis2all） | https://blog.gis2all.top | 编程; 技术; DevOps; 运维; 自动化测试; GIS; 随笔 |
 | [Feed](https://shawnxie.top/rss.xml) | 肖恩聊技术 | https://shawnxie.top | AI Agent; 效率工作流; 独立开发; 随笔 |
 | [Feed](https://white-ceiling.bearblog.dev/feed/) | 鵝庵筆記 | https://white-ceiling.bearblog.dev/ | 人文; 历史; 文学; 哲学; 阅读 |
+| [Feed](https://pengline.cn/sitemap.xml) | 余一叶知秋尽 | https://pengline.cn/ | AI Agent; AIGC; Java; PenShot; PenClip; NeoTask; 互联网 |
+| [Feed](https://helpoke.com/sitemap.xml) | 小助点 | https://helpoke.com/ | 在线工具; 图片处理; 视频处理; 文档处理; 开发者工具; Json 格式化 |
 ## 什么是独立博客
 
 - 拥有自己的域名
