@@ -1510,6 +1510,7 @@
 | [Feed](https://white-ceiling.bearblog.dev/feed/) | 鵝庵筆記 | https://white-ceiling.bearblog.dev/ | 人文; 历史; 文学; 哲学; 阅读 |
 | [Feed](https://pengline.cn/sitemap.xml) | 余一叶知秋尽 | https://pengline.cn/ | AI Agent; AIGC; Java; PenShot; PenClip; NeoTask; 互联网 |
 | [Feed](https://helpoke.com/sitemap.xml) | 小助点 | https://helpoke.com/ | 在线工具; 图片处理; 视频处理; 文档处理; 开发者工具; Json 格式化 |
+| [Feed](https://tomorin.cyou/rss.xml) | 0x7c14'blog | https://tomorin.cyou/ | 技术; 硬件; 生活; 随笔 |
 ## 什么是独立博客
 
 - 拥有自己的域名
