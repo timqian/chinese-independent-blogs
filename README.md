@@ -1512,6 +1512,7 @@
 | [Feed](https://helpoke.com/sitemap.xml) | 小助点 | https://helpoke.com/ | 在线工具; 图片处理; 视频处理; 文档处理; 开发者工具; Json 格式化 |
 | [Feed](https://blog.waterfish.ren/rss/feed.xml) | 水鱼博客 | https://blog.waterfish.ren | 编程; 技术; 折腾; NAS; Docker |
 | [Feed](https://tomorin.cyou/rss.xml) | 0x7c14'blog | https://tomorin.cyou/ | 技术; 硬件; 生活; 随笔 |
+| None | 狐莘月柒的博客 | https://yueqi1sama.github.io/ | 电力电子; 开关电源; 电路设计; 学习笔记 |
 ## 什么是独立博客
 
 - 拥有自己的域名
