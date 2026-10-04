@@ -12,8 +12,6 @@ const CSV_FILE = new URL('../blogs-original.csv', import.meta.url);
 const DATA_FILE = new URL('../data/blogs.json', import.meta.url);
 const README_FILE = new URL('../README.md', import.meta.url);
 
-const beijingDate = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
-
 function loadHealth() {
   if (!existsSync(DATA_FILE)) return new Map();
   return new Map(JSON.parse(readFileSync(DATA_FILE, 'utf-8')).blogs.map((b) => [b.url, b]));
@@ -21,13 +19,6 @@ function loadHealth() {
 
 // Text safe inside a markdown table cell
 const cell = (text) => text.split(/\s+/).filter(Boolean).join(' ').replace(/\|/g, '\\|');
-
-function lastPostCell(health) {
-  const post = health?.lastPost;
-  if (!post) return '-';
-  const date = beijingDate.format(new Date(post.publishedAt));
-  return post.url ? `[${date}](<${post.url}>)` : date;
-}
 
 const healthByUrl = loadHealth();
 const rows = parseCsvRows(readFileSync(CSV_FILE, 'utf-8')).map((row) => {
@@ -43,10 +34,10 @@ const dead = rows.filter(({ health }) => health?.dead);
 // Stable sort: blogs without a known post date keep their original order at the end
 alive.sort((a, b) => (publishedAt(b) > publishedAt(a) ? 1 : publishedAt(b) < publishedAt(a) ? -1 : 0));
 
-const aliveRows = alive.map(({ row, health }) =>
-  `| ${row['RSS feed'] ? `[Feed](${row['RSS feed']})` : 'None'} | ${row.Introduction} | ${row.Address} | ${lastPostCell(health)} | ${row.tags} |`);
+const aliveRows = alive.map(({ row }) =>
+  `| ${row['RSS feed'] ? `[Feed](${row['RSS feed']})` : 'None'} | ${row.Introduction} | ${row.Address} | ${row.tags} |`);
 const deadRows = dead.map(({ row, health }) =>
-  `| ${row.Introduction} | ${row.Address} | ${cell(health.error ?? health.status)} | ${lastPostCell(health)} |`);
+  `| ${row.Introduction} | ${row.Address} | ${cell(health.error ?? health.status)} |`);
 
 const existingReadme = readFileSync(README_FILE, 'utf-8');
 const sectionHeading = '## 博客列表\n';
@@ -60,8 +51,8 @@ const generatedSection = `## 博客列表
 
 > 按最近一篇文章的发布时间排序。RSS 由 [Indi](https://indi.blog) 每小时检测，每天同步到这里（结构化数据见 [data/blogs.json](./data/blogs.json)）。RSS 地址不存在、域名失效等明确错误持续 1 天，或其他错误持续 7 天的博客，会被移到[疑似失效](#疑似失效)。欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
-| RSS feed | Introduction | Address | 最近更新 | tags |
-| --- | --- | --- | --- | --- |
+| RSS feed | Introduction | Address | tags |
+| --- | --- | --- | --- |
 ${aliveRows.join('\n')}
 
 ### 疑似失效
@@ -71,8 +62,8 @@ ${aliveRows.join('\n')}
 <details>
 <summary>展开列表</summary>
 
-| Introduction | Address | 失败原因 | 最近更新 |
-| --- | --- | --- | --- |
+| Introduction | Address | 失败原因 |
+| --- | --- | --- |
 ${deadRows.map((r) => `${r}\n`).join('')}
 </details>
 `;

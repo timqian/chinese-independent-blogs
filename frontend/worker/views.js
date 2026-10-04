@@ -57,9 +57,8 @@ function timeAgo(t, now) {
 
 // Favicon over a letter tile; the tile shows if there's no icon or it fails to load
 function avatar(blog, cls = '') {
-  return html`<span class="av ${cls}" style="--h:${hue(blog.id)}" aria-hidden="true">${glyph(blog.name)}${
-    blog.icon ? html`<img src="${blog.icon}" alt="" loading="lazy" decoding="async">` : ''
-  }</span>`;
+  return html`<span class="av ${cls}" style="--h:${hue(blog.id)}" aria-hidden="true">${glyph(blog.name)}${blog.icon ? html`<img src="${blog.icon}" alt="" loading="lazy" decoding="async">` : ''
+    }</span>`;
 }
 
 function spark(m, w = 62, h = 16) {
@@ -118,7 +117,6 @@ function breadcrumbs(site, items) {
 }
 
 const NAV = [
-  ['hot', '/', '热门'],
   ['latest', '/latest', '最新'],
   ['blogs', '/blogs', '博客目录'],
   ['following', '/following', '我的关注'],
@@ -182,9 +180,9 @@ ${jsonLd.map(jsonLdScript)}
     </nav>
     <div class="account">${user
       ? html`${user.username
-          ? html`<a class="inbox" href="/notifications" title="${user.unread ? `${user.unread} 条未读回复` : '消息'}">消息${user.unread ? html`<span class="unread">${user.unread > 99 ? '99+' : user.unread}</span>` : ''}</a>
+        ? html`<a class="inbox" href="/notifications" title="${user.unread ? `${user.unread} 条未读回复` : '消息'}">消息${user.unread ? html`<span class="unread">${user.unread > 99 ? '99+' : user.unread}</span>` : ''}</a>
               <a class="me" href="/u/${user.username}">${userAvatar(user)}${user.username}</a>`
-          : html`<a href="/settings">设置用户名</a>`}
+        : html`<a href="/settings">设置用户名</a>`}
           <form method="post" action="/logout"><button type="submit" class="link-button">退出</button></form>`
       : html`<a href="/login?next=${encodeURIComponent(path)}" rel="nofollow">登录</a>`}</div>
   </header>
@@ -328,8 +326,8 @@ function blogRow(b, now, following, next, { showFailure = false } = {}) {
   return html`<li class="blog" data-search="${search}" data-cats="${b.categories.join(' ')}">${avatar(b)}
     <div class="blog-main"><a class="blog-name" href="/b/${b.num}">${b.name}</a>
       <div class="blog-sub">${host(b.url)}${showFailure && b.failingSince
-        ? ` · ${errorReason(b.error)} · 已失败 ${failingFor}`
-        : b.tags.length ? ` · ${b.tags.slice(0, 4).join(' / ')}` : ''}</div></div>
+      ? ` · ${errorReason(b.error)} · 已失败 ${failingFor}`
+      : b.tags.length ? ` · ${b.tags.slice(0, 4).join(' / ')}` : ''}</div></div>
     <div class="blog-stat">${b.dead || (showFailure && b.failingSince) ? failureBadge(b) : spark(b.monthly)}<span class="ago">${ago(b.last, now)}</span></div>
     ${followButton(b, following, next)}</li>`;
 }
@@ -374,10 +372,10 @@ export function blogPage({ site, stats, user, voted, following, blog, posts, pag
   const status = blog.gone
     ? html`<span class="badge">已失效：RSS 已经 ${failingDays} 天无法访问，每 90 天重新检查一次</span>`
     : blog.dead
-    ? html`<span class="badge">疑似失效：RSS 已经 ${failingDays} 天无法访问</span>`
-    : !blog.feed
-      ? html`<span class="badge">没有提供 RSS</span>`
-      : html`最近更新 <b>${ago(blog.last, now)}</b>`;
+      ? html`<span class="badge">疑似失效：RSS 已经 ${failingDays} 天无法访问</span>`
+      : !blog.feed
+        ? html`<span class="badge">没有提供 RSS</span>`
+        : html`最近更新 <b>${ago(blog.last, now)}</b>`;
   return layout({
     site, stats, user, description, path,
     title: `${blog.name}${page > 1 ? ` · 第 ${page} 页` : ''} · ${SITE_NAME}`,
@@ -407,12 +405,12 @@ export function blogPage({ site, stats, user, voted, following, blog, posts, pag
         </div>
         <h2 class="section-title">文章</h2>
         ${posts.length
-          ? html`<ul class="bp-posts">${posts.map((p) => html`<li>
+        ? html`<ul class="bp-posts">${posts.map((p) => html`<li>
               ${postVote(p, voted, path)}
               <a href="${safeHref(p.url)}" target="_blank" rel="noopener">${p.title || '(无标题)'}</a>
               <span class="bp-post-meta">${commentsLink(p)}<time datetime="${iso(p.published_at)}">${fDate.format(p.published_at * 1000)}</time></span>
             </li>`)}</ul>`
-          : html`<p class="empty-note">还没有收录到这个博客的文章。</p>`}
+        : html`<p class="empty-note">还没有收录到这个博客的文章。</p>`}
         ${pager(base, page, hasMore)}
       </article>`,
   });
@@ -519,8 +517,8 @@ export function postPage({ site, stats, user, post, blog, morePosts, comments, v
           <div id="comment-form">
             ${error ? html`<p class="form-error" role="alert">${error}</p>` : ''}
             ${user
-              ? user.username ? replyForm(post.id) : html`<p class="empty-note"><a href="/settings?next=${encodeURIComponent(path)}">设置用户名</a>后就可以参与讨论。</p>`
-              : html`<p class="login-prompt"><a class="btn" href="/login?next=${encodeURIComponent(path)}" rel="nofollow">登录后参与讨论</a></p>`}
+        ? user.username ? replyForm(post.id) : html`<p class="empty-note"><a href="/settings?next=${encodeURIComponent(path)}">设置用户名</a>后就可以参与讨论。</p>`
+        : html`<p class="login-prompt"><a class="btn" href="/login?next=${encodeURIComponent(path)}" rel="nofollow">登录后参与讨论</a></p>`}
           </div>
           ${comments.length ? commentTree(comments, { post, user, voted: commentVoted, now }) : html`<p class="empty-note">还没有评论，来说第一句吧。</p>`}
         </section>
