@@ -1,0 +1,17 @@
+{
+  "name": "chinese-independent-blogs-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:migrate": "wrangler d1 migrations apply independent-blogs --local",
+    "crawl": "curl -sSN -X POST -H \"Authorization: Bearer local-dev-token\" \"http://localhost:8787/api/admin/crawl?all=1&favicons=all\"",
+    "deploy": "wrangler d1 migrations apply independent-blogs --remote && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
+  },
+  "dependencies": {
+    "hono": "^4.13.12"
+  }
+}

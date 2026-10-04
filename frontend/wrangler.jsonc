@@ -1,0 +1,51 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "indi",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "independent-blogs",
+      "database_id": "b1261162-994b-429e-8447-3a3554a96e9c"
+    }
+  ],
+  // Served on indi.blog; Cloudflare creates the DNS record and certificate on deploy
+  "routes": [{ "pattern": "indi.blog", "custom_domain": true }],
+  // blogs-original.csv is bundled into the Worker as a string
+  "rules": [{ "type": "Text", "globs": ["**/*.csv"], "fallthrough": true }],
+  "triggers": {
+    // Hourly; each run crawls a third of the blogs (see SHARDS in worker/crawl.js)
+    "crons": ["7 * * * *"]
+  },
+  // Requires the Workers Paid plan: the free plan allows only 50 subrequests per run.
+  // Not enforced in local development.
+  "limits": {
+    "cpu_ms": 300000,
+    "subrequests": 20000
+  },
+  "vars": {
+    // Used for canonical URLs, the sitemap and the GitHub callback.
+    // .dev.vars overrides it with http://localhost:8787 for local development.
+    "SITE_URL": "https://indi.blog",
+    // Blog list fetched on every crawl, so merged PRs apply without a redeploy.
+    // Empty uses the copy bundled at deploy time (see .dev.vars).
+    "BLOGS_CSV_URL": "https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/blogs-original.csv",
+    // Seconds rendered pages stay in the edge cache (0 disables, see .dev.vars)
+    "CACHE_TTL": "300",
+    // Sender for sign-in codes; its domain must be onboarded with
+    // `npx wrangler email sending enable <domain>`
+    "EMAIL_FROM": "noreply@indi.blog",
+    // From a GitHub OAuth App (callback: <SITE_URL>/auth/github/callback).
+    // Empty hides the GitHub button. The secret goes in GITHUB_CLIENT_SECRET:
+    // `npx wrangler secret put GITHUB_CLIENT_SECRET`
+    "GITHUB_CLIENT_ID": "Ov23liY7dAOcgcazIn2k"
+  },
+  // Sends sign-in codes. Locally, EMAIL_DEV_LOG=1 in .dev.vars prints them instead.
+  "send_email": [{ "name": "EMAIL" }],
+  "observability": { "enabled": true }
+}
