@@ -1,39 +1,35 @@
-name: Update readme and feed.opml
+name: Update README and feed.opml
 
 on:
   workflow_dispatch:
   push:
     branches:
       - master
-    paths: 
+    paths:
       - 'blogs-original.csv'
-      - 'linter.py'
-      - 'opml_generator.py'
-      - 'readme_render.py'
+      - 'scripts/**'
       - '.github/workflows/updateInfo.yml'
   schedule:
-    - cron:  '0 0 * * MON'
+    # Daily: pick up the website's latest crawl status
+    - cron: '0 0 * * *'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4.1.7
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v5.1.0
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        python-version: 3.12
-    - name: linter
-      run: |
-        python linter.py
-    - name: update readme
-      run: |
-        python readme_render.py > README.md
+        node-version: 22
+    - name: Lint blogs-original.csv
+      run: node scripts/lint.mjs
+    # Blog status comes from indi.blog, which checks every feed hourly
+    - name: Download blog status into data/blogs.json
+      run: node scripts/sync-status.mjs
+    - name: Render README.md
+      run: node scripts/render-readme.mjs
     - name: Generate feed.opml
-      run: |
-        python opml_generator.py
+      run: node scripts/generate-opml.mjs
     - name: Commit files
       run: |
         changes=$(git status --porcelain)
@@ -44,8 +40,8 @@ jobs:
           echo "has_changes=true" >> $GITHUB_ENV
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "update README and feed.opml after adding blog(s)"
+          git add README.md feed.opml data
+          git commit -m "update README, feed.opml and data/blogs.json"
         fi
     - name: Push changes
       if: env.has_changes == 'true'

@@ -7,11 +7,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4.1.7
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v5.1.0
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        python-version: 3.12
-    - name: linter
-      run: |
-        python linter.py
+        node-version: 22
+    - name: Lint blogs-original.csv
+      run: node scripts/lint.mjs

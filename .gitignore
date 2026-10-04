@@ -1,1 +1,5 @@
 node_modules
+frontend/.wrangler
+frontend/.dev.vars
+frontend/.admin-token
+frontend/.cache
