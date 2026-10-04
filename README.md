@@ -1,4 +1,4 @@
-# 中文独立博客列表
+# 中文独立博客列表 - [indi.blog](https://indi.blog)
 
   [![](https://badgen.net/badge/icon/Website?icon=chrome&label)](https://indi.blog)  [![](https://badgen.net/badge/icon/Telegram?icon=telegram&label)](https://t.me/indieBlogs)  [![](https://badgen.net/badge/icon/Blog?icon=chrome&label)](https://blog.t9t.io/cn-indie-blogs-2019-10-29/)
 
