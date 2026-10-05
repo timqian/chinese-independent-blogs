@@ -5,7 +5,6 @@
 const MAX_NEW_BLOGS = 10;
 const WEEK = 7 * 24 * 3600;
 const TITLE_WIDTH = 40;
-const BLOG_WIDTH = 16;
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -53,16 +52,13 @@ export async function announceNewBlogs(env, blogs) {
 export async function announceWeeklyTop(env, now = Math.floor(Date.now() / 1000)) {
   if (!telegramEnabled(env)) return { sent: false, reason: 'not configured' };
   const { results } = await env.DB.prepare(`
-    SELECT p.id, p.url, p.title, b.num AS blog_num, b.name AS blog, COUNT(*) AS votes,
-           (SELECT COUNT(*) FROM comments c WHERE c.post_id = p.id AND c.deleted = 0) AS comments
+    SELECT p.id, p.title, COUNT(*) AS votes
     FROM votes v JOIN posts p ON p.id = v.post_id JOIN blogs b ON b.id = p.blog_id
     WHERE v.created_at > ? AND b.removed = 0
     GROUP BY p.id ORDER BY votes DESC, p.published_at DESC LIMIT 10`).bind(now - WEEK).all();
   if (!results.length) return { sent: false, reason: 'no votes' };
   const site = env.SITE_URL || 'https://indi.blog';
-  // Title links to the article, blog name to its Indi page, the counts to the discussion on Indi
-  const dot = ' ｜ ';
-  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(clip(r.title, TITLE_WIDTH))}</a>${dot}<a href="${esc(site)}/b/${r.blog_num}">${esc(clip(r.blog, BLOG_WIDTH))}</a>${dot}<a href="${esc(site)}/p/${r.id}">▲${r.votes} ✎${r.comments}</a>`);
+  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(site)}/p/${r.id}">${esc(clip(r.title, TITLE_WIDTH))}</a> ▲${r.votes}`);
   const msg = await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
   return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat, thread: msg?.message_thread_id };
 }
