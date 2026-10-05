@@ -1,7 +1,28 @@
 {
-  "checkedAt": "2026-10-05T01:46:11.960Z",
+  "checkedAt": "2026-10-05T02:22:19.585Z",
   "source": "https://indi.blog/api/blogs.json",
   "blogs": [
+    {
+      "id": "t9t.io/blog/zh",
+      "page": "https://indi.blog/b/1",
+      "name": "透明创业实验",
+      "url": "https://t9t.io/blog/zh",
+      "feed": "https://t9t.io/blog/zh/rss.xml",
+      "tags": [
+        "创业",
+        "编程",
+        "开源"
+      ],
+      "status": "ok",
+      "lastPost": {
+        "title": "AI 陪写服务",
+        "url": "https://t9t.io/blog/zh/7",
+        "publishedAt": "2026-07-01T00:00:00.000Z"
+      },
+      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
+      "lastOkAt": "2026-10-05T01:30:16.000Z",
+      "dead": false
+    },
     {
       "id": "www.ruanyifeng.com/blog",
       "page": "https://indi.blog/b/2",
@@ -19,8 +40,8 @@
         "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
         "publishedAt": "2026-09-18T00:03:02.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -58,8 +79,8 @@
         "url": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
         "publishedAt": "2026-09-30T09:05:03.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -95,6 +116,26 @@
       "dead": false
     },
     {
+      "id": "diygod.cc",
+      "page": "https://indi.blog/b/7",
+      "name": "DIYGod - 写代码是热爱，写到世界充满爱!",
+      "url": "https://diygod.cc",
+      "feed": "https://diygod.cc/feed",
+      "tags": [
+        "编程",
+        "开源"
+      ],
+      "status": "ok",
+      "lastPost": {
+        "title": "2025 重新定义的生活",
+        "url": "https://diygod.cc/2025",
+        "publishedAt": "2025-12-25T04:00:00.000Z"
+      },
+      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
+      "lastOkAt": "2026-10-05T01:30:16.000Z",
+      "dead": false
+    },
+    {
       "id": "macshuo.com",
       "page": "https://indi.blog/b/8",
       "name": "MacTalk-池建强的随想录",
@@ -110,8 +151,8 @@
         "url": "https://macshuo.com/?p=2078",
         "publishedAt": "2026-09-16T06:01:07.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -148,8 +189,8 @@
         "url": "https://blog.codingnow.com/2026/09/caves_of_qud.html",
         "publishedAt": "2026-09-18T07:28:47.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -242,8 +283,8 @@
         "url": "https://www.piglei.com/articles/software-dev-as-dungeon-building/",
         "publishedAt": "2026-09-05T07:55:14.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -295,8 +336,8 @@
         "url": "https://luolei.org/my-network-2026",
         "publishedAt": "2026-09-29T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -316,8 +357,8 @@
         "url": "https://dfine.tech/posts/626063bd/",
         "publishedAt": "2026-09-27T16:12:02.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -404,8 +445,8 @@
         "url": "https://www.rowkey.cn/blog/2026/09/17/ai-native-team-delivery/",
         "publishedAt": "2026-09-17T13:54:25.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -423,8 +464,8 @@
         "url": "https://lisz.me/tech/abacus/abacus-gpu.html",
         "publishedAt": "2026-09-07T07:14:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -658,8 +699,8 @@
         "url": "https://jimmysong.io/blog/why-gpu-partitioning-matters/",
         "publishedAt": "2026-09-23T08:50:31.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -918,8 +959,8 @@
         "url": "https://www.jeffjade.com/2026/09/22/2015-04-03-thought-poor-son-rich-gril-education/",
         "publishedAt": "2026-09-22T14:07:03.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1009,8 +1050,8 @@
         "url": "http://mercurychong.blogspot.com/2026/09/blog-post_26.html",
         "publishedAt": "2026-09-27T02:33:13.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1028,8 +1069,8 @@
         "url": "https://mrpm.cc/1871/",
         "publishedAt": "2026-09-27T08:57:47.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1200,8 +1241,8 @@
         "url": "https://blog.forecho.com/10-best-price-action-trading-patterns.html",
         "publishedAt": "2026-09-18T08:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1219,8 +1260,8 @@
         "url": "https://www.jack-liu.com/post-675.html",
         "publishedAt": "2026-09-28T00:05:39.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1307,8 +1348,8 @@
         "url": "http://weiwuhui.com/11101.html",
         "publishedAt": "2026-09-10T02:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1346,8 +1387,8 @@
         "url": "https://lukefan.com/2026/10/05/figure-02-robot-melting-finland-steel-furnace/",
         "publishedAt": "2026-10-05T00:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1567,8 +1608,8 @@
         "url": "https://blog.devtang.com/2026/09/25/what-is-pop-mart/",
         "publishedAt": "2026-09-25T11:13:22.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1587,8 +1628,8 @@
         "url": "https://onevcat.com/2026/10/agent-review/",
         "publishedAt": "2026-10-04T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1646,8 +1687,8 @@
         "url": "https://colobu.com/2026/09/21/jev-compatibility/",
         "publishedAt": "2026-09-20T23:47:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1855,8 +1896,8 @@
         "url": "http://wwj718.github.io/post/%E8%AF%97%E8%AF%8D/yulongwan-xunshan/",
         "publishedAt": "2026-09-26T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -1876,8 +1917,8 @@
         "url": "https://blog.est.im/2026/stdout-38",
         "publishedAt": "2026-10-01T12:33:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2012,8 +2053,8 @@
         "url": "https://youngxhui.top/2026/09/sugarlite-kmp-exception/",
         "publishedAt": "2026-09-05T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2187,8 +2228,8 @@
         "url": "https://www.ixiqin.com/2026/10/04/near-by-guru-find-an-open-source-guru-by-your-side/",
         "publishedAt": "2026-10-04T12:55:21.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2230,8 +2271,8 @@
         "url": "https://nicksxs.me/2026/10/04/Pi-Agent-1-0-MCP%E9%9B%86%E6%88%90%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90-%E5%B7%A5%E5%85%B7%E5%8F%91%E7%8E%B0%E4%B8%8E%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%8E%8B%E7%BC%A9/",
         "publishedAt": "2026-10-04T14:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2308,8 +2349,8 @@
         "url": "https://www.changhai.org/articles/miscellaneous/blog/202609.php#latest",
         "publishedAt": "2026-10-03T02:23:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2371,8 +2412,8 @@
         "url": "https://kaix.in/2026/0930/",
         "publishedAt": "2026-09-30T08:20:04.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2559,8 +2600,8 @@
         "url": "https://xilidou.com/2026/09/22/six-falsifications-in-one-day/",
         "publishedAt": "2026-09-22T20:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2687,8 +2728,8 @@
         "url": "https://blog.xulihang.me/hoarding-LCD-phones/",
         "publishedAt": "2026-10-01T13:10:50.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2728,8 +2769,8 @@
         "url": "https://102no.com/2026/09/20/wu-ren-yue-bing/",
         "publishedAt": "2026-09-20T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2933,8 +2974,8 @@
         "url": "https://lucifer.ren/blog/2026/10/01/japan-k-line/",
         "publishedAt": "2026-09-30T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2955,8 +2996,8 @@
         "url": "https://glumes.com/duoshot-introduction/",
         "publishedAt": "2026-09-09T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -2975,8 +3016,8 @@
         "url": "https://josherich.me/short/pico-park",
         "publishedAt": "2026-09-10T00:00:01.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -3776,8 +3817,8 @@
         "url": "https://kanchuan.com/blog/244-software-copyright",
         "publishedAt": "2026-09-20T20:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -3797,8 +3838,8 @@
         "url": "http://www.z16388.top/ai/agent-bluenote/",
         "publishedAt": "2026-09-30T15:44:36.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4029,8 +4070,8 @@
         "url": "https://oldj.net/posts/what-web-fiction-can-teach-us-about-indie-development",
         "publishedAt": "2026-09-21T07:25:44.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4065,8 +4106,8 @@
         "url": "https://zdyxry.github.io/2026/09/17/my-grandfather/",
         "publishedAt": "2026-09-17T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4218,8 +4259,8 @@
         "url": "https://blog.diqigan.cn/posts/coding/ai/build-llm-wiki-with-scys-mcp.html",
         "publishedAt": "2026-09-22T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4684,8 +4725,8 @@
         "url": "https://z.arlmy.me/posts/BBBPandINSW/INSW-ko/INSW_494/",
         "publishedAt": "2026-10-02T04:29:27.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4707,8 +4748,8 @@
         "url": "https://www.wikimoe.com/post/t-tmdfaiaw",
         "publishedAt": "2026-10-04T06:56:41.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4844,8 +4885,8 @@
         "url": "https://lichuanyang.top/posts/65510/",
         "publishedAt": "2026-09-24T04:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -4902,8 +4943,8 @@
         "url": "https://blog.imalan.cn/archives/best-enjoy-before/",
         "publishedAt": "2026-09-12T08:35:12.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5019,8 +5060,8 @@
         "url": "https://innei.in/posts/tinkering/steins-gate-mv-with-claude-code",
         "publishedAt": "2026-09-30T11:20:26.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5041,8 +5082,8 @@
         "url": "https://tumutanzi.com/archives/17641",
         "publishedAt": "2026-09-17T16:00:05.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5062,8 +5103,8 @@
         "url": "https://www.seis-jun.xyz/blog/2026-10-04-chengdu-day2-pass-out.html",
         "publishedAt": "2026-10-04T09:11:25.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5467,8 +5508,8 @@
         "url": "https://www.liesauer.net/blog/post/1046.html",
         "publishedAt": "2026-09-30T17:52:22.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5590,8 +5631,8 @@
         "url": "https://www.bmpi.dev/dev/jev-boundary/",
         "publishedAt": "2026-09-21T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5633,8 +5674,8 @@
         "url": "https://wiki-power.com/?utm_source=documentation&utm_medium=RSS&utm_campaign=feed-syndication",
         "publishedAt": "2026-09-23T22:49:46.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5708,8 +5749,8 @@
         "url": "https://lenciel.com/2026/10/fragments-0x000f/",
         "publishedAt": "2026-10-02T01:32:24.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5749,8 +5790,8 @@
         "url": "https://blog.star7th.com/2026/09/2635.html",
         "publishedAt": "2026-09-08T03:18:34.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5864,8 +5905,8 @@
         "url": "https://blog.joway.io/posts/ai-personal-agent/",
         "publishedAt": "2026-09-24T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -5885,8 +5926,8 @@
         "url": "https://mabbs.github.io/2026/10/01/quine.html",
         "publishedAt": "2026-09-30T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6201,8 +6242,8 @@
         "url": "https://blog.hclonely.com/posts/45f48035/",
         "publishedAt": "2026-09-18T03:17:18.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6243,8 +6284,8 @@
         "url": "https://sund.site/posts/2026/how-to-build-taste/",
         "publishedAt": "2026-09-25T17:20:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6321,8 +6362,8 @@
         "url": "https://miaotony.xyz/2026/10/03/Tech_Jev/",
         "publishedAt": "2026-10-02T19:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6611,8 +6652,8 @@
         "url": "https://wiki.eryajf.net/pages/be530a/",
         "publishedAt": "2026-10-01T11:36:56.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6633,8 +6674,8 @@
         "url": "https://wulu.zone/posts/hn-digest",
         "publishedAt": "2026-09-06T04:21:05.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6725,8 +6766,8 @@
         "url": "https://mianao.info/weaseltune-gui-config-tool-for-rime-weasel/",
         "publishedAt": "2026-10-02T09:20:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -6880,8 +6921,8 @@
         "url": "https://blog.chungzh.cn/notes-on-_cs103-mathematical-foundations-of-computing_/",
         "publishedAt": "2026-09-19T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7100,8 +7141,8 @@
         "url": "https://blog.aeilot.top/2026/10/04/attention-io-complexity/",
         "publishedAt": "2026-10-04T23:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7140,8 +7181,8 @@
         "url": "https://www.yunyoujun.cn/posts/xiaoyun-studio-01-ak-ui",
         "publishedAt": "2026-09-12T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7180,8 +7221,8 @@
         "url": "https://wusiyu.me/singbox-multipath/",
         "publishedAt": "2026-10-01T18:40:14.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7312,8 +7353,8 @@
         "url": "https://blog.mutoo.im/2026/09/mbox-2026-on-astro/",
         "publishedAt": "2026-09-30T12:05:28.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7398,8 +7439,8 @@
         "url": "https://ddadaal.me/articles/how-i-close-my-door-to-mainstream-jobs/cn",
         "publishedAt": "2026-09-15T13:39:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7516,8 +7557,8 @@
         "url": "https://xiaket.github.io/2026/run-deepseek-harness-remotely.html",
         "publishedAt": "2026-09-29T06:03:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7536,8 +7577,8 @@
         "url": "https://blog.ponder.work/2026/09/19/my-handicrafts/",
         "publishedAt": "2026-09-19T15:43:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7618,8 +7659,8 @@
         "url": "https://tianheg.co/posts/sport-wind-limit-en/",
         "publishedAt": "2026-09-27T12:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7699,8 +7740,8 @@
         "url": "https://chegva.com/6819.html",
         "publishedAt": "2026-09-30T09:55:23.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7958,8 +7999,8 @@
         "url": "https://mathpretty.com/16213.html",
         "publishedAt": "2026-09-19T23:15:13.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -7978,8 +8019,8 @@
         "url": "https://www.luozhiyun.com/archives/924",
         "publishedAt": "2026-09-19T10:10:59.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8103,8 +8144,8 @@
         "url": "https://jubeny.com/2026/09/unlock-free-music/",
         "publishedAt": "2026-09-30T00:34:20.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8246,8 +8287,8 @@
         "url": "https://wsdjeg.net/novels-i-have-read/",
         "publishedAt": "2026-09-13T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8442,8 +8483,8 @@
         "url": "https://zxs.io/article/2220",
         "publishedAt": "2026-09-26T01:29:58.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8463,8 +8504,8 @@
         "url": "https://masuit.net/1984",
         "publishedAt": "2026-10-02T10:02:52.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8522,8 +8563,8 @@
         "url": "https://www.chenshaowen.com/blog/applab.html",
         "publishedAt": "2026-09-27T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -8860,8 +8901,8 @@
         "url": "https://qiangwaikan.com/private-review/",
         "publishedAt": "2026-10-04T00:01:32.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -9266,8 +9307,8 @@
         "url": "https://owent.net/2026/2611.html",
         "publishedAt": "2026-09-06T22:47:45.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -9287,8 +9328,8 @@
         "url": "https://androidperformance.com/2026/09/19/SmartPerfetto-v1.12.0-Release-Notes/",
         "publishedAt": "2026-09-19T04:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -9530,8 +9571,8 @@
         "url": "https://www.leavesongs.com/THINK/ai-bookkeeping-best-practices.html",
         "publishedAt": "2026-09-13T16:38:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -9630,8 +9671,8 @@
         "url": "https://www.yystv.cn/p/14475",
         "publishedAt": "2026-10-03T07:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -9837,8 +9878,8 @@
         "url": "https://blog.fivest.one/archives/7231",
         "publishedAt": "2026-09-30T15:22:15.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10118,8 +10159,8 @@
         "url": "http://afoo.me/posts/2026-09-22-seo-and-geo-questions.html",
         "publishedAt": "2026-09-21T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10137,8 +10178,8 @@
         "url": "https://zhurongshuo.com/practices/season-2/designing-luck/guide/",
         "publishedAt": "2026-10-01T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10157,8 +10198,8 @@
         "url": "https://wangjiezhe.com/posts/2026-09-13-China-Second-Round-2026-A-Geometry/",
         "publishedAt": "2026-09-13T13:42:16.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10361,8 +10402,8 @@
         "url": "https://lorexxar.cn/2026/09/18/aiagent/",
         "publishedAt": "2026-09-18T06:19:43.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10503,8 +10544,8 @@
         "url": "https://www.justzht.com/2026-10-1/",
         "publishedAt": "2026-10-01T09:11:24.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -10868,8 +10909,8 @@
         "url": "https://hin.cool/posts/wowufachengweishiren.html",
         "publishedAt": "2026-09-23T13:40:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11124,8 +11165,8 @@
         "url": "https://hellodk.cn/post/1231",
         "publishedAt": "2026-09-26T05:14:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11252,8 +11293,8 @@
         "url": "https://zkpeace.com/blog-cn/posts/33318/",
         "publishedAt": "2026-09-13T17:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11333,8 +11374,8 @@
         "url": "https://ioerr.github.io/posts/yinyue-you-shenme-yong/",
         "publishedAt": "2026-09-27T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11421,8 +11462,8 @@
         "url": "https://java4u.cn/java_base/2964.html",
         "publishedAt": "2026-10-04T04:26:27.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11711,8 +11752,8 @@
         "url": "https://www.mmbkz.cn/4ce69964.html",
         "publishedAt": "2026-09-23T07:10:30.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -11945,8 +11986,8 @@
         "url": "https://www.miaoer.net/notes/13",
         "publishedAt": "2026-10-04T05:22:12.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12057,8 +12098,8 @@
         "url": "https://tao.zz.ac/unix/static-ipv6.html",
         "publishedAt": "2026-09-18T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12094,8 +12135,8 @@
         "url": "https://www.imaegoo.com/2026/y700-tb322fc-flash-hyper/",
         "publishedAt": "2026-09-09T00:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12159,8 +12200,8 @@
         "url": "https://blog.baoshuo.ren/post/expo-harmony/",
         "publishedAt": "2026-09-11T09:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12182,8 +12223,8 @@
         "url": "https://springwood.me/sfc-tiny-toon-adventures/",
         "publishedAt": "2026-09-19T15:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12202,8 +12243,8 @@
         "url": "https://www.gtdstudy.com/posts/2026-10-3-open-your-eye/",
         "publishedAt": "2026-10-03T08:51:48.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12224,8 +12265,8 @@
         "url": "https://ednovas.xyz/2026/09/30/mondoze/",
         "publishedAt": "2026-09-30T21:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12423,8 +12464,8 @@
         "url": "http://whyes.org/2026/hcc-first-line-systemic-therapy-2026",
         "publishedAt": "2026-09-27T12:16:08.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12534,8 +12575,8 @@
         "url": "https://fxpai.com/article/zenmexingrongwoxianzaitongqinshijianyouduozhangne",
         "publishedAt": "2026-09-11T01:05:46.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12698,8 +12739,8 @@
         "url": "https://www.tortorse.com/archives/2005-the-other-end-of-the-web/",
         "publishedAt": "2026-10-01T04:13:02.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12829,8 +12870,8 @@
         "url": "https://www.skyue.com/26100414.html",
         "publishedAt": "2026-10-04T06:34:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -12849,8 +12890,8 @@
         "url": "https://imcbc.cn/202609/rememeber-my-classmates/",
         "publishedAt": "2026-09-13T08:09:11.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13064,8 +13105,8 @@
         "url": "https://mantyke.icu/weekly/2026/white-dew-3/",
         "publishedAt": "2026-09-22T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13125,8 +13166,8 @@
         "url": "https://jdhao.github.io/2026/09/06/opentelemetry-tracing-part4/",
         "publishedAt": "2026-09-06T12:46:28.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13213,8 +13254,8 @@
         "url": "https://blog.alliot.tech/post/osmo-action5pro-unlock-bootloader-adbd",
         "publishedAt": "2026-09-17T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13332,8 +13373,8 @@
         "url": "https://blog.thetbw.xyz/archives/usdt-card-and-tenpaygo",
         "publishedAt": "2026-09-19T10:21:54.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13596,8 +13637,8 @@
         "url": "https://yinji.org/the-lilac-knot.html/",
         "publishedAt": "2026-09-15T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13730,8 +13771,8 @@
         "url": "https://shinekid.com/2026/10/it-no-longer-exists/",
         "publishedAt": "2026-10-05T00:00:09.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13840,8 +13881,8 @@
         "url": "https://leimao.github.io/essay/East-Bay-Regional-Park-Trails-Challenge-2026/",
         "publishedAt": "2026-10-03T07:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -13967,8 +14008,8 @@
         "url": "https://elmagnifico.tech/2026/10/01/SEO/",
         "publishedAt": "2026-09-30T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14258,8 +14299,8 @@
         "url": "http://catcoding.me/p/winlane/",
         "publishedAt": "2026-09-22T16:05:39.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14621,8 +14662,8 @@
         "url": "https://pinlyu.com/life/moment-20260916/",
         "publishedAt": "2026-09-16T03:08:19.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14667,8 +14708,8 @@
         "url": "https://icodex.me/fe-ai-tech-weekly-2026-09-27",
         "publishedAt": "2026-09-27T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14689,8 +14730,8 @@
         "url": "https://shrik3.com/volatile/paste/",
         "publishedAt": "2026-09-30T10:21:06.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14742,8 +14783,8 @@
         "url": "https://blog.rei.ac/post/mimic_wireguard/",
         "publishedAt": "2026-09-13T02:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -14924,8 +14965,8 @@
         "url": "https://www.ezindie.com/weekly/issue-159",
         "publishedAt": "2026-09-30T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15156,8 +15197,8 @@
         "url": "https://www.timochan.cn/notes/49",
         "publishedAt": "2026-09-25T12:06:52.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15268,8 +15309,8 @@
         "url": "https://blog.bensontech.dev/posts/boring/",
         "publishedAt": "2026-09-27T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15522,8 +15563,8 @@
         "url": "https://ursb.me/posts/weekly-36/",
         "publishedAt": "2026-09-06T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15711,8 +15752,8 @@
         "url": "https://dmesg.app/nfc-clone.html",
         "publishedAt": "2026-09-16T10:40:43.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15732,8 +15773,8 @@
         "url": "https://www.kawabangga.com/posts/7422",
         "publishedAt": "2026-09-24T06:09:24.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -15769,8 +15810,8 @@
         "url": "https://51.ruyo.net/19739.html",
         "publishedAt": "2026-09-25T12:27:15.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16008,8 +16049,8 @@
         "url": "https://blog.zhheo.com/p/kp6o6mwu.html",
         "publishedAt": "2026-09-14T04:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16073,8 +16114,8 @@
         "url": "https://feed.laborinfocn7.com/issue91-news/",
         "publishedAt": "2026-09-16T04:43:42.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16171,8 +16212,8 @@
         "url": "https://blog.17lai.site/posts/1e3e3638/",
         "publishedAt": "2026-09-11T02:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16215,8 +16256,8 @@
         "url": "https://zishu.me/blog/video-transcript.html",
         "publishedAt": "2026-09-23T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16380,8 +16421,8 @@
         "url": "https://glooow1024.github.io/2026/09/13/essay/AIs-comma/",
         "publishedAt": "2026-09-13T13:48:46.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16854,8 +16895,8 @@
         "url": "https://tanxinyu.work/kuberay-volcano/",
         "publishedAt": "2026-09-15T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -16944,8 +16985,8 @@
         "url": "https://jia.je/hardware/2026/10/02/type-c-dongle-analysis/",
         "publishedAt": "2026-10-02T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17064,8 +17105,8 @@
         "url": "https://www.wangfenjin.com/posts/leftblank-en/",
         "publishedAt": "2026-10-02T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17150,8 +17191,8 @@
         "url": "https://penghh.fun/2026/09/29/2026-9-29-smartisan_note/",
         "publishedAt": "2026-09-29T08:58:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17239,8 +17280,8 @@
         "url": "https://macin.org/2026/09/30/202607/",
         "publishedAt": "2026-09-30T12:01:20.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17323,8 +17364,8 @@
         "url": "https://www.jfsay.com/archives/5801.html",
         "publishedAt": "2026-09-17T12:24:22.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17634,8 +17675,8 @@
         "url": "https://mkblog.cn/2601/",
         "publishedAt": "2026-09-28T04:02:04.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17914,8 +17955,8 @@
         "url": "https://blog.esonwong.com/zsh-startup-files-terminal-ssh-launchd-tmux/",
         "publishedAt": "2026-09-07T04:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -17952,8 +17993,8 @@
         "url": "https://blog.javazero.top/2026/10/02/deepseek-v41-08-systems/",
         "publishedAt": "2026-10-02T13:20:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18059,8 +18100,8 @@
         "url": "https://ystyle.top/2026/09/22/matebookpro-binrary-debug-sign/",
         "publishedAt": "2026-09-22T12:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18140,8 +18181,8 @@
         "url": "https://blog.canyie.top/2026/09/09/LSPromise/",
         "publishedAt": "2026-09-09T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18180,8 +18221,8 @@
         "url": "https://blog.moeworld.tech/2026/10/02/2026%e5%9b%bd%e5%ba%86%e8%8a%82%e5%bf%ab%e4%b9%90/",
         "publishedAt": "2026-10-02T13:00:03.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18297,8 +18338,8 @@
         "url": "http://wjd.name/ai-slowdown-then-price-war/",
         "publishedAt": "2026-09-23T02:56:50.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18483,8 +18524,8 @@
         "url": "https://happyxiao.com/health-tips/",
         "publishedAt": "2026-10-02T02:49:33.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18724,8 +18765,8 @@
         "url": "http://hgoldfish.com/blogs/article/115/",
         "publishedAt": "2026-10-03T01:37:41.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18855,8 +18896,8 @@
         "url": "https://dsy4567.github.io/blog/markdown-test/",
         "publishedAt": "2026-09-18T17:42:49.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -18938,8 +18979,8 @@
         "url": "https://blog.dejavu.moe/posts/edgetts/",
         "publishedAt": "2026-09-27T13:29:38.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19030,8 +19071,8 @@
         "url": "https://blog.wohin.me/post-categories/",
         "publishedAt": "2026-09-25T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19065,8 +19106,8 @@
         "url": "https://dusays.com/posts/891/",
         "publishedAt": "2026-10-04T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19149,8 +19190,8 @@
         "url": "https://blog.michealwayne.cn/2026/09/19/ai/Jev_System_One_Models_Agent_Decision_Runtime_%E8%B0%83%E7%A0%94%E6%96%87%E7%AB%A0_%E4%BC%98%E5%8C%96%E7%89%88/",
         "publishedAt": "2026-09-19T10:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19273,8 +19314,8 @@
         "url": "https://lxnchan.cn/cm-skmodem-bridge.html",
         "publishedAt": "2026-09-16T05:58:46.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19312,8 +19353,8 @@
         "url": "https://xiaoa.name/posts/content-style-showcase/",
         "publishedAt": "2026-10-03T04:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19356,8 +19397,8 @@
         "url": "https://www.cheshirex.com/11179.html",
         "publishedAt": "2026-09-24T03:37:56.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19378,8 +19419,8 @@
         "url": "https://zhongxiaojie.cn/2026/10/2029/",
         "publishedAt": "2026-10-02T13:54:34.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19504,8 +19545,8 @@
         "url": "https://styunlen.cn/archives/post-1846.html",
         "publishedAt": "2026-09-07T12:41:32.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -19620,8 +19661,8 @@
         "url": "https://blog.cmyr.ltd/archives/2026-38-caomei-weekly-dependfix-caomei-ui-ai-plan.html",
         "publishedAt": "2026-09-20T15:11:27.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20133,8 +20174,8 @@
         "url": "https://rangotec.com/blog/200.html",
         "publishedAt": "2026-09-09T01:14:37.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20229,8 +20270,8 @@
         "url": "https://www.suiyan.cc/blog/20260926161215",
         "publishedAt": "2026-09-26T08:12:15.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20271,8 +20312,8 @@
         "url": "https://blog.renfei.net/posts/1626402130325676145",
         "publishedAt": "2026-09-20T14:20:11.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20292,8 +20333,8 @@
         "url": "https://shuiba.co/silver-week",
         "publishedAt": "2026-09-24T23:40:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20578,8 +20619,8 @@
         "url": "https://blog.alswl.com/2026/09/high-density-page-organization/",
         "publishedAt": "2026-09-11T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20695,8 +20736,8 @@
         "url": "https://www.dqzboy.com/20075.html",
         "publishedAt": "2026-10-05T00:06:49.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20919,8 +20960,8 @@
         "url": "https://pythoncat.top/posts/2026-10-01-national-day/",
         "publishedAt": "2026-10-01T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -20978,8 +21019,8 @@
         "url": "https://xiaochopin.github.io/2026/09/16/lonely",
         "publishedAt": "2026-09-15T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -21347,8 +21388,8 @@
         "url": "https://www.wangdu.site/software/ai/2400.html",
         "publishedAt": "2026-09-27T06:33:12.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -21535,8 +21576,8 @@
         "url": "https://liduos.com/weekly/the-weekly-gradient-120",
         "publishedAt": "2026-10-04T08:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22242,8 +22283,8 @@
         "url": "https://wuminboke.site/uncategorized/lens-rubber-whitening-fix/",
         "publishedAt": "2026-09-19T12:16:17.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22391,8 +22432,8 @@
         "url": "https://localfreedom.pages.dev/p/windows-.bat-%E8%87%AA%E5%8A%A8%E7%94%B3%E8%AF%B7uac/",
         "publishedAt": "2026-10-01T09:21:29.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22414,8 +22455,8 @@
         "url": "https://blog.sci.ci/2026/09/08/%E9%80%9A%E8%BF%87CC-Switch%E5%B0%86OpenAI%E8%AE%A2%E9%98%85%E9%A2%9D%E5%BA%A6%E6%8E%A5%E5%85%A5Claude-Code-Hermes%E4%B8%8EOpenClaw/",
         "publishedAt": "2026-09-08T12:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22530,8 +22571,8 @@
         "url": "https://mocusez.site/zh-CN/posts/d355",
         "publishedAt": "2026-09-15T12:47:23.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22738,8 +22779,8 @@
         "url": "https://liudon.com/posts/twikoo-comment-delay-post-submit/",
         "publishedAt": "2026-09-29T02:03:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22762,8 +22803,8 @@
         "url": "https://www.fghrsh.net/post/202.html",
         "publishedAt": "2026-09-25T14:04:32.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22829,8 +22870,8 @@
         "url": "https://anotherdayu.com/tenkara-folkestone/",
         "publishedAt": "2026-09-24T13:02:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -22909,8 +22950,8 @@
         "url": "https://sugarat.top/essay/dev/clean-mac.html",
         "publishedAt": "2026-10-04T08:44:12.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23086,8 +23127,8 @@
         "url": "https://mag267.github.io/2026/09/30/summary-sep26/",
         "publishedAt": "2026-10-01T03:13:19.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23214,8 +23255,8 @@
         "url": "https://raymondhouch.com/lifehacker/guide/wendell-yu-interview/",
         "publishedAt": "2026-09-27T16:24:58.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23388,8 +23429,8 @@
         "url": "https://www.chaoniulian.com/blog/nanabanana-pro.html",
         "publishedAt": "2026-09-27T12:46:30.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23525,8 +23566,8 @@
         "url": "https://moonlites.org/posts/2026/09/cyber-security/",
         "publishedAt": "2026-09-13T18:02:21.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23597,8 +23638,8 @@
         "url": "https://howiehz.top/archives/ex-otogibanashi-piano-sheet-music",
         "publishedAt": "2026-09-05T23:38:20.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23642,8 +23683,8 @@
         "url": "https://blog.dao.js.cn/posts/9yqJ",
         "publishedAt": "2026-09-11T11:09:34.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23663,8 +23704,8 @@
         "url": "https://bestcoder.cn/outsider-insight-signal-noise-delayed-gratification",
         "publishedAt": "2026-09-28T08:04:46.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23733,8 +23774,8 @@
         "url": "https://bluehe.cn/archives/zhongqiu-guoqing",
         "publishedAt": "2026-10-03T05:35:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -23980,8 +24021,8 @@
         "url": "https://cosmo-polite.com/%e4%bd%a9%e6%88%b4%e5%8a%a8%e6%80%81%e8%a1%80%e7%b3%96%e4%bb%aa%e5%90%8e%ef%bc%8c%e6%88%91%e6%89%be%e5%88%b0%e4%ba%86%e5%93%aa%e4%ba%9b%e8%a1%80%e7%b3%96%e5%88%ba%e5%ae%a2%ef%bc%9f/",
         "publishedAt": "2026-10-04T05:34:41.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24002,8 +24043,8 @@
         "url": "https://blog.douchi.space/spark-joy-digest-2026-9/?utm_source=rss",
         "publishedAt": "2026-10-03T07:30:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24040,8 +24081,8 @@
         "url": "https://ramble.imzh.me/1537/",
         "publishedAt": "2026-10-01T11:30:38.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24143,8 +24184,8 @@
         "url": "https://fatbobman.com/zh/posts/letting-ai-see-swiftui/",
         "publishedAt": "2026-09-30T14:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24372,8 +24413,8 @@
         "url": "https://blog.yasking.org/a/learn-etcd",
         "publishedAt": "2026-10-03T08:59:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24500,8 +24541,8 @@
         "url": "https://i.hsfzxjy.site/on-consciousness-with-chatgpt-1/",
         "publishedAt": "2026-09-29T17:20:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24562,8 +24603,8 @@
         "url": "https://isming.me/2026-09-september-summary/?utm_source=rss",
         "publishedAt": "2026-09-30T10:42:24.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24749,8 +24790,8 @@
         "url": "https://physnya.top/compact-object/lesson-3-white-dwarf/",
         "publishedAt": "2026-10-01T04:43:10.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24770,8 +24811,8 @@
         "url": "https://xeonzilla.top/kimishinu/",
         "publishedAt": "2026-09-29T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24938,8 +24979,8 @@
         "url": "https://dreams.plus/blog/2026/0007-dirichlet-distribution-and-evidential-deep-learning",
         "publishedAt": "2026-10-01T10:52:06.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -24974,8 +25015,8 @@
         "url": "https://taxodium.ink/%E8%AE%80%E3%80%8A13%C2%B767%E3%80%8B.html",
         "publishedAt": "2026-09-28T01:20:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25041,8 +25082,8 @@
         "url": "https://www.wsh233.cn/post/%E8%87%AA%E7%A7%81",
         "publishedAt": "2026-10-02T18:54:50.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25333,8 +25374,8 @@
         "url": "https://www.geekery.cn/note-book/misc/Syncthing%E5%AE%9E%E7%8E%B0%E5%A4%9A%E8%AE%BE%E5%A4%87%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%A4%87%E4%BB%BD.html",
         "publishedAt": "2026-09-20T00:48:41.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25440,8 +25481,8 @@
         "url": "https://blog.418121.xyz/posts/dafa3fd6.html",
         "publishedAt": "2026-10-04T08:54:12.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25477,8 +25518,8 @@
         "url": "https://www.evan.xin/5106/",
         "publishedAt": "2026-09-20T06:57:07.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25625,8 +25666,8 @@
         "url": "https://forcheetah.github.io/2026/09/25/mlir09/",
         "publishedAt": "2026-09-25T13:46:39.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25684,8 +25725,8 @@
         "url": "https://blog.mountaye.com/articles/read-the-book-of-why",
         "publishedAt": "2026-09-17T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25748,8 +25789,8 @@
         "url": "https://blog.liushen.fun/posts/6a6de263/",
         "publishedAt": "2026-09-08T18:12:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25858,8 +25899,8 @@
         "url": "https://blog.sunmkt.uk/post/valve-steam-lgbtq-transparency-mainland-china/",
         "publishedAt": "2026-09-30T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -25957,8 +25998,8 @@
         "url": "https://kekkj123.github.io/posts/suiyuan/20260928/",
         "publishedAt": "2026-09-28T03:51:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26095,8 +26136,8 @@
         "url": "https://jiangcl.com/5139",
         "publishedAt": "2026-09-24T02:42:10.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26196,8 +26237,8 @@
         "url": "https://www.ccgxk.com/codeother/905.html",
         "publishedAt": "2026-10-04T14:38:38.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26234,8 +26275,8 @@
         "url": "https://bducds.de/archives/tu-cao/149.html",
         "publishedAt": "2026-09-21T15:17:58.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26294,8 +26335,8 @@
         "url": "https://blog.goodboyboy.top/posts/1036581794.html",
         "publishedAt": "2026-09-07T04:13:37.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26381,8 +26422,8 @@
         "url": "https://blog.watermelonabc.top/p/linux-system-design/",
         "publishedAt": "2026-09-11T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26520,8 +26561,8 @@
         "url": "https://citydatum.cn/archives/3490",
         "publishedAt": "2026-09-22T12:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26580,8 +26621,8 @@
         "url": "https://www.xchere.xyz/p/97c.html",
         "publishedAt": "2026-09-17T13:05:31.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26604,8 +26645,8 @@
         "url": "https://mingnify.com/zh/blog/p/gpt-images-2-5-sketch-templates-comment-workflow/",
         "publishedAt": "2026-09-23T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26701,8 +26742,8 @@
         "url": "https://www.iconpik.com/baraye/",
         "publishedAt": "2026-09-29T07:12:51.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26741,8 +26782,8 @@
         "url": "https://iluc.cn/posts/2026-09-14-00/",
         "publishedAt": "2026-09-14T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26761,8 +26802,8 @@
         "url": "https://blog.supergrey.uk/self-reflection-on-staying-up-late/",
         "publishedAt": "2026-09-30T07:38:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26780,8 +26821,8 @@
         "url": "https://xingwangzhe.fun/posts/whois-for-edu-cn/",
         "publishedAt": "2026-10-03T19:57:22.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26818,8 +26859,8 @@
         "url": "https://ashlord.com/archives/30",
         "publishedAt": "2026-09-19T06:04:59.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26837,8 +26878,8 @@
         "url": "https://www.sumi233.top/posts/mouthtalk/sumi-thoughts-17/",
         "publishedAt": "2026-09-28T13:30:55.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26901,8 +26942,8 @@
         "url": "https://fuwari.oh1.top/posts/Essay/shirones-npm/",
         "publishedAt": "2026-09-25T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26941,8 +26982,8 @@
         "url": "https://changchen.me/blog/20261003/pi-durable/",
         "publishedAt": "2026-10-02T22:47:56.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -26979,8 +27020,8 @@
         "url": "https://zelikk.blogspot.com/2026/10/muse-3x-ui-youtube-tutorial.html",
         "publishedAt": "2026-10-03T11:14:29.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27050,8 +27091,8 @@
         "url": "https://www.paddysun.top/archives/5336",
         "publishedAt": "2026-10-01T05:40:40.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27291,8 +27332,8 @@
         "url": "https://127.0.0.1:5201/post/24",
         "publishedAt": "2026-09-27T08:32:40.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27316,8 +27357,8 @@
         "url": "https://rokcso.com/p/llms-txt-not-seo/",
         "publishedAt": "2026-09-15T02:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27360,8 +27401,8 @@
         "url": "https://uwillno.com/blog/uw4.4++++",
         "publishedAt": "2026-10-03T09:44:44.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27426,8 +27467,8 @@
         "url": "https://blog.algieba12.cn/kmode-exception-not-handled-dell-bitlocker-offline-repair/",
         "publishedAt": "2026-09-30T06:11:52.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27447,8 +27488,8 @@
         "url": "https://wklken.me/posts/2026/09/10/ai-coding-half-year-summary.html",
         "publishedAt": "2026-09-10T15:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27469,8 +27510,8 @@
         "url": "http://www.maonie.top/2026/09/12/%E6%9C%89%E5%85%B3%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E7%9A%84%E8%A7%81%E4%B8%8E%E8%A7%A3/",
         "publishedAt": "2026-09-12T06:50:30.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27491,8 +27532,8 @@
         "url": "https://yourlai.com/archives/%e6%b2%a1%e4%bb%80%e4%b9%88%e6%84%8f%e4%b9%89%e7%9a%84%e5%90%90%e6%a7%bd/",
         "publishedAt": "2026-09-18T02:27:56.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27513,8 +27554,8 @@
         "url": "https://jaketao.com/time-to-first-token-ai-models",
         "publishedAt": "2026-09-21T17:34:10.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27552,8 +27593,8 @@
         "url": "https://blog.abb00717.com/%E6%96%87%E7%AB%A0/CWES-%E9%80%9A%E9%97%9C%E5%BF%83%E5%BE%97",
         "publishedAt": "2026-10-01T14:44:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27574,8 +27615,8 @@
         "url": "https://blog.giveanornot.com/%E9%81%8E%E7%A8%8B/",
         "publishedAt": "2026-10-01T02:49:54.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27626,8 +27667,8 @@
         "url": "https://fivsevn.com/2026/10/03/57storesys-2026-10-03-1437-ac56bf42f697/",
         "publishedAt": "2026-10-03T14:37:15.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27747,8 +27788,8 @@
         "url": "https://fengcblog.880200.xyz/article/000346/.html",
         "publishedAt": "2026-10-03T04:34:01.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27812,8 +27853,8 @@
         "url": "https://blog.mfwt.top/index.php/archives/1518/",
         "publishedAt": "2026-10-01T11:39:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27856,8 +27897,8 @@
         "url": "https://www.coderlock.site/index.php/archives/125/",
         "publishedAt": "2026-10-04T15:06:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27878,8 +27919,8 @@
         "url": "https://blog.224418.xyz/posts/93a92a29/",
         "publishedAt": "2026-09-13T15:45:21.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27900,8 +27941,8 @@
         "url": "https://qingccl.com/posts/%E5%B7%9D%E7%AB%AF%E5%BA%B7%E6%88%90%E4%B8%8E%E9%9B%AA%E5%9B%BD/",
         "publishedAt": "2026-09-24T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27944,8 +27985,8 @@
         "url": "https://www.alxh.page/26s3",
         "publishedAt": "2026-09-16T16:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27967,8 +28008,8 @@
         "url": "https://xiangyugongzuoliu.com/grokbot-use-cases/",
         "publishedAt": "2026-09-09T08:54:30.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -27988,8 +28029,8 @@
         "url": "https://www.imcry.vip/post/2026-9-30-822/",
         "publishedAt": "2026-09-30T00:41:22.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28027,8 +28068,8 @@
         "url": "https://vjo.cc/2018",
         "publishedAt": "2026-09-23T09:24:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28092,8 +28133,8 @@
         "url": "https://daolanx.me/zh/posts/post-26/",
         "publishedAt": "2026-09-23T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28115,8 +28156,8 @@
         "url": "https://re.karlbaey.top/articles/wake-me-up-when-september-ends/",
         "publishedAt": "2026-09-30T12:48:45.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28136,8 +28177,8 @@
         "url": "https://blog.sayori.org/posts/from-90-to-667/",
         "publishedAt": "2026-10-04T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28212,8 +28253,8 @@
         "url": "https://1loli.link/archives/158/",
         "publishedAt": "2026-09-10T16:41:44.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28255,8 +28296,8 @@
         "url": "https://bddxg.top/Lives/MysteriousHomepage404.html",
         "publishedAt": "2026-09-07T05:11:44.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28281,8 +28322,8 @@
         "url": "https://blog.rnm.gv.uy/2026/09/19/fnos-strm-dual-cloud-drive/",
         "publishedAt": "2026-09-19T14:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28438,8 +28479,8 @@
         "url": "https://www.coderlog.net/post/iis-kestrel-3-config-mistakes-502",
         "publishedAt": "2026-09-29T00:22:07.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28480,8 +28521,8 @@
         "url": "https://wmhwiki.cn/posts/2026/fastapi",
         "publishedAt": "2026-09-08T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28503,8 +28544,8 @@
         "url": "https://victor42.eth.limo/post-en/daughter-toy-port/",
         "publishedAt": "2026-09-29T23:25:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28525,8 +28566,8 @@
         "url": "https://www.fengcan.net/the-next-trip/",
         "publishedAt": "2026-10-04T08:09:52.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28569,8 +28610,8 @@
         "url": "https://ryanuo.cc/en/navs",
         "publishedAt": "2026-10-02T06:07:58.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28591,8 +28632,8 @@
         "url": "https://tianze17.com/article/3edc1a70-23ff-81ca-a50b-e621490b6337",
         "publishedAt": "2026-10-02T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28670,8 +28711,8 @@
         "url": "https://blog.leesaitool.com/life/life-2026-10-04-o3ix",
         "publishedAt": "2026-10-04T16:45:35.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28693,8 +28734,8 @@
         "url": "https://blog.mcenahle.page/2026/09/12/471/",
         "publishedAt": "2026-09-12T14:29:49.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28715,8 +28756,8 @@
         "url": "https://imsuk.cn/archives/443/",
         "publishedAt": "2026-10-04T12:09:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28752,8 +28793,8 @@
         "url": "https://www.feifun.cn/2018/chinese-new-year-in-universal-studio-los-angeles/",
         "publishedAt": "2026-10-01T13:14:04.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28795,8 +28836,8 @@
         "url": "https://blog.dort.me/posts/1835524654/",
         "publishedAt": "2026-09-19T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28817,8 +28858,8 @@
         "url": "https://dyy.nianmo.top/archives/fengmian-dianjilu",
         "publishedAt": "2026-09-30T14:56:58.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28900,8 +28941,8 @@
         "url": "https://zooyoo.top/article/70/",
         "publishedAt": "2026-10-04T15:05:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -28945,8 +28986,8 @@
         "url": "https://blog.cloverta.top/zh/posts/arithmetic-in-computer/",
         "publishedAt": "2026-09-18T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29030,8 +29071,8 @@
         "url": "https://changyo.me/posts/2026/09/steal-ideas-when-vibe-coding-frontend/",
         "publishedAt": "2026-09-13T09:07:48.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29054,8 +29095,8 @@
         "url": "https://www.xbstack.com/ai/iphone-duo-uikit-adaptation/",
         "publishedAt": "2026-09-28T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29111,8 +29152,8 @@
         "url": "https://www.sagasu.art/posts/ai-agents-protecting-industry-judgment",
         "publishedAt": "2026-09-30T06:05:10.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29149,8 +29190,8 @@
         "url": "https://samadhi.blog/writing/does-life-need-meaning/",
         "publishedAt": "2026-09-11T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29174,8 +29215,8 @@
         "url": "https://blog.gis2all.top/posts/ARCUS%20%E9%A1%B9%E7%9B%AE%E8%AF%A6%E7%BB%86%E8%B0%83%E7%A0%94/",
         "publishedAt": "2026-09-20T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29219,8 +29260,8 @@
         "url": "https://white-ceiling.bearblog.dev/4997/",
         "publishedAt": "2026-09-13T06:28:50.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29281,8 +29322,8 @@
         "url": "https://blog.waterfish.ren/article/3e03794e-eb27-801a-9a4f-df83e6d2ed2b",
         "publishedAt": "2026-09-19T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29362,8 +29403,8 @@
         "url": "https://auvetu.com/posts/virtual-streamer-xingtong/",
         "publishedAt": "2026-09-27T00:00:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     },
     {
@@ -29385,49 +29426,8 @@
         "url": "https://tanqingbo.cn/build-your-own-airport/",
         "publishedAt": "2026-10-04T14:35:00.000Z"
       },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
-      "dead": false
-    },
-    {
-      "id": "t9t.io/blog/zh",
-      "page": "https://indi.blog/b/1",
-      "name": "透明创业实验",
-      "url": "https://t9t.io/blog/zh",
-      "feed": "https://t9t.io/blog/zh/rss.xml",
-      "tags": [
-        "创业",
-        "编程",
-        "开源"
-      ],
-      "status": "ok",
-      "lastPost": {
-        "title": "AI 陪写服务",
-        "url": "https://t9t.io/blog/zh/7",
-        "publishedAt": "2026-07-01T00:00:00.000Z"
-      },
-      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
-      "lastOkAt": "2026-10-05T01:30:16.000Z",
-      "dead": false
-    },
-    {
-      "id": "diygod.cc",
-      "page": "https://indi.blog/b/7",
-      "name": "DIYGod - 写代码是热爱，写到世界充满爱!",
-      "url": "https://diygod.cc",
-      "feed": "https://diygod.cc/feed",
-      "tags": [
-        "编程",
-        "开源"
-      ],
-      "status": "ok",
-      "lastPost": {
-        "title": "2025 重新定义的生活",
-        "url": "https://diygod.cc/2025",
-        "publishedAt": "2025-12-25T04:00:00.000Z"
-      },
-      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
-      "lastOkAt": "2026-10-05T01:30:16.000Z",
+      "lastCheckedAt": "2026-10-05T02:07:53.000Z",
+      "lastOkAt": "2026-10-05T02:07:53.000Z",
       "dead": false
     }
   ]
