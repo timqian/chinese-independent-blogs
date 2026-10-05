@@ -495,10 +495,11 @@ async function crawl(env, { all = false, limit = FEEDS_PER_RUN, deadline, favico
   const list = await blogList(env);
   const { added, ...syncResult } = await syncBlogs(env.DB, list.csv);
   const sync = { ...syncResult, added: added.length, source: list.source };
-  await announceNewBlogs(env, added);
   const feeds = await crawlFeeds(env.DB, { all, limit, deadline }, now, onProgress);
   const icons = await crawlFavicons(env.DB, favicons, now, onProgress);
   const snapshot = await buildSnapshot(env.DB, now, { stars: await repoStars(env) });
+  // After the snapshot: the blog pages are rendered from it, so the links in the message work
+  await announceNewBlogs(env, added);
   const result = { all, sync, feeds, icons, snapshot, seconds: Math.round((Date.now() - now) / 1000) };
   console.log(JSON.stringify(result));
   return result;
