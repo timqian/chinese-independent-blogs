@@ -807,7 +807,6 @@
 | [Feed](https://anran758.github.io/blog/atom.xml) | anran758's blog | https://anran758.github.io/blog/ | 编程; 前端 |
 | [Feed](https://www.eluyee.com/feed/) | Eluyee个人博客 | https://www.eluyee.com/ | 跨境支付; 虚拟卡; 亚马逊 |
 | [Feed](https://www.liurongxing.com/feed) | 刘荣星的博客 | https://www.liurongxing.com/ | Linux; BSD; 运维 |
-| [Feed](https://blog.t9t.io/atom.xml) | 透明创业实验 | https://blog.t9t.io | 创业; 编程; 开源 |
 | [Feed](https://dvel.me/index.xml) | Dvel's Blog | https://dvel.me | 编程; 随笔 |
 | [Feed](https://www.cestlavie.moe/index.xml) | Cestlavie's Blog | https://www.cestlavie.moe/ | 学习; 技术; 生活; 日常 |
 | [Feed](https://yishi.io/feed) | 王一石 | https://yishi.io/ | 商业; 金融; 加密货币; 创业 |
@@ -930,7 +929,6 @@
 | [Feed](https://youkaichao.github.io/feed.xml) | Kaichao You | https://youkaichao.github.io/research | 深度学习 |
 | [Feed](https://alili.tech/index.xml) | Alili丶前端大爆炸 | https://alili.tech | 编程; 前端 |
 | [Feed](https://www.xiabingbao.com/atom.xml) | 蚊子前端博客 | https://www.xiabingbao.com | 编程; 前端 |
-| [Feed](https://diygod.me/atom.xml) | DIYGod - 写代码是热爱，写到世界充满爱! | https://diygod.me | 编程; 开源 |
 | None | 追梦人物的博客 | https://www.zmrenwu.com | 编程 |
 | [Feed](https://windard.com/feed.xml) | 但行好事，莫问前程 | https://windard.com | 编程 |
 | [Feed](https://www.lichong.work/atom.xml) | Ric's Blog | https://www.lichong.work | 编程; 架构; 设计; 算法 |
