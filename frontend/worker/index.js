@@ -45,14 +45,16 @@ const toPost = (r) => ({
 });
 
 async function latestPosts(db, { cat = '', limit, offset = 0 }) {
+  // Escape LIKE metacharacters so cat cannot alter the intended pattern match
+  const escapedCat = cat.replace(/[%_\\]/g, (ch) => `\\${ch}`);
   const { results } = await db.prepare(`
     SELECT p.id, p.url, p.title, p.summary, p.published_at, p.score, p.comment_count,
            b.id AS blog_id, b.num, b.name, b.icon_key
     FROM posts p JOIN blogs b ON b.id = p.blog_id
     WHERE b.removed = 0 AND b.dead_since IS NULL
-      AND (? = '' OR b.categories LIKE ?)
+      AND (? = '' OR b.categories LIKE ? ESCAPE '\\')
     ORDER BY p.published_at DESC LIMIT ? OFFSET ?`)
-    .bind(cat, `%"${cat}"%`, limit, offset).all();
+    .bind(cat, `%"${escapedCat}"%`, limit, offset).all();
   return results.map(toPost);
 }
 
