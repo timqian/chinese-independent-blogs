@@ -1159,27 +1159,25 @@ main {
 
 @media (max-width: 600px) {
   .top {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-areas: "brand account" "tabs tabs";
-    gap: 8px 16px;
-    padding-block: 14px 0;
-    border-bottom: 0;
+    gap: 14px;
+    padding-block: 14px 10px;
+    align-items: center;
   }
 
   .brand {
-    grid-area: brand;
-  }
-
-  .account {
-    grid-area: account;
+    flex: none;
   }
 
   .tabs {
-    grid-area: tabs;
-    gap: 18px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--line);
+    flex: 1;
+    min-width: 0;
+    gap: 14px;
+  }
+
+  .account {
+    flex: none;
+    margin-left: 0;
+    gap: 10px;
   }
 
   .blog {

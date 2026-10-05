@@ -118,7 +118,7 @@ function breadcrumbs(site, items) {
 
 const NAV = [
   ['latest', '/latest', '最新'],
-  ['blogs', '/blogs', '博客目录'],
+  ['blogs', '/blogs', '博客列表'],
   ['following', '/following', '我的关注'],
 ];
 
@@ -181,9 +181,8 @@ ${jsonLd.map(jsonLdScript)}
     <div class="account">${user
       ? html`${user.username
         ? html`<a class="inbox" href="/notifications" title="${user.unread ? `${user.unread} 条未读回复` : '消息'}">消息${user.unread ? html`<span class="unread">${user.unread > 99 ? '99+' : user.unread}</span>` : ''}</a>
-              <a class="me" href="/u/${user.username}">${userAvatar(user)}${user.username}</a>`
-        : html`<a href="/settings">设置用户名</a>`}
-          <form method="post" action="/logout"><button type="submit" class="link-button">退出</button></form>`
+              <a class="me" href="/u/${user.username}" title="${user.username}" aria-label="${user.username}">${userAvatar(user)}</a>`
+        : html`<a href="/settings">设置用户名</a>`}`
       : html`<a href="/login?next=${encodeURIComponent(path)}" rel="nofollow">登录</a>`}</div>
   </header>
   <div class="page">
@@ -336,13 +335,13 @@ export function directoryPage({ site, stats, user, following, blogs, view, now }
   const [label, path] = DIRECTORY_VIEWS[view];
   return layout({
     site, stats, user, path,
-    title: view === 'all' ? `博客目录 · ${SITE_NAME}` : `博客目录：${label} · ${SITE_NAME}`,
+    title: view === 'all' ? `博客列表 · ${SITE_NAME}` : `博客列表：${label} · ${SITE_NAME}`,
     description: `${blogs.length} 个中文独立博客，按最近更新排序，附每月发文数量。`,
     nav: 'blogs',
     noindex: view === 'dead',
-    jsonLd: [breadcrumbs(site, [[SITE_NAME, '/'], ['博客目录', '/blogs']])],
+    jsonLd: [breadcrumbs(site, [[SITE_NAME, '/'], ['博客列表', '/blogs']])],
     body: html`
-      <h1 class="visually-hidden">博客目录</h1>
+      <h1 class="visually-hidden">博客列表</h1>
       <div class="controls">
         <input type="search" id="q" placeholder="搜索博客名、域名或标签" aria-label="搜索博客">
         <nav class="seg" aria-label="状态">
@@ -390,7 +389,7 @@ export function blogPage({ site, stats, user, voted, following, blog, posts, pag
         ...(blog.tags.length && { keywords: blog.tags.join(', ') }),
         blogPost: posts.slice(0, 10).map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: p.url, datePublished: iso(p.published_at) })),
       },
-      breadcrumbs(site, [[SITE_NAME, '/'], ['博客目录', '/blogs'], [blog.name, base]]),
+      breadcrumbs(site, [[SITE_NAME, '/'], ['博客列表', '/blogs'], [blog.name, base]]),
     ],
     body: html`
       <article class="blog-page">
@@ -546,7 +545,7 @@ function userHeader(profile, tab, user) {
     ${userAvatar(profile, 'xl')}
     <div>
       <h1>${profile.username}</h1>
-      <p class="note">${fDate.format(profile.created_at * 1000)} 加入 · 获得 ${profile.karma} 个赞${profile.github_login ? html` · <a href="https://github.com/${profile.github_login}" rel="nofollow noopener" target="_blank">GitHub</a>` : ''}${user?.id === profile.id ? html` · <a href="/settings">编辑资料</a>` : ''}</p>
+      <p class="note">${fDate.format(profile.created_at * 1000)} 加入 · 获得 ${profile.karma} 个赞${profile.github_login ? html` · <a href="https://github.com/${profile.github_login}" rel="nofollow noopener" target="_blank">GitHub</a>` : ''}${user?.id === profile.id ? html` · <a href="/settings">编辑资料</a> · <form method="post" action="/logout" class="inline-form"><button type="submit" class="link-button">退出登录</button></form>` : ''}</p>
     </div>
   </header>
   <nav class="subnav" aria-label="${profile.username} 的动态">
@@ -685,6 +684,7 @@ export function settingsPage({ site, user, next, username, error, avatarError })
               ${user.avatar_url ? html`<form method="post" action="/settings/avatar/delete" class="inline-form"><button type="submit" class="link-button">删除头像</button></form>` : ''}
             </div>
           </div>`}
+        ${first ? html`<form method="post" action="/logout" class="inline-form"><button type="submit" class="link-button">退出登录</button></form>` : ''}
       </div>`,
   });
 }
@@ -697,7 +697,7 @@ export function followingPage({ site, stats, user, voted, posts, blogCount, page
   if (!user) {
     body = html`<div class="empty"><h2>登录后关注博客</h2>关注的博主发表的文章，会按时间顺序汇总在这里。<p><a class="btn" href="/login?next=/following" rel="nofollow">登录</a></p></div>`;
   } else if (!blogCount) {
-    body = html`<div class="empty"><h2>还没有关注任何博客</h2>在<a href="/blogs">博客目录</a>或博客主页点「关注」，它们的文章会按时间顺序出现在这里。</div>`;
+    body = html`<div class="empty"><h2>还没有关注任何博客</h2>在<a href="/blogs">博客列表</a>或博客主页点「关注」，它们的文章会按时间顺序出现在这里。</div>`;
   } else {
     body = html`
       <p class="list-note">${blogCount} 个博客（公开） · <a href="/following/blogs">管理</a> · <a href="/following.opml">导出 OPML</a></p>
