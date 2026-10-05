@@ -5,7 +5,7 @@ import { Hono } from 'hono';
 import blogsCsv from '../../blogs-original.csv';
 import { originCheck, registerAuthRoutes, sessionMiddleware } from './auth.js';
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
-import { announceNewBlogs, announceWeeklyTop, telegramEnabled } from './telegram.js';
+import { announceNewBlogs, announceWeeklyTop, describeChat, telegramEnabled } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
 import { blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
@@ -554,6 +554,11 @@ app.post('/api/admin/announce-blog', async (c) => {
   if (!blog) return c.json({ error: 'No such blog' }, 404);
   await announceNewBlogs(c.env, [blog]);
   return c.json({ sent: telegramEnabled(c.env), blog });
+});
+
+app.get('/api/admin/telegram-chat', async (c) => {
+  if (!c.env.ADMIN_TOKEN || c.req.header('Authorization') !== `Bearer ${c.env.ADMIN_TOKEN}`) return c.json({ error: 'Not found' }, 404);
+  return c.json(await describeChat(c.env));
 });
 
 app.notFound(async (c) => notFound(c, await getMeta(c.env.DB, 'stats').catch(() => null)));

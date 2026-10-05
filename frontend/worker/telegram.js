@@ -49,5 +49,13 @@ export async function announceWeeklyTop(env, now = Math.floor(Date.now() / 1000)
   // Title links to the article, blog name to its Indi page, the counts to the discussion on Indi
   const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(r.title)}</a> · <a href="${esc(site)}/b/${r.blog_num}">${esc(r.blog)}</a> · <a href="${esc(site)}/p/${r.id}">▲${r.votes} 💬${r.comments}</a>`);
   const msg = await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
-  return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat?.title };
+  return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat, thread: msg?.message_thread_id };
+}
+
+// Which chat the bot is posting to (does not send anything)
+export async function describeChat(env) {
+  if (!telegramEnabled(env)) return { configured: false };
+  const res = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/getChat?chat_id=${encodeURIComponent(env.TELEGRAM_CHAT_ID)}`, { signal: AbortSignal.timeout(10_000) });
+  const { result } = await res.json();
+  return { id: result?.id, type: result?.type, title: result?.title, username: result?.username, is_forum: result?.is_forum };
 }
