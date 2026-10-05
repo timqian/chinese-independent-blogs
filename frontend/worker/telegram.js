@@ -16,7 +16,9 @@ async function send(env, text) {
     body: JSON.stringify({ chat_id: env.TELEGRAM_CHAT_ID, text, parse_mode: 'HTML', disable_web_page_preview: true }),
     signal: AbortSignal.timeout(10_000),
   });
-  if (!res.ok) throw new Error(`Telegram HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const body = await res.text();
+  if (!res.ok) throw new Error(`Telegram HTTP ${res.status}: ${body.slice(0, 200)}`);
+  return JSON.parse(body).result;
 }
 
 // `blogs`: [{ num, name, url }] that were just added to the list
@@ -46,6 +48,6 @@ export async function announceWeeklyTop(env, now = Math.floor(Date.now() / 1000)
   const site = env.SITE_URL || 'https://indi.blog';
   // Title links to the article, blog name to its Indi page, the counts to the discussion on Indi
   const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(r.title)}</a> · <a href="${esc(site)}/b/${r.blog_num}">${esc(r.blog)}</a> · <a href="${esc(site)}/p/${r.id}">▲${r.votes} 💬${r.comments}</a>`);
-  await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
-  return { sent: true, posts: results.length };
+  const msg = await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
+  return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat?.title };
 }
