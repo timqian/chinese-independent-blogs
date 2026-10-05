@@ -4,8 +4,22 @@
 
 const MAX_NEW_BLOGS = 10;
 const WEEK = 7 * 24 * 3600;
+const TITLE_WIDTH = 40;
+const BLOG_WIDTH = 16;
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// Shorten to a display width (CJK characters count double) so lines stay a similar length
+function clip(text, max) {
+  let width = 0;
+  let out = '';
+  for (const ch of text.replace(/\s+/g, ' ').trim()) {
+    width += /[\u1100-\u115f\u2e80-\ua4cf\uac00-\ud7a3\uf900-\ufaff\ufe30-\ufe6f\uff00-\uff60\uffe0-\uffe6]/.test(ch) ? 2 : 1;
+    if (width > max) return `${out.trimEnd()}…`;
+    out += ch;
+  }
+  return out;
+}
 
 export const telegramEnabled = (env) => Boolean(env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID);
 
@@ -48,7 +62,7 @@ export async function announceWeeklyTop(env, now = Math.floor(Date.now() / 1000)
   const site = env.SITE_URL || 'https://indi.blog';
   // Title links to the article, blog name to its Indi page, the counts to the discussion on Indi
   const dot = ' ｜ ';
-  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(r.title)}</a>${dot}<a href="${esc(site)}/b/${r.blog_num}">${esc(r.blog)}</a>${dot}<a href="${esc(site)}/p/${r.id}">▲${r.votes} ✎${r.comments}</a>`);
+  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(clip(r.title, TITLE_WIDTH))}</a>${dot}<a href="${esc(site)}/b/${r.blog_num}">${esc(clip(r.blog, BLOG_WIDTH))}</a>${dot}<a href="${esc(site)}/p/${r.id}">▲${r.votes} ✎${r.comments}</a>`);
   const msg = await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
   return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat, thread: msg?.message_thread_id };
 }
