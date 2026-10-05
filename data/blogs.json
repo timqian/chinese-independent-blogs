@@ -1,28 +1,7 @@
 {
-  "checkedAt": "2026-10-05T01:26:19.869Z",
+  "checkedAt": "2026-10-05T01:46:11.960Z",
   "source": "https://indi.blog/api/blogs.json",
   "blogs": [
-    {
-      "id": "blog.t9t.io",
-      "page": "https://indi.blog/b/1",
-      "name": "透明创业实验",
-      "url": "https://blog.t9t.io",
-      "feed": "https://blog.t9t.io/atom.xml",
-      "tags": [
-        "创业",
-        "编程",
-        "开源"
-      ],
-      "status": "ok",
-      "lastPost": {
-        "title": "like-history.ai",
-        "url": "https://blog.t9t.io/like-history-ai-2023-12-01/",
-        "publishedAt": "2023-12-01T00:00:00.000Z"
-      },
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "lastOkAt": "2026-10-05T01:07:52.000Z",
-      "dead": false
-    },
     {
       "id": "www.ruanyifeng.com/blog",
       "page": "https://indi.blog/b/2",
@@ -113,22 +92,6 @@
       "error": "timeout",
       "lastCheckedAt": "2026-10-05T00:07:50.000Z",
       "failingSince": "2026-10-04T08:37:50.000Z",
-      "dead": false
-    },
-    {
-      "id": "diygod.me",
-      "page": "https://indi.blog/b/7",
-      "name": "DIYGod - 写代码是热爱，写到世界充满爱!",
-      "url": "https://diygod.me",
-      "feed": "https://diygod.me/atom.xml",
-      "tags": [
-        "编程",
-        "开源"
-      ],
-      "status": "http_error",
-      "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-05T01:07:52.000Z",
-      "failingSince": "2026-10-04T08:32:52.000Z",
       "dead": false
     },
     {
@@ -29424,6 +29387,47 @@
       },
       "lastCheckedAt": "2026-10-05T01:07:52.000Z",
       "lastOkAt": "2026-10-05T01:07:52.000Z",
+      "dead": false
+    },
+    {
+      "id": "t9t.io/blog/zh",
+      "page": "https://indi.blog/b/1",
+      "name": "透明创业实验",
+      "url": "https://t9t.io/blog/zh",
+      "feed": "https://t9t.io/blog/zh/rss.xml",
+      "tags": [
+        "创业",
+        "编程",
+        "开源"
+      ],
+      "status": "ok",
+      "lastPost": {
+        "title": "AI 陪写服务",
+        "url": "https://t9t.io/blog/zh/7",
+        "publishedAt": "2026-07-01T00:00:00.000Z"
+      },
+      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
+      "lastOkAt": "2026-10-05T01:30:16.000Z",
+      "dead": false
+    },
+    {
+      "id": "diygod.cc",
+      "page": "https://indi.blog/b/7",
+      "name": "DIYGod - 写代码是热爱，写到世界充满爱!",
+      "url": "https://diygod.cc",
+      "feed": "https://diygod.cc/feed",
+      "tags": [
+        "编程",
+        "开源"
+      ],
+      "status": "ok",
+      "lastPost": {
+        "title": "2025 重新定义的生活",
+        "url": "https://diygod.cc/2025",
+        "publishedAt": "2025-12-25T04:00:00.000Z"
+      },
+      "lastCheckedAt": "2026-10-05T01:30:16.000Z",
+      "lastOkAt": "2026-10-05T01:30:16.000Z",
       "dead": false
     }
   ]
