@@ -48,7 +48,7 @@ export async function announceWeeklyTop(env, now = Math.floor(Date.now() / 1000)
   const site = env.SITE_URL || 'https://indi.blog';
   // Title links to the article, blog name to its Indi page, the counts to the discussion on Indi
   const dot = ' • ';
-  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(r.title)}</a>${dot}<a href="${esc(site)}/b/${r.blog_num}">${esc(r.blog)}</a>${dot}<a href="${esc(site)}/p/${r.id}">▲${r.votes} 💬${r.comments}</a>`);
+  const lines = results.map((r, i) => `${i + 1}. <a href="${esc(r.url)}">${esc(r.title)}</a>${dot}<a href="${esc(site)}/b/${r.blog_num}">${esc(r.blog)}</a>${dot}<a href="${esc(site)}/p/${r.id}">▲${r.votes} ✎${r.comments}</a>`);
   const msg = await send(env, `🔥 本周获赞最多的 ${results.length} 篇文章\n${lines.join('\n')}`);
   return { sent: true, posts: results.length, messageId: msg?.message_id, chat: msg?.chat, thread: msg?.message_thread_id };
 }
