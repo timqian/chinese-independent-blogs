@@ -48,7 +48,7 @@
     // Telegram group notifications (new blogs, weekly top posts). Needs the bot
     // token as a secret (`npx wrangler secret put TELEGRAM_BOT_TOKEN`); the bot
     // must be a member of the group. Empty chat id disables them.
-    "TELEGRAM_CHAT_ID": ""
+    "TELEGRAM_CHAT_ID": "-1001423354945"
   },
   // Sends sign-in codes. Locally, EMAIL_DEV_LOG=1 in .dev.vars prints them instead.
   "send_email": [{ "name": "EMAIL" }],

@@ -5,7 +5,7 @@ import { Hono } from 'hono';
 import blogsCsv from '../../blogs-original.csv';
 import { originCheck, registerAuthRoutes, sessionMiddleware } from './auth.js';
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
-import { announceNewBlogs, announceWeeklyTop } from './telegram.js';
+import { announceNewBlogs, announceWeeklyTop, telegramEnabled } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
 import { blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
@@ -544,6 +544,15 @@ app.post('/api/admin/crawl', async (c) => {
 app.post('/api/admin/weekly-top', async (c) => {
   if (!c.env.ADMIN_TOKEN || c.req.header('Authorization') !== `Bearer ${c.env.ADMIN_TOKEN}`) return c.json({ error: 'Not found' }, 404);
   return c.json(await announceWeeklyTop(c.env));
+});
+
+// Announce an existing blog in Telegram, e.g. one added before the bot was set up
+app.post('/api/admin/announce-blog', async (c) => {
+  if (!c.env.ADMIN_TOKEN || c.req.header('Authorization') !== `Bearer ${c.env.ADMIN_TOKEN}`) return c.json({ error: 'Not found' }, 404);
+  const blog = await c.env.DB.prepare('SELECT num, name, url FROM blogs WHERE num = ? AND removed = 0').bind(parseInt(c.req.query('num') ?? '', 10)).first();
+  if (!blog) return c.json({ error: 'No such blog' }, 404);
+  await announceNewBlogs(c.env, [blog]);
+  return c.json({ sent: telegramEnabled(c.env), blog });
 });
 
 app.notFound(async (c) => notFound(c, await getMeta(c.env.DB, 'stats').catch(() => null)));
