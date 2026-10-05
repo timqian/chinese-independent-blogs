@@ -1311,13 +1311,19 @@ a.followers:hover {
   top: -5px;
 }
 
+/* The zero-width space gives the bell a text baseline even without an unread badge */
 .account .inbox {
   align-items: baseline;
   height: auto;
 }
 
+.account .inbox::before {
+  content: "\200b";
+}
+
 .account .inbox svg {
   align-self: flex-end;
+  margin-bottom: 1px;
 }
 
 .account .me .av {
