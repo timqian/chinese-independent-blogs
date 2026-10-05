@@ -1351,4 +1351,6 @@
 <outline text="智客" title="智客" type="rss" xmlUrl="https://zicq.com/sitemap.xml" htmlUrl="https://zicq.com/"/>
 <outline text="云海札记" title="云海札记" type="rss" xmlUrl="https://www.auvetu.com/rss.xml" htmlUrl="https://www.auvetu.com/"/>
 <outline text="科学上网与AI工具指南" title="科学上网与AI工具指南" type="rss" xmlUrl="https://tanqingbo.cn/atom.xml" htmlUrl="https://tanqingbo.cn/"/>
+<outline text="透明创业实验" title="透明创业实验" type="rss" xmlUrl="https://t9t.io/blog/zh/rss.xml" htmlUrl="https://t9t.io/blog/zh"/>
+<outline text="DIYGod - 写代码是热爱，写到世界充满爱!" title="DIYGod - 写代码是热爱，写到世界充满爱!" type="rss" xmlUrl="https://diygod.cc/feed" htmlUrl="https://diygod.cc"/>
 </body></opml>
