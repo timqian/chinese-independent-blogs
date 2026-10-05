@@ -1521,6 +1521,7 @@
 | None | 狐莘月柒的博客 | https://yueqi1sama.github.io/ | 电力电子; 开关电源; 电路设计; 学习笔记 |
 | [Feed](https://zicq.com/sitemap.xml) | 智客 | https://zicq.com/ | 科技; 资讯; AI; 提示词; 开源项目; 极客 |
 | [Feed](https://notes.yachiyo.im/rss.xml) | AI Notes | https://notes.yachiyo.im/ | AI; 研究; 评论; 科技 |
+| [Feed](https://zhangluyao.com/index.xml) | Luyao Zhang | https://zhangluyao.com/ | 随笔; 产品; 思考 |
 
 ### 疑似失效
 
