@@ -20,7 +20,8 @@
   "rules": [{ "type": "Text", "globs": ["**/*.csv"], "fallthrough": true }],
   "triggers": {
     // Hourly; each run crawls a third of the blogs (see SHARDS in worker/crawl.js)
-    "crons": ["7 * * * *"]
+    // Plus Mondays 09:00 Beijing time: weekly top posts to Telegram (WEEKLY_CRON in worker/index.js)
+    "crons": ["7 * * * *", "0 1 * * 1"]
   },
   // Requires the Workers Paid plan: the free plan allows only 50 subrequests per run.
   // Not enforced in local development.
@@ -43,7 +44,11 @@
     // From a GitHub OAuth App (callback: <SITE_URL>/auth/github/callback).
     // Empty hides the GitHub button. The secret goes in GITHUB_CLIENT_SECRET:
     // `npx wrangler secret put GITHUB_CLIENT_SECRET`
-    "GITHUB_CLIENT_ID": "Ov23liY7dAOcgcazIn2k"
+    "GITHUB_CLIENT_ID": "Ov23liY7dAOcgcazIn2k",
+    // Telegram group notifications (new blogs, weekly top posts). Needs the bot
+    // token as a secret (`npx wrangler secret put TELEGRAM_BOT_TOKEN`); the bot
+    // must be a member of the group. Empty chat id disables them.
+    "TELEGRAM_CHAT_ID": ""
   },
   // Sends sign-in codes. Locally, EMAIL_DEV_LOG=1 in .dev.vars prints them instead.
   "send_email": [{ "name": "EMAIL" }],

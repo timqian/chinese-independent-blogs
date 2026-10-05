@@ -5,6 +5,7 @@ import { Hono } from 'hono';
 import blogsCsv from '../../blogs-original.csv';
 import { originCheck, registerAuthRoutes, sessionMiddleware } from './auth.js';
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
+import { announceNewBlogs, announceWeeklyTop } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
 import { blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
@@ -13,6 +14,7 @@ const FAVICONS_PER_RUN = 60;
 // (a cron run is killed after 15 minutes; leftovers stay due for the next run)
 const FEEDS_PER_RUN = 2000;
 const CRON_BUDGET_MS = 12 * 60_000;
+const WEEKLY_CRON = '0 1 * * 1';
 const TIMELINE_PAGE_SIZE = 60;
 const HOT_PAGE_SIZE = 30;
 const FOLLOWING_PAGE_SIZE = 30;
@@ -491,7 +493,9 @@ async function blogList(env) {
 async function crawl(env, { all = false, limit = FEEDS_PER_RUN, deadline, favicons, onProgress }) {
   const now = Date.now();
   const list = await blogList(env);
-  const sync = { ...(await syncBlogs(env.DB, list.csv)), source: list.source };
+  const { added, ...syncResult } = await syncBlogs(env.DB, list.csv);
+  const sync = { ...syncResult, added: added.length, source: list.source };
+  await announceNewBlogs(env, added);
   const feeds = await crawlFeeds(env.DB, { all, limit, deadline }, now, onProgress);
   const icons = await crawlFavicons(env.DB, favicons, now, onProgress);
   const snapshot = await buildSnapshot(env.DB, now, { stars: await repoStars(env) });
@@ -536,6 +540,12 @@ app.post('/api/admin/crawl', async (c) => {
   return new Response(readable, { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store' } });
 });
 
+// Post the weekly top list now (same as the Monday cron)
+app.post('/api/admin/weekly-top', async (c) => {
+  if (!c.env.ADMIN_TOKEN || c.req.header('Authorization') !== `Bearer ${c.env.ADMIN_TOKEN}`) return c.json({ error: 'Not found' }, 404);
+  return c.json(await announceWeeklyTop(c.env));
+});
+
 app.notFound(async (c) => notFound(c, await getMeta(c.env.DB, 'stats').catch(() => null)));
 app.onError((err, c) => {
   console.error(err);
@@ -546,6 +556,11 @@ export default {
   fetch: app.fetch,
   // Hourly: crawl the feeds that are due (see nextCheckIn in crawl.js)
   async scheduled(controller, env, ctx) {
+    // Weekly cron (see wrangler.jsonc): post the most upvoted articles to Telegram
+    if (controller.cron === WEEKLY_CRON) {
+      ctx.waitUntil(announceWeeklyTop(env).then((r) => console.log(JSON.stringify({ weeklyTop: r }))).catch((err) => console.error('weekly top failed', err.message)));
+      return;
+    }
     ctx.waitUntil(crawl(env, { favicons: FAVICONS_PER_RUN, deadline: Date.now() + CRON_BUDGET_MS }));
   },
 };

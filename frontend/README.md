@@ -88,3 +88,14 @@ npx wrangler secret put GITHUB_CLIENT_SECRET
 # 邮箱验证码：开通发信域名，并把 wrangler.jsonc 里的 EMAIL_FROM 改成这个域名下的地址
 npx wrangler email sending enable <域名>
 ```
+
+## Telegram 群通知
+
+有新博客收录时（名单同步发现从没见过的博客）立即发一条消息；每周一北京时间 9:00 发本周获赞最多的 10 篇文章（统计过去 7 天内的点赞）。未配置时什么都不会发。
+
+```sh
+# 用 @BotFather 创建 bot，把它拉进群；chat id 填进 wrangler.jsonc 的 TELEGRAM_CHAT_ID（群一般是负数）
+npx wrangler secret put TELEGRAM_BOT_TOKEN
+npx wrangler deploy
+# 手动发一次周榜：curl -X POST -H "Authorization: Bearer <ADMIN_TOKEN>" https://indi.blog/api/admin/weekly-top
+```

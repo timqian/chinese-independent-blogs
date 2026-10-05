@@ -77,6 +77,8 @@ export async function syncBlogs(db, csvText) {
       etag = CASE WHEN blogs.feed IS excluded.feed THEN blogs.etag END,
       last_modified = CASE WHEN blogs.feed IS excluded.feed THEN blogs.last_modified END,
       feed = excluded.feed`);
+  const { results: existing } = await db.prepare('SELECT id FROM blogs').all();
+  const known = new Set(existing.map((r) => r.id));
   const seen = new Set();
   const statements = [];
   blogs.forEach((b, position) => {
@@ -90,7 +92,15 @@ export async function syncBlogs(db, csvText) {
   const { results } = await db.prepare('SELECT id FROM blogs WHERE removed = 0').all();
   const gone = results.filter((r) => !seen.has(r.id));
   await runBatches(db, gone.map((r) => db.prepare('UPDATE blogs SET removed = 1 WHERE id = ?').bind(r.id)));
-  return { blogs: seen.size, removed: gone.length };
+  // Only ids never seen before count as new (not blogs that came back)
+  const fresh = [...seen].filter((id) => !known.has(id));
+  const added = [];
+  for (let i = 0; i < fresh.length; i += 50) {
+    const ids = fresh.slice(i, i + 50);
+    const { results: rows } = await db.prepare(`SELECT num, name, url FROM blogs WHERE id IN (${ids.map(() => '?').join(',')})`).bind(...ids).all();
+    added.push(...rows);
+  }
+  return { blogs: seen.size, removed: gone.length, added };
 }
 
 // Fetch the feeds that are due (or every feed with `all`), oldest first, at
