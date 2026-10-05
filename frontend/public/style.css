@@ -166,7 +166,7 @@ textarea {
 .account {
   margin-left: auto;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 14px;
   font-size: 0.875rem;
   color: var(--muted);
@@ -1161,7 +1161,6 @@ main {
   .top {
     gap: 14px;
     padding-block: 14px 10px;
-    align-items: center;
   }
 
   .brand {
@@ -1302,9 +1301,31 @@ a.followers:hover {
   object-fit: cover;
 }
 
+/* Icons sit on the text baseline */
+.account .inbox,
 .account .me {
   display: inline-flex;
   align-items: center;
+  height: 18px;
+  position: relative;
+  top: -5px;
+}
+
+.account .inbox {
+  align-items: baseline;
+  height: auto;
+}
+
+.account .inbox svg {
+  align-self: flex-end;
+}
+
+.account .me .av {
+  margin-right: 0;
+}
+
+.account .inbox .unread {
+  margin-left: 2px;
 }
 
 .c-user {
