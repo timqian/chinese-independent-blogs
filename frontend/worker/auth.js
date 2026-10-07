@@ -1,6 +1,6 @@
 // Accounts: GitHub OAuth and emailed one-time codes, cookie sessions.
 import { deleteCookie, getCookie, setCookie } from 'hono/cookie';
-import { loginPage, settingsPage, SITE_NAME, verifyPage } from './views.js';
+import { loginPage, settingsPage, SITE_NAME } from './views.js';
 
 const SESSION_DAYS = 30;
 const CODE_TTL = 10 * 60;
@@ -240,12 +240,15 @@ export function registerAuthRoutes(app) {
 
   // ----- emailed code -----
 
-  app.post('/login/email', async (c) => {
+  app.post('/login', async (c) => {
     const form = await c.req.parseBody();
     const email = String(form.email ?? '').trim().toLowerCase();
     const next = safeNext(form.next);
     const site = siteUrl(c);
-    const retry = (error) => c.html(loginPage({ site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, error }), 400);
+    const wantsJson = c.req.header('Accept')?.includes('application/json');
+    const retry = (error) => wantsJson
+      ? c.json({ error }, 400)
+      : c.html(loginPage({ site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, error }), 400);
     if (!EMAIL_RE.test(email) || email.length > 254) return retry('请输入有效的邮箱地址。');
 
     const db = c.env.DB;
@@ -268,7 +271,8 @@ export function registerAuthRoutes(app) {
       console.error('send login code failed', err.code, err.message);
       return retry('验证码发送失败，请稍后再试。');
     }
-    return c.html(verifyPage({ site, email, next }));
+    if (wantsJson) return c.json({ sent: true, email });
+    return c.html(loginPage({ site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, verifying: true }));
   });
 
   app.post('/login/verify', async (c) => {
@@ -283,12 +287,15 @@ export function registerAuthRoutes(app) {
       SELECT * FROM email_codes WHERE email = ? AND used_at IS NULL AND expires_at > ?
       ORDER BY created_at DESC LIMIT 1`).bind(email, now()).first();
     if (!row || row.attempts >= CODE_MAX_ATTEMPTS) {
-      return c.html(loginPage({ site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, error: '验证码已失效，请重新获取。' }), 400);
+      return c.html(loginPage({ site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, verifying: true, error: '验证码已失效，请重新获取。' }), 400);
     }
     if (row.code_hash !== (await sha256(`${email}:${code}`))) {
       await db.prepare('UPDATE email_codes SET attempts = attempts + 1 WHERE id = ?').bind(row.id).run();
       const left = CODE_MAX_ATTEMPTS - row.attempts - 1;
-      return c.html(verifyPage({ site, email, next, error: left > 0 ? `验证码不正确，还可以再试 ${left} 次。` : '验证码已失效，请重新获取。' }), 400);
+      return c.html(loginPage({
+        site, next, github: Boolean(c.env.GITHUB_CLIENT_ID), email, verifying: true,
+        error: left > 0 ? `验证码不正确，还可以再试 ${left} 次。` : '验证码已失效，请重新获取。',
+      }), 400);
     }
     await db.prepare('UPDATE email_codes SET used_at = ? WHERE id = ?').bind(now(), row.id).run();
 

@@ -609,7 +609,7 @@ export function notificationsPage({ site, stats, user, items, now }) {
 
 // ---------- sign in ----------
 
-export function loginPage({ site, next, github, email = '', error }) {
+export function loginPage({ site, next, github, email = '', error, verifying = false }) {
   return layout({
     site, path: '/login', noindex: true,
     title: `登录 · ${SITE_NAME}`,
@@ -619,36 +619,26 @@ export function loginPage({ site, next, github, email = '', error }) {
         <h1 class="page-title">登录</h1>
         <p class="note">登录后可以给文章投票、参与讨论。没有账号会自动创建。</p>
         ${error ? html`<p class="form-error" role="alert">${error}</p>` : ''}
+        <p class="form-error" id="login-error" role="alert" hidden></p>
         ${github ? html`<a class="btn block-btn" href="/login/github?next=${encodeURIComponent(next)}">使用 GitHub 登录</a><div class="or"><span>或</span></div>` : ''}
-        <form method="post" action="/login/email" class="auth-form">
+        <form method="post" action="/login" class="auth-form email-login">
           <input type="hidden" name="next" value="${next}">
           <label for="email">邮箱</label>
           <input type="email" id="email" name="email" value="${email}" required autocomplete="email" placeholder="you@example.com">
           <button type="submit" class="btn primary block-btn">发送验证码</button>
           <p class="note">邮箱只用于登录，不会公开。</p>
         </form>
-      </div>`,
-  });
-}
-
-export function verifyPage({ site, email, next, error }) {
-  return layout({
-    site, path: '/login', noindex: true,
-    title: `输入验证码 · ${SITE_NAME}`,
-    description: '输入邮件里的验证码完成登录。',
-    body: html`
-      <div class="auth">
-        <h1 class="page-title">输入验证码</h1>
-        <p class="note">验证码已发送到 <b>${email}</b>，10 分钟内有效。没收到的话看看垃圾邮件文件夹。</p>
-        ${error ? html`<p class="form-error" role="alert">${error}</p>` : ''}
-        <form method="post" action="/login/verify" class="auth-form">
-          <input type="hidden" name="email" value="${email}">
-          <input type="hidden" name="next" value="${next}">
-          <label for="code">验证码</label>
-          <input type="text" id="code" name="code" required inputmode="numeric" autocomplete="one-time-code" pattern="[0-9 ]{6,7}" maxlength="7" placeholder="6 位数字" autofocus>
-          <button type="submit" class="btn primary block-btn">登录</button>
-        </form>
-        <p class="note"><a href="/login?next=${encodeURIComponent(next)}">换个邮箱或重新发送</a></p>
+        <div class="verification" id="verification"${verifying ? '' : ' hidden'}>
+          <p class="note" id="code-sent">验证码已发送到 <b>${email}</b>，10 分钟内有效。没收到的话看看垃圾邮件文件夹。</p>
+          <form method="post" action="/login/verify" class="auth-form">
+            <input type="hidden" name="email" value="${email}">
+            <input type="hidden" name="next" value="${next}">
+            <label for="code">验证码</label>
+            <input type="text" id="code" name="code" required inputmode="numeric" autocomplete="one-time-code" pattern="[0-9 ]{6,7}" maxlength="7" placeholder="6 位数字"${verifying ? ' autofocus' : ''}>
+            <button type="submit" class="btn primary block-btn">登录</button>
+          </form>
+          <p class="note"><a href="/login?next=${encodeURIComponent(next)}">换个邮箱或重新发送</a></p>
+        </div>
       </div>`,
   });
 }

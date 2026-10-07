@@ -7,6 +7,43 @@
   // Favicons that fail to load fall back to the letter tile underneath
   document.addEventListener('error', (e) => { if (e.target.matches?.('.av img')) e.target.remove(); }, true);
 
+  // Send email login codes in place and reveal the code field without navigating.
+  document.addEventListener('submit', async (e) => {
+    const form = e.target.closest('form.email-login');
+    if (!form) return;
+    e.preventDefault();
+    const button = form.querySelector('button[type="submit"]');
+    const error = $('#login-error');
+    const verification = $('#verification');
+    const codeEmail = verification?.querySelector('input[name="email"]');
+    const codeSent = $('#code-sent');
+    const email = form.querySelector('input[type="email"]').value;
+    button.disabled = true;
+    error.hidden = true;
+    const label = button.textContent;
+    button.textContent = '正在发送…';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || '验证码发送失败，请稍后再试。');
+      codeEmail.value = data.email;
+      codeSent.querySelector('b').textContent = data.email;
+      verification.hidden = false;
+      verification.querySelector('#code').focus();
+      button.textContent = '重新发送验证码';
+    } catch (err) {
+      error.textContent = err.message || '网络错误，请稍后重试。';
+      error.hidden = false;
+      button.textContent = label;
+    } finally {
+      button.disabled = false;
+    }
+  });
+
   let toastTimer;
   const toast = (msg) => {
     const t = $('#toast');
