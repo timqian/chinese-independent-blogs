@@ -157,7 +157,9 @@ export async function crawlFeeds(db, { limit, all = false, blogId, deadline = In
       const cutoff = blog.last_post_at ? (blog.last_post_at - NEW_ENTRY_WINDOW) * 1000 : 0;
       // A sitemap lists pages with build-time dates, not posts: use it only as a liveness check
       const entries = check.feedType === 'sitemap' ? [] : (check.entries ?? [])
-        .filter((e) => e.url && e.date >= cutoff).slice(0, MAX_ENTRIES_PER_FEED);
+        .filter((e) => e.url && e.date >= cutoff).slice(0, MAX_ENTRIES_PER_FEED)
+        // Feeds without a time zone, or date-only ones, can land in the future (shown as "just now" for hours)
+        .map((e) => (e.date > nowMs ? { ...e, date: new Date(nowMs) } : e));
       for (const e of entries) {
         statements.push(insertPost.bind(blog.id, e.url, e.title ?? '', e.summary ?? null, Math.floor(e.date / 1000), now));
       }
