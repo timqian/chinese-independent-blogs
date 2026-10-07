@@ -516,7 +516,6 @@ export function postPage({ site, stats, user, post, blog, morePosts, comments, v
           <time datetime="${iso(post.published_at)}">${fDate.format(post.published_at * 1000)}</time>
         </div>
         ${post.summary ? html`<p class="pp-summary">${post.summary}…</p>` : ''}
-        <a class="btn primary" href="${safeHref(post.url)}" target="_blank" rel="noopener">阅读原文 ↗</a>
         <section class="comments" id="comments">
           <h2 class="section-title">${post.comment_count ? `${post.comment_count} 条评论` : '讨论'}</h2>
           <div id="comment-form">
