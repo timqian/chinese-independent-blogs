@@ -360,7 +360,7 @@ export function directoryPage({ site, stats, user, following, blogs, view, now }
 
 // ---------- blog page (/b/:num) ----------
 
-export function blogPage({ site, stats, user, voted, following, blog, posts, page, hasMore, now }) {
+export function blogPage({ site, stats, user, voted, following, blog, posts, page, hasMore, now, refreshResult }) {
   const base = `/b/${blog.num}`;
   const path = page > 1 ? `${base}/page/${page}` : base;
   const latest = posts[0]?.title;
@@ -402,7 +402,13 @@ export function blogPage({ site, stats, user, voted, following, blog, posts, pag
           <div class="label"><span>${status}</span><span>近 12 个月 ${blog.monthly ? `${total} 篇` : '—'}</span></div>
           ${blog.monthly ? html`${spark(blog.monthly, 480, 44)}<div class="label"><span>${months[0]}</span><span>${months[11]}（本月）</span></div>` : ''}
         </div>
-        <h2 class="section-title">文章</h2>
+        <div class="bp-posts-heading">
+          <h2 class="section-title">文章</h2>
+          ${user && blog.feed ? html`<form method="post" action="/b/${blog.num}/refresh?page=${page}" class="inline-form"><button type="submit" class="btn refresh-button" title="立即重新抓取 RSS">刷新 RSS</button></form>` : ''}
+        </div>
+        ${refreshResult === 'done' ? html`<p class="refresh-message" role="status">RSS 已刷新，文章列表已更新。</p>` : ''}
+        ${refreshResult === 'failed' ? html`<p class="refresh-message" role="status">RSS 刷新失败，请稍后再试。</p>` : ''}
+        ${refreshResult === 'no-feed' ? html`<p class="refresh-message" role="status">这个博客没有 RSS 地址，无法刷新。</p>` : ''}
         ${posts.length
         ? html`<ul class="bp-posts">${posts.map((p) => html`<li>
               ${postVote(p, voted, path)}

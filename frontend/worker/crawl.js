@@ -108,12 +108,15 @@ export async function syncBlogs(db, csvText) {
 // chunk (used to keep the manual crawl's HTTP response alive).
 // `deadline` (ms timestamp): stop starting new chunks after it; the rest stay
 // due for the next run.
-export async function crawlFeeds(db, { limit, all = false, deadline = Infinity } = {}, nowMs = Date.now(), onProgress = () => {}) {
+export async function crawlFeeds(db, { limit, all = false, blogId, deadline = Infinity } = {}, nowMs = Date.now(), onProgress = () => {}) {
   const now = Math.floor(nowMs / 1000);
+  const specificBlog = blogId != null;
   const { results: blogs } = await db.prepare(`
     SELECT id, feed, failing_since, dead_since, last_ok_at, last_post_at, etag, last_modified FROM blogs
     WHERE removed = 0 AND feed IS NOT NULL AND (? OR next_check_at IS NULL OR next_check_at <= ?)
-    ORDER BY next_check_at IS NOT NULL, next_check_at LIMIT ?`).bind(all ? 1 : 0, now, limit ?? -1).all();
+      AND (? IS NULL OR id = ?)
+    ORDER BY next_check_at IS NOT NULL, next_check_at LIMIT ?`)
+    .bind(all || specificBlog ? 1 : 0, now, blogId ?? null, blogId ?? null, limit ?? -1).all();
 
   const insertPost = db.prepare(`
     INSERT INTO posts (blog_id, url, title, summary, published_at, first_seen_at)
@@ -130,6 +133,7 @@ export async function crawlFeeds(db, { limit, all = false, deadline = Infinity }
 
   const statuses = {};
   let newestTotal = 0;
+  let failedTotal = 0;
   // Fetch, parse and store a few dozen feeds at a time: a Worker has 128 MB of
   // memory, and some feeds carry full article text for their whole history.
   let checked = 0;
@@ -147,6 +151,7 @@ export async function crawlFeeds(db, { limit, all = false, deadline = Infinity }
         return;
       }
       const failed = FAILURE_STATUSES.has(check.status);
+      if (failed) failedTotal++;
       // Posts already stored are skipped by ON CONFLICT anyway; the cutoff
       // just avoids offering hundreds of them on every check
       const cutoff = blog.last_post_at ? (blog.last_post_at - NEW_ENTRY_WINDOW) * 1000 : 0;
@@ -180,7 +185,7 @@ export async function crawlFeeds(db, { limit, all = false, deadline = Infinity }
     await runBatches(db, statements);
     onProgress(`feeds ${Math.min(start + FEED_CHUNK, blogs.length)}/${blogs.length}`);
   }
-  return { due: blogs.length, checked, statuses, updatedToday: newestTotal };
+  return { due: blogs.length, checked, statuses, failed: failedTotal, updatedToday: newestTotal };
 }
 
 // Fetch favicons for blogs that have none yet or whose icon is stale.

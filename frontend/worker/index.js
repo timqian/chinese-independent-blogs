@@ -217,6 +217,7 @@ async function blog(c) {
   const posts = results.slice(0, BLOG_PAGE_SIZE);
   return c.html(blogPage({
     ...base(c, stats), blog: b, page, posts,
+    refreshResult: c.req.query('refresh'),
     voted: await postVotes(c, posts),
     following: await followingNums(c),
     hasMore: results.length > BLOG_PAGE_SIZE,
@@ -224,6 +225,25 @@ async function blog(c) {
 }
 app.get('/b/:num{[0-9]+}', blog);
 app.get('/b/:num{[0-9]+}/page/:n{[0-9]+}', blog);
+
+app.post('/b/:num{[0-9]+}/refresh', async (c) => {
+  const num = Number(c.req.param('num'));
+  if (!c.get('user')) return c.redirect(`/login?next=${encodeURIComponent(`/b/${num}`)}`, 303);
+  const db = c.env.DB;
+  const row = await db.prepare('SELECT id, feed FROM blogs WHERE num = ? AND removed = 0').bind(num).first();
+  if (!row) return notFound(c, await getMeta(db, 'stats'));
+
+  const requestedPage = Number.parseInt(c.req.query('page') ?? '1', 10);
+  const page = Number.isInteger(requestedPage) && requestedPage > 1 ? requestedPage : 1;
+  const path = page > 1 ? `/b/${num}/page/${page}` : `/b/${num}`;
+  if (!row.feed) return c.redirect(`${path}?refresh=no-feed`, 303);
+
+  const now = Date.now();
+  const result = await crawlFeeds(db, { blogId: row.id, limit: 1 }, now);
+  await buildSnapshot(db, now);
+  const refreshResult = result.checked === 1 && result.failed === 0 ? 'done' : 'failed';
+  return c.redirect(`${path}?refresh=${refreshResult}`, 303);
+});
 
 app.get('/p/:id{[0-9]+}', async (c) => {
   const db = c.env.DB;
@@ -579,4 +599,3 @@ export default {
     ctx.waitUntil(crawl(env, { favicons: FAVICONS_PER_RUN, deadline: Date.now() + CRON_BUDGET_MS }));
   },
 };
-

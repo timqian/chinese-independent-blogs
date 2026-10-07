@@ -543,6 +543,28 @@ main {
   margin: 32px 0 8px;
 }
 
+.bp-posts-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0 8px;
+}
+
+.bp-posts-heading .section-title {
+  margin: 0;
+}
+
+.refresh-button {
+  padding: 3px 10px;
+  font-size: 0.8rem;
+}
+
+.refresh-message {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .note {
   font-size: 0.8rem;
   color: var(--faint);

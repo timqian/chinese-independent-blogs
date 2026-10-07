@@ -39,6 +39,7 @@ sqlite3 .wrangler/state/v3/d1/miniflare-D1DatabaseObject/*.sqlite "SELECT COUNT(
 | `/c/<分类>`、`/c/<分类>/page/2` | 分类下的最新文章 |
 | `/blogs`、`/blogs/active`、`/blogs/dead` | 博客目录（全部 / 一年内活跃 / 疑似失效），显示关注数；抓取失败页列出所有当前失败的博客、原因和持续时间，方便纠错 |
 | `/b/<数字 id>`、`/b/<id>/page/2` | 博客主页：信息、发文统计、全部文章 |
+| `POST /b/<数字 id>/refresh` | 登录后立即重新抓取该博客的 RSS 并更新文章 |
 | `/b/<id>/followers` | 关注这个博客的人（公开，`noindex`） |
 | `/p/<数字 id>` | 文章讨论页。没有评论前是 `noindex`，避免几万个只有摘要的页面被判为薄内容 |
 | `/following`、`/following/page/2` | 我的关注：关注博主的全部文章，按时间倒序（需要登录，`noindex`） |
