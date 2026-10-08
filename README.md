@@ -1247,6 +1247,13 @@
 | [Feed](https://kexue.fm/feed) | 科学空间 | https://kexue.fm | 数学; 技术; 生活; AI |
 | [Feed](https://yigechengzi.com/rss) | 一个橙子pro | https://yigechengzi.com | 前端; 编程; AI; 开源 |
 | [Feed](https://yufree.cn/index.xml) | 于淼 | https://yufree.cn/ | 环境科学; 统计学; 科幻; 随笔 |
+| [Feed](https://s3.laisky.com/public/rss.xml) | Laisky's Blog | https://blog.laisky.com/ | 编程; 阅读; 技术; 随笔 |
+| [Feed](https://alpha2016.github.io/feed) | 何晓东的博客 | https://alpha2016.github.io | 编程; 后端; AI; 技术 |
+| [Feed](https://madneal.com/index.xml) | Neal 的博客 | https://madneal.com | 安全; 编程; 技术; 随笔 |
+| [Feed](https://blog.naibabiji.com/feed) | 奶爸建站笔记 | https://blog.naibabiji.com/ | WordPress; 建站; 技术 |
+| [Feed](https://crossoverjie.top/atom.xml) | crossoverJie's Blog | https://crossoverjie.top/ | 编程; 后端; AI; 开源 |
+| [Feed](https://kn007.net/feed/) | kn007的个人博客 | https://kn007.net/ | 技术; 编程; 网络; 生活 |
+| [Feed](https://yachen.com/feed/) | Yachen's Blog | https://yachen.com/ | 投资; AI; 随笔; 编程 |
 
 ### 疑似失效
 

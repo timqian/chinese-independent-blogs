@@ -1370,4 +1370,11 @@
 <outline text="科学空间" title="科学空间" type="rss" xmlUrl="https://kexue.fm/feed" htmlUrl="https://kexue.fm"/>
 <outline text="一个橙子pro" title="一个橙子pro" type="rss" xmlUrl="https://yigechengzi.com/rss" htmlUrl="https://yigechengzi.com"/>
 <outline text="于淼" title="于淼" type="rss" xmlUrl="https://yufree.cn/index.xml" htmlUrl="https://yufree.cn/"/>
+<outline text="Laisky's Blog" title="Laisky's Blog" type="rss" xmlUrl="https://s3.laisky.com/public/rss.xml" htmlUrl="https://blog.laisky.com/"/>
+<outline text="何晓东的博客" title="何晓东的博客" type="rss" xmlUrl="https://alpha2016.github.io/feed" htmlUrl="https://alpha2016.github.io"/>
+<outline text="Neal 的博客" title="Neal 的博客" type="rss" xmlUrl="https://madneal.com/index.xml" htmlUrl="https://madneal.com"/>
+<outline text="奶爸建站笔记" title="奶爸建站笔记" type="rss" xmlUrl="https://blog.naibabiji.com/feed" htmlUrl="https://blog.naibabiji.com/"/>
+<outline text="crossoverJie's Blog" title="crossoverJie's Blog" type="rss" xmlUrl="https://crossoverjie.top/atom.xml" htmlUrl="https://crossoverjie.top/"/>
+<outline text="kn007的个人博客" title="kn007的个人博客" type="rss" xmlUrl="https://kn007.net/feed/" htmlUrl="https://kn007.net/"/>
+<outline text="Yachen's Blog" title="Yachen's Blog" type="rss" xmlUrl="https://yachen.com/feed/" htmlUrl="https://yachen.com/"/>
 </body></opml>
