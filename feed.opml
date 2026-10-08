@@ -1085,7 +1085,7 @@
 <outline text="雷蒙三十" title="雷蒙三十" type="rss" xmlUrl="https://raymondhouch.com/feed" htmlUrl="https://raymondhouch.com/"/>
 <outline text="Kaffa" title="Kaffa" type="rss" xmlUrl="https://kaffa.im/feeds/all.atom.xml" htmlUrl="https://kaffa.im/"/>
 <outline text="Val.istar.Guo Blog" title="Val.istar.Guo Blog" type="rss" xmlUrl="https://val-istar-guo.com/api/rss/feed" htmlUrl="https://val-istar-guo.com"/>
-<outline text="码农小易的博客" title="码农小易的博客" type="rss" xmlUrl="https://0xlau.dev/posts/index.xml" htmlUrl="https://0xlau.dev/"/>
+<outline text="码农小易的博客" title="码农小易的博客" type="rss" xmlUrl="https://timlau.me/rss.xml" htmlUrl="https://timlau.me/"/>
 <outline text="jdjwzx233-Blog" title="jdjwzx233-Blog" type="rss" xmlUrl="https://www.jdjwzx233.cn/atom.xml" htmlUrl="https://www.jdjwzx233.cn/"/>
 <outline text="编程随想的博客" title="编程随想的博客" type="rss" xmlUrl="https://feeds2.feedburner.com/programthink" htmlUrl="https://program-think.blogspot.com"/>
 <outline text="乌云盖雪" title="乌云盖雪" type="rss" xmlUrl="https://wygxmew.github.io/index.xml" htmlUrl="https://wygxmew.github.io"/>
@@ -1368,4 +1368,6 @@
 <outline text="虎行独语" title="虎行独语" type="rss" xmlUrl="https://tiger.work/rss/" htmlUrl="https://tiger.work/"/>
 <outline text="一极乐博客" title="一极乐博客" type="rss" xmlUrl="https://yijile.com/atom.xml" htmlUrl="https://yijile.com"/>
 <outline text="科学空间" title="科学空间" type="rss" xmlUrl="https://kexue.fm/feed" htmlUrl="https://kexue.fm"/>
+<outline text="一个橙子pro" title="一个橙子pro" type="rss" xmlUrl="https://yigechengzi.com/rss" htmlUrl="https://yigechengzi.com"/>
+<outline text="于淼" title="于淼" type="rss" xmlUrl="https://yufree.cn/index.xml" htmlUrl="https://yufree.cn/"/>
 </body></opml>

@@ -1171,6 +1171,7 @@
 | [Feed](https://blog.zhangyingwei.com/index.xml) | 胡说 | https://blog.zhangyingwei.com/ | 生活; 日常; 编程; 技术; 产品 |
 | [Feed](https://lhasa.icu/rss.xml) | 游钓四方 | https://lhasa.icu/ | 骑行; 音乐; 技术; 随笔 |
 | [Feed](https://val-istar-guo.com/api/rss/feed) | Val.istar.Guo Blog | https://val-istar-guo.com | 编程; 日常 |
+| [Feed](https://timlau.me/rss.xml) | 码农小易的博客 | https://timlau.me/ | 编程; 随笔; 技术; 逆向; 生活; 安全 |
 | [Feed](https://blog.wexiami.com/feed) | 大熊要飞翔 | https://blog.wexiami.com | 生活; 成长; 技术 |
 | [Feed](https://zzrl.cc/atom.xml) | 追逐日落 | https://zzrl.cc | 编程; 后端; 生活; 技术; 笔记; Java |
 | None | tcmiku的档案库 | https://tcmiku.github.io/ | 编程; 随笔; 教程; python |
@@ -1244,10 +1245,12 @@
 | [Feed](https://tiger.work/rss/) | 虎行独语 | https://tiger.work/ | 日常; 科技 |
 | [Feed](https://yijile.com/atom.xml) | 一极乐博客 | https://yijile.com | 生活; 笔记; 编程; 互联网; 软件; AI |
 | [Feed](https://kexue.fm/feed) | 科学空间 | https://kexue.fm | 数学; 技术; 生活; AI |
+| [Feed](https://yigechengzi.com/rss) | 一个橙子pro | https://yigechengzi.com | 前端; 编程; AI; 开源 |
+| [Feed](https://yufree.cn/index.xml) | 于淼 | https://yufree.cn/ | 环境科学; 统计学; 科幻; 随笔 |
 
 ### 疑似失效
 
-以下 293 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 292 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1510,7 +1513,6 @@
 | Ali's Blog | https://blog.liuailin.top | HTTP 530 |
 | 纸灯的博客 | https://qingmingzong.cn/ | HTTP 530 |
 | I BCL. | https://ibcl.us/ | response is not RSS/Atom |
-| 码农小易的博客 | https://0xlau.dev/ | HTTP 530 |
 | 乌云盖雪 | https://wygxmew.github.io | HTTP 404 |
 | 用中文编程 | http://codeinchinese.com/ | HTTP 530 |
 | 一个夏天的年少 | https://forrestgump618.github.io | HTTP 404 |
