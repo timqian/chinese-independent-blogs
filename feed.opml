@@ -1357,4 +1357,6 @@
 <outline text="栖迟处" title="栖迟处" type="rss" xmlUrl="https://cavill.site/rss.xml" htmlUrl="https://cavill.site/"/>
 <outline text="Chenhe" title="Chenhe" type="rss" xmlUrl="https://chenhe.me/atom.xml" htmlUrl="https://chenhe.me/"/>
 <outline text="shuzhi.zone" title="shuzhi.zone" type="rss" xmlUrl="https://shuzhi.zone/rss.xml" htmlUrl="https://shuzhi.zone/"/>
+<outline text="菜鸟的小站" title="菜鸟的小站" type="rss" xmlUrl="https://www.caiguoyu.cn/api/rss.xml" htmlUrl="https://www.caiguoyu.cn/"/>
+<outline text="青雲的博客" title="青雲的博客" type="rss" xmlUrl="https://www.echovic.com/rss.xml" htmlUrl="https://www.echovic.com"/>
 </body></opml>
