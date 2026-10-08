@@ -1255,6 +1255,7 @@
 | None | 狐莘月柒的博客 | https://yueqi1sama.github.io/ | 电力电子; 开关电源; 电路设计; 学习笔记 |
 | [Feed](https://s3.laisky.com/public/rss.xml) | Laisky's Blog | https://blog.laisky.com/ | 编程; 阅读; 技术; 随笔 |
 | [Feed](https://cbc688.com/rss.xml) | CRIVU | https://cbc688.com/ | 随笔; 生活; 阅读; 小说; 京剧 |
+| [Feed](https://blog.dumogu.top/rss.xml) | 23朵毒蘑菇 | https://blog.dumogu.top/ | 编程; 前端; 日记 |
 
 ### 疑似失效
 
