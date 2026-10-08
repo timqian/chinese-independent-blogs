@@ -37,7 +37,6 @@
 | [Feed](https://blog.douchi.space/index.xml) | 椒盐豆豉 | https://blog.douchi.space/ | 测评; 生活; 旅行; 科技 |
 | [Feed](https://mianao.info/atom.xml) | 不吐不快 | https://mianao.info | 生活; 硬件; 教程; DIY |
 | [Feed](https://leimao.github.io/atom.xml) | Lei Mao's Log Book | https://leimao.github.io/ | 人工智能; 机器学习; 计算机科学; 编程 |
-| [Feed](https://tanqingbo.cn/atom.xml) | 科学上网与AI工具指南 | https://tanqingbo.cn/ | 科学上网; AI; 海外; 教程; 程序员 |
 | [Feed](https://blog.zhheo.com/rss.xml) | 张洪Heo | https://blog.zhheo.com/ | 设计; 编程; 生活; 产品 |
 | [Feed](http://lukefan.com/?feed=rss2) | 硕鼠的博客站 | http://lukefan.com/ | 编程 |
 | [Feed](https://www.ezindie.com/feed/rss.xml) | 独立开发变现周刊 | https://www.ezindie.com | 独立开发者; 开发 |
@@ -269,6 +268,7 @@
 | [Feed](https://yourlai.com/feed/) | Yourlai's Blog | https://yourlai.com/ | 编程; 嵌入式; 技术; 摄影 |
 | [Feed](http://feeds.feedburner.com/ruanyifeng) | 阮一峰的网络日志 | https://www.ruanyifeng.com/blog/ | 创业; 编程; 前端 |
 | [Feed](https://blog.cloverta.top/rss.xml) | 三叶的博客 | https://blog.cloverta.top/ | 随笔; 生活; 技术; 编程 |
+| [Feed](https://cbc688.com/rss.xml) | CRIVU | https://cbc688.com/ | 随笔; 生活; 阅读; 小说; 京剧 |
 | [Feed](https://blog.alliot.tech/atom.xml) | Alliot's blog | https://blog.alliot.tech/ | 编程; 技术; 运维; 硬件 |
 | [Feed](https://rowkey.cn/atom.xml) | 后端技术杂谈 | https://rowkey.cn | 编程 |
 | [Feed](https://www.xchere.xyz/atom.xml) | 叉息的空中咖啡馆 | https://www.xchere.xyz/ | 生活; 随笔; 记录; 读书笔记; 乱七八糟 |
@@ -644,6 +644,7 @@
 | [Feed](https://www.kivinsae.com/atom.xml) | Kivinsae's Nest | https://www.kivinsae.com | 编程; 日常; 思考 |
 | [Feed](https://lowin.li/atom.xml) | lowinli's blog | https://lowin.li/ | NLP; AI; 开源; 生活; 分享 |
 | [Feed](https://owlswims.com/feed) | To the Lighthouse | https://owlswims.com | 读书; 播客; 随笔; 书评; 人文 |
+| [Feed](https://blog.dumogu.top/rss.xml) | 23朵毒蘑菇 | https://blog.dumogu.top/ | 编程; 前端; 日记 |
 | [Feed](https://www.zla.pub/feed.xml) | ZLA 小站 | https://www.zla.pub/ | 生活; 日常; 科技; 数码; 编程; 技术; 随笔; 机器学习; 深度学习 |
 | [Feed](https://zhaolife.com/atom.xml) | zhaolife Blog | https://zhaolife.com/ | 生活; 数码; 记录 |
 | [Feed](https://www.riichiie.net/feed/) | Richie的时光机 | https://riichiie.net | 生活; 兴趣; 思考; Blog |
@@ -1253,8 +1254,6 @@
 | [Feed](https://helpoke.com/sitemap.xml) | 小助点 | https://helpoke.com/ | 在线工具; 图片处理; 视频处理; 文档处理; 开发者工具; Json 格式化 |
 | None | 狐莘月柒的博客 | https://yueqi1sama.github.io/ | 电力电子; 开关电源; 电路设计; 学习笔记 |
 | [Feed](https://s3.laisky.com/public/rss.xml) | Laisky's Blog | https://blog.laisky.com/ | 编程; 阅读; 技术; 随笔 |
-| [Feed](https://cbc688.com/rss.xml) | CRIVU | https://cbc688.com/ | 随笔; 生活; 阅读; 小说; 京剧 |
-| [Feed](https://blog.dumogu.top/rss.xml) | 23朵毒蘑菇 | https://blog.dumogu.top/ | 编程; 前端; 日记 |
 
 ### 疑似失效
 
