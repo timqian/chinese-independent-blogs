@@ -3,7 +3,7 @@ Introduction, Address, RSS feed, tags
 阮一峰的网络日志, https://www.ruanyifeng.com/blog/, http://feeds.feedburner.com/ruanyifeng, 创业; 编程; 前端
 酷 壳 – CoolShell, https://coolshell.cn, http://coolshell.cn/feed, 编程
 张鑫旭-鑫空间-鑫生活, https://www.zhangxinxu.com/, http://www.zhangxinxu.com/wordpress/?feed=rss2, 编程; 前端
-Alili丶前端大爆炸, https://alili.tech, https://alili.tech/index.xml, 编程; 前端
+Time Friend, https://time-friend.com, https://time-friend.com/zh/index.xml, 编程; 前端
 蚊子前端博客, https://www.xiabingbao.com, https://www.xiabingbao.com/atom.xml, 编程; 前端
 DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.cc, https://diygod.cc/feed, 编程; 开源
 MacTalk-池建强的随想录, http://macshuo.com, http://macshuo.com/?feed=rss2, 编程; iOS
@@ -919,7 +919,7 @@ smallyu的博客, https://smallyu.net/, https://smallyu.net/atom.xml, 技术; �
 吐司面包, https://toast.pub/totoro/, https://toast.pub/totoro/index.xml, 技术; 生活
 vegetable1024的博客, https://oi-liu.com/, https://oi-liu.com/atom.xml, 算法竞赛; 技术; 随笔
 Kenvix's Blog, https://kenvix.com/, https://kenvix.com/rss.xml, 编程; 计算机网络; Windows; 技术; 分享; Kotlin
-心的道理, https://stephenleng.com/, https://stephenleng.com/feed/, 随笔; 文化批评; 心理学; 国际问题; 技术
+心的道理, https://stephenleng.com/, https://stephenleng.com/cn/feed/, 随笔; 文化批评; 心理学; 国际问题; 技术; 短篇故事; 哲学; 历史
 Eson Wong's Blog, https://blog.esonwong.com/, https://blog.esonwong.com/atom.xml, Web 开发; 随笔; 分享; 教程
 阿啊阿吖丁, https://4ading.com/, https://4ading.com/feed/, 随笔; 日常; 技术; 测试
 Java不加糖's Blog, https://blog.javazero.top/, https://blog.javazero.top/atom.xml, 软件分享; 计算机视觉
@@ -1179,7 +1179,7 @@ Innomad一挪迈, https://innomad.io, https://innomad.io/feed, 投资; 独立开
 Raye's Journey, https://rayepeng.net, https://rayepeng.net/feed, 编程; 技术; 随笔; 生活
 CuB3y0nd's Writings, https://cubeyond.net, https://www.cubeyond.net/feed.xml, 网络安全; PWN; 逆向; 密码学; 编程; 随笔
 俟河清, https://naive514.top, https://naive514.top/atom.xml, 技术; 随笔; 水文; 水利工程
-游钓四方, https://lhasa.icu/, https://lhasa.icu/atom.xml, 骑行; 音乐; 技术; 随笔
+游钓四方, https://lhasa.icu/, https://lhasa.icu/rss.xml, 骑行; 音乐; 技术; 随笔
 十月遗忘诗, https://greniray.org, https://greniray.org/feed, 生活; 随笔; 文学; 诗歌
 AsyncX's Blog, https://hi.asyncx.top, https://hi.asyncx.top/rss.xml, 编程; 日常; 哲学; 技术
 Mag‘s Blog, https://mag267.github.io/, https://mag267.github.io/atom.xml, 绘画; 美术; 书影音
@@ -1232,7 +1232,7 @@ Cosmos的博客, https://cosmo-polite.com/, https://cosmo-polite.com/feed/, 北�
 JZ's Rambles, https://ramble.imzh.me/, https://ramble.imzh.me/index.xml, 随笔
 mafeifan的技术博客, https://mafeifan.com/, https://mafeifan.com/feed.rss, Devops; 技术; 云原生
 Wener's Live & Life, https://wener.me/, https://wener.me/story/rss.xml, 生活; 技术; 编程; 文化; 杂谈; 架构; 设计; 笔记
-尼普学种花, https://kneep.github.io, https://kneep.github.io/index.xml, 技术; 工作; 旅行; 随想
+尼普学种花, https://kneep.top, https://kneep.top/index.xml, 技术; 工作; 旅行; 随想
 数据仓库技术, https://www.dwsql.com/, https://www.dwsql.com/interview, 大数据; 数据仓库; 数据开发面试SQL
 肘子的 Swift 记事本, https://fatbobman.com/, https://fatbobman.com/zh/rss.xml, 编程; Swift; SwiftUI
 Tevin Zhang, https://tevinzhang.com/zh/, https://tevinzhang.com/zh/feed.xml, 数字化生活; 数据自主; 数字资产; 生产力工具; 经验分享; 随笔
@@ -1500,3 +1500,12 @@ Chenhe, https://chenhe.me/, https://chenhe.me/atom.xml, 生活; 技术; 网络; 
 shuzhi.zone, https://shuzhi.zone/, https://shuzhi.zone/rss.xml, 编程; 开源; 投资; 经济学
 菜鸟的小站, https://www.caiguoyu.cn/, https://www.caiguoyu.cn/api/rss.xml, 技术; 编程; 生活; 随笔
 青雲的博客, https://www.echovic.com, https://www.echovic.com/rss.xml, 前端; 编程; AI; JavaScript
+随轩, https://yilinhut.net/, https://yilinhut.net/feed/, 科学史; 技术哲学; AI; 随笔
+pious fox, https://www.thefox.work/, https://www.thefox.work/rss/feed.xml, 经济学; 思考; 随笔
+Leonxieの小窝, https://www.leonxie.cn, https://www.leonxie.cn/rss.xml, 技术; 随笔; 开源; 笔记; 编程
+伯正博客, https://www.chenbozheng.com/, https://www.chenbozheng.com/feed, 读书; 旅行; 电影; 区块链; 随笔
+tianxingleo的blog, https://tianxingleo.top, https://tianxingleo.top/atom.xml, AI; 3D重建; 世界模型; 编程
+撕心砸念, https://zanian.vip/, https://zanian.vip/feed.xml, 随笔; 阅读; 影视; 摄影
+虎行独语, https://tiger.work/, https://tiger.work/rss/, 日常; 科技
+一极乐博客, https://yijile.com, https://yijile.com/atom.xml, 生活; 笔记; 编程; 互联网; 软件; AI
+科学空间, https://kexue.fm, https://kexue.fm/feed, 数学; 技术; 生活; AI
