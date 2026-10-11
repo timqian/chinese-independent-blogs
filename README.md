@@ -1256,6 +1256,7 @@
 | None | Wenix's Blog | https://wenix.dev/ | 编程; 网文; 动漫; 游戏; 生活 |
 | None | MakerJackie | https://makerjackie.com/ | AI; 产品; 全栈; 编程; 随笔 |
 | None | 郭飞的笔记 | https://www.guofei.site/ | 算法; 编程; 开源; 读书 |
+| [Feed](https://www.5al.top/rss.xml) | 星觅海的博客 | https://www.5al.top/ | 技术; 生活; 资源 |
 | [Feed](https://timoshinoleg-eng.github.io/blog/feed.xml) | Oleg's Tech Blog | https://timoshinoleg-eng.github.io/blog/ | Python; Telegram; AI; Bot |
 | [Feed](https://blog.notlove.me/feed.xml) | BotForge Notes | https://blog.notlove.me/ | AI; Telegram; Bot; 编程; 自动化 |
 | None | 帷幄 | https://weiwo.de5.net/ | 编程; 生活; AI |
@@ -1275,7 +1276,7 @@
 
 ### 疑似失效
 
-以下 291 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 290 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1568,7 +1569,6 @@
 | ArgoVICT's blog | https://argovict.asia/ | HTTP 530 |
 | 闪电的自留地 | https://blog.lyujp.com | HTTP 521 |
 | for_the_zero的小站 | https://ftz.is-a.dev/ | HTTP 404 |
-| 星觅海的博客 | https://www.xmhai.cn/ | response is not RSS/Atom |
 | 胡东东博客 | https://blog.hudd.cn/ | HTTP 530 |
 | 戈壁有耳 | https://www.zhanggeer.net/ | response is not RSS/Atom |
 | 智客 | https://zicq.com/ | feed larger than 8 MB |
