@@ -1091,6 +1091,7 @@
 | [Feed](https://qianguyihao.com/atom.xml) | 千古壹号 | https://www.qianguyihao.com | 前端; 读书笔记; 产品思考; 软件工具; 具体生活 |
 | None | module Zephray | https://www.zephray.me | 硬件; 编程; 技术; 全栈 |
 | None | xuetengfei'Blog | https://xuetengfei.github.io/ | 编程 |
+| [Feed](https://yuhang.ch/rss.xml) | 陈昱行博客 | https://yuhang.ch | 随笔; 生活; 技术 |
 | [Feed](https://blog.zjun.info/rss.xml) | zjun's blog | https://blog.zjun.info/ | 安全; 笔记 |
 | [Feed](https://runningj.top/feed.xml) | RUNNINGJ | https://runningj.top | 编程; 生活; 阅读; 美食; 创业 |
 | [Feed](https://jdqiong.cn/rss.xml) | 禅房花木 | https://jdqiong.cn/ | 编程; 生活; 创作 |
@@ -1268,7 +1269,7 @@
 
 ### 疑似失效
 
-以下 293 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 292 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1421,7 +1422,6 @@
 | 罗二德 | https://Lorde627.xyz | response is not RSS/Atom |
 | zStack | https://blog.noicdi.com | HTTP 530 |
 | gd1214b's blog | https://blog.gd1214b.icu/ | HTTP 530 |
-| 陈昱行博客 | https://blog.yuhang.ch | HTTP 404 |
 | 冰以东的博客 | https://bninecoding.com/ | HTTP 530 |
 | 杂烩饭 | https://zahui.fan | HTTP 404 |
 | zd小达's blog | https://blog.zhangda.xyz/ | HTTP 530 |
