@@ -16,11 +16,15 @@
 ```sh
 cd frontend
 npm install
-printf 'ADMIN_TOKEN=local-dev-token\nCACHE_TTL=0\n' > .dev.vars
+printf 'ADMIN_TOKEN=local-dev-token\nCACHE_TTL=0\nEMAIL_DEV_LOG=1\nBLOGS_CSV_URL=\nGITHUB_CLIENT_ID=\n' > .dev.vars
 npm run db:migrate      # 建表
+npm run dev:seed        # 写入一组本地测试博客和最近文章（只改本地 D1）
 npm run dev             # http://localhost:8787
-npm run crawl           # 另开一个终端：抓取全部 feed 和 favicon，约 10 分钟
 ```
+
+本地测试登录请使用「邮箱验证码」，不要点 GitHub 登录：输入任意可接受的邮箱后，验证码会打印在运行 `npm run dev` 的终端中（`EMAIL_DEV_LOG=1`），不发送邮件。GitHub OAuth 通常只配置了线上回调地址。
+
+`npm run dev:seed` 会创建「本地屏蔽测试博客」和 3 篇近期文章，因此“最新”和“最热”页面都有可见内容。登录后进入该博客主页点击「屏蔽」，该博客文章应从你的最新、分类最新和最热页面消失；在用户主页的「屏蔽的博客」标签中取消后，文章会重新出现。该种子命令可重复运行，不会重复插入文章。若想测试真实 RSS 抓取，可另开终端运行 `npm run crawl`；这会向外请求并抓取全部博客，耗时较长。
 
 可以直接用 sqlite3 查看本地数据：
 
@@ -45,6 +49,7 @@ sqlite3 .wrangler/state/v3/d1/miniflare-D1DatabaseObject/*.sqlite "SELECT COUNT(
 | `/following`、`/following/page/2` | 我的关注：关注博主的全部文章，按时间倒序（需要登录，`noindex`） |
 | `/following/blogs`、`/following.opml` | 管理关注的博客、导出 OPML |
 | `/u/<用户名>`、`/u/<用户名>/upvoted`、`/u/<用户名>/following` | 用户主页：评论 / 点赞的文章 / 关注的博客（都公开） |
+| `/u/<用户名>/blocked` | 管理自己屏蔽的博客；仅本人可见，屏蔽仅影响自己的最新、分类最新和最热时间线 |
 | `/avatars/<用户 id>` | 用户头像 |
 | `/random` | 302 到一个最近活跃的博客 |
 | `/sitemap.xml`、`/robots.txt` | |
@@ -73,6 +78,7 @@ curl -N -X POST -H "Authorization: Bearer <token>" "https://<域名>/api/admin/c
 - 登录方式：GitHub OAuth 和邮箱验证码。同一个已验证邮箱对应同一个账号；邮箱只用于登录，不公开。
 - 邮箱登录的新用户需要先在 `/settings` 设置用户名，才能投票和评论。
 - 文章投票、嵌套评论、评论投票（不能给自己投），没有 downvote。评论获得的赞计入用户的 karma。
+- 屏蔽博客：在博客主页点击「屏蔽」或「取消屏蔽」；被屏蔽博客的文章只对当前用户隐藏，在自己主页的「屏蔽的博客」标签管理。
 - 头像：GitHub 用户登录时把 GitHub 头像复制到本站（githubusercontent.com 在国内常常打不开）；也可以在 `/settings` 上传，浏览器先裁剪压缩成 160×160 再上传。只接受 PNG/JPEG/WebP/GIF。
 - `/icons/*` 和 `/avatars/*` 的响应带 `Content-Security-Policy: sandbox` 和 `nosniff`：favicon 可能是 SVG，直接打开时不能在本站执行脚本。
 - 站内信：有人回复你的评论时，右上角「消息」显示未读数，`/notifications` 查看，打开即标为已读。回复自己不通知；回复被删除时通知一起删除。

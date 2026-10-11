@@ -360,7 +360,7 @@ export function directoryPage({ site, stats, user, following, blogs, view, now }
 
 // ---------- blog page (/b/:num) ----------
 
-export function blogPage({ site, stats, user, voted, following, blog, posts, page, hasMore, now, refreshResult }) {
+export function blogPage({ site, stats, user, voted, following, blocked, blog, posts, page, hasMore, now, refreshResult }) {
   const base = `/b/${blog.num}`;
   const path = page > 1 ? `${base}/page/${page}` : base;
   const latest = posts[0]?.title;
@@ -395,7 +395,13 @@ export function blogPage({ site, stats, user, voted, following, blog, posts, pag
       <article class="blog-page">
         <header class="bp-head">${avatar(blog, 'lg')}
           <div class="bp-title"><h1>${blog.name}</h1><a href="${safeHref(blog.url)}" target="_blank" rel="noopener">${host(blog.url)} ↗</a>${blog.feed ? html` · <a href="${safeHref(blog.feed)}" target="_blank" rel="noopener nofollow">RSS</a>` : ''}</div>
-          ${followButton(blog, following, path, { showZero: true })}
+          <div class="bp-actions">
+            ${followButton(blog, following, path, { showZero: true })}
+            ${user ? html`<form class="inline-form" method="post" action="/block">
+              <input type="hidden" name="num" value="${blog.num}"><input type="hidden" name="next" value="${path}">
+              <button type="submit" class="follow block-toggle" aria-pressed="${blocked ? 'true' : 'false'}">${blocked ? '取消屏蔽' : '屏蔽'}</button>
+            </form>` : ''}
+          </div>
         </header>
         ${blog.tags.length ? html`<div class="tags">${blog.tags.map((t) => html`<span class="tag">${t}</span>`)}</div>` : ''}
         <div class="bp-pulse">
@@ -542,10 +548,12 @@ const USER_TABS = [
   ['comments', '', '评论'],
   ['upvoted', '/upvoted', '点赞'],
   ['following', '/following', '关注的博客'],
+  ['blocked', '/blocked', '屏蔽的博客'],
 ];
 
 function userHeader(profile, tab, user) {
   const base = `/u/${profile.username}`;
+  const tabs = USER_TABS.filter(([id]) => id !== 'blocked' || user?.id === profile.id);
   return html`<header class="user-head">
     ${userAvatar(profile, 'xl')}
     <div>
@@ -554,7 +562,7 @@ function userHeader(profile, tab, user) {
     </div>
   </header>
   <nav class="subnav" aria-label="${profile.username} 的动态">
-    ${USER_TABS.map(([id, suffix, label]) => html`<a href="${base}${suffix}"${current(tab === id)}>${label}</a>`)}
+    ${tabs.map(([id, suffix, label]) => html`<a href="${base}${suffix}"${current(tab === id)}>${label}</a>`)}
   </nav>`;
 }
 
@@ -704,6 +712,30 @@ export function followingPage({ site, stats, user, voted, posts, blogCount, page
     title: `我的关注 · ${SITE_NAME}`,
     description: '你关注的博主发表的文章。',
     body: html`<h1 class="visually-hidden">我的关注</h1>${body}`,
+  });
+}
+
+export function blockedBlogsPage({ site, stats, user, profile, blogs }) {
+  return layout({
+    site, stats, user, path: `/u/${profile.username}/blocked`, noindex: true,
+    title: `${profile.username} 屏蔽的博客 · ${SITE_NAME}`,
+    description: '管理不想在最新和最热时间线看到的博客。',
+    body: html`
+      ${userHeader(profile, 'blocked', user)}
+      <p class="list-note">屏蔽仅影响你的最新和最热时间线。</p>
+      ${blogs.length
+        ? html`<ul class="blogs">${blogs.map((b) => html`<li class="blog">
+            ${avatar({ id: b.id, name: b.name, icon: b.icon_key ? `/icons/${b.icon_key}` : undefined })}
+            <div class="blog-main"><a class="blog-name" href="/b/${b.num}">${b.name}</a>
+              <div class="blog-sub">${host(b.url)}${b.removed ? ' · 已从列表移除' : ''}</div>
+            </div>
+            <span class="blog-stat">已屏蔽</span>
+            <form class="inline-form" method="post" action="/block">
+              <input type="hidden" name="num" value="${b.num}"><input type="hidden" name="next" value="/u/${profile.username}/blocked">
+              <button type="submit" class="btn">取消屏蔽</button>
+            </form>
+          </li>`)}</ul>`
+        : html`<p class="empty-note">你还没有屏蔽任何博客。</p>`}`,
   });
 }
 

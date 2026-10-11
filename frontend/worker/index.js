@@ -3,11 +3,11 @@
 // served by Workers Static Assets before this code runs.
 import { Hono } from 'hono';
 import blogsCsv from '../../blogs-original.csv';
-import { originCheck, registerAuthRoutes, sessionMiddleware } from './auth.js';
+import { originCheck, registerAuthRoutes, requireUser, sessionMiddleware } from './auth.js';
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
 import { announceNewBlogs, announceWeeklyTop, describeChat, telegramEnabled } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
-import { blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
+import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
 const FAVICONS_PER_RUN = 60;
 // Feeds per hourly run, and how long a cron run may keep starting new chunks
@@ -46,15 +46,18 @@ const toPost = (r) => ({
   blog: { id: r.blog_id, num: r.num, name: r.name, icon: r.icon_key ? `/icons/${r.icon_key}` : undefined },
 });
 
-async function latestPosts(db, { cat = '', limit, offset = 0 }) {
+async function latestPosts(db, { cat = '', limit, offset = 0, userId = null }) {
   const { results } = await db.prepare(`
     SELECT p.id, p.url, p.title, p.summary, p.published_at, p.score, p.comment_count,
            b.id AS blog_id, b.num, b.name, b.icon_key
     FROM posts p JOIN blogs b ON b.id = p.blog_id
     WHERE b.removed = 0 AND b.dead_since IS NULL
       AND (? = '' OR b.categories LIKE ?)
+      AND NOT EXISTS (
+        SELECT 1 FROM blocked_blogs bb WHERE bb.user_id = ? AND bb.blog_id = b.id
+      )
     ORDER BY p.published_at DESC LIMIT ? OFFSET ?`)
-    .bind(cat, `%"${cat}"%`, limit, offset).all();
+    .bind(cat, `%"${cat}"%`, userId ?? -1, limit, offset).all();
   return results.map(toPost);
 }
 
@@ -144,7 +147,9 @@ async function timeline(c, cat) {
   const stats = await getMeta(c.env.DB, 'stats');
   if (!page || (cat && !categoryName(cat))) return notFound(c, stats);
   if (c.req.param('n') === '1') return c.redirect(cat ? `/c/${cat}` : '/latest', 301);
-  const rows = await latestPosts(c.env.DB, { cat, limit: TIMELINE_PAGE_SIZE + 1, offset: (page - 1) * TIMELINE_PAGE_SIZE });
+  const rows = await latestPosts(c.env.DB, {
+    cat, userId: c.get('user')?.id, limit: TIMELINE_PAGE_SIZE + 1, offset: (page - 1) * TIMELINE_PAGE_SIZE,
+  });
   if (page > 1 && !rows.length) return notFound(c, stats);
   const posts = rows.slice(0, TIMELINE_PAGE_SIZE);
   return c.html(timelinePage({
@@ -163,7 +168,7 @@ async function hot(c) {
   const stats = await getMeta(c.env.DB, 'stats');
   if (!page) return notFound(c, stats);
   if (c.req.param('n') === '1') return c.redirect('/', 301);
-  const ranked = await hotPosts(c.env.DB);
+  const ranked = await hotPosts(c.env.DB, c.get('user')?.id);
   const offset = (page - 1) * HOT_PAGE_SIZE;
   const posts = ranked.slice(offset, offset + HOT_PAGE_SIZE).map(toPost);
   if (page > 1 && !posts.length) return notFound(c, stats);
@@ -209,6 +214,10 @@ async function blog(c) {
   }
   const b = fromSnapshot(entry);
   b.followers = (await c.env.DB.prepare('SELECT COUNT(*) AS n FROM follows WHERE blog_id = ?').bind(b.id).first()).n;
+  const user = c.get('user');
+  const blocked = user
+    ? Boolean(await c.env.DB.prepare('SELECT 1 FROM blocked_blogs WHERE user_id = ? AND blog_id = ?').bind(user.id, b.id).first())
+    : false;
   const { results } = await c.env.DB.prepare(`
     SELECT id, url, title, published_at, score, comment_count FROM posts WHERE blog_id = ?
     ORDER BY published_at DESC LIMIT ? OFFSET ?`)
@@ -220,6 +229,7 @@ async function blog(c) {
     refreshResult: c.req.query('refresh'),
     voted: await postVotes(c, posts),
     following: await followingNums(c),
+    blocked,
     hasMore: results.length > BLOG_PAGE_SIZE,
   }));
 }
@@ -396,6 +406,28 @@ app.get('/following.opml', async (c) => {
     'Content-Type': 'text/x-opml; charset=utf-8',
     'Content-Disposition': 'attachment; filename="indi-following.opml"',
   });
+});
+
+app.get('/u/:username/blocked', async (c) => {
+  const username = c.req.param('username');
+  const blocked = requireUser(c, `/u/${username}/blocked`);
+  if (blocked) return blocked;
+  const db = c.env.DB;
+  const user = c.get('user');
+  const profile = await getProfile(db, username);
+  if (!profile) return notFound(c, await getMeta(db, 'stats'));
+  if (profile.id !== user.id) return c.text('Forbidden', 403);
+  const { results: blogs } = await db.prepare(`
+    SELECT b.id, b.num, b.name, b.url, b.icon_key, b.removed
+    FROM blocked_blogs bb JOIN blogs b ON b.id = bb.blog_id
+    WHERE bb.user_id = ? ORDER BY bb.created_at DESC`).bind(user.id).all();
+  return c.html(blockedBlogsPage({ ...base(c, await getMeta(db, 'stats')), profile, blogs }));
+});
+
+app.get('/blocked', (c) => {
+  const user = c.get('user');
+  if (!user?.username) return c.redirect('/login?next=/blocked');
+  return c.redirect(`/u/${user.username}/blocked`, 302);
 });
 
 app.get('/random', async (c) => {
