@@ -1394,4 +1394,7 @@
 <outline text="大江小浪" title="大江小浪" type="rss" xmlUrl="https://popsite.cn/atom.xml" htmlUrl="https://popsite.cn/"/>
 <outline text="永夜" title="永夜" type="rss" xmlUrl="https://www.shuijingwanwq.com/feed/" htmlUrl="https://www.shuijingwanwq.com/"/>
 <outline text="贼歪" title="贼歪" type="rss" xmlUrl="https://varzy.me/rss.xml" htmlUrl="https://varzy.me"/>
+<outline text="Yu Gao's Blog" title="Yu Gao's Blog" type="rss" xmlUrl="https://www.gaoyu.me/rss" htmlUrl="https://gaoyu.me"/>
+<outline text="August's Blog" title="August's Blog" type="rss" xmlUrl="https://blog.august.hk/rss.xml" htmlUrl="https://blog.august.hk"/>
+<outline text="Moatkon's Blog" title="Moatkon's Blog" type="rss" xmlUrl="https://blog.moatkon.com/rss.xml" htmlUrl="https://blog.moatkon.com/"/>
 </body></opml>

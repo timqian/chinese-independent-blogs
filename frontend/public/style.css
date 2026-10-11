@@ -11,6 +11,8 @@
   --accent-soft: #eef1fa;
   --warn: #a5541a;
   --warn-soft: #f8ece3;
+  --danger: #b42318;
+  --danger-soft: #fcebea;
   --av-s: 40%;
   --av-l: 88%;
   --av-fg: #283041;
@@ -31,6 +33,8 @@
     --accent-soft: #1f2638;
     --warn: #e3a172;
     --warn-soft: #3a2a20;
+    --danger: #ff7b72;
+    --danger-soft: #3b2023;
     --av-s: 26%;
     --av-l: 30%;
     --av-fg: #e6e8ec;
@@ -49,6 +53,8 @@
   --accent-soft: #1f2638;
   --warn: #e3a172;
   --warn-soft: #3a2a20;
+  --danger: #ff7b72;
+  --danger-soft: #3b2023;
   --av-s: 26%;
   --av-l: 30%;
   --av-fg: #e6e8ec;
@@ -636,6 +642,18 @@ main {
   color: var(--fg);
 }
 
+.follow.block-toggle {
+  color: var(--muted);
+  border-color: var(--line);
+}
+
+.follow.block-toggle:hover,
+.follow.block-toggle[aria-pressed="true"] {
+  color: var(--muted);
+  border-color: var(--muted);
+  background: var(--surface);
+}
+
 .badge {
   font-size: 0.72rem;
   padding: 0 6px;
@@ -793,6 +811,29 @@ main {
   font-size: 0.85rem;
   color: var(--muted);
   overflow-wrap: anywhere;
+}
+
+.bp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.bp-actions .follow-box {
+  min-width: 0;
+}
+
+.bp-actions .follow:not(.block-toggle) {
+  color: var(--fg);
+  border: 2px solid var(--muted);
+  font-weight: 600;
+}
+
+.bp-actions .follow:not(.block-toggle):hover,
+.bp-actions .follow:not(.block-toggle)[aria-pressed="true"] {
+  border-color: var(--fg);
 }
 
 .tags {

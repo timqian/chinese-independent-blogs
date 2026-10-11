@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "db:migrate": "wrangler d1 migrations apply independent-blogs --local",
+    "dev:seed": "wrangler d1 execute independent-blogs --local --file=./scripts/seed-dev.sql",
     "crawl": "curl -sSN -X POST -H \"Authorization: Bearer local-dev-token\" \"http://localhost:8787/api/admin/crawl?all=1&favicons=all\"",
     "deploy": "wrangler d1 migrations apply independent-blogs --remote && wrangler deploy"
   },

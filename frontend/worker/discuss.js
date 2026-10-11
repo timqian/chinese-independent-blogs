@@ -47,7 +47,7 @@ export async function votedIds(db, table, column, userId, ids) {
 // Every post starts with a point (like HN's submitter vote) so the page works
 // before anyone votes, but a blog posting many times a week splits that point
 // across its posts. Votes are never discounted.
-export async function hotPosts(db) {
+export async function hotPosts(db, userId = null) {
   const t = now();
   const { results } = await db.prepare(`
     SELECT p.id, p.url, p.title, p.summary, p.published_at, p.score, p.comment_count,
@@ -55,7 +55,10 @@ export async function hotPosts(db) {
     FROM posts p JOIN blogs b ON b.id = p.blog_id
     WHERE (p.published_at > ? OR ((p.score > 0 OR p.comment_count > 0) AND p.published_at > ?))
       AND b.removed = 0 AND b.dead_since IS NULL
-    LIMIT 3000`).bind(t - HOT.recentDays * 86400, t - HOT.windowDays * 86400).all();
+      AND NOT EXISTS (
+        SELECT 1 FROM blocked_blogs bb WHERE bb.user_id = ? AND bb.blog_id = b.id
+      )
+    LIMIT 3000`).bind(t - HOT.recentDays * 86400, t - HOT.windowDays * 86400, userId ?? -1).all();
   // Posts per blog in the last week (all of them are candidates)
   const weekPosts = new Map();
   for (const p of results) {
@@ -159,6 +162,35 @@ export function registerDiscussRoutes(app) {
       const { n } = await db.prepare('SELECT COUNT(*) AS n FROM follows WHERE blog_id = ?').bind(blog.id).first();
       return c.json({ following: !existing, followers: n });
     }
+    return c.redirect(next, 303);
+  });
+
+  // Toggle whether a blog is hidden from the user's latest and hot timelines.
+  app.post('/block', async (c) => {
+    const form = await c.req.parseBody();
+    const numText = typeof form.num === 'string' ? form.num : '';
+    const num = /^\d+$/.test(numText) ? Number(numText) : NaN;
+    const next = safeNext(form.next);
+    const blocked = requireUser(c, next);
+    if (blocked) return blocked;
+    if (!Number.isSafeInteger(num)) return c.text('Invalid blog', 400);
+
+    const user = c.get('user');
+    const db = c.env.DB;
+    const blog = await db.prepare('SELECT id, name, removed FROM blogs WHERE num = ?').bind(num).first();
+    if (!blog) return c.text('Not found', 404);
+
+    const existing = await db.prepare('SELECT 1 FROM blocked_blogs WHERE user_id = ? AND blog_id = ?')
+      .bind(user.id, blog.id).first();
+    if (existing) {
+      await db.prepare('DELETE FROM blocked_blogs WHERE user_id = ? AND blog_id = ?')
+        .bind(user.id, blog.id).run();
+    } else {
+      if (blog.removed) return c.text('Not found', 404);
+      await db.prepare('INSERT INTO blocked_blogs (user_id, blog_id, created_at) VALUES (?, ?, ?)')
+        .bind(user.id, blog.id, now()).run();
+    }
+
     return c.redirect(next, 303);
   });
 
