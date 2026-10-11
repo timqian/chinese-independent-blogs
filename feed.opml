@@ -667,7 +667,7 @@
 <outline text="行运设计师" title="行运设计师" type="rss" xmlUrl="https://www.luckydesigner.space/feed" htmlUrl="https://www.luckydesigner.space"/>
 <outline text="司马他" title="司马他" type="rss" xmlUrl="https://www.congcong.us/feed" htmlUrl="https://www.congcong.us"/>
 <outline text="elmagnifico" title="elmagnifico" type="rss" xmlUrl="http://elmagnifico.tech/feed.xml" htmlUrl="http://elmagnifico.tech"/>
-<outline text="陈昱行博客" title="陈昱行博客" type="rss" xmlUrl="https://blog.yuhang.ch/index.xml" htmlUrl="https://blog.yuhang.ch"/>
+<outline text="陈昱行博客" title="陈昱行博客" type="rss" xmlUrl="https://yuhang.ch/rss.xml" htmlUrl="https://yuhang.ch"/>
 <outline text="冰以东的博客" title="冰以东的博客" type="rss" xmlUrl="https://bninecoding.com/atom.xml" htmlUrl="https://bninecoding.com/"/>
 <outline text="inDev. Journal" title="inDev. Journal" type="rss" xmlUrl="https://www.frankindev.com/feed.xml" htmlUrl="https://www.frankindev.com/"/>
 <outline text="穆野霜泉的黑洞" title="穆野霜泉的黑洞" type="rss" xmlUrl="https://muyesq.cn/index.xml" htmlUrl="https://muyesq.cn"/>
@@ -1032,7 +1032,7 @@
 <outline text="by Upsangel" title="by Upsangel" type="rss" xmlUrl="https://upsangel.com/feed/" htmlUrl="https://upsangel.com/"/>
 <outline text="krkr2(beta)" title="krkr2(beta)" type="rss" xmlUrl="https://www.krkr2.xyz/feed/" htmlUrl="https://www.krkr2.xyz/"/>
 <outline text="秋澪Akimio" title="秋澪Akimio" type="rss" xmlUrl="https://blog.akimio.top/rss2.xml/" htmlUrl="https://blog.akimio.top/"/>
-<outline text="Sky Watch" title="Sky Watch" type="rss" xmlUrl="https://darksair.org/blog/feed.xml" htmlUrl="https://darksair.org/blog/"/>
+<outline text="Sky Watch" title="Sky Watch" type="rss" xmlUrl="https://blog.mws.rocks/feed.xml" htmlUrl="https://blog.mws.rocks/"/>
 <outline text="booop" title="booop" type="rss" xmlUrl="https://booop.net/feed/" htmlUrl="https://booop.net/"/>
 <outline text="Shanwer's Blog" title="Shanwer's Blog" type="rss" xmlUrl="https://blog.shanwer.top/feed/" htmlUrl="https://blog.shanwer.top"/>
 <outline text="xnum's Blog" title="xnum's Blog" type="rss" xmlUrl="https://xnum.github.io/feed.xml" htmlUrl="https://xnum.github.io/"/>
