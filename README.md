@@ -1046,6 +1046,7 @@
 | [Feed](https://owomoe.net/feed/) | 皮皮凛基地 | https://owomoe.net/ | 编程; 生活; 评论 |
 | [Feed](https://yjalifebook.com/feed/) | 不点语书 | https://yjalifebook.com/ | 这里是不点语书，一块「思考」的自留地。 |
 | None | 愤怒的蜂鸟 | https://peon.top | 编程; 随笔 |
+| [Feed](https://jefftay.com/index.xml) | 按钮与磁带 | https://jefftay.com | 生活; AI; 电影; 随笔 |
 | [Feed](https://xuyisheng.top/rss/) | 徐宜生 | https://xuyisheng.top | 工作; 编程; 技术 |
 | [Feed](https://www.geekzl.com/feed) | 极客中心 | https://www.geekzl.com | 编程; 技术; SEO; 教程; dotnet; python |
 | [Feed](https://kubesphereio.com/tags/index.xml) | 一切皆有可能 | https://kubesphereio.com/ | 学习; K8s; 运维 |
@@ -1269,7 +1270,7 @@
 
 ### 疑似失效
 
-以下 292 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 291 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1355,7 +1356,6 @@
 | Platform Thinking + | https://pt.plus | response is not RSS/Atom |
 | 人生這部戲 | https://www.frank.hk/ | HTTP 404 |
 | 独孤伶俜 | https://blog.dugulingping.com/ | HTTP 530 |
-| 陈仓颉 | https://imzm.im | response is not RSS/Atom |
 | Ngzhio's Blog | https://ngzhio.github.io/ | HTTP 404 |
 | ephz3nt | https://painso.com | HTTP 530 |
 | 小猪 | https://xiaozhu.dev | response is not RSS/Atom |
