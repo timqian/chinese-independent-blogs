@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T06:12:03.105Z",
+  "checkedAt": "2026-10-11T06:13:19.351Z",
   "source": "https://indi.blog/api/blogs.json",
   "blogs": [
     {
@@ -20823,7 +20823,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -20929,7 +20929,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -20947,7 +20947,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -20965,7 +20965,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": false
     },
@@ -21066,7 +21066,7 @@
       ],
       "status": "network_error",
       "error": "timeout",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": false
     },
@@ -21083,7 +21083,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 500",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": false
     },
@@ -21101,7 +21101,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -21143,7 +21143,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -21161,7 +21161,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -21229,7 +21229,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 500",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": false
     },
@@ -21268,7 +21268,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -21285,7 +21285,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -21351,7 +21351,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -21433,7 +21433,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -21509,7 +21509,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -21527,7 +21527,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 522",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": false
     },
@@ -21544,7 +21544,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -21666,7 +21666,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -21688,7 +21688,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -21756,7 +21756,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -21818,7 +21818,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -21966,7 +21966,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22066,7 +22066,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -22083,7 +22083,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22124,7 +22124,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -22143,7 +22143,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22187,7 +22187,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 521",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": false
     },
@@ -22400,7 +22400,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 500",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": false
     },
@@ -22416,7 +22416,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 403",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -22500,7 +22500,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -22517,7 +22517,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22535,7 +22535,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -22553,7 +22553,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -22574,7 +22574,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22643,7 +22643,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -22660,7 +22660,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -22917,7 +22917,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 502",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
@@ -22935,7 +22935,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -22997,7 +22997,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -23014,7 +23014,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": true
     },
@@ -23032,7 +23032,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -23052,7 +23052,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -23180,7 +23180,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -23221,7 +23221,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 530",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -23242,7 +23242,7 @@
       ],
       "status": "not_a_feed",
       "error": "response is not RSS/Atom",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:51:04.000Z",
       "dead": true
     },
@@ -23330,7 +23330,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 526",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:40:49.000Z",
       "dead": false
     },
@@ -23423,7 +23423,7 @@
       ],
       "status": "http_error",
       "error": "HTTP 404",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": true
     },
@@ -23547,7 +23547,7 @@
       ],
       "status": "network_error",
       "error": "timeout",
-      "lastCheckedAt": "2026-10-10T18:07:04.000Z",
+      "lastCheckedAt": "2026-10-11T06:07:39.000Z",
       "failingSince": "2026-10-04T08:46:03.000Z",
       "dead": false
     },
