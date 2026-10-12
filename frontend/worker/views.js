@@ -118,7 +118,7 @@ function breadcrumbs(site, items) {
 
 const NAV = [
   ['latest', '/latest', '最新'],
-  ['blogs', '/blogs', '博客列表'],
+  ['discussions', '/discussions', '讨论'],
   ['following', '/following', '我的关注'],
 ];
 
@@ -146,8 +146,8 @@ function categoryLinks(cat, cls) {
 
 // ---------- layout ----------
 
-export function layout({ site, path, title, description, nav, noindex, jsonLd = [], stats, user, cat = null, body }) {
-  const canonical = site + path;
+export function layout({ site, path, canonicalPath = path, title, description, nav, noindex, jsonLd = [], stats, user, cat = null, body }) {
+  const canonical = site + canonicalPath;
   return html`<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -178,7 +178,7 @@ ${jsonLd.map(jsonLdScript)}
     <nav class="tabs" aria-label="主导航">
       ${NAV.map(([id, href, label]) => html`<a href="${href}"${current(nav === id)}>${label}</a>`)}
     </nav>
-    <div class="account">${user
+    <div class="account"><a class="search" href="/blogs" title="搜索博客" aria-label="搜索博客"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>${user
       ? html`${user.username
         ? html`<a class="inbox" href="/notifications" title="${user.unread ? `${user.unread} 条未读回复` : '消息'}" aria-label="${user.unread ? `${user.unread} 条未读回复` : '消息'}"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>${user.unread ? html`<span class="unread">${user.unread > 99 ? '99+' : user.unread}</span>` : ''}</a>
               <a class="me" href="/u/${user.username}" title="${user.username}" aria-label="${user.username}">${userAvatar(user)}</a>`
@@ -188,7 +188,7 @@ ${jsonLd.map(jsonLdScript)}
   <div class="page">
     <main>${body}</main>
     <aside class="side">
-      ${stats ? html`<p class="stats">收录 <b>${stats.blogs.toLocaleString('en-US')}</b> 个博客<br>本周 <b>${stats.weekBlogs}</b> 位博主更新<br>24 小时内 <b>${stats.dayPosts}</b> 篇</p>` : ''}
+      ${stats ? html`<p class="stats"><a href="/blogs">收录 <b>${stats.blogs.toLocaleString('en-US')}</b> 个博客</a><br>本周 <b>${stats.weekBlogs}</b> 位博主更新<br>24 小时内 <b>${stats.dayPosts}</b> 篇</p>` : ''}
       <h2>分类</h2>
       ${categoryLinks(cat, 'side-cats')}
       <p class="side-links"><a href="/random" rel="nofollow">随机逛一个博客 →</a></p>
@@ -292,6 +292,37 @@ export function hotPage({ site, stats, user, voted, posts, page, hasMore, now, o
   });
 }
 
+// ---------- discussions (/discussions) ----------
+
+// One comment with its author, time and the post it belongs to
+function discussionCard(d, now) {
+  return html`<div class="disc">
+    <div class="d-head">
+      <a class="d-user" href="/u/${d.last_user}">${userAvatar({ username: d.last_user, avatar_url: d.last_avatar })}${d.last_user}</a>
+      <a class="d-time" href="/p/${d.id}/c/${d.last_id}" title="这条评论的链接"><time datetime="${iso(d.last_at)}">${timeAgo(d.last_at, now)}</time></a>
+    </div>
+    <div class="d-body">${d.last_body.trim().replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n\n')}</div>
+    <div class="d-on">评论于 <a href="/p/${d.id}">${d.title || '(无标题)'}</a><span>${d.comment_count} 条评论</span></div>
+  </div>`;
+}
+
+export function discussionsPage({ site, stats, user, items, page, hasMore, now }) {
+  const base = '/discussions';
+  const path = page > 1 ? `${base}/page/${page}` : base;
+  const pageSuffix = page > 1 ? ` · 第 ${page} 页` : '';
+  const description = `${SITE_NAME} 上读者对${SITE_TAGLINE}文章的讨论，按最近活跃排序。`;
+  return layout({
+    site, stats, user, path, description,
+    title: `讨论${pageSuffix} · ${SITE_NAME}`,
+    nav: 'discussions',
+    jsonLd: [breadcrumbs(site, [[SITE_NAME, '/'], ['讨论', base]])],
+    body: html`
+      <h1 class="visually-hidden">讨论</h1>
+      ${items.length ? html`<ol class="discussions">${items.map((d) => html`<li>${discussionCard(d, now)}</li>`)}</ol>` : html`<p class="empty-note">还没有讨论。</p>`}
+      ${pager(base, page, hasMore, ['← 较新的讨论', '更早的讨论 →'])}`,
+  });
+}
+
 // ---------- directory (/blogs) ----------
 
 const DIRECTORY_VIEWS = {
@@ -337,7 +368,7 @@ export function directoryPage({ site, stats, user, following, blogs, view, now }
     site, stats, user, path,
     title: view === 'all' ? `博客列表 · ${SITE_NAME}` : `博客列表：${label} · ${SITE_NAME}`,
     description: `${blogs.length} 个中文独立博客，按最近更新排序，附每月发文数量。`,
-    nav: 'blogs',
+    nav: null,
     noindex: view === 'dead',
     jsonLd: [breadcrumbs(site, [[SITE_NAME, '/'], ['博客列表', '/blogs']])],
     body: html`
@@ -462,7 +493,7 @@ function commentTree(comments, { post, user, voted, now }) {
       <div class="c-head">
         ${c.deleted || own ? '' : voteForm({ action: '/comment-vote', field: 'comment_id', id: c.id, score: c.score, voted: voted?.has(c.id), next: `/p/${post.id}#c${c.id}`, label: '给这条评论投票' })}
         ${c.deleted ? html`<span class="c-user">[已删除]</span>` : html`<a class="c-user" href="/u/${c.username}">${userAvatar(c)}${c.username}</a>`}
-        <a class="c-time" href="#c${c.id}"><time datetime="${iso(c.created_at)}">${timeAgo(c.created_at, now)}</time></a>
+        <a class="c-time" href="/p/${post.id}/c/${c.id}"><time datetime="${iso(c.created_at)}">${timeAgo(c.created_at, now)}</time></a>
       </div>
       ${c.deleted ? '' : html`<div class="c-body">${formatBody(c.body)}</div>
       <div class="c-actions">
@@ -477,17 +508,24 @@ function commentTree(comments, { post, user, voted, now }) {
   return render(0, 0);
 }
 
-export function postPage({ site, stats, user, post, blog, morePosts, comments, voted, commentVoted, error, now }) {
-  const path = `/p/${post.id}`;
+export function postPage({ site, stats, user, post, blog, morePosts, comments, voted, commentVoted, error, now, focus }) {
+  const postPath = `/p/${post.id}`;
+  const focused = focus ? comments.find((c) => c.id === focus) : null;
+  const path = focused ? `${postPath}/c/${focused.id}` : postPath;
   const title = `${post.title || '(无标题)'} · ${blog.name}`;
-  const description = (post.summary || `${blog.name} 发表于 ${fDate.format(post.published_at * 1000)} 的文章。`).slice(0, 160);
+  const description = (focused
+    ? `${focused.username} 评论：${focused.body.replace(/\s+/g, ' ')}`
+    : post.summary || `${blog.name} 发表于 ${fDate.format(post.published_at * 1000)} 的文章。`).slice(0, 160);
   const visible = comments.filter((c) => !c.deleted);
   return layout({
-    site, stats, user, title, description, path,
-    nav: 'latest',
+    site, stats, user, description, path,
+    title: focused ? `${focused.username} 评论了「${title}」` : title,
+    // A single comment's page is a share link; the full discussion is the indexable one
+    canonicalPath: postPath,
+    nav: focused ? 'discussions' : 'latest',
     // Index a post page only once it has discussion of its own; until then it
     // is just a title and summary, and the original article should rank instead.
-    noindex: post.comment_count === 0,
+    noindex: post.comment_count === 0 || Boolean(focused),
     jsonLd: [
       {
         '@context': 'https://schema.org',
@@ -510,7 +548,8 @@ export function postPage({ site, stats, user, post, blog, morePosts, comments, v
       },
       breadcrumbs(site, [[SITE_NAME, '/'], [blog.name, `/b/${blog.num}`], [post.title || '(无标题)', path]]),
     ],
-    body: html`
+    body: focused ? html`
+      ${discussionCard({ id: post.id, title: post.title, comment_count: post.comment_count, last_id: focused.id, last_user: focused.username, last_avatar: focused.avatar_url, last_at: focused.created_at, last_body: focused.body }, now)}` : html`
       <article class="post-page">
         <div class="pp-title">
           ${postVote(post, voted, path)}
@@ -808,6 +847,7 @@ export function sitemap({ site, blogs, discussed, now }) {
   const lines = [
     url('/', now),
     url('/latest', now),
+    url('/discussions', now),
     url('/blogs', now),
     ...CATEGORIES.map(([id]) => url(`/c/${id}`, now)),
     ...blogs.map((b) => url(`/b/${b.num}`, b.last)),

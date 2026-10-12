@@ -1548,3 +1548,105 @@ a.followers:hover {
   background: var(--surface);
   color: var(--muted);
 }
+.discussions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.disc {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.d-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--faint);
+}
+
+.d-user {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.d-time {
+  color: inherit;
+  text-decoration: none;
+}
+
+.d-time:hover {
+  color: var(--fg);
+  text-decoration: underline;
+}
+
+.d-body {
+  margin: 6px 0;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+
+.d-on {
+  display: flex;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.d-on a {
+  color: var(--muted);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.d-on a:hover {
+  color: var(--fg);
+}
+
+.d-on span {
+  flex: none;
+  margin-left: auto;
+  color: var(--faint);
+}
+
+.stats a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stats a:hover {
+  text-decoration: underline;
+}
+
+/* Header icons share a centre line with the sign-in text */
+.account {
+  align-items: center;
+}
+
+.account .search,
+.account .inbox,
+.account .me {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  top: 0;
+}
+
+.account .inbox::before {
+  content: none;
+}
+
+.account .inbox svg,
+.account .search svg {
+  align-self: center;
+  margin-bottom: 0;
+}

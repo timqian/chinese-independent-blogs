@@ -7,7 +7,7 @@ import { originCheck, registerAuthRoutes, requireUser, sessionMiddleware } from 
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
 import { announceNewBlogs, announceWeeklyTop, describeChat, telegramEnabled } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
-import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
+import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, discussionsPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
 const FAVICONS_PER_RUN = 60;
 // Feeds per hourly run, and how long a cron run may keep starting new chunks
@@ -184,6 +184,34 @@ app.get('/page/:n{[0-9]+}', hot);
 app.get('/hot', (c) => c.redirect('/', 301));
 app.get('/hot/page/:n{[0-9]+}', (c) => c.redirect(`/page/${c.req.param('n')}`, 301));
 
+const DISCUSSION_PAGE_SIZE = 30;
+
+// Posts with at least one visible comment, most recently discussed first
+async function discussions(c) {
+  const page = pageParam(c);
+  const stats = await getMeta(c.env.DB, 'stats');
+  if (!page) return notFound(c, stats);
+  if (c.req.param('n') === '1') return c.redirect('/discussions', 301);
+  const { results } = await c.env.DB.prepare(`
+    SELECT p.id, p.title, p.comment_count, b.num, b.name, b.id AS blog_id, b.icon_key,
+           lc.id AS last_id, lc.created_at AS last_at, lc.body AS last_body, u.username AS last_user, u.avatar_url AS last_avatar
+    FROM (SELECT post_id, MAX(id) AS cid FROM comments WHERE deleted = 0 GROUP BY post_id) l
+    JOIN comments lc ON lc.id = l.cid
+    JOIN users u ON u.id = lc.user_id
+    JOIN posts p ON p.id = l.post_id
+    JOIN blogs b ON b.id = p.blog_id
+    WHERE b.removed = 0 AND u.banned = 0
+    ORDER BY lc.created_at DESC, lc.id DESC LIMIT ? OFFSET ?`)
+    .bind(DISCUSSION_PAGE_SIZE + 1, (page - 1) * DISCUSSION_PAGE_SIZE).all();
+  if (page > 1 && !results.length) return notFound(c, stats);
+  const items = results.slice(0, DISCUSSION_PAGE_SIZE).map((r) => ({
+    ...r, blog: { id: r.blog_id, num: r.num, name: r.name, icon: r.icon_key ? `/icons/${r.icon_key}` : undefined },
+  }));
+  return c.html(discussionsPage({ ...base(c, stats), items, page, hasMore: results.length > DISCUSSION_PAGE_SIZE }));
+}
+app.get('/discussions', discussions);
+app.get('/discussions/page/:n{[0-9]+}', discussions);
+
 async function directory(c, view) {
   const [snapshot, stats] = await Promise.all([getMeta(c.env.DB, 'snapshot'), getMeta(c.env.DB, 'stats')]);
   const now = nowSec();
@@ -255,7 +283,7 @@ app.post('/b/:num{[0-9]+}/refresh', async (c) => {
   return c.redirect(`${path}?refresh=${refreshResult}`, 303);
 });
 
-app.get('/p/:id{[0-9]+}', async (c) => {
+async function postRoute(c) {
   const db = c.env.DB;
   const stats = await getMeta(db, 'stats');
   const row = await db.prepare(`
@@ -274,6 +302,8 @@ app.get('/p/:id{[0-9]+}', async (c) => {
       FROM comments c JOIN users u ON u.id = c.user_id
       WHERE c.post_id = ? ORDER BY c.score DESC, c.created_at ASC`).bind(row.id),
   ]);
+  const focus = c.req.param('cid') ? parseInt(c.req.param('cid'), 10) : null;
+  if (focus && !comments.some((cm) => cm.id === focus && !cm.deleted)) return notFound(c, stats);
   const userId = c.get('user')?.id;
   return c.html(postPage({
     ...base(c, stats), morePosts, comments,
@@ -282,8 +312,11 @@ app.get('/p/:id{[0-9]+}', async (c) => {
     voted: await votedIds(db, 'votes', 'post_id', userId, [row.id]),
     commentVoted: await votedIds(db, 'comment_votes', 'comment_id', userId, comments.map((cm) => cm.id)),
     error: c.req.query('error')?.slice(0, 100),
+    focus,
   }));
-});
+}
+app.get('/p/:id{[0-9]+}', postRoute);
+app.get('/p/:id{[0-9]+}/c/:cid{[0-9]+}', postRoute);
 
 // ---------- user pages: comments, upvoted posts, followed blogs (all public) ----------
 
