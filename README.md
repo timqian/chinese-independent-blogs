@@ -23,7 +23,7 @@
 
 ## 博客列表
 
-> 按最近一篇文章的发布时间排序。RSS 由 [Indi](https://indi.blog) 每小时检测，每天同步到这里（结构化数据见 [data/blogs.json](./data/blogs.json)）。RSS 地址不存在、域名失效等明确错误持续 1 天，或其他错误持续 7 天的博客，会被移到[疑似失效](#疑似失效)。欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
+> 按最近一篇文章的发布时间排序。RSS 由 [Indi](https://indi.blog) 每小时检测，每天同步到这里。RSS 地址不存在、域名失效等明确错误持续 1 天，或其他错误持续 7 天的博客，会被移到[疑似失效](#疑似失效)。欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
 | RSS feed | Introduction | Address | tags |
 | --- | --- | --- | --- |

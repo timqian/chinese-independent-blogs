@@ -23,9 +23,6 @@ jobs:
         node-version: 22
     - name: Lint blogs-original.csv
       run: node scripts/lint.mjs
-    # Blog status comes from indi.blog, which checks every feed hourly
-    - name: Download blog status into data/blogs.json
-      run: node scripts/sync-status.mjs
     - name: Render README.md
       run: node scripts/render-readme.mjs
     - name: Generate feed.opml
@@ -40,8 +37,8 @@ jobs:
           echo "has_changes=true" >> $GITHUB_ENV
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md feed.opml data
-          git commit -m "update README, feed.opml and data/blogs.json"
+          git add -u
+          git commit -m "update README and feed.opml"
         fi
     - name: Push changes
       if: env.has_changes == 'true'

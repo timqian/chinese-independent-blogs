@@ -1,26 +1,31 @@
-// Update the generated blog-list section from blogs-original.csv and data/blogs.json.
+// Update the generated blog-list section from blogs-original.csv and indi.blog.
 //
 // Usage: node scripts/render-readme.mjs
 //
 // Blogs are sorted by their latest post; ones the website flagged as dead go
 // to a collapsed section at the end.
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, renameSync, unlinkSync, writeFileSync } from 'node:fs';
 import { parseCsvRows } from './lib/feed.mjs';
 
 const CSV_FILE = new URL('../blogs-original.csv', import.meta.url);
-// Downloaded from the website by scripts/sync-status.mjs
-const DATA_FILE = new URL('../data/blogs.json', import.meta.url);
 const README_FILE = new URL('../README.md', import.meta.url);
+const STATUS_URL = process.env.BLOG_STATUS_URL || 'https://indi.blog/api/blogs.json';
 
-function loadHealth() {
-  if (!existsSync(DATA_FILE)) return new Map();
-  return new Map(JSON.parse(readFileSync(DATA_FILE, 'utf-8')).blogs.map((b) => [b.url, b]));
+async function loadHealth() {
+  const response = await fetch(STATUS_URL, { signal: AbortSignal.timeout(60_000) });
+  if (!response.ok) throw new Error(`Could not fetch ${STATUS_URL}: HTTP ${response.status}`);
+
+  const data = await response.json();
+  if (!Array.isArray(data?.blogs) || data.blogs.length < 1000) {
+    throw new Error(`Invalid blog status from ${STATUS_URL}: only ${data.blogs?.length ?? 0} blogs`);
+  }
+  return new Map(data.blogs.map((blog) => [blog.url, blog]));
 }
 
 // Text safe inside a markdown table cell
 const cell = (text) => text.split(/\s+/).filter(Boolean).join(' ').replace(/\|/g, '\\|');
 
-const healthByUrl = loadHealth();
+const healthByUrl = await loadHealth();
 const rows = parseCsvRows(readFileSync(CSV_FILE, 'utf-8')).map((row) => {
   let health = healthByUrl.get(row.Address);
   // Ignore stale data if the feed URL changed since the last check
@@ -49,7 +54,7 @@ if (sectionStart === -1 || existingReadme.indexOf(sectionHeading, sectionStart +
 const readmePrefix = existingReadme.slice(0, sectionStart);
 const generatedSection = `## 博客列表
 
-> 按最近一篇文章的发布时间排序。RSS 由 [Indi](https://indi.blog) 每小时检测，每天同步到这里（结构化数据见 [data/blogs.json](./data/blogs.json)）。RSS 地址不存在、域名失效等明确错误持续 1 天，或其他错误持续 7 天的博客，会被移到[疑似失效](#疑似失效)。欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
+> 按最近一篇文章的发布时间排序。RSS 由 [Indi](https://indi.blog) 每小时检测，每天同步到这里。RSS 地址不存在、域名失效等明确错误持续 1 天，或其他错误持续 7 天的博客，会被移到[疑似失效](#疑似失效)。欢迎加入 [Telegram 群](https://t.me/indieBlogs) 讨论如何更好地组织和利用这个列表
 
 | RSS feed | Introduction | Address | tags |
 | --- | --- | --- | --- |
@@ -69,5 +74,12 @@ ${deadRows.map((r) => `${r}\n`).join('')}
 `;
 
 const readme = `${readmePrefix}${generatedSection}`;
-writeFileSync(README_FILE, readme);
+const temporaryReadme = new URL(`../README.md.${process.pid}.tmp`, import.meta.url);
+try {
+  writeFileSync(temporaryReadme, readme, { flag: 'wx' });
+  renameSync(temporaryReadme, README_FILE);
+} catch (err) {
+  if (existsSync(temporaryReadme)) unlinkSync(temporaryReadme);
+  throw err;
+}
 console.log(`README.md: ${alive.length} blogs, ${dead.length} flagged dead`);

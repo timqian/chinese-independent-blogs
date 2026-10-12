@@ -464,8 +464,8 @@ Sitemap: ${siteUrl(c)}/sitemap.xml
 
 // ---------- favicons and API ----------
 
-// Crawl status of every blog, in the shape of the repo's data/blogs.json.
-// scripts/sync-status.mjs downloads this daily so README.md uses the same
+// Crawl status of every blog, including latest-post metadata.
+// scripts/render-readme.mjs fetches this daily so README.md uses the same
 // data as the website.
 app.get('/api/blogs.json', async (c) => {
   const db = c.env.DB;

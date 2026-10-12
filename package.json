@@ -5,8 +5,7 @@
   "scripts": {
     "lint": "node scripts/lint.mjs",
     "readme": "node scripts/render-readme.mjs",
-    "opml": "node scripts/generate-opml.mjs",
-    "sync-status": "node scripts/sync-status.mjs"
+    "opml": "node scripts/generate-opml.mjs"
   },
   "engines": {
     "node": ">=20"
