@@ -1593,7 +1593,18 @@ a.followers:hover {
   line-height: 1.6;
 }
 
+.d-replies {
+  margin: 8px 0 0 10px;
+  padding-left: 14px;
+  border-left: 2px solid var(--line);
+}
+
+.d-replies .d-comment + .d-comment {
+  margin-top: 10px;
+}
+
 .d-on {
+  margin-top: 8px;
   display: flex;
   gap: 10px;
   font-size: 0.85rem;

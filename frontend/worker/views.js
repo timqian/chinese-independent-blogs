@@ -294,15 +294,32 @@ export function hotPage({ site, stats, user, voted, posts, page, hasMore, now, o
 
 // ---------- discussions (/discussions) ----------
 
-// One comment with its author, time and the post it belongs to
-function discussionCard(d, now) {
+// A comment and its replies as a nested thread, with the post it belongs to.
+// `comments` holds the whole thread (or post) in chronological order.
+function discussionThread({ post, comments, rootId, now }) {
+  const children = new Map();
+  for (const c of comments) {
+    const key = c.parent_id ?? 0;
+    if (!children.has(key)) children.set(key, []);
+    children.get(key).push(c);
+  }
+  const node = (c, depth) => {
+    const kids = (children.get(c.id) ?? []).map((k) => node(k, depth + 1)).filter(Boolean);
+    // A deleted comment only stays as a placeholder when it has replies
+    if (c.deleted && !kids.length) return '';
+    return html`<div class="d-comment">
+      <div class="d-head">
+        ${c.deleted ? html`<span class="d-user">[已删除]</span>` : html`<a class="d-user" href="/u/${c.username}">${userAvatar({ username: c.username, avatar_url: c.avatar_url })}${c.username}</a>`}
+        <a class="d-time" href="/p/${post.id}/c/${c.id}" title="这条评论的链接"><time datetime="${iso(c.created_at)}">${timeAgo(c.created_at, now)}</time></a>
+      </div>
+      ${c.deleted ? '' : html`<div class="d-body">${c.body.trim().replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n\n')}</div>`}
+      ${kids.length ? html`<div class="d-replies">${kids}</div>` : ''}
+    </div>`;
+  };
+  const root = comments.find((c) => c.id === rootId);
   return html`<div class="disc">
-    <div class="d-head">
-      <a class="d-user" href="/u/${d.last_user}">${userAvatar({ username: d.last_user, avatar_url: d.last_avatar })}${d.last_user}</a>
-      <a class="d-time" href="/p/${d.id}/c/${d.last_id}" title="这条评论的链接"><time datetime="${iso(d.last_at)}">${timeAgo(d.last_at, now)}</time></a>
-    </div>
-    <div class="d-body">${d.last_body.trim().replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n\n')}</div>
-    <div class="d-on">评论于 <a href="/p/${d.id}">${d.title || '(无标题)'}</a><span>${d.comment_count} 条评论</span></div>
+    ${node(root, 0)}
+    <div class="d-on">评论于 <a href="/p/${post.id}">${post.title || '(无标题)'}</a><span>${post.comment_count} 条评论</span></div>
   </div>`;
 }
 
@@ -318,7 +335,7 @@ export function discussionsPage({ site, stats, user, items, page, hasMore, now }
     jsonLd: [breadcrumbs(site, [[SITE_NAME, '/'], ['讨论', base]])],
     body: html`
       <h1 class="visually-hidden">讨论</h1>
-      ${items.length ? html`<ol class="discussions">${items.map((d) => html`<li>${discussionCard(d, now)}</li>`)}</ol>` : html`<p class="empty-note">还没有讨论。</p>`}
+      ${items.length ? html`<ol class="discussions">${items.map((d) => html`<li>${discussionThread({ ...d, now })}</li>`)}</ol>` : html`<p class="empty-note">还没有讨论。</p>`}
       ${pager(base, page, hasMore, ['← 较新的讨论', '更早的讨论 →'])}`,
   });
 }
@@ -549,7 +566,7 @@ export function postPage({ site, stats, user, post, blog, morePosts, comments, v
       breadcrumbs(site, [[SITE_NAME, '/'], [blog.name, `/b/${blog.num}`], [post.title || '(无标题)', path]]),
     ],
     body: focused ? html`
-      ${discussionCard({ id: post.id, title: post.title, comment_count: post.comment_count, last_id: focused.id, last_user: focused.username, last_avatar: focused.avatar_url, last_at: focused.created_at, last_body: focused.body }, now)}` : html`
+      ${discussionThread({ post, comments, rootId: focused.id, now })}` : html`
       <article class="post-page">
         <div class="pp-title">
           ${postVote(post, voted, path)}

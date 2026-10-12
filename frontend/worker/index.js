@@ -184,30 +184,43 @@ app.get('/page/:n{[0-9]+}', hot);
 app.get('/hot', (c) => c.redirect('/', 301));
 app.get('/hot/page/:n{[0-9]+}', (c) => c.redirect(`/page/${c.req.param('n')}`, 301));
 
-const DISCUSSION_PAGE_SIZE = 30;
+const DISCUSSION_PAGE_SIZE = 20;
 
-// Posts with at least one visible comment, most recently discussed first
+// Threads (a top-level comment and all its replies), most recently active first
 async function discussions(c) {
   const page = pageParam(c);
   const stats = await getMeta(c.env.DB, 'stats');
   if (!page) return notFound(c, stats);
   if (c.req.param('n') === '1') return c.redirect('/discussions', 301);
   const { results } = await c.env.DB.prepare(`
-    SELECT p.id, p.title, p.comment_count, b.num, b.name, b.id AS blog_id, b.icon_key,
-           lc.id AS last_id, lc.created_at AS last_at, lc.body AS last_body, u.username AS last_user, u.avatar_url AS last_avatar
-    FROM (SELECT post_id, MAX(id) AS cid FROM comments WHERE deleted = 0 GROUP BY post_id) l
-    JOIN comments lc ON lc.id = l.cid
-    JOIN users u ON u.id = lc.user_id
-    JOIN posts p ON p.id = l.post_id
-    JOIN blogs b ON b.id = p.blog_id
-    WHERE b.removed = 0 AND u.banned = 0
-    ORDER BY lc.created_at DESC, lc.id DESC LIMIT ? OFFSET ?`)
+    WITH RECURSIVE tree(root_id, id) AS (
+      SELECT id, id FROM comments WHERE parent_id IS NULL
+      UNION ALL
+      SELECT t.root_id, c.id FROM comments c JOIN tree t ON c.parent_id = t.id
+    ), act AS (
+      SELECT t.root_id, MAX(CASE WHEN c.deleted = 0 AND u.banned = 0 THEN c.created_at END) AS last_at
+      FROM tree t JOIN comments c ON c.id = t.id JOIN users u ON u.id = c.user_id
+      JOIN posts p ON p.id = c.post_id JOIN blogs b ON b.id = p.blog_id
+      WHERE b.removed = 0
+      GROUP BY t.root_id HAVING last_at IS NOT NULL
+      ORDER BY last_at DESC, t.root_id DESC LIMIT ? OFFSET ?
+    )
+    SELECT act.root_id, act.last_at, c.id, c.parent_id, c.post_id, c.body, c.deleted, c.created_at,
+           u.username, u.avatar_url, p.title, p.comment_count
+    FROM act JOIN tree t ON t.root_id = act.root_id
+    JOIN comments c ON c.id = t.id JOIN users u ON u.id = c.user_id JOIN posts p ON p.id = c.post_id
+    ORDER BY act.last_at DESC, act.root_id DESC, c.created_at ASC, c.id ASC`)
     .bind(DISCUSSION_PAGE_SIZE + 1, (page - 1) * DISCUSSION_PAGE_SIZE).all();
-  if (page > 1 && !results.length) return notFound(c, stats);
-  const items = results.slice(0, DISCUSSION_PAGE_SIZE).map((r) => ({
-    ...r, blog: { id: r.blog_id, num: r.num, name: r.name, icon: r.icon_key ? `/icons/${r.icon_key}` : undefined },
-  }));
-  return c.html(discussionsPage({ ...base(c, stats), items, page, hasMore: results.length > DISCUSSION_PAGE_SIZE }));
+  const threads = new Map();
+  for (const r of results) {
+    if (!threads.has(r.root_id)) {
+      threads.set(r.root_id, { rootId: r.root_id, post: { id: r.post_id, title: r.title, comment_count: r.comment_count }, comments: [] });
+    }
+    threads.get(r.root_id).comments.push(r);
+  }
+  const all = [...threads.values()];
+  if (page > 1 && !all.length) return notFound(c, stats);
+  return c.html(discussionsPage({ ...base(c, stats), items: all.slice(0, DISCUSSION_PAGE_SIZE), page, hasMore: all.length > DISCUSSION_PAGE_SIZE }));
 }
 app.get('/discussions', discussions);
 app.get('/discussions/page/:n{[0-9]+}', discussions);
