@@ -12,7 +12,7 @@ const HOT = {
   windowDays: 30,       // …voted or discussed posts stay candidates this long
   base: 1,              // free starting point, divided by √(the blog's posts this week)
   voteWeight: 3,        // one upvote = three times a new post's starting point
-  commentWeight: 1,
+  commentWeight: 3,     // one comment counts as much as one upvote
   gravity: 0.8,         // age decay exponent (HN uses 1.8; we used 1.5)
   sameBlogPenalty: 0.4, // each further post from one blog in the ranking is multiplied by this
 };
