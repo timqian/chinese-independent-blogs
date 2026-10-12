@@ -124,7 +124,7 @@ textarea {
 /* ---------- header: brand, tabs, account on one line ---------- */
 .top {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 28px;
   padding-block: 18px 12px;
   border-bottom: 1px solid var(--line);
