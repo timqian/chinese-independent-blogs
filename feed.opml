@@ -1400,4 +1400,7 @@
 <outline text="Moatkon's Blog" title="Moatkon's Blog" type="rss" xmlUrl="https://blog.moatkon.com/rss.xml" htmlUrl="https://blog.moatkon.com/"/>
 <outline text="Xinwei's Blog" title="Xinwei's Blog" type="rss" xmlUrl="https://cubxxw.com/zh/index.xml" htmlUrl="https://cubxxw.com/zh/"/>
 <outline text="Bailey's Blog" title="Bailey's Blog" type="rss" xmlUrl="https://www.imbailey.cn/rss.xml" htmlUrl="https://www.imbailey.cn"/>
+<outline text="亦幸小阁" title="亦幸小阁" type="rss" xmlUrl="https://hencte.top/rss.xml" htmlUrl="https://hencte.top"/>
+<outline text="Elliot's Notes" title="Elliot's Notes" type="rss" xmlUrl="https://elliothu.me/feed.xml" htmlUrl="https://elliothu.me/blog/zh"/>
+<outline text="Rei's Commissioned Notebook" title="Rei's Commissioned Notebook" type="rss" xmlUrl="https://kokorotsuki.com/rss.xml" htmlUrl="https://kokorotsuki.com"/>
 </body></opml>
