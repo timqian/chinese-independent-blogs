@@ -11,7 +11,7 @@
     "deploy": "wrangler d1 migrations apply independent-blogs --remote && wrangler deploy"
   },
   "devDependencies": {
-    "wrangler": "^4.147.0"
+    "wrangler": "^4.149.0"
   },
   "dependencies": {
     "hono": "^4.13.12"
