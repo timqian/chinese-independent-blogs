@@ -1,0 +1,21 @@
+# Run Indi on any server with:  docker compose up -d
+# Settings come from frontend/.env (copy frontend/.env.example first, optional).
+services:
+  indi:
+    build: .
+    image: indi
+    restart: unless-stopped
+    ports:
+      - "8787:8787"
+    volumes:
+      - indi-data:/data
+    env_file:
+      - path: ./frontend/.env
+        required: false
+    environment:
+      DB_PATH: /data/indi.db
+      HOST: 0.0.0.0
+      PORT: "8787"
+
+volumes:
+  indi-data:

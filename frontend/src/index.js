@@ -1,8 +1,12 @@
-// Worker entry: server-rendered pages, accounts and discussion, feeds,
-// sitemap, API, favicons and the hourly crawl. Static files in ../public (style.css, app.js, favicon.svg) are
-// served by Workers Static Assets before this code runs.
+// App entry: server-rendered pages, accounts and discussion, feeds, sitemap,
+// API, favicons and the hourly crawl. Runs on plain Node (see server.js);
+// static files in ../public (style.css, app.js, favicon.svg) are served by the
+// serveStatic middleware below.
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { Hono } from 'hono';
-import blogsCsv from '../../blogs-original.csv';
+import { serveStatic } from '@hono/node-server/serve-static';
+import { pageCache } from '../lib/cache.js';
 import { originCheck, registerAuthRoutes, requireUser, sessionMiddleware } from './auth.js';
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
 import { announceNewBlogs, announceWeeklyTop, describeChat, telegramEnabled } from './telegram.js';
@@ -10,11 +14,10 @@ import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
 import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, discussionsPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
 const FAVICONS_PER_RUN = 60;
-// Feeds per hourly run, and how long a cron run may keep starting new chunks
-// (a cron run is killed after 15 minutes; leftovers stay due for the next run)
+// Feeds per hourly run, and how long a crawl run may keep starting new chunks
+// (leftovers stay due for the next run)
 const FEEDS_PER_RUN = 2000;
 const CRON_BUDGET_MS = 12 * 60_000;
-const WEEKLY_CRON = '0 1 * * 1';
 const TIMELINE_PAGE_SIZE = 60;
 const HOT_PAGE_SIZE = 30;
 const FOLLOWING_PAGE_SIZE = 30;
@@ -27,6 +30,15 @@ const app = new Hono();
 
 const siteUrl = (c) => c.env.SITE_URL || new URL(c.req.url).origin;
 const nowSec = () => Math.floor(Date.now() / 1000);
+
+// Static files first, like Workers Static Assets used to be
+app.use('*', serveStatic({
+  root: join(import.meta.dirname, '../public'),
+  onFound: (_path, c) => {
+    c.header('Cache-Control', 'public, max-age=300');
+    c.header('X-Content-Type-Options', 'nosniff');
+  },
+}));
 
 async function getMeta(db, key) {
   const row = await db.prepare('SELECT value FROM meta WHERE key = ?').bind(key).first();
@@ -117,22 +129,25 @@ app.use('*', async (c, next) => {
 
 app.use('*', originCheck);
 
-// Cache rendered GET responses at the edge for anonymous visitors. Crawled
-// data changes hourly and discussion actions purge their page, so a few
-// minutes of staleness is fine. Signed-in pages are personal and never cached.
-// Set CACHE_TTL=0 in .dev.vars.
+// Cache rendered GET responses for anonymous visitors. Crawled data changes
+// hourly and discussion actions purge their page, so a few minutes of
+// staleness is fine. Signed-in pages are personal and never cached.
+// Set CACHE_TTL=0 in .env for development.
 app.use('*', async (c, next) => {
   const ttl = parseInt(c.env.CACHE_TTL ?? '300', 10);
   const path = new URL(c.req.url).pathname;
   const signedIn = /(?:^|;\s*)sid=/.test(c.req.header('Cookie') ?? '');
-  if (c.req.method !== 'GET' || !ttl || signedIn || path.startsWith('/api/admin') || path === '/random' || path.startsWith('/auth/')) return next();
-  const cache = caches.default;
-  const hit = await cache.match(c.req.raw);
+  // Not worth caching in memory: per-user or cheap, and images/JSON carry
+  // their own long Cache-Control headers for the browser
+  const skip = path.startsWith('/api/') || path.startsWith('/auth/') || path.startsWith('/icons/') ||
+    path.startsWith('/avatars/') || path === '/random';
+  if (c.req.method !== 'GET' || !ttl || signedIn || skip) return next();
+  const hit = await pageCache.match(c.req.raw);
   if (hit) return hit;
   await next();
   if (c.res.status === 200 || c.res.status === 404 || c.res.status === 410) {
     c.res.headers.set('Cache-Control', `public, max-age=${ttl}`);
-    c.executionCtx.waitUntil(cache.put(c.req.raw, c.res.clone()));
+    c.executionCtx.waitUntil(pageCache.put(c.req.raw, c.res.clone()));
   }
 });
 
@@ -572,10 +587,16 @@ app.on(['GET', 'HEAD'], '/avatars/:id{[0-9]+}', async (c) => {
 });
 
 // The blog list as merged on GitHub, so accepted PRs take effect within the
-// hour without a redeploy. Falls back to the copy bundled at deploy time
-// (always used locally, where BLOGS_CSV_URL is empty).
+// hour without a redeploy. Falls back to the CSV bundled with the checkout
+// (always used when BLOGS_CSV_URL is empty).
+let bundledCsv = null;
+function blogListCsv(env) {
+  bundledCsv ??= readFileSync(env.BLOGS_CSV_PATH, 'utf8');
+  return bundledCsv;
+}
+
 async function blogList(env) {
-  if (!env.BLOGS_CSV_URL) return { csv: blogsCsv, source: 'bundled' };
+  if (!env.BLOGS_CSV_URL) return { csv: blogListCsv(env), source: 'bundled' };
   try {
     const res = await fetch(env.BLOGS_CSV_URL, { headers: { 'User-Agent': 'Indi' }, signal: AbortSignal.timeout(10_000) });
     const text = res.ok ? await res.text() : '';
@@ -585,7 +606,7 @@ async function blogList(env) {
   } catch (err) {
     console.error('blog list from GitHub failed; using bundled copy', err.message);
   }
-  return { csv: blogsCsv, source: 'bundled' };
+  return { csv: blogListCsv(env), source: 'bundled' };
 }
 
 async function crawl(env, { all = false, limit = FEEDS_PER_RUN, deadline, favicons, onProgress }) {
@@ -606,8 +627,8 @@ async function crawl(env, { all = false, limit = FEEDS_PER_RUN, deadline, favico
 // Manual crawl, e.g. for the first backfill:
 //   curl -N -X POST -H "Authorization: Bearer $ADMIN_TOKEN" "<host>/api/admin/crawl?all=1&favicons=all"
 // Without all=1 it crawls only the feeds that are due, like the hourly run.
-// Cloudflare drops a request that sends nothing for ~100 seconds, so the
-// response streams one progress line per chunk and ends with the result.
+// The response streams one progress line per chunk and ends with the result
+// (a reverse proxy in front may need proxy_buffering off to show them live).
 app.post('/api/admin/crawl', async (c) => {
   if (!c.env.ADMIN_TOKEN || c.req.header('Authorization') !== `Bearer ${c.env.ADMIN_TOKEN}`) {
     return c.json({ error: 'Not found' }, 404);
@@ -665,15 +686,13 @@ app.onError((err, c) => {
   return c.text('服务器出错了，请稍后再试', 500);
 });
 
-export default {
-  fetch: app.fetch,
-  // Hourly: crawl the feeds that are due (see nextCheckIn in crawl.js)
-  async scheduled(controller, env, ctx) {
-    // Weekly cron (see wrangler.jsonc): post the most upvoted articles to Telegram
-    if (controller.cron === WEEKLY_CRON) {
-      ctx.waitUntil(announceWeeklyTop(env).then((r) => console.log(JSON.stringify({ weeklyTop: r }))).catch((err) => console.error('weekly top failed', err.message)));
-      return;
-    }
-    ctx.waitUntil(crawl(env, { favicons: FAVICONS_PER_RUN, deadline: Date.now() + CRON_BUDGET_MS }));
-  },
-};
+export default app;
+
+// Jobs the server's scheduler runs (see lib/scheduler.js)
+export async function hourlyCrawl(env) {
+  return crawl(env, { favicons: FAVICONS_PER_RUN, deadline: Date.now() + CRON_BUDGET_MS });
+}
+
+export function weeklyDigest(env) {
+  return announceWeeklyTop(env).then((r) => console.log(JSON.stringify({ weeklyTop: r })));
+}

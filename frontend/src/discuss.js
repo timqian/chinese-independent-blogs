@@ -1,4 +1,5 @@
 // Upvotes and threaded comments, Hacker News style (no downvotes).
+import { pageCache } from '../lib/cache.js';
 import { requireUser, safeNext } from './auth.js';
 
 const COMMENT_MAX_LENGTH = 5000;
@@ -20,11 +21,11 @@ const HOT = {
 const now = () => Math.floor(Date.now() / 1000);
 const wantsJson = (c) => c.req.header('Accept')?.includes('application/json');
 
-// Rendered post pages are edge-cached for anonymous visitors; drop the cached
-// copy in this data center so a new comment shows up right away.
+// Rendered pages are cached for anonymous visitors; drop the cached copy so a
+// new comment or vote shows up right away.
 function purgePage(c, path) {
   const url = new URL(path, c.req.url).href;
-  c.executionCtx.waitUntil(caches.default.delete(new Request(url)).catch(() => {}));
+  c.executionCtx.waitUntil(pageCache.delete(url).catch(() => {}));
 }
 const purgePostPage = (c, postId) => purgePage(c, `/p/${postId}`);
 
@@ -32,7 +33,7 @@ const purgePostPage = (c, postId) => purgePage(c, `/p/${postId}`);
 export async function votedIds(db, table, column, userId, ids) {
   if (!userId || !ids.length) return new Set();
   const voted = new Set();
-  // D1 allows at most 100 bound parameters per query
+  // Chunked to stay well under SQLite's bound-parameter limit
   for (let i = 0; i < ids.length; i += 90) {
     const chunk = ids.slice(i, i + 90);
     const { results } = await db.prepare(`SELECT ${column} AS id FROM ${table} WHERE user_id = ? AND ${column} IN (${chunk.map(() => '?').join(',')})`)

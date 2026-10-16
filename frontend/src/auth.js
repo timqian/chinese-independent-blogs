@@ -1,5 +1,7 @@
 // Accounts: GitHub OAuth and emailed one-time codes, cookie sessions.
 import { deleteCookie, getCookie, setCookie } from 'hono/cookie';
+import { getConnInfo } from '@hono/node-server/conninfo';
+import { mailConfigured, sendMail } from '../lib/mail.js';
 import { loginPage, settingsPage, SITE_NAME } from './views.js';
 
 const SESSION_DAYS = 30;
@@ -29,6 +31,24 @@ async function sha256(text) {
 }
 
 const siteUrl = (c) => c.env.SITE_URL || new URL(c.req.url).origin;
+const secureCookies = (c) => siteUrl(c).startsWith('https:');
+
+// The client address used for email-code rate limits. Behind a trusted reverse
+// proxy (TRUST_PROXY=1) the first X-Forwarded-For entry; otherwise the socket
+// address, so a spoofed header can't get around the limits.
+function clientIp(c) {
+  if (c.env.TRUST_PROXY === '1') {
+    const forwarded = c.req.header('x-forwarded-for');
+    if (forwarded) return forwarded.split(',')[0].trim();
+    const real = c.req.header('x-real-ip');
+    if (real) return real;
+  }
+  try {
+    return getConnInfo(c).remote.address ?? '';
+  } catch {
+    return '';
+  }
+}
 
 // Only allow redirects back into this site. Browsers treat "/\\host" like
 // "//host", and ignore tabs and newlines in URLs, so reject those too.
@@ -90,11 +110,17 @@ export async function sessionMiddleware(c, next) {
 }
 
 // Reject cross-site form posts. SameSite=Lax cookies already block most of
-// these; checking Origin covers older browsers too.
+// these; checking Origin covers older browsers too. Behind a reverse proxy the
+// request URL may be http://host while the browser sends the public origin, so
+// SITE_URL is also accepted.
 export async function originCheck(c, next) {
   if (c.req.method === 'POST' && !c.req.path.startsWith('/api/admin')) {
     const origin = c.req.header('Origin');
-    if (origin && origin !== new URL(c.req.url).origin) return c.text('Forbidden', 403);
+    if (origin) {
+      const allowed = [new URL(c.req.url).origin];
+      try { allowed.push(new URL(siteUrl(c)).origin); } catch {}
+      if (!allowed.includes(origin)) return c.text('Forbidden', 403);
+    }
   }
   await next();
 }
@@ -106,7 +132,7 @@ async function startSession(c, userId) {
   setCookie(c, 'sid', token, {
     path: '/',
     httpOnly: true,
-    secure: new URL(c.req.url).protocol === 'https:',
+    secure: secureCookies(c),
     sameSite: 'Lax',
     maxAge: SESSION_DAYS * 86400,
   });
@@ -144,14 +170,13 @@ async function availableUsername(db, base) {
 async function sendLoginCode(env, email, code) {
   const subject = `${code} 是你的 ${SITE_NAME} 登录验证码`;
   const text = `你的登录验证码是 ${code}，10 分钟内有效。\n\n如果不是你本人操作，请忽略这封邮件。`;
-  // Local development: print the code instead of sending mail
-  if (env.EMAIL_DEV_LOG === '1' || !env.EMAIL) {
+  // Development, or no SMTP configured: print the code instead of sending mail
+  if (env.EMAIL_DEV_LOG === '1' || !mailConfigured(env)) {
     console.log(`[login code] ${email}: ${code}`);
     return;
   }
-  await env.EMAIL.send({
+  await sendMail(env, {
     to: email,
-    from: { email: env.EMAIL_FROM, name: SITE_NAME },
     subject,
     text,
     html: `<p>你的登录验证码是</p><p style="font-size:28px;font-weight:bold;letter-spacing:4px">${code}</p><p>10 分钟内有效。如果不是你本人操作，请忽略这封邮件。</p>`,
@@ -177,7 +202,7 @@ export function registerAuthRoutes(app) {
     if (!c.env.GITHUB_CLIENT_ID) return c.text('GitHub 登录还没有配置', 503);
     const state = randomToken(16);
     setCookie(c, 'oauth_state', `${state}|${safeNext(c.req.query('next'))}`, {
-      path: '/auth/github', httpOnly: true, secure: new URL(c.req.url).protocol === 'https:', sameSite: 'Lax', maxAge: 600,
+      path: '/auth/github', httpOnly: true, secure: secureCookies(c), sameSite: 'Lax', maxAge: 600,
     });
     const params = new URLSearchParams({
       client_id: c.env.GITHUB_CLIENT_ID,
@@ -253,7 +278,7 @@ export function registerAuthRoutes(app) {
 
     const db = c.env.DB;
     const t = now();
-    const ip = c.req.header('CF-Connecting-IP') ?? '';
+    const ip = clientIp(c);
     const [last, perEmail, perIp] = await Promise.all([
       db.prepare('SELECT MAX(created_at) AS t FROM email_codes WHERE email = ?').bind(email).first(),
       db.prepare('SELECT COUNT(*) AS n FROM email_codes WHERE email = ? AND created_at > ?').bind(email, t - 3600).first(),

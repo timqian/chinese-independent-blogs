@@ -6,7 +6,7 @@ export const USER_AGENT =
   'Mozilla/5.0 (compatible; ChineseIndependentBlogsBot/1.0; +https://github.com/timqian/chinese-independent-blogs)';
 const TIMEOUT_MS = 20_000;
 // A feed bigger than this is skipped, so one huge (or hostile) response can't
-// exhaust a Worker's 128 MB of memory
+// exhaust the server's memory
 const MAX_FEED_BYTES = 8 * 1024 * 1024;
 
 // Read a response body as UTF-8 text, giving up past `maxBytes`
@@ -260,8 +260,7 @@ export function isTransient(result) {
   return result.status === 'http_error' && TRANSIENT_HTTP.has(parseInt(result.error?.replace('HTTP ', ''), 10));
 }
 
-// Fetch every feed, then retry transient failures once at lower concurrency. Workers only allow 6 requests waiting for headers at a
-// time (extra ones queue while their timeout runs), so pass concurrency: 6 there.
+// Fetch every feed, then retry transient failures once at lower concurrency.
 export async function fetchAllFeeds(blogs, now = Date.now(), { concurrency = 64, retryConcurrency = 8 } = {}) {
   const results = await mapWithConcurrency(blogs, concurrency, (b) => fetchFeed(b, now));
   const retryIdx = results.flatMap((r, i) => (isTransient(r) ? [i] : []));

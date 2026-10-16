@@ -2,18 +2,20 @@
   "name": "chinese-independent-blogs-site",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "wrangler dev",
-    "dev:remote": "wrangler dev --remote --var CACHE_TTL:0",
-    "db:migrate": "wrangler d1 migrations apply independent-blogs --local",
-    "dev:seed": "wrangler d1 execute independent-blogs --local --file=./scripts/seed-dev.sql",
-    "crawl": "curl -sSN -X POST -H \"Authorization: Bearer local-dev-token\" \"http://localhost:8787/api/admin/crawl?all=1&favicons=all\"",
-    "deploy": "wrangler d1 migrations apply independent-blogs --remote && wrangler deploy"
+  "engines": {
+    "node": ">=22.5"
   },
-  "devDependencies": {
-    "wrangler": "^4.149.0"
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.mjs",
+    "db:seed": "node --disable-warning=ExperimentalWarning scripts/seed.mjs",
+    "db:sql": "node --disable-warning=ExperimentalWarning scripts/sql.mjs",
+    "crawl": "node --disable-warning=ExperimentalWarning scripts/crawl.mjs"
   },
   "dependencies": {
-    "hono": "^4.13.12"
+    "@hono/node-server": "^1.19.9",
+    "hono": "^4.13.12",
+    "nodemailer": "^7.0.9"
   }
 }

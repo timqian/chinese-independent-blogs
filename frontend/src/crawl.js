@@ -1,4 +1,4 @@
-// Crawl feeds into D1 and rebuild the homepage snapshot.
+// Crawl feeds into SQLite and rebuild the homepage snapshot.
 import { fetchAllFeeds, mapWithConcurrency, parseBlogsCsv } from '../../scripts/lib/feed.mjs';
 import { categorize } from './categories.js';
 import { fetchFavicon, iconKey } from './favicon.js';
@@ -134,14 +134,15 @@ export async function crawlFeeds(db, { limit, all = false, blogId, deadline = In
   const statuses = {};
   let newestTotal = 0;
   let failedTotal = 0;
-  // Fetch, parse and store a few dozen feeds at a time: a Worker has 128 MB of
-  // memory, and some feeds carry full article text for their whole history.
+  // Fetch, parse and store a few dozen feeds at a time: some feeds carry full
+  // article text for their whole history, so parsing everything at once could
+  // hold hundreds of megabytes in memory.
   let checked = 0;
   for (let start = 0; start < blogs.length; start += FEED_CHUNK) {
     if (Date.now() > deadline) break;
     const chunk = blogs.slice(start, start + FEED_CHUNK);
     checked += chunk.length;
-    const checks = await fetchAllFeeds(chunk, nowMs, { concurrency: 6, retryConcurrency: 6 });
+    const checks = await fetchAllFeeds(chunk, nowMs, { concurrency: 16, retryConcurrency: 16 });
     const statements = [];
     chunk.forEach((blog, i) => {
       const check = checks[i];
@@ -232,12 +233,11 @@ export async function crawlFavicons(db, limit, nowMs = Date.now(), onProgress = 
 export const REPO = 'timqian/chinese-independent-blogs';
 
 // Star count for the sidebar badge, or null if GitHub can't be reached.
-// Authenticating as the OAuth app avoids the low anonymous rate limit, which
-// Workers share with everyone else on the same egress IPs.
+// Authenticating as the OAuth app avoids the low anonymous rate limit.
 export async function repoStars(env) {
   const headers = { 'User-Agent': 'Indi', Accept: 'application/vnd.github+json' };
   if (env.GITHUB_CLIENT_ID && env.GITHUB_CLIENT_SECRET) {
-    headers.Authorization = `Basic ${btoa(`${env.GITHUB_CLIENT_ID}:${env.GITHUB_CLIENT_SECRET}`)}`;
+    headers.Authorization = `Basic ${Buffer.from(`${env.GITHUB_CLIENT_ID}:${env.GITHUB_CLIENT_SECRET}`).toString('base64')}`;
   }
   try {
     const res = await fetch(`https://api.github.com/repos/${REPO}`, { headers, signal: AbortSignal.timeout(10_000) });
