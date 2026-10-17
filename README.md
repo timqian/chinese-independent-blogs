@@ -969,7 +969,6 @@
 | [Feed](https://asazero.blogspot.com/feeds/posts/default) | 挥舞思绪的博客 | https://asazero.blogspot.com/ | 评论; 心路历程; 分享 |
 | [Feed](https://notlsd.github.io/atom.xml) | not LSD | https://notlsd.github.io | 编程; 游戏设计; 旅行 |
 | [Feed](https://blog.cal1.cn/atom.xml) | crblog | https://blog.cal1.cn/ | 安全 |
-| [Feed](https://ghost.mout.me/rss/) | MouT.me | https://mout.me | 编程 |
 | [Feed](https://blog.crimx.com/rss.xml) | CRIMX Blog | https://blog.crimx.com/ | 编程; 前端; 开源; 随笔 |
 | [Feed](https://laogongshuo.com/feed) | 龚成博客 | https://laogongshuo.com | 随想; 编程; 哲学; 经济学 |
 | [Feed](https://tingtalk.me/atom.xml) | 庭说 | https://tingtalk.me/ | 科技互联网; 数字生活; 外贸; 设计; 排版; 随笔 |
@@ -994,6 +993,7 @@
 | [Feed](https://youkaichao.github.io/feed.xml) | Kaichao You | https://youkaichao.github.io/research | 深度学习 |
 | None | 追梦人物的博客 | https://www.zmrenwu.com | 编程 |
 | None | 吕大卫的官方网站 | https://lvdawei.com | 编程 |
+| [Feed](https://blog.mout.me/rss/) | MouT.me | https://mout.me | 产品; AI; 生活; 旅行 |
 | [Feed](https://feeds.feedburner.com/TheWillWillWeb) | The Will Will Web | https://blog.miniasp.com | 编程 |
 | None | EGOIST 博客 | https://egoist.proselog.com/ | 编程; 前端; 开源 |
 | [Feed](http://www.fengtang.com/blog/?feed=rss2) | 冯唐博客 | http://www.fengtang.com/blog/ | 文学 |
