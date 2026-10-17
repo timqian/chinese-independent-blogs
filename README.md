@@ -1157,6 +1157,7 @@
 | [Feed](https://blog.qizhen.xyz/rss.xml) | 凡人琐忆 | https://blog.qizhen.xyz | 编程; 读书; 历史; 随笔 |
 | [Feed](https://blog.redpencil.top/feed.xml) | 瓜瓜的博客 | https://blog.redpencil.top | 编程; 摄影; 生活; 随笔 |
 | [Feed](https://gim.ink/api/blog/rss) | Gim's Ink | https://gim.ink/ | 编程; 随笔 |
+| None | 预见之旅 | https://yujianrx.top/ | 餐饮数字化; AI; 项目管理; 独立开发; 生活 |
 
 ### 疑似失效
 
