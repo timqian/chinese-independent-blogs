@@ -1412,7 +1412,7 @@
 <outline text="瓜瓜的博客" title="瓜瓜的博客" type="rss" xmlUrl="https://blog.twomelon.com/feed.xml" htmlUrl="https://blog.twomelon.com"/>
 <outline text="Gim's Ink" title="Gim's Ink" type="rss" xmlUrl="https://gim.ink/api/blog/rss" htmlUrl="https://gim.ink/"/>
 <outline text="peago · 空想家" title="peago · 空想家" type="rss" xmlUrl="https://peagothedreamer.github.io/index.xml" htmlUrl="https://peagothedreamer.github.io/"/>
-<outline text="atin的个人小站" title="atin的个人小站" type="rss" xmlUrl="https://atin.asia/rss.xml" htmlUrl="https://atin.asia"/>
+<outline text="atin的个人小站" title="atin的个人小站" type="rss" xmlUrl="https://atin.asia/index.xml" htmlUrl="https://atin.asia"/>
 <outline text="元婴强者的红尘炼心路" title="元婴强者的红尘炼心路" type="rss" xmlUrl="https://coffeebook.de5.net/feed.xml" htmlUrl="https://coffeebook.de5.net"/>
 <outline text="ZZHX's Website" title="ZZHX's Website" type="rss" xmlUrl="https://zzhx.cc/index.xml" htmlUrl="https://zzhx.cc/"/>
 <outline text="WarpBlog · WarpNav 曲速导航" title="WarpBlog · WarpNav 曲速导航" type="rss" xmlUrl="https://warpnav.com/feed" htmlUrl="https://warpnav.com/newsblog"/>
