@@ -1421,4 +1421,5 @@
 <outline text="石龙仔文库" title="石龙仔文库" type="rss" xmlUrl="https://shilongzai.com/feed.xml" htmlUrl="https://shilongzai.com"/>
 <outline text="MukunJin" title="MukunJin" type="rss" xmlUrl="https://mukunjin.com/posts/index.xml" htmlUrl="https://mukunjin.com"/>
 <outline text="chenfeng" title="chenfeng" type="rss" xmlUrl="https://kkuk.dev/rss.xml" htmlUrl="https://kkuk.dev"/>
+<outline text="猫窝博客 · Java / MySQL / Linux ops notes" title="猫窝博客 · Java / MySQL / Linux ops notes" type="rss" xmlUrl="https://blog.wordtk.com/feed.xml" htmlUrl="https://blog.wordtk.com/"/>
 </body></opml>
