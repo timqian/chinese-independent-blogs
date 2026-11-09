@@ -1168,6 +1168,7 @@
 | None | 空舟自许 | https://www.kzzxisgod.top | 编程; Linux; 软件; 深度学习 |
 | None | 影集·定格万物 | https://lookpx.com/ | 摄影; 生活; 旅行 |
 | [Feed](https://www.boris1993.com/rss2.xml) | Code Life | https://www.boris1993.com/ | 编程; 技术; 随笔; VPS; 折腾 |
+| [Feed](https://deanchen.me/feed.xml) | Dean Chen | https://deanchen.me/ | 编程; AI; 历史; 旅行; 随笔 |
 
 ### 疑似失效
 
