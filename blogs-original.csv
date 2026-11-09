@@ -31,7 +31,7 @@ INTJer, https://arminli.com, https://arminli.com/rss.xml, 编程
 思圆笔记, https://hintsnet.com/, https://hintsnet.com/pimgeek/feed/, 编程
 吕大卫的官方网站, https://lvdawei.com, , 编程
 前端工程师 Toweave, https://toweave.github.io, https://toweave.github.io/rss.xml, 编程
-MouT.me, https://mout.me, https://ghost.mout.me/rss/, 编程
+MouT.me, https://mout.me, https://blog.mout.me/rss/,  产品; AI; 生活; 旅行
 diss带码, https://dumplingbao.github.io, https://dumplingbao.github.io/atom.xml, 编程
 王登科-DK博客, https://greatdk.com, https://greatdk.com/feed, 编程; 创业
 chai2010 的博客, https://chai2010.cn, https://chai2010.cn/index.xml, 编程
@@ -425,7 +425,7 @@ Yuko's Blog, https://yuukoamamiya.github.io/, https://yuukoamamiya.github.io/ind
 以梦为马, https://lhymwm.github.io, https://lhymwm.github.io//atom.xml, 学习; 生活; 断想
 Jiayi Liu, https://jiayiliu.me/, https://jiayiliu.me/index.xml, 生活; 随笔; 生物信息学; 生物医学; 折腾
 遥远的街市, https://blog.henix.info/, https://blog.henix.info/rss2.0.xml, 编程; 随笔
-陈仓颉, https://imzm.im, https://imzm.im/feed, 生活; 随笔; 摄影
+按钮与磁带, https://jefftay.com, https://jefftay.com/index.xml, 生活; AI; 电影; 随笔
 夜庭記, https://musenxi.com/, https://musenxi.com/feed, 生活; 随笔; 技术
 Ngzhio's Blog, https://ngzhio.github.io/, https://ngzhio.github.io/feed.xml, 编程; 生活; 文学; 数学; 物理; 笔记
 Eric's Blog, https://wsdjeg.net/, https://wsdjeg.net/feed.xml, 编程; 生活; 笔记
@@ -718,7 +718,7 @@ Sirius's Blog, https://blog.yeefire.com, https://blog.yeefire.com/atom.xml, 编�
 行运设计师, https://www.luckydesigner.space, https://www.luckydesigner.space/feed, 编程; 分享; 技术; 科技
 司马他, https://www.congcong.us, https://www.congcong.us/feed, 生活; 随笔; 编程
 elmagnifico, http://elmagnifico.tech, http://elmagnifico.tech/feed.xml, 嵌入式; 随笔; 游戏; 编程
-陈昱行博客, https://blog.yuhang.ch, https://blog.yuhang.ch/index.xml, 随笔; 生活; 技术
+陈昱行博客, https://yuhang.ch, https://yuhang.ch/rss.xml, 随笔; 生活; 技术
 冰以东的博客, https://bninecoding.com/, https://bninecoding.com/atom.xml, iOS; 编程; 职场; 产品观; 技术方案
 inDev. Journal, https://www.frankindev.com/, https://www.frankindev.com/feed.xml, 编程; 分享; 技术; 科技
 穆野霜泉的黑洞, https://muyesq.cn, https://muyesq.cn/index.xml, 诗歌; 文学
@@ -1133,7 +1133,7 @@ Jason Lee的个人博客, https://blog.jasonleehere.com/, https://blog.jasonleeh
 by Upsangel, https://upsangel.com/, https://upsangel.com/feed/, 网路硬件; NAS; 单板电脑; 记录
 krkr2(beta), https://www.krkr2.xyz/, https://www.krkr2.xyz/feed/, 编程; 日常; 分享; 二次元; 思考
 秋澪Akimio, https://blog.akimio.top/, https://blog.akimio.top/rss2.xml/, 科技; 网路; 学习记录; NAS; PC
-Sky Watch, https://darksair.org/blog/, https://darksair.org/blog/feed.xml, 日常; 笔记; 思考; 技术
+Sky Watch, https://blog.mws.rocks/, https://blog.mws.rocks/feed.xml, 思考; 日常; 笔记; 技术
 booop, https://booop.net/, https://booop.net/feed/, 日常; 分享; 生活; 开发; 随笔; 技术; 编程; 笔记
 Shanwer's Blog, https://blog.shanwer.top, https://blog.shanwer.top/feed/, 日常; 生活; 编程; 随笔; 笔记; 开发; 技术
 xnum's Blog, https://xnum.github.io/, https://xnum.github.io/feed.xml, 编程; 折腾; 后端
@@ -1432,7 +1432,7 @@ Dax,https://daolanx.me/zh/,https://daolanx.me/zh/rss.xml,编程; 全栈; 生活
 Haku,https://re.karlbaey.top,https://re.karlbaey.top/rss.xml,技术; 生活; 编程; 文学; 随笔
 Amiya的书桌,https://blog.sayori.org/,https://blog.sayori.org/rss.xml,日记; 资源; 技术
 郭飞的笔记,https://www.guofei.site/,,算法; 编程; 开源; 读书
-星觅海的博客,https://www.xmhai.cn/,https://www.xmhai.cn/rss.xml,技术; 生活; 资源
+星觅海的博客,https://www.5al.top/,https://www.5al.top/rss.xml,技术; 生活; 资源
 Oleg's Tech Blog,https://timoshinoleg-eng.github.io/blog/,https://timoshinoleg-eng.github.io/blog/feed.xml,Python; Telegram; AI; Bot
 MoeBlog,https://1loli.link/,https://1loli.link/feed/,技术; AI; 编程; 随笔
 AI学习日记,https://livk30.github.io/,https://livk30.github.io/rss.xml,AI; 机器学习; 深度学习
@@ -1530,3 +1530,58 @@ Ethan's Homepage, https://ethanwong.page/, https://ethanwong.page/feed.xml, 生�
 太隐, https://wangyurui.com/, https://wangyurui.com/feed.xml, 随笔; 生活
 骇客邦, https://haikebang.com/, https://haikebang.com/feed.xml, 技术; 科技
 LYon's Blog, https://yindongliang.com/, https://yindongliang.com/index.xml, 技术; 周刊
+摸鱼小窝, https://moyu.blog/, https://moyu.blog/feed, 生活; 随笔; 折腾
+暖暖の小窝, https://www.nuan1145.eu.cc/, https://www.nuan1145.eu.cc/rss.xml, 技术; NAS; Docker; 网络; 教程; 折腾
+大江小浪, https://popsite.cn/, https://popsite.cn/atom.xml, 编程; 运维; 随笔
+永夜, https://www.shuijingwanwq.com/, https://www.shuijingwanwq.com/feed/, 技术; 编程; 网站建设; 服务器运维; 云计算; AI; 自动化; 开源; 独立项目; 博客运营
+贼歪, https://varzy.me, https://varzy.me/rss.xml, 生活; 编程
+Daniel的博客, https://www.superdaniel.cn, https://www.superdaniel.cn/rss.xml, 产品经理; 供应链; 财税合规; 独立开发; 读书; 随笔
+Yu Gao's Blog, https://gaoyu.me, https://www.gaoyu.me/rss, 编程; 日常; 产品
+August's Blog, https://blog.august.hk, https://blog.august.hk/rss.xml, 生活
+Moatkon's Blog, https://blog.moatkon.com/, https://blog.moatkon.com/rss.xml, 生活记录
+My love is cool, https://myloveiscool.com, , 音乐
+Xinwei's Blog, https://cubxxw.com/zh/, https://cubxxw.com/zh/index.xml, 编程; 思考; 设计; 产品
+Bailey's Blog, https://www.imbailey.cn, https://www.imbailey.cn/rss.xml, 编程; AI; 前端; 生活
+亦幸小阁, https://hencte.top, https://hencte.top/rss.xml, 编程; 技术; AI; 知识管理; 随笔
+Elliot's Notes, https://elliothu.me/blog/zh, https://elliothu.me/feed.xml, 编程; AI; 云计算
+Rei's Commissioned Notebook, https://kokorotsuki.com, https://kokorotsuki.com/rss.xml, 随笔; 技术; 日常
+听说了吗？· AI 解读站, https://anymesgs.com/, https://anymesgs.com/rss.xml, AI; 科技; 可视化
+灿若繁星, https://canyuda.top/, https://canyuda.top/atom.xml, 编程; 后端
+Tony's Lab, https://u1-lab.xiaoxia.io/, https://u1-lab.xiaoxia.io/feed.xml, AI; 调研; 数据可视化; 工具
+王志满律师个人博客, https://2019527.xyz/, https://2019527.xyz/feed.xml, 律师; 随笔; 法律; 教程
+晓光的个人博客, https://blog.xiaohanys.top/, https://blog.xiaohanys.top/atom.xml, 生物信息知识库; 编程; 前端; 网站搭建; 人工智能; AI
+凡人琐忆, https://blog.qizhen.xyz, https://blog.qizhen.xyz/rss.xml, 编程; 读书; 历史; 随笔
+瓜瓜的博客, https://blog.twomelon.com, https://blog.twomelon.com/feed.xml, 编程; 摄影; 生活; 随笔
+Gim's Ink, https://gim.ink/, https://gim.ink/api/blog/rss, 编程; 随笔
+预见之旅, https://yujianrx.top/, , 餐饮数字化; AI; 项目管理; 独立开发; 生活
+peago · 空想家, https://peagothedreamer.github.io/, https://peagothedreamer.github.io/index.xml, 技术; 随笔; 投资; 生活
+atin的个人小站, https://atin.asia, https://atin.asia/index.xml, 技术; 独立开发; 生活; Android
+元婴强者的红尘炼心路, https://coffeebook.de5.net, https://coffeebook.de5.net/feed.xml, 技术; Cloudflare; AI; 随笔
+ZZHX's Website, https://zzhx.cc/, https://zzhx.cc/index.xml, 编程; 随笔; 生活
+WarpBlog · WarpNav 曲速导航, https://warpnav.com/newsblog, https://warpnav.com/feed, AI; 开源; 软件; 科技
+人工智障研究所, https://aizhiz.com/zh/, https://aizhiz.com/zh/rss.xml, AI; 随笔; 人机协作
+空舟自许, https://www.kzzxisgod.top, , 编程; Linux; 软件; 深度学习
+爱玩win11的me, https://yrqspace.github.io, https://yrqspace.github.io/index.xml, 生活; 技术; 随笔
+石龙仔文库, https://shilongzai.com, https://shilongzai.com/feed.xml, 随笔; 时政; 经济; 读书
+MukunJin, https://mukunjin.com, https://mukunjin.com/posts/index.xml, 编程; 计算机; 思考; 学习; AI; 技术
+chenfeng, https://kkuk.dev, https://kkuk.dev/rss.xml, 阅读; 历史; 写作; 独立开发
+猫窝博客 · Java / MySQL / Linux ops notes, https://blog.wordtk.com/, https://blog.wordtk.com/feed.xml, 编程; 后端; Linux; 运维
+前核的博客, https://pre-core.github.io/, https://pre-core.github.io/feed.xml, 评论; 随笔
+宙と木 - 一個寫代碼的人，偶爾造點東西, https://koimsurai.com, https://koimsurai.com/rss, 编程; 前端; 生活; 摄影
+传家宝VPS - VPS 测评、库存价格监控与建站教程, https://www.legacyvps.com, https://www.legacyvps.com/rss.xml, VPS; 测评; 建站; 运维
+夜旅者, https://yezhaner.net/, https://yezhaner.net/feed, 生活; 随笔; 书影音; 心理学
+Yishuai · 作品、文字与日常, https://yishuai.wang/, https://yishuai.wang/feed.xml, 编程; 开源; 生活; 随笔
+橘记, https://idaju.github.io/, https://idaju.github.io/index.xml, 科学; 技术; 思考; 随笔
+Surfing（Robin Min）, https://surfing.salty.vip/zh, https://surfing.salty.vip/rss.xml, AI; 编程; Claude Code; 速查表
+Hjr-ovo的博客, https://hjr-ovo.github.io, https://hjr-ovo.github.io/rss.xml, 编程
+JustGoIdea, https://justgoidea.com/, https://justgoidea.com/rss.xml, 随笔; 阅读; 生活; 文学; 禅修; AI
+koukyo., https://koukyo.site/, https://koukyo.site/rss.xml, 创业; 独立开发; 财务规划; 生活; 随笔
+雾散了, https://wusanle.fun, https://wusanle.fun/rss.php, AI; 音乐; 创作; 生活
+清霜之辰, https://h89.cn, https://h89.cn/feed/, 编程; Android; 车载座舱; AI
+fufuの小窝, https://blog.fufu520.cn/, https://blog.fufu520.cn/rss.xml, 日常; 生活; 分享
+mizore / notes, https://mizore.blog/, https://mizore.blog/feed.xml, 编程; 技术; AI; 工具
+影集·定格万物, https://lookpx.com/, , 摄影; 生活; 旅行
+SIMON BLOG, https://zhuzihan.com/, https://zhuzihan.com/feed.rss, AI; 编程; 技术; 随笔; VPS; 折腾
+Code Life, https://www.boris1993.com/, https://www.boris1993.com/rss2.xml, 编程; 技术; 随笔; VPS; 折腾
+Dean Chen, https://deanchen.me/, https://deanchen.me/feed.xml, 编程; AI; 历史; 旅行; 随笔
+AI 冲浪指南, https://aisurf.cc/, https://aisurf.cc/rss.xml, AI; 科学上网; 教程
