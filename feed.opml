@@ -1417,7 +1417,7 @@
 <outline text="ZZHX's Website" title="ZZHX's Website" type="rss" xmlUrl="https://zzhx.cc/index.xml" htmlUrl="https://zzhx.cc/"/>
 <outline text="WarpBlog · WarpNav 曲速导航" title="WarpBlog · WarpNav 曲速导航" type="rss" xmlUrl="https://warpnav.com/feed" htmlUrl="https://warpnav.com/newsblog"/>
 <outline text="人工智障研究所" title="人工智障研究所" type="rss" xmlUrl="https://aizhiz.com/zh/rss.xml" htmlUrl="https://aizhiz.com/zh/"/>
-<outline text="爱玩win11的me" title="爱玩win11的me" type="rss" xmlUrl="https://yrqspace.github.io/index.xml" htmlUrl="https://yrqspace.github.io"/>
+<outline text="Tinker Log" title="Tinker Log" type="rss" xmlUrl="https://tinkerlog.dpdns.org/index.xml" htmlUrl="https://tinkerlog.dpdns.org/"/>
 <outline text="石龙仔文库" title="石龙仔文库" type="rss" xmlUrl="https://shilongzai.com/feed.xml" htmlUrl="https://shilongzai.com"/>
 <outline text="MukunJin" title="MukunJin" type="rss" xmlUrl="https://mukunjin.com/posts/index.xml" htmlUrl="https://mukunjin.com"/>
 <outline text="chenfeng" title="chenfeng" type="rss" xmlUrl="https://kkuk.dev/rss.xml" htmlUrl="https://kkuk.dev"/>
@@ -1436,6 +1436,7 @@
 <outline text="清霜之辰" title="清霜之辰" type="rss" xmlUrl="https://h89.cn/feed/" htmlUrl="https://h89.cn"/>
 <outline text="fufuの小窝" title="fufuの小窝" type="rss" xmlUrl="https://blog.fufu520.cn/rss.xml" htmlUrl="https://blog.fufu520.cn/"/>
 <outline text="mizore / notes" title="mizore / notes" type="rss" xmlUrl="https://mizore.blog/feed.xml" htmlUrl="https://mizore.blog/"/>
+<outline text="影集·定格万物" title="影集·定格万物" type="rss" xmlUrl="https://lookpx.com/feed" htmlUrl="https://lookpx.com/"/>
 <outline text="SIMON BLOG" title="SIMON BLOG" type="rss" xmlUrl="https://zhuzihan.com/feed.rss" htmlUrl="https://zhuzihan.com/"/>
 <outline text="Code Life" title="Code Life" type="rss" xmlUrl="https://www.boris1993.com/rss2.xml" htmlUrl="https://www.boris1993.com/"/>
 <outline text="Dean Chen" title="Dean Chen" type="rss" xmlUrl="https://deanchen.me/feed.xml" htmlUrl="https://deanchen.me/"/>
@@ -1445,6 +1446,15 @@
 <outline text="VPS录" title="VPS录" type="rss" xmlUrl="https://vpslu.com/feed.xml" htmlUrl="https://vpslu.com/"/>
 <outline text="极夜System的空间站" title="极夜System的空间站" type="rss" xmlUrl="https://jiye.funcun.top/feed" htmlUrl="https://jiye.funcun.top/"/>
 <outline text="Pens.me" title="Pens.me" type="rss" xmlUrl="https://pens.me/feed/" htmlUrl="https://pens.me"/>
+<outline text="刘郎阁" title="刘郎阁" type="rss" xmlUrl="https://liuz.cn/feed/" htmlUrl="https://liuz.cn/"/>
 <outline text="危墙" title="危墙" type="rss" xmlUrl="https://weiqiang.org/index.xml" htmlUrl="https://weiqiang.org"/>
 <outline text="阿東的AI手记" title="阿東的AI手记" type="rss" xmlUrl="https://antonailog.com/rss.xml" htmlUrl="https://antonailog.com"/>
+<outline text="技术派罗恩" title="技术派罗恩" type="rss" xmlUrl="https://luoruihuan.top/rss.xml" htmlUrl="https://luoruihuan.top"/>
+<outline text="亂筆" title="亂筆" type="rss" xmlUrl="https://blog.l3zc.com/index.xml" htmlUrl="https://blog.l3zc.com/"/>
+<outline text="ShuaiQi 的技术博客" title="ShuaiQi 的技术博客" type="rss" xmlUrl="https://20131030.xyz/feed.xml" htmlUrl="https://20131030.xyz"/>
+<outline text="迷鹿 MiLu · Leo Lu" title="迷鹿 MiLu · Leo Lu" type="rss" xmlUrl="https://lu.wiki/feed.xml" htmlUrl="https://lu.wiki/"/>
+<outline text="AI 冲浪指南" title="AI 冲浪指南" type="rss" xmlUrl="https://aisurf.cc/rss.xml" htmlUrl="https://aisurf.cc"/>
+<outline text="Off-Beat" title="Off-Beat" type="rss" xmlUrl="https://off-beat.cn/index.xml" htmlUrl="https://off-beat.cn"/>
+<outline text="绘念の窝" title="绘念の窝" type="rss" xmlUrl="https://103000.vip/feed.xml" htmlUrl="https://103000.vip"/>
+<outline text="静静的小窝" title="静静的小窝" type="rss" xmlUrl="https://wznmickey.com/rss2.xml" htmlUrl="https://wznmickey.com"/>
 </body></opml>
