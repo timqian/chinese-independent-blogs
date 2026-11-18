@@ -1184,6 +1184,7 @@
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | [Feed](https://blog.l3zc.com/index.xml) | 亂筆 | https://blog.l3zc.com/ | 生活; 技术; 笔记 |
 | [Feed](https://aisurf.cc/rss.xml) | AI 冲浪指南 | https://aisurf.cc | AI; 教程; 网络配置 |
+| [Feed](https://off-beat.cn/index.xml) | Off-Beat | https://off-beat.cn | 随笔; 读书; 音乐; 生活 |
 
 ### 疑似失效
 
