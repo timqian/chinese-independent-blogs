@@ -1190,6 +1190,7 @@
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | [Feed](https://blog.zjackie.ink/zh/index.xml) | 0x1 ZeroINK | https://blog.zjackie.ink | 加密货币; 区块链; 安全; 研究; 编程; 技术; 隐私; 开源 |
 | [Feed](https://www.io.hk.cn/rss.xml) | 牢废物的博客 | https://www.io.hk.cn/ | 编程; 技术; 工具; 日常 |
+| [Feed](https://waynetalk.com/feed/) | 江狐说 WayneTalk - 开源软件、AI 应用与实用工具教程 | https://waynetalk.com | 技术; 开源; AI; 工具; 教程 |
 
 ### 疑似失效
 
