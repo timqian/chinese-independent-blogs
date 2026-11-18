@@ -1189,6 +1189,7 @@
 | None | 维奥洛的航行日志 | https://vioulo.com/ | 编程; AI; 阅读; 随笔 |
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | [Feed](https://blog.zjackie.ink/zh/index.xml) | 0x1 ZeroINK | https://blog.zjackie.ink | 加密货币; 区块链; 安全; 研究; 编程; 技术; 隐私; 开源 |
+| [Feed](https://www.io.hk.cn/rss.xml) | 牢废物的博客 | https://www.io.hk.cn/ | 编程; 技术; 工具; 日常 |
 
 ### 疑似失效
 
