@@ -1195,6 +1195,7 @@
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | None | 心扉猫 | https://catsmind.cn | 心理学; 自我成长; 随笔 |
 | [Feed](https://blook.lovestoblog.com/feed/) | 书影行旅 Travels Through Books and Movie | https://blook.lovestoblog.com/ | 读书; 电影; 旅行 |
+| [Feed](https://ikangjia.cn/rss.xml) | 林深时觉寒 | https://ikangjia.cn | 技术; 生活; 随笔 |
 
 ### 疑似失效
 
