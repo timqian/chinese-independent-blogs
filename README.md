@@ -1196,6 +1196,7 @@
 | None | 心扉猫 | https://catsmind.cn | 心理学; 自我成长; 随笔 |
 | [Feed](https://blook.lovestoblog.com/feed/) | 书影行旅 Travels Through Books and Movie | https://blook.lovestoblog.com/ | 读书; 电影; 旅行 |
 | [Feed](https://ikangjia.cn/rss.xml) | 林深时觉寒 | https://ikangjia.cn | 技术; 生活; 随笔 |
+| [Feed](https://tingfeng347.github.io/atom.xml) | 听风347 | https://tingfeng347.github.io/ | 编程; AI; 数据分析; Linux; 运维; 开发工具; 建站 |
 
 ### 疑似失效
 
