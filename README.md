@@ -99,7 +99,6 @@
 | [Feed](https://xiangyugongzuoliu.com/latest/rss/) | 翔宇工作流 | https://xiangyugongzuoliu.com/ | AI; 编程; 自动化; Claude Code; 教程 |
 | [Feed](https://www.paddysun.top/feed) | Under the Sun with Paddy | https://www.paddysun.top/ | 算法; 生活; 工作; 情感; 随笔 |
 | [Feed](https://blog.mountaye.com/feed.xml) | 阿掖山·博客 | https://blog.mountaye.com | 物理; 生物; 编程; 摄影; 历史 |
-| [Feed](https://qingccl.github.io/rss.xml) | QingCCL | https://qingccl.github.io/ | 文学; 读书; 随笔; 技术 |
 | [Feed](https://victor42.eth.limo/index.xml) | Victor42 | https://victor42.eth.limo | 科学; 数据分析; 设计; 游记; 开发者 |
 | [Feed](https://physnya.top/atom.xml) | 菲兹克斯喵 | https://physnya.top | 物理; 数学; 随笔 |
 | [Feed](https://madneal.com/index.xml) | Neal 的博客 | https://madneal.com | 安全; 编程; 技术; 随笔 |
@@ -1176,6 +1175,7 @@
 | None | 技术人的一亩田 | https://jeremysong.cn | 编程; AI; 全栈; 读书; 生活; 笔记 |
 | None | Firenze42 | https://firenze42.com/zh | SEO; 产品; 增长; AI; 随笔 |
 | None | Wenix's Blog | https://wenix.dev/ | 编程; 网文; 动漫; 游戏; 生活 |
+| [Feed](https://blog.kawabatayasunari.com/rss.xml) | QingCCL | https://blog.kawabatayasunari.com/ | 笔记; 随笔; 文学 |
 | None | MakerJackie | https://makerjackie.com/ | AI; 产品; 全栈; 编程; 随笔 |
 | None | 郭飞的笔记 | https://www.guofei.site/ | 算法; 编程; 开源; 读书 |
 | [Feed](https://timoshinoleg-eng.github.io/blog/feed.xml) | Oleg's Tech Blog | https://timoshinoleg-eng.github.io/blog/ | Python; Telegram; AI; Bot |
