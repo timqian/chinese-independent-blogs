@@ -1287,7 +1287,7 @@
 <outline text="Neil的自留地" title="Neil的自留地" type="rss" xmlUrl="https://neilmin.com/zh/posts/index.xml" htmlUrl="https://neilmin.com/"/>
 <outline text="寒夜雨" title="寒夜雨" type="rss" xmlUrl="https://www.coderlock.site/index.php/feed/" htmlUrl="https://www.coderlock.site/"/>
 <outline text="傥师妹TangShiMei的小空间" title="傥师妹TangShiMei的小空间" type="rss" xmlUrl="https://blog.224418.xyz/rss2.xml" htmlUrl="https://blog.224418.xyz/"/>
-<outline text="QingCCL" title="QingCCL" type="rss" xmlUrl="https://qingccl.github.io/rss.xml" htmlUrl="https://qingccl.github.io/"/>
+<outline text="QingCCL" title="QingCCL" type="rss" xmlUrl="https://blog.kawabatayasunari.com/rss.xml" htmlUrl="https://blog.kawabatayasunari.com/"/>
 <outline text="謝懿Shine" title="謝懿Shine" type="rss" xmlUrl="https://www.futseyi.com/rss.xml" htmlUrl="https://www.futseyi.com/"/>
 <outline text="所谓空想" title="所谓空想" type="rss" xmlUrl="https://www.alxh.page/feed.rss" htmlUrl="https://alxh.page/"/>
 <outline text="翔宇工作流" title="翔宇工作流" type="rss" xmlUrl="https://xiangyugongzuoliu.com/latest/rss/" htmlUrl="https://xiangyugongzuoliu.com/"/>
@@ -1461,4 +1461,7 @@
 <outline text="牢废物的博客" title="牢废物的博客" type="rss" xmlUrl="https://www.io.hk.cn/rss.xml" htmlUrl="https://www.io.hk.cn/"/>
 <outline text="江狐说 WayneTalk - 开源软件、AI 应用与实用工具教程" title="江狐说 WayneTalk - 开源软件、AI 应用与实用工具教程" type="rss" xmlUrl="https://waynetalk.com/feed/" htmlUrl="https://waynetalk.com"/>
 <outline text="Wuxh · 吴小红" title="Wuxh · 吴小红" type="rss" xmlUrl="https://wxhboy.cn/feed.xml" htmlUrl="https://wxhboy.cn"/>
+<outline text="书影行旅 Travels Through Books and Movie" title="书影行旅 Travels Through Books and Movie" type="rss" xmlUrl="https://blook.lovestoblog.com/feed/" htmlUrl="https://blook.lovestoblog.com/"/>
+<outline text="林深时觉寒" title="林深时觉寒" type="rss" xmlUrl="https://ikangjia.cn/rss.xml" htmlUrl="https://ikangjia.cn"/>
+<outline text="听风347" title="听风347" type="rss" xmlUrl="https://tingfeng347.github.io/atom.xml" htmlUrl="https://tingfeng347.github.io/"/>
 </body></opml>
