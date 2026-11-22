@@ -538,7 +538,6 @@
 | [Feed](https://fravilion.top/index.php/feed/) | 楼船INKFLAKE | https://fravilion.top | 随笔; 生活; 旅行; 摄影; 数码 |
 | [Feed](https://nicrosoft.net/blog/feed/) | 农码生涯 无酒无花 | https://www.nicrosoft.net/ | 编程; 生活 |
 | [Feed](https://baiyun.me/feed) | BAI YUN | https://baiyun.me/ | 技术; 分享 |
-| [Feed](https://peter267.github.io/atom.xml) | Peter267 | https://peter267.github.io | 生活; 技术; 教程; AIGC |
 | [Feed](https://fourhappylions.com/index.xml) | 四喜丸子 | https://fourhappylions.com/ | 养娃; 家庭; 海外生活 |
 | [Feed](https://oragekk.me/rss.xml) | Oragekk's Blog | https://oragekk.me/ | 编程; 思考; 学习笔记; 生活杂想; 随笔 |
 | [Feed](https://cdjax.com/?feed=rss2) | jax - 走在路上 | https://cdjax.com/ | 产品; 数码; 随笔 |
@@ -1164,6 +1163,7 @@
 | None | 宇宇博客 | https://nxysj.top/ | seo; 技术; 笔记 |
 | [Feed](https://www.voidking.com/sitemap.xml) | 好好学习的郝 | https://www.voidking.com/ | 技术; 编程; 云原生; 生活 |
 | None | 叶夕青兮 | https://erl.im/ | 文学; 小说 |
+| [Feed](https://blog.peter267.com/atom.xml) | Peter267 | https://blog.peter267.com | 生活; 技术; 教程; AIGC |
 | None | Suni Blog | https://www.yysuni.com/ | 技术; 笔记; 有趣项目 |
 | [Feed](https://fallzhang.top/sitemap.xml) | Fall's Blog | https://fallzhang.top/ | 前端; 跨端; 全栈 |
 | None | Golden Territory金色疆域 | https://dogeas.club | 编程; 笔记; 生活; 游戏; 兴趣使然 |
