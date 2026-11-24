@@ -1197,11 +1197,12 @@
 | None | 维奥洛的航行日志 | https://vioulo.com/ | 编程; AI; 阅读; 随笔 |
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | None | 心扉猫 | https://catsmind.cn | 心理学; 自我成长; 随笔 |
+| [Feed](https://evanwindproof.top/rss.xml) | Evan Windproof | https://evanwindproof.top/ | 编程; 操作系统; 开源; 技术; 杂牌 |
 | [Feed](https://blog.srprolin.com/rss.xml) | SrP-BloG | https://blog.srprolin.com/ | 开发; 运维; 部署; Linux; 教程 |
 
 ### 疑似失效
 
-以下 448 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 447 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1655,6 +1656,5 @@
 | Laisky's Blog | https://blog.laisky.com/ | feed larger than 8 MB |
 | 暖暖の小窝 | https://www.nuan1145.eu.cc/ | HTTP 530 |
 | 书影行旅 Travels Through Books and Movie | https://blook.lovestoblog.com/ | response is not RSS/Atom |
-| Evan Windproof | https://evan.v-1.top/ | HTTP 404 |
 
 </details>
