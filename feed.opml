@@ -1471,4 +1471,5 @@
 <outline text="Hyoban" title="Hyoban" type="rss" xmlUrl="https://hyoban.cc/rss.xml" htmlUrl="https://hyoban.cc"/>
 <outline text="OuttaScope" title="OuttaScope" type="rss" xmlUrl="https://outtascope.com/zh/feed.xml" htmlUrl="https://outtascope.com/zh/"/>
 <outline text="SrP-BloG" title="SrP-BloG" type="rss" xmlUrl="https://blog.srprolin.com/rss.xml" htmlUrl="https://blog.srprolin.com/"/>
+<outline text="Gogei 的静默日志" title="Gogei 的静默日志" type="rss" xmlUrl="https://blog.gogei.top/atom.xml" htmlUrl="https://blog.gogei.top/"/>
 </body></opml>
