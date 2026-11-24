@@ -169,6 +169,12 @@ ${noindex ? html`<meta name="robots" content="noindex, follow">` : ''}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
 <script src="/app.js" defer></script>
+<script
+  defer
+  src="https://vibefriends.com/telemetry/v1.js"
+  data-vc-product-id="cmwu4gnsj003g01ns86uu8alg"
+  data-vc-auth-key="vc_web_Kv8Z3WL-RQtTBTkHxAJejxK5-lWXlI6qiOIC0nLnRPs"
+></script>
 ${jsonLd.map(jsonLdScript)}
 </head>
 <body>

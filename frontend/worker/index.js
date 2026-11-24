@@ -91,14 +91,15 @@ async function followingNums(c) {
 
 // ---------- middleware ----------
 
-// Only our own /app.js may run: even if some markup slipped through unescaped,
-// injected script wouldn't execute. Style attributes are allowed (avatar tints).
+// Only our own /app.js and the VibeCafé telemetry script may run: even if some
+// markup slipped through unescaped, injected script wouldn't execute. Style
+// attributes are allowed (avatar tints).
 const CSP = [
   "default-src 'self'",
-  "script-src 'self'",
+  "script-src 'self' https://vibefriends.com", // VibeCafé telemetry (see views.js)
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' https: data: blob:",
-  "connect-src 'self'",
+  "connect-src 'self' https://vibefriends.com", // VibeCafé telemetry endpoint
   "object-src 'none'",
   "base-uri 'none'",
   "form-action 'self'",
