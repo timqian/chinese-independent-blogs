@@ -27,11 +27,15 @@
 
 | RSS feed | Introduction | Address | tags |
 | --- | --- | --- | --- |
+| [Feed](https://xn--9myv52d.xn--udsye.art/feed.xml) | GallantTarry | https://xn--9myv52d.xn--udsye.art/ | 编程; 技术; 笔记; 艺术; 生活; 随笔 |
+| [Feed](https://vpslu.com/feed.xml) | VPS录 | https://vpslu.com/ | VPS; 云服务器; 线路科普; 优惠 |
+| [Feed](https://warpnav.com/feed) | WarpBlog · WarpNav 曲速导航 | https://warpnav.com/newsblog | AI; 开源; 软件; 科技 |
+| [Feed](https://www.shuijingwanwq.com/feed/) | 永夜 | https://www.shuijingwanwq.com/ | 技术; 编程; 网站建设; 服务器运维; 云计算; AI; 自动化; 开源; 独立项目; 博客运营 |
+| [Feed](http://feeds.feedburner.com/initiative) | Est's Blog | https://blog.est.im/ | 编程; 创业; 哲学 |
+| [Feed](https://jimmysong.io/index.xml) | 云原生 | https://jimmysong.io | 编程 |
 | [Feed](https://yezhaner.net/feed) | 夜旅者 | https://yezhaner.net/ | 生活; 随笔; 书影音; 心理学 |
 | [Feed](http://wjd.name/feed/) | 王佳冬中文博客 | http://wjd.name/ | 旅行; 产品; 随笔 |
 | [Feed](https://aisurf.cc/rss.xml) | AI 冲浪指南 | https://aisurf.cc | AI; 教程; 网络配置 |
-| [Feed](https://vpslu.com/feed.xml) | VPS录 | https://vpslu.com/ | VPS; 云服务器; 线路科普; 优惠 |
-| [Feed](https://xn--9myv52d.xn--udsye.art/feed.xml) | GallantTarry | https://xn--9myv52d.xn--udsye.art/ | 编程; 技术; 笔记; 艺术; 生活; 随笔 |
 | [Feed](https://blog.giveanornot.com/index.xml) | 資工小廢物 - JN | https://blog.giveanornot.com/ | 來自台灣; 生活反思; 社群媒體負面影響; 開源軟體 |
 | [Feed](https://taxodium.ink/rss.xml) | Taxodium | https://taxodium.ink/ | 编程; 随笔 |
 | [Feed](https://blog.solazy.me/feed/) | solazy | https://blog.solazy.me/ | 生活 |
@@ -39,6 +43,7 @@
 | [Feed](https://exia.de5.net/rss.xml) | Exia Blog | https://exia.de5.net/ | Cloudflare; Workers; D1; 边缘计算 |
 | [Feed](http://lukefan.com/?feed=rss2) | 硕鼠的博客站 | http://lukefan.com/ | 编程 |
 | [Feed](https://www.xbstack.com/rss.xml) | XBSTACK | https://www.xbstack.com/ | 技术; 编程; AI; 产品; 投资; 随笔 |
+| [Feed](https://notes.yachiyo.im/rss.xml) | AI Notes | https://notes.yachiyo.im/ | AI; 研究; 评论; 科技 |
 | [Feed](https://yindongliang.com/index.xml) | LYon's Blog | https://yindongliang.com/ | 技术; 周刊 |
 | [Feed](https://varzy.me/rss.xml) | 贼歪 | https://varzy.me | 生活; 编程 |
 | [Feed](https://peagothedreamer.github.io/index.xml) | peago · 空想家 | https://peagothedreamer.github.io/ | 技术; 随笔; 投资; 生活 |
@@ -61,17 +66,16 @@
 | [Feed](https://blog.forecho.com/atom.xml) | forecho 的独立博客 | https://blog.forecho.com | 编程; 美股投资; 读书; 随想 |
 | [Feed](https://h89.cn/feed/) | 清霜之辰 | https://h89.cn | 编程; Android; 车载座舱; AI |
 | [Feed](https://www.jackpu.com/rss/) | 蒲小花的博客 | https://www.jackpu.com/ | 前端; 生活 |
-| [Feed](https://warpnav.com/feed) | WarpBlog · WarpNav 曲速导航 | https://warpnav.com/newsblog | AI; 开源; 软件; 科技 |
 | [Feed](https://physnya.top/atom.xml) | 菲兹克斯喵 | https://physnya.top | 物理; 数学; 随笔 |
 | [Feed](https://wangjiezhe.com/atom.xml) | 如鱼饮水 | https://wangjiezhe.com/ | 数学; 随笔 |
 | [Feed](https://localfreedom.pages.dev/index.xml) | 局域自由 | https://localfreedom.pages.dev/ | 软件; 隐私; 笔记; 本地化 |
 | [Feed](https://zhurongshuo.com/index.xml) | 祝融说 | https://zhurongshuo.com/ | 法不净空，觉无性也。 |
 | [Feed](https://atin.asia/index.xml) | atin的个人小站 | https://atin.asia | 技术; 独立开发; 生活; Android |
+| [Feed](https://ystyle.top/atom.xml) | 东方星痕 | https://ystyle.top | 编程; 技术 |
 | [Feed](https://codechina.org/feed/) | Tinyfool的中文Blog | https://codechina.org/ | 代码; 读书; 历史; 经济 |
 | [Feed](https://51.ruyo.net/feed) | 如有乐享 | https://51.ruyo.net | 技术; 分享 |
 | [Feed](https://www.bmpi.dev/index.xml) | BMPI | https://www.bmpi.dev | Learn; Dev; Trade |
 | [Feed](https://quant67.com/rss.xml) | 土法炼钢兴趣小组的博客 | https://quant67.com/ | 编程; 技术; 安全 |
-| [Feed](https://notes.yachiyo.im/rss.xml) | AI Notes | https://notes.yachiyo.im/ | AI; 研究; 评论; 科技 |
 | [Feed](https://www.thefox.work/rss/feed.xml) | pious fox | https://www.thefox.work/ | 经济学; 思考; 随笔 |
 | [Feed](https://yufree.cn/index.xml) | 于淼 | https://yufree.cn/ | 环境科学; 统计学; 科幻; 随笔 |
 | [Feed](https://u1-lab.xiaoxia.io/feed.xml) | Tony's Lab | https://u1-lab.xiaoxia.io/ | AI; 调研; 数据可视化; 工具 |
@@ -81,7 +85,6 @@
 | [Feed](https://jaketao.com/feed/) | Jake Blog | https://jaketao.com/blog | 硅谷科技; 主机游戏; 留学旅居; 跨境电商 |
 | [Feed](https://lu.wiki/feed.xml) | 迷鹿 MiLu · Leo Lu | https://lu.wiki/ | AI; 编程; 产品; 教程 |
 | [Feed](https://www.skyue.com/feed/) | SKYue's Home | https://www.skyue.com/ | 生活; 股票投资; 产品经理; 软件数码 |
-| [Feed](http://feeds.feedburner.com/initiative) | Est's Blog | https://blog.est.im/ | 编程; 创业; 哲学 |
 | [Feed](https://zxs.io/feed) | XINDOO的博客 | https://zxs.io | 算法; 编程; 人生 |
 | [Feed](https://www.wikimoe.com/rss.php) | 维基萌 | https://www.wikimoe.com/ | 动画; 漫画; 游戏; 日常; 前端 |
 | [Feed](https://blog.lushuyu.site/feed/) | Lu Shuyu | https://blog.lushuyu.site/ | 编程; OI; 随笔; 思考 |
@@ -93,7 +96,6 @@
 | [Feed](https://rssweball.top/feed/afaf2a3c-e11a-4783-a358-9e2d20d76a69.xml) | fengc's Blog | https://fengcblog.880200.xyz/ | 摄影习作; 摄影闲扯; 相关测试; AI视频 |
 | [Feed](https://mingnify.com/zh/blog/atom.xml) | 明立非(Mingnify)的博客 | https://mingnify.com/zh/blog/ | Indie Maker; 独立开发; AI; 打造产品; 内容创作; 数字游民 |
 | [Feed](https://cubxxw.com/zh/index.xml) | Xinwei's Blog | https://cubxxw.com/zh/ | 编程; 思考; 设计; 产品 |
-| [Feed](https://www.shuijingwanwq.com/feed/) | 永夜 | https://www.shuijingwanwq.com/ | 技术; 编程; 网站建设; 服务器运维; 云计算; AI; 自动化; 开源; 独立项目; 博客运营 |
 | [Feed](https://www.ftium4.com/rss.xml) | 龙爪槐守望者 | https://www.ftium4.com/ | 周刊; 生活 |
 | [Feed](https://kexue.fm/feed) | 科学空间 | https://kexue.fm | 数学; 技术; 生活; AI |
 | [Feed](https://xingwangzhe.fun/rss.xml) | 姓王者的博客 | https://xingwangzhe.fun/ | 编程，随笔，大学，生活，开源 |
@@ -109,6 +111,7 @@
 | [Feed](https://nicksxs.me/atom.xml) | Nicksxs's Blog | https://nicksxs.me | 编程; 后端; Java; PHP |
 | [Feed](https://blog.gadore.top/feed.xml) | 千里之豪 | https://blog.gadore.top | 技术; 生活; 图片 |
 | [Feed](https://weekly.tw93.fun/rss.xml) | Tw93 潮流周刊 | https://weekly.tw93.fun/ | 周刊; 生活; 科技 |
+| [Feed](https://benx.ai/blog/rss.xml) | Dots to Line | https://benx.ai/blog/ | AI; Vibe Coding; 独立开发 |
 | [Feed](https://blog.gogei.top/atom.xml) | Gogei 的静默日志 | https://blog.gogei.top/ | 编程; 技术; OI; 前端; 生活 |
 | [Feed](https://weiqiang.org/index.xml) | 危墙 | https://weiqiang.org | 生活; 随笔; 读书 |
 | [Feed](https://www.hsuyeung.com/feed) | Hsu Yeung 的博客 | https://www.hsuyeung.com/ | 编程; 日常; 学习; 音乐 |
@@ -138,7 +141,6 @@
 | [Feed](https://zooyoo.top/feed/) | 热衷于的博客 | https://zooyoo.top/ | 生活; 技术; 随笔; 观察 |
 | [Feed](https://blog.mfwt.top/index.php/feed/) | 枫林灯语 | https://blog.mfwt.top/ | 编程; 生活; 技术; 无线电; 网络 |
 | [Feed](https://yilinhut.net/feed/) | 随轩 | https://yilinhut.net/ | 科学史; 技术哲学; AI; 随笔 |
-| [Feed](https://jimmysong.io/index.xml) | 云原生 | https://jimmysong.io | 编程 |
 | [Feed](https://leimao.github.io/atom.xml) | Lei Mao's Log Book | https://leimao.github.io/ | 人工智能; 机器学习; 计算机科学; 编程 |
 | [Feed](https://kaix.in/feed/) | KAIX.IN | https://kaix.in | 读书; 咖啡; 随笔 |
 | [Feed](https://ourai.ws/atom.xml) | 欧雷流 | https://ourai.ws/ | 编程; 前端; 生活; 思考; 日语; 宅文化 |
@@ -190,7 +192,6 @@
 | [Feed](https://luoruihuan.top/rss.xml) | 技术派罗恩 | https://luoruihuan.top | AI; 编程; 前端 |
 | [Feed](https://blog.mcenahle.page/feed.xml) | 梅之夏 | https://blog.mcenahle.page | 随笔; 记录; 成长; 学习; 医疗 |
 | [Feed](https://blog.zhheo.com/rss.xml) | 张洪Heo | https://blog.zhheo.com/ | 设计; 编程; 生活; 产品 |
-| [Feed](https://ystyle.top/atom.xml) | 东方星痕 | https://ystyle.top | 编程; 技术 |
 | [Feed](https://blog.yasking.org/atom.xml) | 东东's Blog | https://blog.yasking.org/ | 编程; 技术; 笔记 |
 | [Feed](https://hutusi.com/feed.xml) | 胡涂说 | https://hutusi.com/ | 编程; 随笔; 生活 |
 | [Feed](https://www.ouorz.com/feed) | TonyHe 的博客 | https://www.ouorz.com | 编程; 思考; 前端; 笔记; 生活 |
@@ -429,7 +430,6 @@
 | [Feed](https://www.caiguoyu.cn/api/rss.xml) | 菜鸟的小站 | https://www.caiguoyu.cn/ | 技术; 编程; 生活; 随笔 |
 | [Feed](https://www.5al.top/rss.xml) | 星觅海的博客 | https://www.5al.top/ | 技术; 生活; 资源 |
 | [Feed](https://blog.kayro.cn/atom.xml) | 敖苛记 | https://blog.kayro.cn/ | 生活; 技术; 编程; 开源; 记录 |
-| [Feed](https://www.momb.top/rss/feed.xml) | MOMB闲谈 | https://www.momb.top | 热点; 随笔; 知识; 游戏 |
 | [Feed](https://feizhaojun.com/?feed=rss2) | 费照君个人网站 | https://feizhaojun.com | 编程; 科技; 分享 |
 | [Feed](https://jdhao.github.io/index.xml) | jdhao's blog | https://jdhao.github.io/ | 编程; Nvim; 生活; 读书; 思考 |
 | [Feed](https://www.xlabs.club/index.xml) | 卫星实验室 | https://www.xlabs.club | 编程; 科技; 云原生; Java |
@@ -1198,11 +1198,11 @@
 | None | 维奥洛的航行日志 | https://vioulo.com/ | 编程; AI; 阅读; 随笔 |
 | None | AceSheep | https://blog.acesheep.com/ | 教程; 网络技术; 游戏; VPS |
 | None | 心扉猫 | https://catsmind.cn | 心理学; 自我成长; 随笔 |
-| [Feed](https://benx.ai/blog/rss.xml) | Dots to Line | https://benx.ai/blog/ | AI; Vibe Coding; 独立开发 |
+| [Feed](https://blog.muyuzhong.xyz/rss.xml) | 低温笔记 LowTemp Notes | https://blog.muyuzhong.xyz/ | 编程; AI; 随笔 |
 
 ### 疑似失效
 
-以下 449 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
+以下 450 个博客的 RSS 持续抓取失败（404、证书错误、无法连接等），最新情况见 [indi.blog/blogs/dead](https://indi.blog/blogs/dead)。如果你是博主并且博客仍在运行，欢迎提 PR 更新 RSS 地址。
 
 <details>
 <summary>展开列表</summary>
@@ -1649,6 +1649,7 @@
 | Luenci的技术博客 | https://luenci.com | feed larger than 8 MB |
 | BotForge Notes | https://blog.notlove.me/ | HTTP 525 |
 | My Mods | https://dayzmod.kdns.fr/ | HTTP 404 |
+| MOMB闲谈 | https://www.momb.top | HTTP 404 |
 | 胡东东博客 | https://blog.hudd.cn/ | HTTP 530 |
 | 戈壁有耳 | https://www.zhanggeer.net/ | response is not RSS/Atom |
 | Fei's Tours and Tales | https://www.feifun.cn/ | HTTP 402 |
