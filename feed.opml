@@ -1476,4 +1476,5 @@
 <outline text="低温笔记 LowTemp Notes" title="低温笔记 LowTemp Notes" type="rss" xmlUrl="https://blog.muyuzhong.xyz/rss.xml" htmlUrl="https://blog.muyuzhong.xyz/"/>
 <outline text="Kar'Blog Kar Chan" title="Kar'Blog Kar Chan" type="rss" xmlUrl="https://hellokar.org/rss.xml" htmlUrl="https://hellokar.org/"/>
 <outline text="坐看云起时 · GitHub 开源情报局" title="坐看云起时 · GitHub 开源情报局" type="rss" xmlUrl="https://www.dot1q.cn/feed.xml" htmlUrl="https://www.dot1q.cn/"/>
+<outline text="极客沙盒 Apple Lab" title="极客沙盒 Apple Lab" type="rss" xmlUrl="https://www.apple-lab.cn/feed/" htmlUrl="https://www.apple-lab.cn/"/>
 </body></opml>

@@ -1204,6 +1204,7 @@
 | [Feed](https://aikits.cc/rss.xml) | AI 冲浪指南 | https://aikits.cc | AI; 教程; 网络配置 |
 | None | 心扉猫 | https://catsmind.cn | 心理学; 自我成长; 随笔 |
 | [Feed](https://hellokar.org/rss.xml) | Kar'Blog Kar Chan | https://hellokar.org/ | 产品; 日常 |
+| [Feed](https://www.apple-lab.cn/feed/) | 极客沙盒 Apple Lab | https://www.apple-lab.cn/ | 技术; 数码; Apple |
 
 ### 疑似失效
 
