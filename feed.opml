@@ -1453,7 +1453,7 @@
 <outline text="亂筆" title="亂筆" type="rss" xmlUrl="https://blog.l3zc.com/index.xml" htmlUrl="https://blog.l3zc.com/"/>
 <outline text="ShuaiQi 的技术博客" title="ShuaiQi 的技术博客" type="rss" xmlUrl="https://20131030.xyz/feed.xml" htmlUrl="https://20131030.xyz"/>
 <outline text="迷鹿 MiLu · Leo Lu" title="迷鹿 MiLu · Leo Lu" type="rss" xmlUrl="https://lu.wiki/feed.xml" htmlUrl="https://lu.wiki/"/>
-<outline text="AI 冲浪指南" title="AI 冲浪指南" type="rss" xmlUrl="https://aisurf.cc/rss.xml" htmlUrl="https://aisurf.cc"/>
+<outline text="AI 冲浪指南" title="AI 冲浪指南" type="rss" xmlUrl="https://aikits.cc/rss.xml" htmlUrl="https://aikits.cc"/>
 <outline text="Off-Beat" title="Off-Beat" type="rss" xmlUrl="https://off-beat.cn/index.xml" htmlUrl="https://off-beat.cn"/>
 <outline text="绘念の窝" title="绘念の窝" type="rss" xmlUrl="https://103000.vip/feed.xml" htmlUrl="https://103000.vip"/>
 <outline text="静静的小窝" title="静静的小窝" type="rss" xmlUrl="https://wznmickey.com/rss2.xml" htmlUrl="https://wznmickey.com"/>
@@ -1474,4 +1474,6 @@
 <outline text="Gogei 的静默日志" title="Gogei 的静默日志" type="rss" xmlUrl="https://blog.gogei.top/atom.xml" htmlUrl="https://blog.gogei.top/"/>
 <outline text="Dots to Line" title="Dots to Line" type="rss" xmlUrl="https://benx.ai/blog/rss.xml" htmlUrl="https://benx.ai/blog/"/>
 <outline text="低温笔记 LowTemp Notes" title="低温笔记 LowTemp Notes" type="rss" xmlUrl="https://blog.muyuzhong.xyz/rss.xml" htmlUrl="https://blog.muyuzhong.xyz/"/>
+<outline text="Kar'Blog Kar Chan" title="Kar'Blog Kar Chan" type="rss" xmlUrl="https://hellokar.org/rss.xml" htmlUrl="https://hellokar.org/"/>
+<outline text="坐看云起时 · GitHub 开源情报局" title="坐看云起时 · GitHub 开源情报局" type="rss" xmlUrl="https://www.dot1q.cn/feed.xml" htmlUrl="https://www.dot1q.cn/"/>
 </body></opml>
